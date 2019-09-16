@@ -14,15 +14,24 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
   * [Improve in Metric](#improve-in-metric)
   * [Improve in Backbone](#improve-in-backbone)
 * [Interesting (External Memory)](#interesting-external-memory)
+* [Special (such as Architecture?)](#special-such-as-architecture)
 * [Applications](#applications)
+* [Results in Datasets](#results-in-datasets)
+  * [Omniglot](#omniglot)
+  * [miniImagenet](#miniimagenet)
+  * [tiredImagenet](#tiredimagenet)
+  * [Imagenet](#imagenet)
 
 <!-- vim-markdown-toc -->
 
 ## UnReading
+- [ ] [ICML 2019] TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
+- [ ] [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
+- [ ] [ICML 2019] LGM-Net: Learning to Generate Matching Networks for Few shot Learning
+- [ ] [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition: Liuyu Xiang, Xiaoming Jin, Guiguang Ding, Jungong Han, Leida Li
 
 ## Optimize Based Few-shot Learning
-- [x] [ICLR 2017]Optimization as a Model for Few-shot Learning
-- [x] [ICML 2017] Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+- [x] [ICLR 2017] Optimization as a Model for Few-shot Learning
 - [x] [CVPR 2019] Dense Classification and Implanting for Few-Shot Learning
 
 ## Generative Based Few-shot Learning
@@ -51,19 +60,28 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [x] [ICLR 2018] Meta-Learning for Semi-Supervised Few-Shot Classification
 
 ### Improve in Backbone
-- [x] [NIPS 2018] TADAM- Task dependent adaptive metric for improved few-shot learning
+- [x] [NIPS 2018] TADAM-Task dependent adaptive metric for improved few-shot learning
 - [x] [CVPR 2019] Finding Task-Relevant Features for Few-Shot Learning by Category Traversal
 
 ## Interesting (External Memory)
 - [x] [ICLR 2019] ADAPTIVE POSTERIOR LEARNING- FEW-SHOT LEARNING WITH A SURPRISE-BASED MEMORY MODULE
 - [x] [CVPR 2018] Memory Matching Networks for One-Shot Image Recognition
 
+## Special (such as Architecture?)
+- [x] [ICML 2017] Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+
 ## Applications
 - [x] [NIPS 2017] Few-Shot Adversarial Domain Adaptation
-- [x] [CVPR 2019 oral]LaSO- Label-Set Operations networks for multi-label few-shot learning
+- [x] [CVPR 2019 oral] LaSO-Label-Set Operations networks for multi-label few-shot learning
 - [x] [CVPR 2019] RepMet-Representative-based Metric Learning for Classification and Few-shot Object Detection
 - [x] [CVPR 2019] Few-shot Adaptive Faster R-CNN
 - [x] [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
 - [x] [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
 - [x] [CVPR 2019] CANet- Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning
 - [x] [CVPR 2019] Feature Selective Anchor-Free Module for Single-Shot Object Detection
+
+## Results in Datasets
+### Omniglot
+### miniImagenet
+### tiredImagenet
+### Imagenet
