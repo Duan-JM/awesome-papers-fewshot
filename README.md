@@ -8,13 +8,14 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
   * [Summary](#summary)
   * [Papers](#papers)
-* [Metric Based Few-shto Learning](#metric-based-few-shto-learning)
+* [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
   * [Summary](#summary-1)
   * [Traditional](#traditional)
-  * [Improve in Metric](#improve-in-metric)
-  * [Improve in Backbone](#improve-in-backbone)
-* [Interesting (External Memory)](#interesting-external-memory)
+    * [Semi-Supervised](#semi-supervised)
+    * [Supervised](#supervised)
 * [Special (such as Architecture?)](#special-such-as-architecture)
+  * [External Memory](#external-memory)
+  * [Architecture](#architecture)
 * [Applications](#applications)
 * [Results in Datasets](#results-in-datasets)
   * [Omniglot](#omniglot)
@@ -25,14 +26,11 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 <!-- vim-markdown-toc -->
 
 ## UnReading
-- [ ] [ICML 2019] TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
-- [ ] [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
-- [ ] [ICML 2019] LGM-Net: Learning to Generate Matching Networks for Few shot Learning
-- [ ] [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition: Liuyu Xiang, Xiaoming Jin, Guiguang Ding, Jungong Han, Leida Li
 
 ## Optimize Based Few-shot Learning
 - [x] [ICLR 2017] Optimization as a Model for Few-shot Learning
 - [x] [CVPR 2019] Dense Classification and Implanting for Few-Shot Learning
+- [x] [ICML 2019] LGM-Net: Learning to Generate Matching Networks for Few shot Learning
 
 ## Generative Based Few-shot Learning
 ### Summary
@@ -43,7 +41,7 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [x] [CVPR 2018] Low-Shot Learning from Imaginary Data
 - [x] [NIPS 2018] Low-shot Learning via Covariance-Preserving Adversarial Augmentation Networks
 
-## Metric Based Few-shto Learning
+## Metric Based Few-shot Learning
 ### Summary
 - [x] [ICLR 2019] A CLOSER LOOK AT FEW-SHOT CLASSIFICATION
 
@@ -53,22 +51,27 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [x] [NIPS 2017] Prototypical Networks for Few-shot Learning
 - [x] [CVPR 2018] Learning to Compare：Relation Network for Few-Shot Learning
 
-### Improve in Metric
+
+#### Semi-Supervised
 - [x] [ICLR 2019] Learning to Propagate Labels-transductive Propagation Network for Few-shot Learning
 - [x] [CVPR 2019] Edge-Labeling Graph Neural Network for Few-shot Learning
-
 - [x] [ICLR 2018] Meta-Learning for Semi-Supervised Few-Shot Classification
 
-### Improve in Backbone
+#### Supervised
 - [x] [NIPS 2018] TADAM-Task dependent adaptive metric for improved few-shot learning
 - [x] [CVPR 2019] Finding Task-Relevant Features for Few-Shot Learning by Category Traversal
 
-## Interesting (External Memory)
+- [x] [ICML 2019] TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
+
+
+## Special (such as Architecture?)
+### External Memory
 - [x] [ICLR 2019] ADAPTIVE POSTERIOR LEARNING- FEW-SHOT LEARNING WITH A SURPRISE-BASED MEMORY MODULE
 - [x] [CVPR 2018] Memory Matching Networks for One-Shot Image Recognition
 
-## Special (such as Architecture?)
+### Architecture
 - [x] [ICML 2017] Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+
 
 ## Applications
 - [x] [NIPS 2017] Few-Shot Adversarial Domain Adaptation
@@ -79,6 +82,8 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [x] [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
 - [x] [CVPR 2019] CANet- Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning
 - [x] [CVPR 2019] Feature Selective Anchor-Free Module for Single-Shot Object Detection
+- [x] [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
+- [x] [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition: Liuyu Xiang, Xiaoming Jin, Guiguang Ding, Jungong Han, Leida Li
 
 ## Results in Datasets
 ### Omniglot
