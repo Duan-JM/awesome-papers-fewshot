@@ -26,6 +26,16 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 <!-- vim-markdown-toc -->
 
 ## UnReading
+- [ ] [CVPR 2019] Generating Classification Weights with GNN Denoising Autoencoders for Few-Shot Learning
+- [ ] [CVPR 2019] Few-shot Learning via Saliency-guided Hallucination of Samples
+- [ ] [CVPR 2019] Large-Scale Few-Shot Learning- Knowledge Transfer With Class Hierarchy
+- [ ] [CVPR 2019] Spot and Learn- A Maximum-Entropy Patch Sampler for Few-Shot Image Classification
+- [ ] [CVPR 2017] Re-ranking Person Re-identification with k-reciprocal Encoding
+- [ ] [CVPR 2019] Meta-Transfer Learning for Few-Shot Learning
+- [ ] [CVPR 2019] Image Deformation Meta-Networks for One-Shot Learning
+- [ ] [CVPR 2019] Generalized Zero- and Few-Shot Learning via Aligned Variational Autoencoders
+- [ ] [CVPR 2019] Adaptively Connected Neural Networks
+- [ ] [ICML 2019] Infinite Mixture Prototypes for Few-shot Learning
 
 ## Optimize Based Few-shot Learning
 - [x] [ICLR 2017] Optimization as a Model for Few-shot Learning
