@@ -41,6 +41,7 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [x] [ICLR 2017] Optimization as a Model for Few-shot Learning
 - [x] [CVPR 2019] Dense Classification and Implanting for Few-Shot Learning
 - [x] [ICML 2019] LGM-Net: Learning to Generate Matching Networks for Few shot Learning
+- [x] [CVPR 2018]Dynamic Few-Shot Visual Learning without Forgetting
 
 ## Generative Based Few-shot Learning
 ### Summary
@@ -72,6 +73,7 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [x] [CVPR 2019] Finding Task-Relevant Features for Few-Shot Learning by Category Traversal
 
 - [x] [ICML 2019] TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
+- [x] [CVPR 2019] Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning
 
 
 ## Special (such as Architecture?)
