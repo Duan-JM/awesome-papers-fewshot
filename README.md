@@ -36,6 +36,16 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [ ] [CVPR 2019] Generalized Zero- and Few-Shot Learning via Aligned Variational Autoencoders
 - [ ] [CVPR 2019] Adaptively Connected Neural Networks
 - [ ] [ICML 2019] Infinite Mixture Prototypes for Few-shot Learning
+- [ ] [ICCV 2019] Bidirectional One-Shot Unsupervised Domain Mapping
+- [ ] [ICCV 2019] Boosting Few-Shot Visual Learning with Self-Supervision
+- [ ] [ICCV 2019] Deep Meta Learning for Real-Time Target-Aware Visual Tracking
+- [ ] [ICCV 2019] Few-Shot Learning with Global Class Representations
+- [ ] [ICCV 2019] Few-shot Object Detection via Feature Reweighting
+- [ ] [ICCV 2019] Few-Shot Unsupervised Image-to-Image Translation
+- [ ] [ICCV 2019] Learning Compositional Representations for Few-Shot Recognition
+- [ ] [ICCV 2019] MetaPruning- Meta Learning for Automatic Neural Network Channel Pruning
+- [ ] [ICCV 2019] TASK2VEC- Task Embedding for Meta-Learning
+
 
 ## Optimize Based Few-shot Learning
 - [x] [ICLR 2017] Optimization as a Model for Few-shot Learning
