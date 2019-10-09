@@ -19,6 +19,7 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
     * [Architecture](#architecture)
     * [Task Representation and Measure](#task-representation-and-measure)
     * [Multi Label Image Classification](#multi-label-image-classification)
+    * [Add Additional Informations](#add-additional-informations)
   * [Results in Datasets](#results-in-datasets)
     * [Omniglot](#omniglot)
     * [mini-Imagenet](#mini-imagenet)
@@ -36,7 +37,6 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 
 ## UnReading
 - [ ] [CVPR 2019] Generating Classification Weights with GNN Denoising Autoencoders for Few-Shot Learning
-- [ ] [CVPR 2019] Few-shot Learning via Saliency-guided Hallucination of Samples
 - [ ] [CVPR 2019] Large-Scale Few-Shot Learning- Knowledge Transfer With Class Hierarchy
 - [ ] [CVPR 2019] Spot and Learn- A Maximum-Entropy Patch Sampler for Few-Shot Image Classification
 - [ ] [CVPR 2017] Re-ranking Person Re-identification with k-reciprocal Encoding
@@ -45,10 +45,8 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [ ] [CVPR 2019] Generalized Zero- and Few-Shot Learning via Aligned Variational Autoencoders
 - [ ] [CVPR 2019] Adaptively Connected Neural Networks
 - [ ] [ICML 2019] Infinite Mixture Prototypes for Few-shot Learning
-- [ ] [ICCV 2019] Boosting Few-Shot Visual Learning with Self-Supervision
 - [ ] [ICCV 2019] Deep Meta Learning for Real-Time Target-Aware Visual Tracking
 - [ ] [ICCV 2019] Few-Shot Learning with Global Class Representations
-- [ ] [ICCV 2019] Learning Compositional Representations for Few-Shot Recognition
 - [ ] [ICCV 2019] MetaPruning-Meta Learning for Automatic Neural Network Channel Pruning
 
 
@@ -105,6 +103,20 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 
 #### Multi Label Image Classification
 - [x] [CVPR 2019 oral] LaSO-Label-Set Operations networks for multi-label few-shot learning
+
+#### Add Additional Informations
+- [x] [ICCV 2019] Learning Compositional Representations for Few-Shot Recognition
+
+    Add additional annotations to the classes.
+
+- [x] [CVPR 2019] Few-shot Learning via Saliency-guided Hallucination of Samples
+
+    Form segementations and mix up, aiming at eliminates the back ground noise.
+
+- [x] [ICCV 2019] Boosting Few-Shot Visual Learning with Self-Supervision
+
+    Self-supervision means to rotate itself, and compute two losses.
+
 
 ### Results in Datasets
 #### [Omniglot](https://github.com/brendenlake/omniglot)
