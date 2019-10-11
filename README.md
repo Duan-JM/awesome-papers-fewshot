@@ -3,14 +3,19 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 ## 目录
 <!-- vim-markdown-toc GitLab -->
 
-* [UnReading](#unreading)
+* [ToDo](#todo)
+* [ReadLater](#readlater)
+  * [Generative](#generative)
+  * [Optimize](#optimize)
+* [Focus Reading](#focus-reading)
+* [Sorting](#sorting)
 * [Image Classification](#image-classification)
+* [Summary](#summary)
   * [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
   * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
-    * [Summary](#summary)
+    * [Summary](#summary-1)
     * [Papers](#papers)
   * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
-    * [Summary](#summary-1)
     * [Traditional](#traditional)
       * [Semi-Supervised](#semi-supervised)
       * [Supervised](#supervised)
@@ -20,6 +25,7 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
     * [Task Representation and Measure](#task-representation-and-measure)
     * [Multi Label Image Classification](#multi-label-image-classification)
     * [Add Additional Informations](#add-additional-informations)
+    * [Self-training](#self-training)
   * [Results in Datasets](#results-in-datasets)
     * [Omniglot](#omniglot)
     * [mini-Imagenet](#mini-imagenet)
@@ -31,31 +37,78 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 * [Generative Model](#generative-model)
 * [Domain Adaptation](#domain-adaptation)
 * [Reinforcement Learning](#reinforcement-learning)
+* [Visual Tracking](#visual-tracking)
 * [Others](#others)
 
 <!-- vim-markdown-toc -->
+## ToDo
+- [ ] (WIP)Add one comment to each works
+- [ ] (WIP)Add results tables for all works
+- [ ] Add paper link and opensource code for each works
 
-## UnReading
+## ReadLater
+- [ ] [NIPS 2018] Stacked Semantics-Guided Attention Model for Fine-Grained Zero-Shot Learning
+- [ ] [NIPS 2018] Generalized Zero-Shot Learning with Deep Calibration Network
+- [ ] [arXiv 2019] AMP- Adaptive Masked Proxies for Few-Shot Segmentation
+- [ ] [arXiv 2019] Few-Shot Text Classification with Induction Network
+- [ ] [arXiv 2019] SAR Image Classification Using Few-shot Cross-domain Transfer Learning
+
+### Generative
+- [ ] [CVPR 2017] AGA - Attribute-Guided Augmentation
+
+### Optimize
+- [ ] [NIPS 2019] Incremental Few-Shot Learning with Attention Attractor Networks.pdf
+
+## Focus Reading
+- [ ] [arXiv 2019] Centroid Networks for Few-Shot Clustering and Unsupervised Few-Shot Classification
+- [ ] [ICCV 2019] Few-Shot Learning with Global Class Representations
+- [ ] [CVPR 2019] TAFE-Net- Task-Aware Feature Embeddings for Low Shot Learning
+- [x] [ICCV 2019] TASK2VEC- Task Embedding for Meta-Learning
+- [ ] [ICML 2019] Infinite Mixture Prototypes for Few-shot Learning
+- [ ] [AAAI 2019] Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation
+
+- [x] [ICLR 2018] Meta-Learning for Semi-Supervised Few-Shot Classification
+    * Using soft K-means to refine the prototypes, then using varient ways(training methods) to eliminate the outline points.
+    * Create new datasets - tiredImagenet
+
+- [x] [IJCAI 2019] Prototype Propagation Networks (PPN) for Weakly-supervised Few-shot Learning on Category Graph
+
+    Maually build an category graph, then add parents label's class represention into the child class representations.
+
+
+## Sorting
+- [ ] [CVPR 2018] Feature Generating Networks for Zero-ShsoetenLearning
+- [ ] [CVPR 2018] Low-Shot Learning with Imprinted Weights
+- [ ] [CVPR 2018] Low-Shot Learning With Large-Scale Diffusion
+- [ ] [CVPR 2018] Temporal Hallucinating for Action Recognition with Few Still Images
+- [ ] [ECCV 2018] Dynamic Conditional Networks for FewShot Learning
+- [ ] [ICIP 2018] Discriminative Hallucination for Multi-Modal Few-Shot Learning
+- [ ] [Nature 子刊 MI 2018] Continuous Learning of Context-dependent Processing in Neural Networks
 - [ ] [CVPR 2019] Generating Classification Weights with GNN Denoising Autoencoders for Few-Shot Learning
 - [ ] [CVPR 2019] Large-Scale Few-Shot Learning- Knowledge Transfer With Class Hierarchy
 - [ ] [CVPR 2019] Spot and Learn- A Maximum-Entropy Patch Sampler for Few-Shot Image Classification
-- [ ] [CVPR 2017] Re-ranking Person Re-identification with k-reciprocal Encoding
 - [ ] [CVPR 2019] Meta-Transfer Learning for Few-Shot Learning
 - [ ] [CVPR 2019] Image Deformation Meta-Networks for One-Shot Learning
 - [ ] [CVPR 2019] Generalized Zero- and Few-Shot Learning via Aligned Variational Autoencoders
-- [ ] [CVPR 2019] Adaptively Connected Neural Networks
-- [ ] [ICML 2019] Infinite Mixture Prototypes for Few-shot Learning
-- [ ] [ICCV 2019] Deep Meta Learning for Real-Time Target-Aware Visual Tracking
-- [ ] [ICCV 2019] Few-Shot Learning with Global Class Representations
-- [ ] [ICCV 2019] MetaPruning-Meta Learning for Automatic Neural Network Channel Pruning
+- [ ] [CVPR 2019] Baby steps towards few-shot learning with multiple semantics
+- [ ] [CVPR 2019] Few-Shot Learning with Localization in Realistic Settings
+- [ ] [CVPR 2019] Variational Prototyping-Encoder- One-Shot Learning with Prototypical Images
+- [ ] [CVPR 2019] Task-Agnostic Meta-Learning for Few-shot Learning
+- [ ] [NIPS 2019] Adaptive Cross-Modal Few-shot Learning.pdf
+
 
 
 ## Image Classification
+## Summary
+- [x] [arXiv 2019] Generalizing from a Few Examples A Survey on Few-Shot Learning
+- [x] [ICLR 2019] A Closer Look At Few-shot Classification
+
 ### Optimize Based Few-shot Learning
+- [x] [CVPR 2017] Learning to Learn Image Classifiers with Visual Analogy
 - [x] [ICLR 2017] Optimization as a Model for Few-shot Learning
+- [x] [CVPR 2018] Dynamic Few-Shot Visual Learning without Forgetting
 - [x] [CVPR 2019] Dense Classification and Implanting for Few-Shot Learning
 - [x] [ICML 2019] LGM-Net: Learning to Generate Matching Networks for Few shot Learning
-- [x] [CVPR 2018]Dynamic Few-Shot Visual Learning without Forgetting
 
 ### Generative Based Few-shot Learning
 #### Summary
@@ -67,10 +120,11 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [x] [NIPS 2018] Low-shot Learning via Covariance-Preserving Adversarial Augmentation Networks
 
 ### Metric Based Few-shot Learning
-#### Summary
-- [x] [ICLR 2019] A CLOSER LOOK AT FEW-SHOT CLASSIFICATION
-
 #### Traditional
+- [x] [ICML 2012] One-Shot Learning with a Hierarchical Nonparametric Bayesian Model
+
+    Using Hierarchical Bayesian Model after extracted features. Which is similar to build the category graph method in IJCAI 2019.
+
 - [x] [ICML 2015] Siamese Neural Networks for One-Shot Image Recognition
 - [x] [NIPS 2016] Matching Networks for One Shot Learning
 - [x] [NIPS 2017] Prototypical Networks for Few-shot Learning
@@ -92,6 +146,11 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 
 ### Special (such as Architecture?)
 #### External Memory
+- [x] [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks
+
+    This work lead NTM into the image classification, technically, this work should not belong to the few-shot problems.
+    This method can identify the image labels, even the true label of current image are inputed along with the next image.
+
 - [x] [ICLR 2019] Adaptive Posterior Learning-Few-Shot Learning with a Surprise-Based Memory Module
 - [x] [CVPR 2018] Memory Matching Networks for One-Shot Image Recognition
 
@@ -117,6 +176,10 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 
     Self-supervision means to rotate itself, and compute two losses.
 
+#### Self-training
+
+- [x] [NIPS 2019] Learning to Self-Train for Semi-Supervised Few-Shot Classification.pdf
+
 
 ### Results in Datasets
 #### [Omniglot](https://github.com/brendenlake/omniglot)
@@ -136,6 +199,7 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 
 ## Generative Model
 - [x] [ICCV 2019] Few-Shot Unsupervised Image-to-Image Translation
+- [x] [CVPR 2018] Multi-Content GAN for Few-Shot Font Style Transfer
 
 ## Domain Adaptation
 - [x] [NIPS 2017] Few-Shot Adversarial Domain Adaptation
@@ -144,5 +208,11 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 ## Reinforcement Learning
 - [x] [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
 
+## Visual Tracking
+- [x] [ICCV 2019] Deep Meta Learning for Real-Time Target-Aware Visual Tracking
+
 ## Others
 - [x] [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
+- [x] [AAAI 2018] AffinityNet- Semi-supervised Few-shot Learning for Disease Type Prediction
+
+    Use few-shot method to enhance oringal disease type prediction
