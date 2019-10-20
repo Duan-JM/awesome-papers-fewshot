@@ -50,8 +50,9 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [ ] [NIPS 2018] Stacked Semantics-Guided Attention Model for Fine-Grained Zero-Shot Learning
 - [ ] [NIPS 2018] Generalized Zero-Shot Learning with Deep Calibration Network
 - [ ] [arXiv 2019] AMP- Adaptive Masked Proxies for Few-Shot Segmentation
-- [ ] [arXiv 2019] Few-Shot Text Classification with Induction Network
 - [ ] [arXiv 2019] SAR Image Classification Using Few-shot Cross-domain Transfer Learning
+- [ ] [NIPS 2019] ([paper](https://arxiv.org/abs/1910.07677)) Cross Attention Network for Few-shot Classification
+- [ ] [NIPS 2019] ([code](https://github.com/apple2373/MetaIRNet)) Metal-Reinforced Synthetic Data for One-Shot Fine-Grained Visual Recognition
 
 ### Generative
 - [ ] [CVPR 2017] AGA - Attribute-Guided Augmentation
@@ -60,12 +61,26 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [ ] [NIPS 2019] Incremental Few-Shot Learning with Attention Attractor Networks.pdf
 
 ## Focus Reading
+- [x] [arXiv 2019] Few-Shot Text Classification with Induction Network
+
+    Introduce dynamic routing to generate better class representations. One real industrial project.
+
 - [ ] [arXiv 2019] Centroid Networks for Few-Shot Clustering and Unsupervised Few-Shot Classification
-- [ ] [ICCV 2019] Few-Shot Learning with Global Class Representations
-- [ ] [CVPR 2019] TAFE-Net- Task-Aware Feature Embeddings for Low Shot Learning
-- [x] [ICCV 2019] TASK2VEC- Task Embedding for Meta-Learning
-- [ ] [ICML 2019] Infinite Mixture Prototypes for Few-shot Learning
-- [ ] [AAAI 2019] Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation
+
+- [x] [ICCV 2019] Few-Shot Learning with Global Class Representations
+    * Synthesis new samples to elleviate the data imbalance problem between Base and Novel Classes.
+    * During training, compute two losses, one is the original losses, the other is the score for the whole classes including noval classes.
+
+- [x] [ICCV 2019]  (RECOMMENDED!) TASK2VEC- Task Embedding for Meta-Learning
+- [x] [ICML 2019] (RECOMMENDED!) Infinite Mixture Prototypes for Few-shot Learning
+
+    * Point out that data distribution for one class are not uni-model (Verify in my experiments too).
+    * (Clustering methods) Semi-Supervised methods for prototypical networks. Show this methods even suit for unsupervised situations(protentially).
+    * Improve on Alphabets dataset, remain or improve on omniglot and mini-imagenet.
+
+- [x] [AAAI 2019] Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation
+
+    Utilize the output of the different layers between query branch and support branch to gain more context informations.
 
 - [x] [ICLR 2018] Meta-Learning for Semi-Supervised Few-Shot Classification
     * Using soft K-means to refine the prototypes, then using varient ways(training methods) to eliminate the outline points.
@@ -75,11 +90,8 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 
     Maually build an category graph, then add parents label's class represention into the child class representations.
 
-
 ## Sorting
 - [ ] [CVPR 2018] Feature Generating Networks for Zero-ShsoetenLearning
-- [ ] [CVPR 2018] Low-Shot Learning with Imprinted Weights
-- [ ] [CVPR 2018] Low-Shot Learning With Large-Scale Diffusion
 - [ ] [CVPR 2018] Temporal Hallucinating for Action Recognition with Few Still Images
 - [ ] [ECCV 2018] Dynamic Conditional Networks for FewShot Learning
 - [ ] [ICIP 2018] Discriminative Hallucination for Multi-Modal Few-Shot Learning
@@ -93,10 +105,7 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [ ] [CVPR 2019] Baby steps towards few-shot learning with multiple semantics
 - [ ] [CVPR 2019] Few-Shot Learning with Localization in Realistic Settings
 - [ ] [CVPR 2019] Variational Prototyping-Encoder- One-Shot Learning with Prototypical Images
-- [ ] [CVPR 2019] Task-Agnostic Meta-Learning for Few-shot Learning
-- [ ] [NIPS 2019] Adaptive Cross-Modal Few-shot Learning.pdf
-
-
+- [ ] [NIPS 2019] Adaptive Cross-Modal Few-shot Learning
 
 ## Image Classification
 ## Summary
@@ -106,9 +115,17 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 ### Optimize Based Few-shot Learning
 - [x] [CVPR 2017] Learning to Learn Image Classifiers with Visual Analogy
 - [x] [ICLR 2017] Optimization as a Model for Few-shot Learning
+
 - [x] [CVPR 2018] Dynamic Few-Shot Visual Learning without Forgetting
+- [x] [CVPR 2018] Low-Shot Learning with Imprinted Weights
+
+    Passing, generate weights for classifier. (I DONOT like it, the exp only compare to matching networks and "Generative + classifier")
+
 - [x] [CVPR 2019] Dense Classification and Implanting for Few-Shot Learning
 - [x] [ICML 2019] LGM-Net: Learning to Generate Matching Networks for Few shot Learning
+- [x] [CVPR 2019] TAFE-Net- Task-Aware Feature Embeddings for Low Shot Learning
+
+    Use a meta-learner to generate parameters for the feature extractor
 
 ### Generative Based Few-shot Learning
 #### Summary
@@ -126,21 +143,23 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
     Using Hierarchical Bayesian Model after extracted features. Which is similar to build the category graph method in IJCAI 2019.
 
 - [x] [ICML 2015] Siamese Neural Networks for One-Shot Image Recognition
-- [x] [NIPS 2016] Matching Networks for One Shot Learning
-- [x] [NIPS 2017] Prototypical Networks for Few-shot Learning
-- [x] [CVPR 2018] Learning to Compare：Relation Network for Few-Shot Learning
+- [x] [NIPS 2016]  (RECOMMENDED!) Matching Networks for One Shot Learning
+- [x] [NIPS 2017]  (RECOMMENDED!) Prototypical Networks for Few-shot Learning
+- [x] [CVPR 2018]  (RECOMMENDED!) Learning to Compare：Relation Network for Few-Shot Learning
 
 
 ##### Semi-Supervised
-- [x] [ICLR 2019] Learning to Propagate Labels-transductive Propagation Network for Few-shot Learning
-- [x] [CVPR 2019] Edge-Labeling Graph Neural Network for Few-shot Learning
 - [x] [ICLR 2018] Meta-Learning for Semi-Supervised Few-Shot Classification
 
+- [x] [CVPR 2018] (RECOMMENDED!) Low-Shot Learning With Large-Scale Diffusion
+- [x] [ICLR 2019] Learning to Propagate Labels-transductive Propagation Network for Few-shot Learning
+- [x] [CVPR 2019] Edge-Labeling Graph Neural Network for Few-shot Learning
+
 ##### Supervised
-- [x] [NIPS 2018] TADAM-Task dependent adaptive metric for improved few-shot learning
+- [x] [NIPS 2018] (RECOMMENDED!) TADAM-Task dependent adaptive metric for improved few-shot learning 
 - [x] [CVPR 2019] Finding Task-Relevant Features for Few-Shot Learning by Category Traversal
 
-- [x] [ICML 2019] TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
+- [x] [ICML 2019]  (RECOMMENDED!) TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
 - [x] [CVPR 2019] Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning
 
 
@@ -156,6 +175,9 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 
 #### Architecture
 - [x] [ICML 2017] Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+- [x] [CVPR 2019] Task-Agnostic Meta-Learning for Few-shot Learning
+
+    A training method force model to learn a unbiased initial model without over-performing on some particular tasks.
 
 #### Task Representation and Measure
 - [x] [ICCV 2019] TASK2VEC- Task Embedding for Meta-Learning
