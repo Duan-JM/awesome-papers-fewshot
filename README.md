@@ -3,42 +3,44 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 ## 目录
 <!-- vim-markdown-toc GitLab -->
 
-* [ToDo](#todo)
-* [ReadLater](#readlater)
-  * [Generative](#generative)
-  * [Optimize](#optimize)
-* [Focus Reading](#focus-reading)
-* [Sorting](#sorting)
-* [Image Classification](#image-classification)
-* [Summary](#summary)
-  * [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
-  * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
-    * [Summary](#summary-1)
-    * [Papers](#papers)
-  * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
-    * [Traditional](#traditional)
-      * [Semi-Supervised](#semi-supervised)
-      * [Supervised](#supervised)
-  * [Special (such as Architecture?)](#special-such-as-architecture)
-    * [External Memory](#external-memory)
-    * [Architecture](#architecture)
-    * [Task Representation and Measure](#task-representation-and-measure)
-    * [Multi Label Image Classification](#multi-label-image-classification)
-    * [Add Additional Informations](#add-additional-informations)
-    * [Self-training](#self-training)
-  * [Results in Datasets](#results-in-datasets)
-    * [Omniglot](#omniglot)
-    * [mini-Imagenet](#mini-imagenet)
-    * [tiredImagenet](#tiredimagenet)
-    * [Imagenet](#imagenet)
-    * [CUB 2011](#cub-2011)
-* [Object Detection](#object-detection)
-* [Segementation](#segementation)
-* [Generative Model](#generative-model)
-* [Domain Adaptation](#domain-adaptation)
-* [Reinforcement Learning](#reinforcement-learning)
-* [Visual Tracking](#visual-tracking)
-* [Others](#others)
+- [Introduction](#introduction)
+  - [目录](#%e7%9b%ae%e5%bd%95)
+  - [ToDo](#todo)
+  - [ReadLater](#readlater)
+    - [Generative](#generative)
+    - [Optimize](#optimize)
+  - [Focus Reading](#focus-reading)
+  - [Sorting](#sorting)
+  - [Image Classification](#image-classification)
+  - [Summary](#summary)
+    - [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
+    - [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
+      - [Summary](#summary-1)
+      - [Papers](#papers)
+    - [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
+      - [Traditional](#traditional)
+        - [Semi-Supervised](#semi-supervised)
+        - [Supervised](#supervised)
+    - [Special (such as Architecture?)](#special-such-as-architecture)
+      - [External Memory](#external-memory)
+      - [Architecture](#architecture)
+      - [Task Representation and Measure](#task-representation-and-measure)
+      - [Multi Label Image Classification](#multi-label-image-classification)
+      - [Add Additional Informations](#add-additional-informations)
+      - [Self-training](#self-training)
+    - [Results in Datasets](#results-in-datasets)
+      - [Omniglot](#omniglot)
+      - [mini-Imagenet](#mini-imagenet)
+      - [tiredImagenet](#tiredimagenet)
+      - [Imagenet](#imagenet)
+      - [CUB 2011](#cub-2011)
+  - [Object Detection](#object-detection)
+  - [Segementation](#segementation)
+  - [Generative Model](#generative-model)
+  - [Domain Adaptation](#domain-adaptation)
+  - [Reinforcement Learning](#reinforcement-learning)
+  - [Visual Tracking](#visual-tracking)
+  - [Others](#others)
 
 <!-- vim-markdown-toc -->
 ## ToDo
@@ -47,51 +49,51 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [ ] Add paper link and opensource code for each works
 
 ## ReadLater
-- [ ] [NIPS 2018] Stacked Semantics-Guided Attention Model for Fine-Grained Zero-Shot Learning
-- [ ] [NIPS 2018] Generalized Zero-Shot Learning with Deep Calibration Network
-- [ ] [arXiv 2019] AMP- Adaptive Masked Proxies for Few-Shot Segmentation
-- [ ] [arXiv 2019] SAR Image Classification Using Few-shot Cross-domain Transfer Learning
+- [ ] [NIPS 2018]  ([paper](https://arxiv.org/pdf/1805.08113.pdf))Stacked Semantics-Guided Attention Model for Fine-Grained Zero-Shot Learning
+- [ ] [NIPS 2018] ([paper](https://papers.nips.cc/paper/7471-generalized-zero-shot-learning-with-deep-calibration-network.pdf)) Generalized Zero-Shot Learning with Deep Calibration Network
+- [ ] [ICCV 2019] AMP- Adaptive Masked Proxies for Few-Shot Segmentation
+- [ ] [CVPR 2019] ([paper](https://arxiv.org/pdf/1902.11123.pdf) [code](https://github.com/MSiam/AdaptiveMaskedProxies.)) SAR Image Classification Using Few-shot Cross-domain Transfer Learning
 - [ ] [NIPS 2019] ([paper](https://arxiv.org/abs/1910.07677)) Cross Attention Network for Few-shot Classification
 - [ ] [NIPS 2019] ([code](https://github.com/apple2373/MetaIRNet)) Metal-Reinforced Synthetic Data for One-Shot Fine-Grained Visual Recognition
 
 ### Generative
-- [ ] [CVPR 2017] AGA - Attribute-Guided Augmentation
+- [ ] [CVPR 2017] ([paper](https://arxiv.org/pdf/1612.02559.pdf) [code](https://github.com/rkwitt/GuidedAugmentation)) AGA - Attribute-Guided Augmentation
 
 ### Optimize
-- [ ] [NIPS 2019] Incremental Few-Shot Learning with Attention Attractor Networks.pdf
+- [ ] [NIPS 2019] ([paper](https://arxiv.org/pdf/1810.07218.pdf) [code](https://github.com/renmengye/inc-few-shot-attractor-public))Incremental Few-Shot Learning with Attention Attractor Networks.pdf
 
 ## Focus Reading
-- [x] [arXiv 2019] Few-Shot Text Classification with Induction Network
+- [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/1902.10482.pdf)) Few-Shot Text Classification with Induction Network
 
     Introduce dynamic routing to generate better class representations. One real industrial project.
 
-- [ ] [arXiv 2019] Centroid Networks for Few-Shot Clustering and Unsupervised Few-Shot Classification
+- [ ] [arXiv 2019] ([paper](https://arxiv.org/pdf/1902.08605) [code](https://github.com/gabrielhuang/centroid-networks)) Centroid Networks for Few-Shot Clustering and Unsupervised Few-Shot Classification
 
-- [x] [ICCV 2019] Few-Shot Learning with Global Class Representations
+- [x] [ICCV 2019] ([paper](https://arxiv.org/pdf/1908.05257)) Few-Shot Learning with Global Class Representations 
     * Synthesis new samples to elleviate the data imbalance problem between Base and Novel Classes.
     * During training, compute two losses, one is the original losses, the other is the score for the whole classes including noval classes.
 
-- [x] [ICCV 2019]  (RECOMMENDED!) TASK2VEC- Task Embedding for Meta-Learning
-- [x] [ICML 2019] (RECOMMENDED!) Infinite Mixture Prototypes for Few-shot Learning
+- [x] [arXiv 2019]  (RECOMMENDED!) ([paper](https://arxiv.org/pdf/1902.03545.pdf)) TASK2VEC- Task Embedding for Meta-Learning
+- [x] [ICML 2019] (RECOMMENDED!) ([paper](https://arxiv.org/pdf/1902.04552.pdf)) Infinite Mixture Prototypes for Few-shot Learning
 
     * Point out that data distribution for one class are not uni-model (Verify in my experiments too).
     * (Clustering methods) Semi-Supervised methods for prototypical networks. Show this methods even suit for unsupervised situations(protentially).
     * Improve on Alphabets dataset, remain or improve on omniglot and mini-imagenet.
 
-- [x] [AAAI 2019] Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation
+- [x] [AAAI 2019] ([paper](https://www.researchgate.net/publication/335296764_Attention-Based_Multi-Context_Guiding_for_Few-Shot_Semantic_Segmentation)) Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation
 
     Utilize the output of the different layers between query branch and support branch to gain more context informations.
 
-- [x] [ICLR 2018] Meta-Learning for Semi-Supervised Few-Shot Classification
+- [x] [ICLR 2018] ([paper](https://arxiv.org/pdf/1803.00676.pdf) [code](https://github.com/renmengye/few-shot-ssl-public)) Meta-Learning for Semi-Supervised Few-Shot Classification
     * Using soft K-means to refine the prototypes, then using varient ways(training methods) to eliminate the outline points.
     * Create new datasets - tiredImagenet
 
-- [x] [IJCAI 2019] Prototype Propagation Networks (PPN) for Weakly-supervised Few-shot Learning on Category Graph
+- [x] [IJCAI 2019] ([paper](https://arxiv.org/pdf/1905.04042) [code](https://github.com/liulu112601/PPN)) Prototype Propagation Networks (PPN) for Weakly-supervised Few-shot Learning on Category Graph
 
     Maually build an category graph, then add parents label's class represention into the child class representations.
 
 ## Sorting
-- [ ] [CVPR 2018] Feature Generating Networks for Zero-ShsoetenLearning
+- [ ] [CVPR 2018] ([paper](https://arxiv.org/pdf/1712.00981.pdf)) Feature Generating Networks for Zero-ShsoetenLearning
 - [ ] [CVPR 2018] Temporal Hallucinating for Action Recognition with Few Still Images
 - [ ] [ECCV 2018] Dynamic Conditional Networks for FewShot Learning
 - [ ] [ICIP 2018] Discriminative Hallucination for Multi-Modal Few-Shot Learning
