@@ -1,4 +1,4 @@
-## 目录
+# 目录
 <!-- vim-markdown-toc GitLab -->
 
 * [Introduction](#introduction)
@@ -13,8 +13,8 @@
     * [Papers](#papers)
   * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
     * [Traditional](#traditional)
-      * [Semi-Supervised](#semi-supervised)
-      * [Supervised](#supervised)
+    * [Semi-Supervised](#semi-supervised)
+    * [Supervised](#supervised)
   * [Special (such as Architecture?)](#special-such-as-architecture)
     * [External Memory](#external-memory)
     * [Architecture](#architecture)
@@ -37,26 +37,25 @@
 * [Others](#others)
 
 <!-- vim-markdown-toc -->
-## Introduction
+# Introduction
 
 This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplement in the Issues.
 
-## ToDo
+# ToDo
 - [ ] (WIP)Add one comment to each works
 - [ ] (WIP)Add results tables for all works
 - [ ] Add paper link and opensource code for each works
 
 
-## ReadLater
+# ReadLater
 - [ ] [NIPS 2018] Stacked Semantics-Guided Attention Model for Fine-Grained Zero-Shot Learning
 - [ ] [NIPS 2018] Generalized Zero-Shot Learning with Deep Calibration Network
 - [ ] [CVPR 2017] AGA - Attribute-Guided Augmentation
 
 
 
-## Sorting
+# Sorting
 - [ ] [arXiv 2018 REPTILE] On First-Order Meta-Learning Algorithms
-- [ ] [OpenReview? 2019 IDeMe-Net] Image deformation meta-networks for one-shot learning
 
 - [ ] [arXiv 2019] Centroid Networks for Few-Shot Clustering and Unsupervised Few-Shot Classification
 - [ ] [arXiv 2019] AMP-Adaptive Masked Proxies for Few-Shot Segmentation
@@ -68,18 +67,18 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [ ] [CVPR 2019] Large-Scale Few-Shot Learning- Knowledge Transfer With Class Hierarchy
 - [ ] [CVPR 2019] Spot and Learn A Maximum-Entropy Patch Sampler for Few-Shot Image Classification
 - [ ] [CVPR 2019] Meta-Transfer Learning for Few-Shot Learning
-- [ ] [CVPR 2019] Image Deformation Meta-Networks for One-Shot Learning
+- [ ] [CVPR 2019 IDeMe-Net] Image Deformation Meta-Networks for One-Shot Learning
 - [ ] [CVPR 2019] Generalized Zero- and Few-Shot Learning via Aligned Variational Autoencoders
 - [ ] [NIPS 2019] ([code](https://github.com/apple2373/MetaIRNet)) Metal-Reinforced Synthetic Data for One-Shot Fine-Grained Visual Recognition
 
 
-## Image Classification
-### Summary
+# Image Classification
+## Summary
 - [x] [arXiv 2019] Generalizing from a Few Examples A Survey on Few-Shot Learning
 - [x] [ICLR 2019] A Closer Look At Few-shot Classification
 
 
-### Optimize Based Few-shot Learning (Trying to generate Classifiers' parameters)
+## Optimize Based Few-shot Learning (Trying to generate Classifiers' parameters)
 - [x] [CVPR 2017] Learning to Learn Image Classifiers with Visual Analogy
 - [x] [ICLR 2017 Meta-learner LSTM Ravi] Optimization as a Model for Few-shot Learning
     * Use LSTM to generate classifier's parameters
@@ -104,19 +103,19 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
     * High dimensional problem is hard to solve in the low-data circumstances, so this work try to bypass the limitations by learning a data-dependent latent low-dimensional latent space of model parameters.
 
 
-### Generative Based Few-shot Learning
-#### Summary
+## Generative Based Few-shot Learning
+### Summary
 - [x] [NIPS 2018 Bengio] MetaGAN An Adversarial Approach to Few-Shot Learning
 
 
-#### Papers
+### Papers
 - [x] [ICCV 2017] Low-shot Visual Recognition by Shrinking and Hallucinating Features
 - [x] [CVPR 2018] Low-Shot Learning from Imaginary Data
 - [x] [NIPS 2018] Low-shot Learning via Covariance-Preserving Adversarial Augmentation Networks
 
 
-### Metric Based Few-shot Learning
-#### Traditional
+## Metric Based Few-shot Learning
+### Traditional
 - [x] [ICML 2012] One-Shot Learning with a Hierarchical Nonparametric Bayesian Model
     * Using Hierarchical Bayesian Model after extracted features. Which is similar to build the category graph method in IJCAI 2019.
 
@@ -130,7 +129,7 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
     * Provide a clean framework that elegantly encompasses both few and zero-shot learning.
 
 
-##### Semi-Supervised
+### Semi-Supervised
 - [x] [ICLR 2018 Ravi] Meta-Learning for Semi-Supervised Few-Shot Classification
     * Using soft K-means to refine the prototypes, then using varient ways(training methods) to eliminate the outline points.
     * Create new datasets - tiredImagenet
@@ -140,7 +139,7 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [x] [CVPR 2019] Edge-Labeling Graph Neural Network for Few-shot Learning
 
 
-##### Supervised
+### Supervised
 - [x] [NIPS 2018] (RECOMMENDED!) TADAM-Task dependent adaptive metric for improved few-shot learning 
 - [x] [CVPR 2019] Finding Task-Relevant Features for Few-Shot Learning by Category Traversal
 - [x] [ICML 2019] (RECOMMENDED!) TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
@@ -186,8 +185,8 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
     * Good Result on mini-ImageNet 71.02 ± 0.64% with Conv4_64F.
 
 
-### Special (such as Architecture?)
-#### External Memory
+## Special (such as Architecture?)
+### External Memory
 - [x] [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks
 
     This work lead NTM into the image classification, technically, this work should not belong to the few-shot problems.
@@ -196,19 +195,19 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [x] [CVPR 2018] Memory Matching Networks for One-Shot Image Recognition
 - [x] [ICLR 2019] Adaptive Posterior Learning-Few-Shot Learning with a Surprise-Based Memory Module
 
-#### Architecture
+### Architecture
 - [x] [ICML 2017] Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
 - [x] [CVPR 2019] Task-Agnostic Meta-Learning for Few-shot Learning
 
     A training method force model to learn a unbiased initial model without over-performing on some particular tasks.
 
-#### Task Representation and Measure
+### Task Representation and Measure
 - [x] [ICCV 2019] TASK2VEC- Task Embedding for Meta-Learning
 
-#### Multi Label Image Classification
+### Multi Label Image Classification
 - [x] [CVPR 2019 oral] LaSO-Label-Set Operations networks for multi-label few-shot learning
 
-#### Add Additional Informations
+### Add Additional Informations
 - [x] [ICCV 2019] Learning Compositional Representations for Few-Shot Recognition
 
     Add additional annotations to the classes.
@@ -221,16 +220,16 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 
     Self-supervision means to rotate itself, and compute two losses.
 
-#### Self-training
+### Self-training
 
 - [x] [NIPS 2019] Learning to Self-Train for Semi-Supervised Few-Shot Classification.pdf
 
     Label the query set for the first run, then retrain the model with the pesudo label for the second run. (Simple but effective)
 
 
-### Results in Datasets
-#### [Omniglot](https://github.com/brendenlake/omniglot)
-#### [mini-Imagenet](http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning)
+## Results in Datasets
+### [Omniglot](https://github.com/brendenlake/omniglot)
+### [mini-Imagenet](http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning)
 
 | Years | Methods              | Backbone | 5-way 1-shot    | 5-way 5-shot    |
 |-------|----------------------|----------|-----------------|-----------------|
@@ -239,37 +238,37 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 | 2017  | Prototypical Network | Conv4    | 49.42% +- 0.78% | 68.20% +- 0.66% |
 | 2018  | Relation Network     | Conv4    | 50.44% +- 0.82% | 65.32% +- 0.70% |
 
-#### [tiredImagenet](https://arxiv.org/abs/1803.00676)
-#### [Imagenet](http://image-net.org)
-#### [CUB 2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)
+### [tiredImagenet](https://arxiv.org/abs/1803.00676)
+### [Imagenet](http://image-net.org)
+### [CUB 2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)
 
-## Object Detection
+# Object Detection
 - [x] [CVPR 2019] RepMet-Representative-based Metric Learning for Classification and Few-shot Object Detection
 - [x] [CVPR 2019] Few-shot Adaptive Faster R-CNN
 - [x] [CVPR 2019] Feature Selective Anchor-Free Module for Single-Shot Object Detection
 - [x] [ICCV 2019] Few-shot Object Detection via Feature Reweighting
 
-## Segementation
+# Segementation
 - [x] [CVPR 2019] CANet- Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning
 - [x] [AAAI 2019] Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation
 
     Utilize the output of the different layers between query branch and support branch to gain more context informations.
 
-## Generative Model
+# Generative Model
 - [x] [ICCV 2019] Few-Shot Unsupervised Image-to-Image Translation
 - [x] [CVPR 2018] Multi-Content GAN for Few-Shot Font Style Transfer
 
-## Domain Adaptation
+# Domain Adaptation
 - [x] [NIPS 2017] Few-Shot Adversarial Domain Adaptation
 - [x] [ICCV 2019] Bidirectional One-Shot Unsupervised Domain Mapping
 
-## Reinforcement Learning
+# Reinforcement Learning
 - [x] [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
 
-## Visual Tracking
+# Visual Tracking
 - [x] [ICCV 2019] Deep Meta Learning for Real-Time Target-Aware Visual Tracking
 
-## Others
+# Others
 - [x] [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
 - [x] [AAAI 2018] AffinityNet- Semi-supervised Few-shot Learning for Disease Type Prediction
 
@@ -278,3 +277,7 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [x] [arXiv 2019] Few-Shot Text Classification with Induction Network
 
     Introduce dynamic routing to generate better class representations. One real industrial project.
+
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
