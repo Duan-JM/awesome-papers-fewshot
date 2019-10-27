@@ -94,8 +94,8 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 
 ## Sorting
 - [ ] [CVPR 2018] ([paper](https://arxiv.org/pdf/1712.00981.pdf)) Feature Generating Networks for Zero-ShsoetenLearning
-- [ ] [CVPR 2018] Temporal Hallucinating for Action Recognition with Few Still Images
-- [ ] [ECCV 2018] Dynamic Conditional Networks for FewShot Learning
+- [ ] [CVPR 2018] ([paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Temporal_Hallucinating_for_CVPR_2018_paper.pdf)) Temporal Hallucinating for Action Recognition with Few Still Images
+- [ ] [ECCV 2018] ([paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Fang_Zhao_Dynamic_Conditional_Networks_ECCV_2018_paper.pdf)) Dynamic Conditional Networks for FewShot Learning
 - [ ] [ICIP 2018] Discriminative Hallucination for Multi-Modal Few-Shot Learning
 - [ ] [Nature 子刊 MI 2018] Continuous Learning of Context-dependent Processing in Neural Networks
 - [ ] [CVPR 2019] Generating Classification Weights with GNN Denoising Autoencoders for Few-Shot Learning
