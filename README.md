@@ -181,7 +181,7 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
     * Pretty good result on mini-imagenet 80.64 +- 0.35% under ResNet-12 (16 conv layers)
 
 - [x] [CVPR 2019] Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning
-    * Calculating the similarity between query and class represent feature in feature level, rather than instance level. It seperate original feature in $m$ part and then compute the similarity to the K-nearst class partial features.
+    * Calculating the similarity between query and class represent feature in feature level, rather than instance level. It seperate original feature in $`m`$ part and then compute the similarity to the K-nearst class partial features.
     * Good Result on mini-ImageNet 71.02 ± 0.64% with Conv4_64F.
 
 
