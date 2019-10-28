@@ -2,9 +2,8 @@
 <!-- vim-markdown-toc GitLab -->
 
 * [Introduction](#introduction)
-* [ToDo](#todo)
-  * [ReadLater](#readlater)
-* [No Paper](#no-paper)
+  * [ToDo](#todo)
+  * [No Paper](#no-paper)
 * [Image Classification](#image-classification)
   * [Summary](#summary)
   * [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
@@ -42,13 +41,12 @@
 
 This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplement in the Issues.
 
-# ToDo
+## ToDo
 - [ ] (WIP)Add one comment to each works
 - [ ] (WIP)Add results tables for all works
 - [ ] Add paper link and opensource code for each works
 
-## ReadLater
-# No Paper
+## No Paper
 - [ ] [NIPS 2019] ([code](https://github.com/apple2373/MetaIRNet)) Metal-Reinforced Synthetic Data for One-Shot Fine-Grained Visual Recognition
 
 # Image Classification
@@ -289,9 +287,7 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 # Others
 - [x] [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
 - [x] [AAAI 2018] AffinityNet- Semi-supervised Few-shot Learning for Disease Type Prediction
-
-    Use few-shot method to enhance oringal disease type prediction
+    * Use few-shot method to enhance oringal disease type prediction
 
 - [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/1902.10482.pdf)) Few-Shot Text Classification with Induction Network
-
-    Introduce dynamic routing to generate better class representations. One real industrial project.
+    * Introduce dynamic routing to generate better class representations. One real industrial project.
