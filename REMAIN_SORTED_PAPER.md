@@ -3,12 +3,10 @@
 - [ ] [NIPS 2019] Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation
 - [ ] [NIPS 2019] Online-Within-Online Meta-Learning
 - [ ] [NIPS 2019] Reconciling meta-learning and continual learning with online mixtures of tasks
+- [ ] [NIPS 2019] Neural Relational Inference with Fast Modular Meta-learning
 
 
 # New Comming
-- [ ] [NIPS 2019] Meta-Learning Representations for Continual Learning
-- [ ] [NIPS 2019] Adaptive Gradient-Based Meta-Learning Methods
-- [ ] [NIPS 2019] Neural Relational Inference with Fast Modular Meta-learning
 - [ ] [NIPS 2018] Neural Voice Cloning with a Few Samples
 - [ ] [NIPS 2018] Delta-encoder: an effective sample synthesis method for few-shot object recognition
 - [ ] [NIPS 2018] Bayesian Model-Agnostic Meta-Learning
