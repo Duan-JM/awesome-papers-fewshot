@@ -1,19 +1,12 @@
 # No Paper
 - [ ] [NIPS 2019] ([code](https://github.com/apple2373/MetaIRNet)) Metal-Reinforced Synthetic Data for One-Shot Fine-Grained Visual Recognition
-- [ ] [NIPS 2019] Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation
 - [ ] [NIPS 2019] Online-Within-Online Meta-Learning
 - [ ] [NIPS 2019] Reconciling meta-learning and continual learning with online mixtures of tasks
 - [ ] [NIPS 2019] Neural Relational Inference with Fast Modular Meta-learning
 
 
 # New Comming
-- [ ] [NIPS 2018] Neural Voice Cloning with a Few Samples
-- [ ] [NIPS 2018] Delta-encoder: an effective sample synthesis method for few-shot object recognition
-- [ ] [NIPS 2018] Bayesian Model-Agnostic Meta-Learning
 - [ ] [NIPS 2018] Meta-Learning MCMC Proposals
-- [ ] [NIPS 2018] Probabilistic Model-Agnostic Meta-Learning
-- [ ] [NIPS 2017] Few-Shot Learning Through an Information Retrieval Lens
-- [ ] [NIPS 2017] A Meta-Learning Perspective on Cold-Start Recommendations for Items
 
 - [ ] [ICML 2019] Online Meta-Learning
 - [ ] [ICML 2019] Fast Context Adaptation via Meta-Learning

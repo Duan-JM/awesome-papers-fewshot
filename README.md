@@ -102,6 +102,8 @@ The only thing you need to do is make a new issue with its name, conference name
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01102.pdf) [code](https://github.com/gidariss/wDAE_GNN_FewShot)) Generating Classification Weights with GNN Denoising Autoencoders for Few-Shot Learning
     * Little better than LEO
 
+- [x] [NIPS 2018] Delta-encoder: an effective sample synthesis method for few-shot object recognition
+
 
 ## Generative Based Few-shot Learning
 **One line descriptions:** Generate features to expasion small datasets to large datasets, then fintune.
@@ -150,6 +152,7 @@ The only thing you need to do is make a new issue with its name, conference name
 
 
 #### Supervised
+- [x] [NIPS 2017] Few-Shot Learning Through an Information Retrieval Lens
 - [x] [NIPS 2018] (RECOMMENDED!) TADAM-Task dependent adaptive metric for improved few-shot learning 
     * In every task, use task representations to finetune the output of each Conv Blocks, like BN functionally.
 
@@ -299,6 +302,7 @@ The only thing you need to do is make a new issue with its name, conference name
 
 # Generative Model
 - [x] [ICCV 2019] Few-Shot Unsupervised Image-to-Image Translation
+- [x] [ICCV 2019] ([paper](https://arxiv.org/abs/1905.01164) [color](https://github.com/tamarott/SinGAN)) SinGAN: Learning a Generative Model from a Single Natural Image
 - [x] [CVPR 2018] Multi-Content GAN for Few-Shot Font Style Transfer
 
 # Domain Adaptation
