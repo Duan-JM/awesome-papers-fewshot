@@ -2,8 +2,7 @@
 <!-- vim-markdown-toc GitLab -->
 
 * [Introduction](#introduction)
-  * [ToDo](#todo)
-  * [No Paper](#no-paper)
+  * [How to recommend a paper](#how-to-recommend-a-paper)
 * [Image Classification](#image-classification)
   * [Summary](#summary)
   * [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
@@ -39,15 +38,31 @@
 <!-- vim-markdown-toc -->
 # Introduction
 
-This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplement in the Issues.
+Awesome Papers Few-shot focus on collecting paper published on top conferences in Few-shot learning area,
+hoping that this cut some time costing for beginners. Morever we also glad to see this repo can be a virtual online seminar,
+which can be a home to all researchers who have the enthusiasm to exchange interesting ideas.
 
-## ToDo
-- [ ] (WIP)Add one comment to each works
-- [ ] (WIP)Add results tables for all works
-- [ ] Add paper link and opensource code for each works
+Awesome Papers Few-shot 收集了近几年定会中与小样本学习相关的论文，并简单的进行了类别划分与整理。
+一方面，我们希望这个仓库能够帮助广大希望入坑小样本学习的同胞减少入坑搜集论文的时间成本。另一方面，
+我们也希望这里能称为研究小样本学习的同胞们互相交流有趣想法的一个小平台。
 
-## No Paper
-- [ ] [NIPS 2019] ([code](https://github.com/apple2373/MetaIRNet)) Metal-Reinforced Synthetic Data for One-Shot Fine-Grained Visual Recognition
+The papers collected in this repo are manually selected by myself, I am hoping that more researchers interested in this area can maintain this repo together.
+
+仓库中收藏的论文均为我本人从历年顶会中手动挑选并阅读过和小样本学习相关的论文，也希望能有广大的同行来共同维护它。
+（注意：部分深入解释 Meta-Learning 的论文并未收入到此仓库中，有兴趣的朋友可以发 issue 一起讨论）。
+
+## How to recommend a paper
+You are highly welcome to recommend a paper to this repo. 
+The only thing you need to do is make a new issue with its name, conference name, years and some recommends words(no more than 400 words).
+
+非常欢迎大家来推荐相关论文呀，推荐论文的方式非常简单，只需要提交一个 Issue，并在 Issue 中写清楚论文的题目，发表的会议名称以及年份和一个不超过 400 字的推荐理由即可。
+
+> EXAMPLE
+>
+> Title: [ICML 2019] TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
+>
+> Recommend: First paper point out how to measure the backbone is bad or good for the current task(episode).
+
 
 # Image Classification
 ## Summary
@@ -189,6 +204,10 @@ This Repo is used to Collect Few-shot Learning Area Papers, welcome to supplemen
 - [x] [CVPR 2018] ([paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Temporal_Hallucinating_for_CVPR_2018_paper.pdf)) Temporal Hallucinating for Action Recognition with Few Still Images
     * Attempt to recall cues from relevant action videos.
     * Maybe good at one-shot, not worse than the baseline in 5-shot and 10-shot scenarios.
+
+- [x] [NIPS 2019] Learning to Propagate for Graph Meta-Learning
+    * Learns to propagate messages between prototypes of different classes on the graph, so that learning the prototype of each class benefits from the data of other related classes.
+    * Attention mechanic.
 
 ## Special
 ### Unsorted
