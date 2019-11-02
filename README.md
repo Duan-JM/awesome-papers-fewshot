@@ -103,6 +103,9 @@ The only thing you need to do is make a new issue with its name, conference name
     * Little better than LEO
 
 - [x] [NIPS 2018] Delta-encoder: an effective sample synthesis method for few-shot object recognition
+- [x] [ICLR 2019] Meta-learning with differentiable closed-form solvers
+    * Teach to use tradional machining learning methods
+    * Most likely no good than LEO
 
 
 ## Generative Based Few-shot Learning
@@ -146,6 +149,7 @@ The only thing you need to do is make a new issue with its name, conference name
     * Using soft K-means to refine the prototypes, then using varient ways(training methods) to eliminate the outline points.
     * Create new datasets - tiredImagenet
 
+- [x] [ICLR 2018] Few-Shot Learning with Graph Neural Networks
 - [x] [CVPR 2018] (RECOMMENDED!) Low-Shot Learning With Large-Scale Diffusion
 - [x] [ICLR 2019] ([paper](https://arxiv.org/pdf/1805.10002.pdf)) Learning to Propagate Labels-transductive Propagation Network for Few-shot Learning
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01436.pdf)) Edge-Labeling Graph Neural Network for Few-shot Learning
@@ -302,8 +306,9 @@ The only thing you need to do is make a new issue with its name, conference name
 
 # Generative Model
 - [x] [ICCV 2019] Few-Shot Unsupervised Image-to-Image Translation
-- [x] [ICCV 2019] ([paper](https://arxiv.org/abs/1905.01164) [color](https://github.com/tamarott/SinGAN)) SinGAN: Learning a Generative Model from a Single Natural Image
+- [x] [ICCV 2019] ([paper](https://arxiv.org/abs/1905.01164) [code](https://github.com/tamarott/SinGAN)) SinGAN: Learning a Generative Model from a Single Natural Image
 - [x] [CVPR 2018] Multi-Content GAN for Few-Shot Font Style Transfer
+- [x] [NIPS 2019] ( [paper](https://nvlabs.github.io/few-shot-vid2vid/main.pdf) [code](https://nvlabs.github.io/few-shot-vid2vid/) )Few-shot Video-to-Video Synthesis
 
 # Domain Adaptation
 - [x] [NIPS 2017] Few-Shot Adversarial Domain Adaptation

@@ -34,15 +34,6 @@
 - [ ] [ICLR 2019] Meta-Learning For Stochastic Gradient MCMC
 - [ ] [ICLR 2019] Guiding Policies with Language via Meta-Learning
 - [ ] [ICLR 2019] Meta-Learning Probabilistic Inference for Prediction
-- [ ] [ICLR 2019] Deep Online Learning Via Meta-Learning: Continual Adaptation for Model-Based RL
-- [ ] [ICLR 2019] Meta-learning with differentiable closed-form solvers
-- [ ] [ICLR 2019] Unsupervised Learning via Meta-Learning
-- [ ] [ICLR 2019] Amortized Bayesian Meta-Learning
-- [ ] [ICLR 2018 oral] Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments
-- [ ] [ICLR 2018] Recasting Gradient-Based Meta-Learning as Hierarchical Bayes
-- [ ] [ICLR 2018] Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm
-- [ ] [ICLR 2018] Few-Shot Learning with Graph Neural Networks
-- [ ] [ICLR 2018] Few-shot Autoregressive Density Estimation: Towards Learning to Learn Distributions
 
 - [ ] [ECCV 2018] Few-Shot Human Motion Prediction via Meta-Learning
 - [ ] [ICCV 2017] Supplementary Meta-Learning: Towards a Dynamic Model for Deep Neural Networks
