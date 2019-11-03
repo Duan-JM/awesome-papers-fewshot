@@ -75,7 +75,6 @@ The only thing you need to do is make a new issue with its name, conference name
 **One line descriptions:** Generate parameters for the classifier or finetune part of the models
 
 #### Papers
-- [x] [CVPR 2017] ([paper](https://arxiv.org/pdf/1710.06177.pdf)) Learning to Learn Image Classifiers with Visual Analogy
 - [x] [ICLR 2017 Meta-learner LSTM Ravi] ([paper](https://openreview.net/pdf?id=rJY0-Kcll&source=post_page---------------------------) [code](https://github.com/twitter/meta-learning-lstm.)) Optimization as a Model for Few-shot Learning
     * Use LSTM to generate classifier's parameters
 
@@ -87,6 +86,7 @@ The only thing you need to do is make a new issue with its name, conference name
 - [x] [CVPR 2018] ([paper](https://arxiv.org/pdf/1712.07136.pdf)) Low-Shot Learning with Imprinted Weights
     * Passing, generate weights for classifier. (I DONOT like it, the exp only compare to matching networks and "Generative + classifier")
 
+- [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1710.06177.pdf)) Learning to Learn Image Classifiers with Visual Analogy
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1903.05050.pdf)) Dense Classification and Implanting for Few-Shot Learning
 - [x] [ICML 2019] ([paper](https://arxiv.org/pdf/1905.06331.pdf) [code](https://github.com/likesiwell/LGM-Net/)) LGM-Net: Learning to Generate Matching Networks for Few shot Learning
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1904.05967.pdf) [code](https://github.com/ucbdrive/tafe-net)) TAFE-Net- Task-Aware Feature Embeddings for Low Shot Learning
