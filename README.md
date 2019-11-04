@@ -6,27 +6,28 @@
 * [Image Classification](#image-classification)
   * [Summary](#summary)
   * [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
+      * [Papers](#papers)
   * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
-    * [Summary](#summary-1)
-    * [Papers](#papers)
+      * [Summary Papers](#summary-papers)
+      * [Papers](#papers-1)
   * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
-    * [Traditional](#traditional)
-    * [Semi-Supervised](#semi-supervised)
-    * [Supervised](#supervised)
+      * [Traditional](#traditional)
+      * [Semi-Supervised](#semi-supervised)
+      * [Supervised](#supervised)
   * [Special](#special)
-    * [Unsorted](#unsorted)
-    * [External Memory](#external-memory)
-    * [Architecture](#architecture)
-    * [Task Representation and Measure](#task-representation-and-measure)
-    * [Multi Label Image Classification](#multi-label-image-classification)
-    * [Add Additional Informations](#add-additional-informations)
-    * [Self-training](#self-training)
+      * [Unsorted](#unsorted)
+      * [External Memory](#external-memory)
+      * [Architecture](#architecture)
+      * [Task Representation and Measure](#task-representation-and-measure)
+      * [Multi Label Image Classification](#multi-label-image-classification)
+      * [Add Additional Informations](#add-additional-informations)
+      * [Self-training](#self-training)
   * [Results in Datasets](#results-in-datasets)
-    * [Omniglot](#omniglot)
-    * [mini-Imagenet](#mini-imagenet)
-    * [tiredImagenet](#tiredimagenet)
-    * [Imagenet](#imagenet)
-    * [CUB 2011](#cub-2011)
+      * [Omniglot](#omniglot)
+      * [mini-Imagenet](#mini-imagenet)
+      * [tiredImagenet](#tiredimagenet)
+      * [Imagenet](#imagenet)
+      * [CUB 2011](#cub-2011)
 * [Object Detection](#object-detection)
 * [Segementation](#segementation)
 * [Generative Model](#generative-model)
@@ -71,7 +72,9 @@ The only thing you need to do is make a new issue with its name, conference name
 
 
 ## Optimize Based Few-shot Learning
-- [x] [CVPR 2017] ([paper](https://arxiv.org/pdf/1710.06177.pdf)) Learning to Learn Image Classifiers with Visual Analogy
+**One line descriptions:** Generate parameters for the classifier or finetune part of the models
+
+#### Papers
 - [x] [ICLR 2017 Meta-learner LSTM Ravi] ([paper](https://openreview.net/pdf?id=rJY0-Kcll&source=post_page---------------------------) [code](https://github.com/twitter/meta-learning-lstm.)) Optimization as a Model for Few-shot Learning
     * Use LSTM to generate classifier's parameters
 
@@ -83,6 +86,7 @@ The only thing you need to do is make a new issue with its name, conference name
 - [x] [CVPR 2018] ([paper](https://arxiv.org/pdf/1712.07136.pdf)) Low-Shot Learning with Imprinted Weights
     * Passing, generate weights for classifier. (I DONOT like it, the exp only compare to matching networks and "Generative + classifier")
 
+- [x] [CVPR 2019] (RECOMMENDED!) ([paper](https://arxiv.org/pdf/1710.06177.pdf)) Learning to Learn Image Classifiers with Visual Analogy
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1903.05050.pdf)) Dense Classification and Implanting for Few-Shot Learning
 - [x] [ICML 2019] ([paper](https://arxiv.org/pdf/1905.06331.pdf) [code](https://github.com/likesiwell/LGM-Net/)) LGM-Net: Learning to Generate Matching Networks for Few shot Learning
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1904.05967.pdf) [code](https://github.com/ucbdrive/tafe-net)) TAFE-Net- Task-Aware Feature Embeddings for Low Shot Learning
@@ -92,19 +96,26 @@ The only thing you need to do is make a new issue with its name, conference name
     * Using normal way to pretrain the backbone on the base classes, then using the base class weights to fintune the classifier on the few-shot episodic network.
     * Achieve the normal
 
-- [x] [ICLR 2019 LEO Vinyals] (RECOMMENDED!) ([paper](https://arxiv.org/pdf/1807.05960.pdf) [code](https://github.com/deepmind/leo.)) Meta-learning with latent embedding optimization
+- [x] [ICLR 2019 LEO Vinyals] (RECOMMENDED!) ([paper](https://arxiv.org/pdf/1807.05960.pdf) [code](https://github.com/deepmind/leo)) Meta-learning with latent embedding optimization
     * High dimensional problem is hard to solve in the low-data circumstances, so this work try to bypass the limitations by learning a data-dependent latent low-dimensional latent space of model parameters.
 
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01102.pdf) [code](https://github.com/gidariss/wDAE_GNN_FewShot)) Generating Classification Weights with GNN Denoising Autoencoders for Few-Shot Learning
     * Little better than LEO
 
+- [x] [NIPS 2018] Delta-encoder: an effective sample synthesis method for few-shot object recognition
+- [x] [ICLR 2019] Meta-learning with differentiable closed-form solvers
+    * Teach to use tradional machining learning methods
+    * Most likely no good than LEO
+
 
 ## Generative Based Few-shot Learning
-### Summary
+**One line descriptions:** Generate features to expasion small datasets to large datasets, then fintune.
+
+#### Summary Papers
 - [x] [NIPS 2018 Bengio] ([paper](https://papers.nips.cc/paper/7504-metagan-an-adversarial-approach-to-few-shot-learning.pdf)) MetaGAN An Adversarial Approach to Few-Shot Learning
 
 
-### Papers
+#### Papers
 - [x] [ICCV 2017] ([paper](https://arxiv.org/pdf/1606.02819.pdf) [code](https://github.com/facebookresearch/low-shot-shrink-hallucinate)) Low-shot Visual Recognition by Shrinking and Hallucinating Features
 - [x] [CVPR 2018] ([paper](https://arxiv.org/pdf/1801.05401.pdf)) Low-Shot Learning from Imaginary Data
 - [x] [NIPS 2018] ([paper](https://arxiv.org/pdf/1810.11730.pdf)) Low-shot Learning via Covariance-Preserving Adversarial Augmentation Networks
@@ -117,7 +128,9 @@ The only thing you need to do is make a new issue with its name, conference name
 
 
 ## Metric Based Few-shot Learning
-### Traditional
+**One line descriptions:** Compute the class representation, then use metric functions to measure the similarity between query sample and each class representaions.
+
+#### Traditional
 - [x] [ICML 2012] One-Shot Learning with a Hierarchical Nonparametric Bayesian Model
     * Using Hierarchical Bayesian Model after extracted features. Which is similar to build the category graph method in IJCAI 2019.
 
@@ -131,17 +144,19 @@ The only thing you need to do is make a new issue with its name, conference name
     * Provide a clean framework that elegantly encompasses both few and zero-shot learning.
 
 
-### Semi-Supervised
+#### Semi-Supervised
 - [x] [ICLR 2018 Ravi] ([paper](https://arxiv.org/pdf/1803.00676.pdf) [code](https://github.com/renmengye/few-shot-ssl-public)) Meta-Learning for Semi-Supervised Few-Shot Classification
     * Using soft K-means to refine the prototypes, then using varient ways(training methods) to eliminate the outline points.
     * Create new datasets - tiredImagenet
 
+- [x] [ICLR 2018] Few-Shot Learning with Graph Neural Networks
 - [x] [CVPR 2018] (RECOMMENDED!) Low-Shot Learning With Large-Scale Diffusion
 - [x] [ICLR 2019] ([paper](https://arxiv.org/pdf/1805.10002.pdf)) Learning to Propagate Labels-transductive Propagation Network for Few-shot Learning
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01436.pdf)) Edge-Labeling Graph Neural Network for Few-shot Learning
 
 
-### Supervised
+#### Supervised
+- [x] [NIPS 2017] Few-Shot Learning Through an Information Retrieval Lens
 - [x] [NIPS 2018] (RECOMMENDED!) TADAM-Task dependent adaptive metric for improved few-shot learning 
     * In every task, use task representations to finetune the output of each Conv Blocks, like BN functionally.
 
@@ -210,11 +225,11 @@ The only thing you need to do is make a new issue with its name, conference name
     * Attention mechanic.
 
 ## Special
-### Unsorted
+#### Unsorted
 - [x] [Nature 子刊 MI 2018] ([paper](https://arxiv.org/pdf/1810.01256.pdf)) Continuous Learning of Context-dependent Processing in Neural Networks
     * During training a network consecutively for different tasks, OWNs weights are only allowed to be modified in the direction orthogonal to the subspace spanned by all inputs on which the network has been trained (termed input space hereafter). This ensures that new learning processes will not interfere with the learned tasks
 
-### External Memory
+#### External Memory
 - [x] [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks
 
     This work lead NTM into the image classification, technically, this work should not belong to the few-shot problems.
@@ -223,20 +238,20 @@ The only thing you need to do is make a new issue with its name, conference name
 - [x] [CVPR 2018] ([paper](https://arxiv.org/pdf/1804.08281.pdf)) Memory Matching Networks for One-Shot Image Recognition
 - [x] [ICLR 2019] ([paper](https://arxiv.org/pdf/1902.02527.pdf) [code](https://github.com/cogentlabs/apl.)) Adaptive Posterior Learning-Few-Shot Learning with a Surprise-Based Memory Module
 
-### Architecture
+#### Architecture
 - [x] [ICML 2017] Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1805.07722.pdf)) Task-Agnostic Meta-Learning for Few-shot Learning
 
     A training method force model to learn a unbiased initial model without over-performing on some particular tasks.
 
-### Task Representation and Measure
+#### Task Representation and Measure
 - [x] [ICCV 2019] ([paper](https://arxiv.org/pdf/1902.03545.pdf)) (RECOMMENDED!) TASK2VEC- Task Embedding for Meta-Learning
     * Use Fisher information matrix to judge which backbone is suitable for current task.
 
-### Multi Label Image Classification
+#### Multi Label Image Classification
 - [x] [CVPR 2019 oral] ([paper](https://arxiv.org/pdf/1902.09811.pdf)) LaSO-Label-Set Operations networks for multi-label few-shot learning
 
-### Add Additional Informations
+#### Add Additional Informations
 - [x] [ICCV 2019] ([paper](https://arxiv.org/pdf/1812.09213.pdf) [code](https://sites.google.com/view/comprepr/home)) Learning Compositional Representations for Few-Shot Recognition
 
     Add additional annotations to the classes.
@@ -249,7 +264,7 @@ The only thing you need to do is make a new issue with its name, conference name
 
     Self-supervision means to rotate itself, and compute two losses.
 
-### Self-training
+#### Self-training
 
 - [x] [NIPS 2019] ([paper](https://arxiv.org/pdf/1906.00562.pdf)) Learning to Self-Train for Semi-Supervised Few-Shot Classification
 
@@ -257,8 +272,8 @@ The only thing you need to do is make a new issue with its name, conference name
 
 
 ## Results in Datasets
-### [Omniglot](https://github.com/brendenlake/omniglot)
-### [mini-Imagenet](http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning)
+#### [Omniglot](https://github.com/brendenlake/omniglot)
+#### [mini-Imagenet](http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning)
 
 | Years | Methods              | Backbone | 5-way 1-shot    | 5-way 5-shot    |
 |-------|----------------------|----------|-----------------|-----------------|
@@ -267,9 +282,9 @@ The only thing you need to do is make a new issue with its name, conference name
 | 2017  | Prototypical Network | Conv4    | 49.42% +- 0.78% | 68.20% +- 0.66% |
 | 2018  | Relation Network     | Conv4    | 50.44% +- 0.82% | 65.32% +- 0.70% |
 
-### [tiredImagenet](https://arxiv.org/abs/1803.00676)
-### [Imagenet](http://image-net.org)
-### [CUB 2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)
+#### [tiredImagenet](https://arxiv.org/abs/1803.00676)
+#### [Imagenet](http://image-net.org)
+#### [CUB 2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)
 
 # Object Detection
 - [x] [CVPR 2017] ([paper](https://arxiv.org/pdf/1612.02559.pdf) [code](https://github.com/rkwitt/GuidedAugmentation)) AGA - Attribute-Guided Augmentation
@@ -291,7 +306,9 @@ The only thing you need to do is make a new issue with its name, conference name
 
 # Generative Model
 - [x] [ICCV 2019] Few-Shot Unsupervised Image-to-Image Translation
+- [x] [ICCV 2019] ([paper](https://arxiv.org/abs/1905.01164) [code](https://github.com/tamarott/SinGAN)) SinGAN: Learning a Generative Model from a Single Natural Image
 - [x] [CVPR 2018] Multi-Content GAN for Few-Shot Font Style Transfer
+- [x] [NIPS 2019] ( [paper](https://nvlabs.github.io/few-shot-vid2vid/main.pdf) [code](https://nvlabs.github.io/few-shot-vid2vid/) )Few-shot Video-to-Video Synthesis
 
 # Domain Adaptation
 - [x] [NIPS 2017] Few-Shot Adversarial Domain Adaptation
@@ -310,3 +327,5 @@ The only thing you need to do is make a new issue with its name, conference name
 
 - [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/1902.10482.pdf)) Few-Shot Text Classification with Induction Network
     * Introduce dynamic routing to generate better class representations. One real industrial project.
+
+- [x] [NIPS 2018] Neural Voice Cloning with a Few Samples

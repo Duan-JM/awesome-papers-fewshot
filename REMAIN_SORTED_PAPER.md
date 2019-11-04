@@ -1,21 +1,32 @@
 # No Paper
 - [ ] [NIPS 2019] ([code](https://github.com/apple2373/MetaIRNet)) Metal-Reinforced Synthetic Data for One-Shot Fine-Grained Visual Recognition
-- [ ] [NIPS 2019] Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation
 - [ ] [NIPS 2019] Online-Within-Online Meta-Learning
 - [ ] [NIPS 2019] Reconciling meta-learning and continual learning with online mixtures of tasks
+- [ ] [NIPS 2019] Neural Relational Inference with Fast Modular Meta-learning
 
 
 # New Comming
-- [ ] [NIPS 2019] Meta-Learning Representations for Continual Learning
-- [ ] [NIPS 2019] Adaptive Gradient-Based Meta-Learning Methods
-- [ ] [NIPS 2019] Neural Relational Inference with Fast Modular Meta-learning
-- [ ] [NIPS 2018] Neural Voice Cloning with a Few Samples
-- [ ] [NIPS 2018] Delta-encoder: an effective sample synthesis method for few-shot object recognition
-- [ ] [NIPS 2018] Bayesian Model-Agnostic Meta-Learning
 - [ ] [NIPS 2018] Meta-Learning MCMC Proposals
-- [ ] [NIPS 2018] Probabilistic Model-Agnostic Meta-Learning
-- [ ] [NIPS 2017] Few-Shot Learning Through an Information Retrieval Lens
-- [ ] [NIPS 2017] A Meta-Learning Perspective on Cold-Start Recommendations for Items
+
+- [ ] [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
+- [ ] [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
+- [ ] [IJCAI 2019] Metadata-driven Task Relation Discovery for Multi-task Learning
+
+- [ ] [ACMMM 2019] TGG: Transferable Graph Generation for Zero-shot and Few-shot Learning
+- [ ] [ACMMM 2019] Fewer-Shots and Lower-Resolutions: Towards Ultrafast Face Recognition in the Wild
+
+- [ ] [AAAI 2019] Unsupervised Meta-learning of Figure-Ground Segmentation via Imitating Visual Effects
+- [ ] [AAAI 2019] AffinityNet: Semi-supervised Few-shot Learning for Disease Type Prediction
+- [ ] [AAAI 2019] Few-Shot Image and Sentence Matching via Gated Visual-Semantic Embedding
+- [ ] [AAAI 2019] Distribution Consistency based Covariance Metric Networks for Few Shot Learning
+- [ ] [AAAI 2019] A Dual Attention Network with Semantic Embedding for Few-shot Learning
+- [ ] [AAAI 2019] Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification
+- [ ] [AAAI 2019] Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation
+- [ ] [AAAI 2018] Meta Multi-Task Learning for Sequence Modeling
+- [ ] [AAAI 2018] Learning to Generalize: Meta-Learning for Domain Generalization
+- [ ] [AAAI 2018] Few Shot Transfer Learning BetweenWord Relatedness and Similarity Tasks Using A Gated Recurrent Siamese Network
+- [ ] [AAAI 2017] Automated Data Cleansing through Meta Learning
+
 
 - [ ] [ICML 2019] Online Meta-Learning
 - [ ] [ICML 2019] Fast Context Adaptation via Meta-Learning
@@ -37,21 +48,7 @@
 - [ ] [CVPR 2018] Few-Shot Image Recognition by Predicting Parameters From Activations
 - [ ] [CVPR 2017] Few-Shot Object Recognition From Machine-Labeled Web Images
 
-- [ ] [ICLR 2019 oral] Meta-Learning Update Rules for Unsupervised Representation Learning
-- [ ] [ICLR 2019] Adaptive Posterior Learning: few-shot learning with a surprise-based memory module
-- [ ] [ICLR 2019] Meta-Learning with Latent Embedding Optimization
-- [ ] [ICLR 2019] Meta-Learning For Stochastic Gradient MCMC
-- [ ] [ICLR 2019] Guiding Policies with Language via Meta-Learning
 - [ ] [ICLR 2019] Meta-Learning Probabilistic Inference for Prediction
-- [ ] [ICLR 2019] Deep Online Learning Via Meta-Learning: Continual Adaptation for Model-Based RL
-- [ ] [ICLR 2019] Meta-learning with differentiable closed-form solvers
-- [ ] [ICLR 2019] Unsupervised Learning via Meta-Learning
-- [ ] [ICLR 2019] Amortized Bayesian Meta-Learning
-- [ ] [ICLR 2018 oral] Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments
-- [ ] [ICLR 2018] Recasting Gradient-Based Meta-Learning as Hierarchical Bayes
-- [ ] [ICLR 2018] Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm
-- [ ] [ICLR 2018] Few-Shot Learning with Graph Neural Networks
-- [ ] [ICLR 2018] Few-shot Autoregressive Density Estimation: Towards Learning to Learn Distributions
 
 - [ ] [ECCV 2018] Few-Shot Human Motion Prediction via Meta-Learning
 - [ ] [ICCV 2017] Supplementary Meta-Learning: Towards a Dynamic Model for Deep Neural Networks
