@@ -74,3 +74,19 @@
 - [ ] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dvornik_Diversity_With_Cooperation_Ensemble_Methods_for_Few-Shot_Classification_ICCV_2019_paper.pdf)) Diversity with Cooperation: Ensemble Methods for Few-Shot Classification
 - [ ] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Hao_Collect_and_Select_Semantic_Alignment_Metric_Learning_for_Few-Shot_Learning_ICCV_2019_paper.pdf) Collect and Select: Semantic Alignment Metric Learning for Few-Shot Learning
 - [ ] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)) ACMM: Aligned Cross-Modal Memory for Few-Shot Image and Sentence Matching
+- [ ] [ICCV 2019] ([paper](https://arxiv.org/pdf/1812.01866)) Few-shot Object Detection via Feature Reweighting
+- [ ] [ICCV 2019] ([paper](https://arxiv.org/pdf/1909.01205)) Few-Shot Generalization for Single-Image 3D Reconstruction via Priors
+- [ ] [ICCV 2019] ([paper](https://arxiv.org/pdf/1905.01723)) Few-Shot Unsupervised Image-to-Image Translation
+- [ ] [ICCV 2019] ([paper](https://arxiv.org/pdf/1906.05186)) Boosting Few-Shot Visual Learning with Self-Supervision
+- [ ] [ICCV 2019] ([paper](https://sites.google.com/view/comprepr/home)) Learning Compositional Representations for Few-Shot Recognition
+- [ ] [ICCV 2019] ([paper](https://arxiv.org/pdf/1908.05257)) Few-Shot Learning with Global Class Representations
+- [ ] [ICCV 2019] ([paper](https://arxiv.org/pdf/1902.03545)) Task2Vec: Task Embedding for Meta-Learning
+- [ ] [ICCV 2019] ([paper](https://arxiv.org/pdf/1904.03208)) Semantic-Aware Knowledge Preservation for Zero-Shot Sketch-Based Image Retrieval
+- [ ] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dvornik_Diversity_With_Cooperation_Ensemble_Methods_for_Few-Shot_Classification_ICCV_2019_paper.pdf)) Diversity with Cooperation: Ensemble Methods for Few-Shot Classification
+- [ ] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Hao_Collect_and_Select_Semantic_Alignment_Metric_Learning_for_Few-Shot_Learning_ICCV_2019_paper.pdf) Collect and Select: Semantic Alignment Metric Learning for Few-Shot Learning
+- [ ] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)) ACMM: Aligned Cross-Modal Memory for Few-Shot Image and Sentence Matching
+
+## CIKM Paper Collation for few-shot Learning and meta-learning
+
+- [ ] [CIKM 2019] ([paper](https://arxiv.org/pdf/1905.09718.pdf)) Meta-GNN: On Few-shot Node Classification in Graph Meta-learning
+- [ ] [CIKM 2019] ([paper](https://dl.acm.org/ft_gateway.cfm?id=3358100&ftid=2094704&dwn=1&CFID=171001657&CFTOKEN=1f6fc8985404ad9c-76434F7F-0C16-4973-955D9C02C525993F)) Large Margin Prototypical Network for Few-shot Relation Classification with Fine-grained Features
