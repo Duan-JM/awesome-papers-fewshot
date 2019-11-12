@@ -1,41 +1,40 @@
 # 目录
 <!-- vim-markdown-toc GitLab -->
 
-- [目录](#%e7%9b%ae%e5%bd%95)
-- [Introduction](#introduction)
-  - [How to recommend a paper](#how-to-recommend-a-paper)
-- [Image Classification](#image-classification)
-  - [Summary](#summary)
-  - [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
-      - [Papers](#papers)
-  - [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
-      - [Summary Papers](#summary-papers)
-      - [Papers](#papers-1)
-  - [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
-      - [Traditional](#traditional)
-      - [Semi-Supervised](#semi-supervised)
-      - [Supervised](#supervised)
-  - [Special](#special)
-      - [Unsorted](#unsorted)
-      - [External Memory](#external-memory)
-      - [Architecture](#architecture)
-      - [Task Representation and Measure](#task-representation-and-measure)
-      - [Multi Label Image Classification](#multi-label-image-classification)
-      - [Add Additional Informations](#add-additional-informations)
-      - [Self-training](#self-training)
-  - [Results in Datasets](#results-in-datasets)
-      - [Omniglot](#omniglot)
-      - [mini-Imagenet](#mini-imagenet)
-      - [tiredImagenet](#tiredimagenet)
-      - [Imagenet](#imagenet)
-      - [CUB 2011](#cub-2011)
-- [Object Detection](#object-detection)
-- [Segementation](#segementation)
-- [Generative Model](#generative-model)
-- [Domain Adaptation](#domain-adaptation)
-- [Reinforcement Learning](#reinforcement-learning)
-- [Visual Tracking](#visual-tracking)
-- [Others](#others)
+* [Introduction](#introduction)
+  * [How to recommend a paper](#how-to-recommend-a-paper)
+* [Image Classification](#image-classification)
+  * [Summary](#summary)
+  * [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
+      * [Papers](#papers)
+  * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
+      * [Summary Papers](#summary-papers)
+      * [Papers](#papers-1)
+  * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
+      * [Traditional](#traditional)
+      * [Semi-Supervised](#semi-supervised)
+      * [Supervised](#supervised)
+  * [Special](#special)
+      * [Unsorted](#unsorted)
+      * [External Memory](#external-memory)
+      * [Architecture](#architecture)
+      * [Task Representation and Measure](#task-representation-and-measure)
+      * [Multi Label Image Classification](#multi-label-image-classification)
+      * [Add Additional Informations](#add-additional-informations)
+      * [Self-training](#self-training)
+  * [Results in Datasets](#results-in-datasets)
+      * [Omniglot](#omniglot)
+      * [mini-Imagenet](#mini-imagenet)
+      * [tiredImagenet](#tiredimagenet)
+      * [Imagenet](#imagenet)
+      * [CUB 2011](#cub-2011)
+* [Object Detection](#object-detection)
+* [Segementation](#segementation)
+* [Generative Model](#generative-model)
+* [Domain Adaptation](#domain-adaptation)
+* [Reinforcement Learning](#reinforcement-learning)
+* [Visual Tracking](#visual-tracking)
+* [Others](#others)
 
 <!-- vim-markdown-toc -->
 # Introduction
@@ -326,7 +325,7 @@ The only thing you need to do is make a new issue with its name, conference name
 - [x] [CVPR 2019] ([paper](https://arxiv.org/abs/1806.04728)) RepMet-Representative-based Metric Learning for Classification and Few-shot Object Detection
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1903.09372.pdf)) Few-shot Adaptive Faster R-CNN
 - [x] [CVPR 2019] Feature Selective Anchor-Free Module for Single-Shot Object Detection
-- [x] [ICCV 2019] Few-shot Object Detection via Feature Reweighting
+- [x] [ICCV 2019] ([paper](https://arxiv.org/pdf/1812.01866)) Few-shot Object Detection via Feature Reweighting
 
 # Segementation
 - [x] [CVPR 2019] CANet- Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning
@@ -339,7 +338,7 @@ The only thing you need to do is make a new issue with its name, conference name
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1902.11123.pdf) [code](https://github.com/MSiam/AdaptiveMaskedProxies.)) SAR Image Classification Using Few-shot Cross-domain Transfer Learning
 
 # Generative Model
-- [x] [ICCV 2019] Few-Shot Unsupervised Image-to-Image Translation
+- [x] [ICCV 2019] ([paper](https://arxiv.org/pdf/1905.01723)) Few-Shot Unsupervised Image-to-Image Translation
 - [x] [ICCV 2019] ([paper](https://arxiv.org/abs/1905.01164) [code](https://github.com/tamarott/SinGAN)) SinGAN: Learning a Generative Model from a Single Natural Image
 - [x] [CVPR 2018] Multi-Content GAN for Few-Shot Font Style Transfer
 - [x] [NIPS 2019] ( [paper](https://nvlabs.github.io/few-shot-vid2vid/main.pdf) [code](https://nvlabs.github.io/few-shot-vid2vid/) )Few-shot Video-to-Video Synthesis
@@ -363,3 +362,4 @@ The only thing you need to do is make a new issue with its name, conference name
     * Introduce dynamic routing to generate better class representations. One real industrial project.
 
 - [x] [NIPS 2018] Neural Voice Cloning with a Few Samples
+- [x] [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
