@@ -1,40 +1,41 @@
 # 目录
 <!-- vim-markdown-toc GitLab -->
 
-* [Introduction](#introduction)
-  * [How to recommend a paper](#how-to-recommend-a-paper)
-* [Image Classification](#image-classification)
-  * [Summary](#summary)
-  * [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
-      * [Papers](#papers)
-  * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
-      * [Summary Papers](#summary-papers)
-      * [Papers](#papers-1)
-  * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
-      * [Traditional](#traditional)
-      * [Semi-Supervised](#semi-supervised)
-      * [Supervised](#supervised)
-  * [Special](#special)
-      * [Unsorted](#unsorted)
-      * [External Memory](#external-memory)
-      * [Architecture](#architecture)
-      * [Task Representation and Measure](#task-representation-and-measure)
-      * [Multi Label Image Classification](#multi-label-image-classification)
-      * [Add Additional Informations](#add-additional-informations)
-      * [Self-training](#self-training)
-  * [Results in Datasets](#results-in-datasets)
-      * [Omniglot](#omniglot)
-      * [mini-Imagenet](#mini-imagenet)
-      * [tiredImagenet](#tiredimagenet)
-      * [Imagenet](#imagenet)
-      * [CUB 2011](#cub-2011)
-* [Object Detection](#object-detection)
-* [Segementation](#segementation)
-* [Generative Model](#generative-model)
-* [Domain Adaptation](#domain-adaptation)
-* [Reinforcement Learning](#reinforcement-learning)
-* [Visual Tracking](#visual-tracking)
-* [Others](#others)
+- [目录](#%e7%9b%ae%e5%bd%95)
+- [Introduction](#introduction)
+  - [How to recommend a paper](#how-to-recommend-a-paper)
+- [Image Classification](#image-classification)
+  - [Summary](#summary)
+  - [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
+      - [Papers](#papers)
+  - [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
+      - [Summary Papers](#summary-papers)
+      - [Papers](#papers-1)
+  - [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
+      - [Traditional](#traditional)
+      - [Semi-Supervised](#semi-supervised)
+      - [Supervised](#supervised)
+  - [Special](#special)
+      - [Unsorted](#unsorted)
+      - [External Memory](#external-memory)
+      - [Architecture](#architecture)
+      - [Task Representation and Measure](#task-representation-and-measure)
+      - [Multi Label Image Classification](#multi-label-image-classification)
+      - [Add Additional Informations](#add-additional-informations)
+      - [Self-training](#self-training)
+  - [Results in Datasets](#results-in-datasets)
+      - [Omniglot](#omniglot)
+      - [mini-Imagenet](#mini-imagenet)
+      - [tiredImagenet](#tiredimagenet)
+      - [Imagenet](#imagenet)
+      - [CUB 2011](#cub-2011)
+- [Object Detection](#object-detection)
+- [Segementation](#segementation)
+- [Generative Model](#generative-model)
+- [Domain Adaptation](#domain-adaptation)
+- [Reinforcement Learning](#reinforcement-learning)
+- [Visual Tracking](#visual-tracking)
+- [Others](#others)
 
 <!-- vim-markdown-toc -->
 # Introduction
@@ -281,10 +282,43 @@ The only thing you need to do is make a new issue with its name, conference name
 | 2017  | MAML                 | Conv4    | 48.7% +- 1.84%  | 63.15% +- 0.91% |
 | 2017  | Prototypical Network | Conv4    | 49.42% +- 0.78% | 68.20% +- 0.66% |
 | 2018  | Relation Network     | Conv4    | 50.44% +- 0.82% | 65.32% +- 0.70% |
+| 2018  | MetaGAN: An Adversarial Approach to Few-Shot Learning    |  Conv4   | 46.13+-1.78% | 60.71+-0.89% |
+| 2019  | Incremental Few-Shot Learning with Attention Attractor Networks    | ResNet-10    | 54.95+-0.30 | 63.04+-0.30 |
+| 2019  | Adaptive Cross-Modal Few-shot Learning    | ResNet-12    | 65.30 ±0.49% | 78.10 ± 0.36% |
+| 2019  | Cross Attention Network for Few-shot Classification    | Conv4    | 67.19 ± 0.55 | 80.64 ± 0.35 |
+| 2019  | Learning to Self-Train for Semi-Supervised Few-Shot Classification   | ResNet-12    | 70.1 ± 1.9 | 78.7 ± 0.8 |
+| 2019  | Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning    | Conv-64F    | 51.24±0.74% | 71.02±0.64% |
+| 2019  | Few-Shot Learning with Localization in Realistic Settings    | ResNet-50    | 49.64±.31% | 69.45±.28% |
+| 2019  | Baby steps towards few-shot learning with multiple semantics    | ResNet-12    | 67.2 ± 0.4% | 74.8 ± 0.3% |
+| 2019  | Generating Classification Weights with GNN Denoising Autoencoders for Few-Shot Learning    | WRN-28-10    | 62.96+-0.15% | 78.85+-0.10% |
+| 2019  | Spot and Learn: A Maximum-Entropy Patch Sampler for Few-Shot Image Classification    | Conv4   | 47.18+-0.83% | 66.41+-0.67% |
+| 2019  | Meta-Transfer Learning for Few-Shot Learning    | ResNet-12    | 61.2+-1.8% | 75.5+-0.8% |
+| 2019  | Dense Classification and Implanting for Few-Shot Learning    | ResNet-12    | 62.53+-0.19% | 78.95+-0.13% |
+| 2019  | Edge-Labeling Graph Neural Network for Few-shot Learning   | Conv4  |  | 66.85% |
+| 2019  | Finding Task-Relevant Features for Few-Shot Learning by Category Traversal    | COnv4    | 41.62% | 58.77% |
+| 2019  | Few-shot Learning via Saliency-guided Hallucination of Samples    | ResNet-12    | 65.30 ±0.49% | 78.10 ± 0.36% |
+| 2018  | Memory Matching Networks for One-Shot Image Recognition    | Conv4    | 53.37+-0.48% | 66.97+-0.35% |
+| 2018  | Dynamic Few-Shot Visual Learning without Forgetting    | ResNet-12    | 55.45+-0.89% | 70.13+-0.68% |
+| 2018  | Few-Shot Learning with Global Class Representations    | Conv4    | 53.21+-0.40% | 72.34+-0.32% |
+| 2018  | LGM-Net: Learning to Generate Matching Networks for Few-Shot Learning    | Conv4    | 69.13+-0.35% | 72.28+-0.68% |
+| 2018  | TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning    | ResNet-12    | 61.65 ± 0.15% | 76.36 ± 0.10% |
+| 2019  | META-LEARNING WITH LATENT EMBEDDING OPTIMIZATION    | WRN-28- 10    | 61.76+-0.08% | 77.59+-0.12% |
+| 2019  | LEARNING TO PROPAGATE LABELS: TRANSDUCTIVE PROPAGATION NETWORK FOR FEW-SHOT LEARNING  | Conv4    | 55.51% | 69.86% |
+| 2018  | META-LEARNING FOR SEMI-SUPERVISED FEW-SHOT CLASSIFICATION    |  Conv4   | 50.09+-0.45% | 64.59+-0.28% |
+| 2018  | A SIMPLE NEURAL ATTENTIVE META-LEARNER    |  Conv4   | 55.71+-0.99% | 68.88+-0.92% |
+| 2017  | OPTIMIZATION AS A MODEL FOR FEW-SHOT LEARNING    |  Conv4   | 43.44+-0.77% | 60.60+-0.71% |
+| 2019  | Centroid Networks for Few-Shot Clustering and Unsupervised Few-Shot Classification    |  Conv4   |  | 62.6+-0.5% |
+| 2019  | Infinite Mixture Prototypes for Few-Shot Learning   |  Conv4   | 49.6+-0.8% | 68.1+-0.8% |
 
 #### [tiredImagenet](https://arxiv.org/abs/1803.00676)
 #### [Imagenet](http://image-net.org)
 #### [CUB 2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)
+| Years | Methods              | Backbone | N-way N-shot    | Scores    |
+|-------|----------------------|----------|-----------------|-----------------|
+| 2019  | Stacked Semantic-Guided Attention Model for Fine-Grained Zero-Shot Learning    | DET/GTA    | zero-shot | 68.9% |
+| 2019  | Generalized Zero-Shot Learning with Deep Calibration Network    | GoogLeNet-v2/ResNet-101   | zero-shot | 55.6/56.2% |
+| 2019  | Generalized Zero- and Few-Shot Learning via Aligned Variational Autoencoders    | ResNet-101    | 1-shot/2-shot | 53.5%/51.6% |
+| 2019  | Learning Compositional Representations for Few-Shot Recognition    | ResNet-10    | 1-shot/2-shot/5-shot/ | 63.1%/69.2%/74.5% |
 
 # Object Detection
 - [x] [CVPR 2017] ([paper](https://arxiv.org/pdf/1612.02559.pdf) [code](https://github.com/rkwitt/GuidedAugmentation)) AGA - Attribute-Guided Augmentation
