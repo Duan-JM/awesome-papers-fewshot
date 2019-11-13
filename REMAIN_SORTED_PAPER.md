@@ -8,9 +8,6 @@
 # New Comming
 - [ ] [NIPS 2018] Meta-Learning MCMC Proposals
 
-- [ ] [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
-- [ ] [IJCAI 2019] Metadata-driven Task Relation Discovery for Multi-task Learning
-
 - [ ] [ACMMM 2019] TGG: Transferable Graph Generation for Zero-shot and Few-shot Learning
 - [ ] [ACMMM 2019] Fewer-Shots and Lower-Resolutions: Towards Ultrafast Face Recognition in the Wild
 
