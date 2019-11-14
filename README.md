@@ -224,6 +224,11 @@ The only thing you need to do is make a new issue with its name, conference name
     * Learns to propagate messages between prototypes of different classes on the graph, so that learning the prototype of each class benefits from the data of other related classes.
     * Attention mechanic.
 
+- [x] [ICCV 2019] Transductive Episodic-Wise Adaptive Metric for Few-Shot Learning
+
+- [x] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Hao_Collect_and_Select_Semantic_Alignment_Metric_Learning_for_Few-Shot_Learning_ICCV_2019_paper.pdf) Collect and Select: Semantic Alignment Metric Learning for Few-Shot Learning
+    * Use attention to pick(Select) most relevant part to compare
+
 ## Special
 #### Unsorted
 - [x] [Nature 子刊 MI 2018] ([paper](https://arxiv.org/pdf/1810.01256.pdf)) Continuous Learning of Context-dependent Processing in Neural Networks
@@ -339,7 +344,7 @@ The only thing you need to do is make a new issue with its name, conference name
 
 # Generative Model
 - [x] [ICCV 2019] ([paper](https://arxiv.org/pdf/1905.01723)) Few-Shot Unsupervised Image-to-Image Translation
-- [x] [ICCV 2019] ([paper](https://arxiv.org/abs/1905.01164) [code](https://github.com/tamarott/SinGAN)) SinGAN: Learning a Generative Model from a Single Natural Image
+- [x] [ICCV 2019 best] ([paper](https://arxiv.org/abs/1905.01164) [code](https://github.com/tamarott/SinGAN)) SinGAN: Learning a Generative Model from a Single Natural Image
 - [x] [CVPR 2018] Multi-Content GAN for Few-Shot Font Style Transfer
 - [x] [NIPS 2019] ( [paper](https://nvlabs.github.io/few-shot-vid2vid/main.pdf) [code](https://nvlabs.github.io/few-shot-vid2vid/) )Few-shot Video-to-Video Synthesis
 
@@ -363,3 +368,7 @@ The only thing you need to do is make a new issue with its name, conference name
 
 - [x] [NIPS 2018] Neural Voice Cloning with a Few Samples
 - [x] [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
+- [x] [ICCV 2019] ([paper](https://arxiv.org/pdf/1909.01205)) Few-Shot Generalization for Single-Image 3D Reconstruction via Priors
+- [x] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)) ACMM: Aligned Cross-Modal Memory for Few-Shot Image and Sentence Matching
+- [x] [ICCV 2019] (RECOMMANDED!) Task-Driven Modular Networks for Zero-Shot Compositional Learning
+    * An interesting usage of a bunch of MLPs.

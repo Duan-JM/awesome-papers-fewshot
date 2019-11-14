@@ -47,23 +47,12 @@
 - [ ] [ICLR 2019] Meta-Learning Probabilistic Inference for Prediction
 
 - [ ] [ECCV 2018] Few-Shot Human Motion Prediction via Meta-Learning
-- [ ] [ICCV 2017] Supplementary Meta-Learning: Towards a Dynamic Model for Deep Neural Networks
 - [ ] [ECCV 2018] Dynamic Conditional Networks for Few-Shot Learning
 - [ ] [ECCV 2018] Compound Memory Networks for Few-shot Video Classification
-- [ ] [ICCV 2019] Transductive Episodic-Wise Adaptive Metric for Few-Shot Learning.pdf
-- [ ] [ICCV 2019] One-Shot Neural Architecture Search via Self-Evaluated Template Network.pdf
-- [ ] [ICCV 2019] Task-Driven Modular Networks for Zero-Shot Compositional Learning.pdf
-- [ ] [ICCV 2019] Attract or Distract-Exploit the Margin of Open Set
-- [ ] [ICCV 2019] Semantic-Aware Knowledge Preservation for Zero-Shot Sketch-Based Image Retrieval
 
 
 ## ICCV Paper Collation for few-Shot Learning and meta-learning
-
-- [ ] [ICCV 2019] ([paper](https://arxiv.org/pdf/1909.01205)) Few-Shot Generalization for Single-Image 3D Reconstruction via Priors
-- [ ] [ICCV 2019] ([paper](https://arxiv.org/pdf/1904.03208)) Semantic-Aware Knowledge Preservation for Zero-Shot Sketch-Based Image Retrieval
 - [ ] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dvornik_Diversity_With_Cooperation_Ensemble_Methods_for_Few-Shot_Classification_ICCV_2019_paper.pdf)) Diversity with Cooperation: Ensemble Methods for Few-Shot Classification
-- [ ] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Hao_Collect_and_Select_Semantic_Alignment_Metric_Learning_for_Few-Shot_Learning_ICCV_2019_paper.pdf) Collect and Select: Semantic Alignment Metric Learning for Few-Shot Learning
-- [ ] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)) ACMM: Aligned Cross-Modal Memory for Few-Shot Image and Sentence Matching
 
 ## CIKM Paper Collation for few-shot Learning and meta-learning
 
