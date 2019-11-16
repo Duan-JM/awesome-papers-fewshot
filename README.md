@@ -1,14 +1,23 @@
+Awesome Papers Few-shot focus on collecting paper published on top conferences in Few-shot learning area,
+hoping that this cut some time costing for beginners. Morever we also glad to see this repo can be a virtual online seminar,
+which can be a home to all researchers who have the enthusiasm to exchange interesting ideas.
+
+Awesome Papers Few-shot 收集了近几年定会中与小样本学习相关的论文，并简单的进行了类别划分与整理。
+一方面，我们希望这个仓库能够帮助广大希望入坑小样本学习的同胞减少入坑搜集论文的时间成本。另一方面，
+我们也希望这里能称为研究小样本学习的同胞们互相交流有趣想法的一个小平台。
+
+The papers collected in this repo are manually selected by myself, I am hoping that more researchers interested in this area can maintain this repo together.
+
+仓库中收藏的论文均为我本人从历年顶会中手动挑选并阅读过和小样本学习相关的论文，也希望能有广大的同行来共同维护它。
+（注意：部分深入解释 Meta-Learning 的论文并未收入到此仓库中，有兴趣的朋友可以发 issue 一起讨论）。
+
 # 目录
 <!-- vim-markdown-toc GitLab -->
 
-* [Introduction](#introduction)
-  * [How to recommend a paper](#how-to-recommend-a-paper)
 * [Image Classification](#image-classification)
-  * [Summary](#summary)
   * [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
       * [Papers](#papers)
   * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
-      * [Summary Papers](#summary-papers)
       * [Papers](#papers-1)
   * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
       * [Traditional](#traditional)
@@ -23,50 +32,19 @@
       * [Add Additional Informations](#add-additional-informations)
       * [Self-training](#self-training)
   * [Results in Datasets](#results-in-datasets)
-      * [Omniglot](#omniglot)
       * [mini-Imagenet](#mini-imagenet)
-      * [tiredImagenet](#tiredimagenet)
-      * [Imagenet](#imagenet)
-      * [CUB 2011](#cub-2011)
-* [Object Detection](#object-detection)
-* [Segementation](#segementation)
-* [Generative Model](#generative-model)
-* [Domain Adaptation](#domain-adaptation)
-* [Reinforcement Learning](#reinforcement-learning)
-* [Visual Tracking](#visual-tracking)
-* [Others](#others)
+* [More Direction](#more-direction)
+    * [Object Detection](#object-detection)
+    * [Segementation](#segementation)
+    * [Generative Model](#generative-model)
+    * [Domain Adaptation](#domain-adaptation)
+    * [Reinforcement Learning](#reinforcement-learning)
+    * [Visual Tracking](#visual-tracking)
+    * [Others](#others)
+  * [How to recommend a paper](#how-to-recommend-a-paper)
 
 <!-- vim-markdown-toc -->
-# Introduction
-
-Awesome Papers Few-shot focus on collecting paper published on top conferences in Few-shot learning area,
-hoping that this cut some time costing for beginners. Morever we also glad to see this repo can be a virtual online seminar,
-which can be a home to all researchers who have the enthusiasm to exchange interesting ideas.
-
-Awesome Papers Few-shot 收集了近几年定会中与小样本学习相关的论文，并简单的进行了类别划分与整理。
-一方面，我们希望这个仓库能够帮助广大希望入坑小样本学习的同胞减少入坑搜集论文的时间成本。另一方面，
-我们也希望这里能称为研究小样本学习的同胞们互相交流有趣想法的一个小平台。
-
-The papers collected in this repo are manually selected by myself, I am hoping that more researchers interested in this area can maintain this repo together.
-
-仓库中收藏的论文均为我本人从历年顶会中手动挑选并阅读过和小样本学习相关的论文，也希望能有广大的同行来共同维护它。
-（注意：部分深入解释 Meta-Learning 的论文并未收入到此仓库中，有兴趣的朋友可以发 issue 一起讨论）。
-
-## How to recommend a paper
-You are highly welcome to recommend a paper to this repo. 
-The only thing you need to do is make a new issue with its name, conference name, years and some recommends words(no more than 400 words).
-
-非常欢迎大家来推荐相关论文呀，推荐论文的方式非常简单，只需要提交一个 Issue，并在 Issue 中写清楚论文的题目，发表的会议名称以及年份和一个不超过 400 字的推荐理由即可。
-
-> EXAMPLE
->
-> Title: [ICML 2019] TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
->
-> Recommend: First paper point out how to measure the backbone is bad or good for the current task(episode).
-
-
 # Image Classification
-## Summary
 - [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/1904.05046.pdf)) Generalizing from a Few Examples A Survey on Few-Shot Learning
 - [x] [ICLR 2019] ([paper](https://arxiv.org/pdf/1904.04232) [code](https://github.com/wyharveychen/CloserLookFewShot)) A Closer Look At Few-shot Classification
 
@@ -111,7 +89,6 @@ The only thing you need to do is make a new issue with its name, conference name
 ## Generative Based Few-shot Learning
 **One line descriptions:** Generate features to expasion small datasets to large datasets, then fintune.
 
-#### Summary Papers
 - [x] [NIPS 2018 Bengio] ([paper](https://papers.nips.cc/paper/7504-metagan-an-adversarial-approach-to-few-shot-learning.pdf)) MetaGAN An Adversarial Approach to Few-Shot Learning
 
 
@@ -277,7 +254,13 @@ The only thing you need to do is make a new issue with its name, conference name
 
 
 ## Results in Datasets
-#### [Omniglot](https://github.com/brendenlake/omniglot)
+Basically, we use [Omniglot](https://github.com/brendenlake/omniglot), [mini-Imagenet](http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning),
+ [tiredImagenet](https://arxiv.org/abs/1803.00676), [CUB 2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) and full [Imagenet](http://image-net.org) for the datasets. We list the latest methods' performs in mini-Imagenet.
+Welcome contributes to expand the tables of results. 
+
+基本上在小样本图像分类领域，主流的数据集为 Omniglot，mini-Imagenet，tired-Imagenet，CUB 和完整的 ImageNet。在这里我们总结了当前已有的方法在 mini-ImageNet 上的表现。
+非常欢迎大家来补充呀。
+
 #### [mini-Imagenet](http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning)
 
 | Years | Methods              | Backbone | 5-way 1-shot    | 5-way 5-shot    |
@@ -314,17 +297,9 @@ The only thing you need to do is make a new issue with its name, conference name
 | 2019  | Centroid Networks for Few-Shot Clustering and Unsupervised Few-Shot Classification    |  Conv4   |  | 62.6+-0.5% |
 | 2019  | Infinite Mixture Prototypes for Few-Shot Learning   |  Conv4   | 49.6+-0.8% | 68.1+-0.8% |
 
-#### [tiredImagenet](https://arxiv.org/abs/1803.00676)
-#### [Imagenet](http://image-net.org)
-#### [CUB 2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)
-| Years | Methods              | Backbone | N-way N-shot    | Scores    |
-|-------|----------------------|----------|-----------------|-----------------|
-| 2019  | Stacked Semantic-Guided Attention Model for Fine-Grained Zero-Shot Learning    | DET/GTA    | zero-shot | 68.9% |
-| 2019  | Generalized Zero-Shot Learning with Deep Calibration Network    | GoogLeNet-v2/ResNet-101   | zero-shot | 55.6/56.2% |
-| 2019  | Generalized Zero- and Few-Shot Learning via Aligned Variational Autoencoders    | ResNet-101    | 1-shot/2-shot | 53.5%/51.6% |
-| 2019  | Learning Compositional Representations for Few-Shot Recognition    | ResNet-10    | 1-shot/2-shot/5-shot/ | 63.1%/69.2%/74.5% |
 
-# Object Detection
+# More Direction
+### Object Detection
 - [x] [CVPR 2017] ([paper](https://arxiv.org/pdf/1612.02559.pdf) [code](https://github.com/rkwitt/GuidedAugmentation)) AGA - Attribute-Guided Augmentation
     * Using external depth and pose informations
 - [x] [CVPR 2019] ([paper](https://arxiv.org/abs/1806.04728)) RepMet-Representative-based Metric Learning for Classification and Few-shot Object Detection
@@ -332,7 +307,7 @@ The only thing you need to do is make a new issue with its name, conference name
 - [x] [CVPR 2019] Feature Selective Anchor-Free Module for Single-Shot Object Detection
 - [x] [ICCV 2019] ([paper](https://arxiv.org/pdf/1812.01866)) Few-shot Object Detection via Feature Reweighting
 
-# Segementation
+### Segementation
 - [x] [CVPR 2019] CANet- Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning
 - [x] [AAAI 2019] ([paper](https://www.researchgate.net/publication/335296764_Attention-Based_Multi-Context_Guiding_for_Few-Shot_Semantic_Segmentation)) Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation
     * Utilize the output of the different layers between query branch and support branch to gain more context informations.
@@ -342,23 +317,23 @@ The only thing you need to do is make a new issue with its name, conference name
 
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1902.11123.pdf) [code](https://github.com/MSiam/AdaptiveMaskedProxies.)) SAR Image Classification Using Few-shot Cross-domain Transfer Learning
 
-# Generative Model
+### Generative Model
 - [x] [ICCV 2019] ([paper](https://arxiv.org/pdf/1905.01723)) Few-Shot Unsupervised Image-to-Image Translation
 - [x] [ICCV 2019 best] ([paper](https://arxiv.org/abs/1905.01164) [code](https://github.com/tamarott/SinGAN)) SinGAN: Learning a Generative Model from a Single Natural Image
 - [x] [CVPR 2018] Multi-Content GAN for Few-Shot Font Style Transfer
 - [x] [NIPS 2019] ( [paper](https://nvlabs.github.io/few-shot-vid2vid/main.pdf) [code](https://nvlabs.github.io/few-shot-vid2vid/) )Few-shot Video-to-Video Synthesis
 
-# Domain Adaptation
+### Domain Adaptation
 - [x] [NIPS 2017] Few-Shot Adversarial Domain Adaptation
 - [x] [ICCV 2019] Bidirectional One-Shot Unsupervised Domain Mapping
 
-# Reinforcement Learning
+### Reinforcement Learning
 - [x] [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
 
-# Visual Tracking
+### Visual Tracking
 - [x] [ICCV 2019] Deep Meta Learning for Real-Time Target-Aware Visual Tracking
 
-# Others
+### Others
 - [x] [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
 - [x] [AAAI 2018] AffinityNet- Semi-supervised Few-shot Learning for Disease Type Prediction
     * Use few-shot method to enhance oringal disease type prediction
@@ -372,3 +347,17 @@ The only thing you need to do is make a new issue with its name, conference name
 - [x] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)) ACMM: Aligned Cross-Modal Memory for Few-Shot Image and Sentence Matching
 - [x] [ICCV 2019] (RECOMMANDED!) Task-Driven Modular Networks for Zero-Shot Compositional Learning
     * An interesting usage of a bunch of MLPs.
+
+## How to recommend a paper
+You are highly welcome to recommend a paper to this repo. 
+The only thing you need to do is make a new issue with its name, conference name, years and some recommends words(no more than 400 words).
+
+非常欢迎大家来推荐相关论文呀，推荐论文的方式非常简单，只需要提交一个 Issue，并在 Issue 中写清楚论文的题目，发表的会议名称以及年份和一个不超过 400 字的推荐理由即可。
+
+> EXAMPLE
+>
+> Title: [ICML 2019] TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
+>
+> Recommend: First paper point out how to measure the backbone is bad or good for the current task(episode).
+
+
