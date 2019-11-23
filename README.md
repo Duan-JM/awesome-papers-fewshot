@@ -211,6 +211,10 @@ The papers collected in this repo are manually selected by myself, I am hoping t
 - [x] [Nature 子刊 MI 2018] ([paper](https://arxiv.org/pdf/1810.01256.pdf)) Continuous Learning of Context-dependent Processing in Neural Networks
     * During training a network consecutively for different tasks, OWNs weights are only allowed to be modified in the direction orthogonal to the subspace spanned by all inputs on which the network has been trained (termed input space hereafter). This ensures that new learning processes will not interfere with the learned tasks
 
+- [x] [ICCV 2019] (RECOMMANDED!) ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dvornik_Diversity_With_Cooperation_Ensemble_Methods_for_Few-Shot_Classification_ICCV_2019_paper.pdf)) Diversity with Cooperation: Ensemble Methods for Few-Shot Classification
+    * New way to solve few-shot learning problems without meta-learing.
+
+
 #### External Memory
 - [x] [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks
 

@@ -51,9 +51,6 @@
 - [ ] [ECCV 2018] Compound Memory Networks for Few-shot Video Classification
 
 
-## ICCV Paper Collation for few-Shot Learning and meta-learning
-- [ ] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dvornik_Diversity_With_Cooperation_Ensemble_Methods_for_Few-Shot_Classification_ICCV_2019_paper.pdf)) Diversity with Cooperation: Ensemble Methods for Few-Shot Classification
-
 ## CIKM Paper Collation for few-shot Learning and meta-learning
 
 - [ ] [CIKM 2019] ([paper](https://arxiv.org/pdf/1905.09718.pdf)) Meta-GNN: On Few-shot Node Classification in Graph Meta-learning
