@@ -319,7 +319,6 @@ Welcome contributes to expand the tables of results.
 - [x] [arXiv 2019] AMP-Adaptive Masked Proxies for Few-Shot Segmentation
     * Not sure result in this area.
 
-- [x] [CVPR 2019] ([paper](http://openaccess.thecvf.com/content_CVPRW_2019/papers/PBVS/Rostami_SAR_Image_Classification_Using_Few-Shot_Cross-Domain_Transfer_Learning_CVPRW_2019_paper.pdf) [code](https://github.com/MSiam/AdaptiveMaskedProxies.)) SAR Image Classification Using Few-shot Cross-domain Transfer Learning
 
 ### Generative Model
 - [x] [ICCV 2019] ([paper](https://arxiv.org/pdf/1905.01723)) Few-Shot Unsupervised Image-to-Image Translation
@@ -351,6 +350,7 @@ Welcome contributes to expand the tables of results.
 - [x] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)) ACMM: Aligned Cross-Modal Memory for Few-Shot Image and Sentence Matching
 - [x] [ICCV 2019] (RECOMMANDED!) Task-Driven Modular Networks for Zero-Shot Compositional Learning
     * An interesting usage of a bunch of MLPs.
+- [x] [CVPR 2019] ([paper](http://openaccess.thecvf.com/content_CVPRW_2019/papers/PBVS/Rostami_SAR_Image_Classification_Using_Few-Shot_Cross-Domain_Transfer_Learning_CVPRW_2019_paper.pdf) [code](https://github.com/MSiam/AdaptiveMaskedProxies.)) SAR Image Classification Using Few-shot Cross-domain Transfer Learning
 
 ## How to recommend a paper
 You are highly welcome to recommend a paper to this repo. 
