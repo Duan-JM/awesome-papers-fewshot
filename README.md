@@ -15,33 +15,33 @@ The papers collected in this repo are manually selected by myself, I am hoping t
 <!-- vim-markdown-toc GitLab -->
 
 * [Image Classification](#image-classification)
-  * [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
-      * [Papers](#papers)
-  * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
-      * [Papers](#papers-1)
-  * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
-      * [Traditional](#traditional)
-      * [Semi-Supervised](#semi-supervised)
-      * [Supervised](#supervised)
-  * [Special](#special)
-      * [Unsorted](#unsorted)
-      * [External Memory](#external-memory)
-      * [Architecture](#architecture)
-      * [Task Representation and Measure](#task-representation-and-measure)
-      * [Multi Label Image Classification](#multi-label-image-classification)
-      * [Add Additional Informations](#add-additional-informations)
-      * [Self-training](#self-training)
-  * [Results in Datasets](#results-in-datasets)
-      * [mini-Imagenet](#mini-imagenet)
+    * [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
+            * [Papers](#papers)
+    * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
+            * [Papers](#papers-1)
+    * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
+            * [Traditional](#traditional)
+            * [Semi-Supervised](#semi-supervised)
+            * [Supervised](#supervised)
+    * [Special](#special)
+            * [Unsorted](#unsorted)
+            * [External Memory](#external-memory)
+            * [Architecture](#architecture)
+            * [Task Representation and Measure](#task-representation-and-measure)
+            * [Multi Label Image Classification](#multi-label-image-classification)
+            * [Add Additional Informations](#add-additional-informations)
+            * [Self-training](#self-training)
+    * [Results in Datasets](#results-in-datasets)
+            * [mini-Imagenet](#mini-imagenet)
 * [More Direction](#more-direction)
-    * [Object Detection](#object-detection)
-    * [Segementation](#segementation)
-    * [Generative Model](#generative-model)
-    * [Domain Adaptation](#domain-adaptation)
-    * [Reinforcement Learning](#reinforcement-learning)
-    * [Visual Tracking](#visual-tracking)
-    * [Others](#others)
-  * [How to recommend a paper](#how-to-recommend-a-paper)
+        * [Object Detection](#object-detection)
+        * [Segementation](#segementation)
+        * [Generative Model](#generative-model)
+        * [Domain Adaptation](#domain-adaptation)
+        * [Reinforcement Learning](#reinforcement-learning)
+        * [Visual Tracking](#visual-tracking)
+        * [Others](#others)
+    * [How to recommend a paper](#how-to-recommend-a-paper)
 
 <!-- vim-markdown-toc -->
 # Image Classification
@@ -163,7 +163,7 @@ The papers collected in this repo are manually selected by myself, I am hoping t
     * Perform well on 1-shot rather than 5-shot or 10-shot
 
 - [x] [CVPR 2019] ([paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chu_Spot_and_Learn_A_Maximum-Entropy_Patch_Sampler_for_Few-Shot_Image_CVPR_2019_paper.pdf)) Spot and Learn A Maximum-Entropy Patch Sampler for Few-Shot Image Classification
-    * Sample parts of the image to from the batch to represent the class. 
+    * Sample parts of the image to form the batch to represent the class. 
     * One-shot not pretty good(51%)
 
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1906.01905.pdf)) Baby steps towards few-shot learning with multiple semantics
@@ -205,6 +205,12 @@ The papers collected in this repo are manually selected by myself, I am hoping t
 
 - [x] [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Hao_Collect_and_Select_Semantic_Alignment_Metric_Learning_for_Few-Shot_Learning_ICCV_2019_paper.pdf) Collect and Select: Semantic Alignment Metric Learning for Few-Shot Learning
     * Use attention to pick(Select) most relevant part to compare
+
+- [x] [AAAI 2019] Distribution Consistency based Covariance Metric Networks for Few Shot Learning
+    * Slight improve on 1-shot compare to Relation Network, however degenerate on 5-shot compare to Protoypical Network.
+
+- [x] [AAAI 2019] A Dual Attention Network with Semantic Embedding for Few-shot Learning
+    * Add spatial attention and task attention.
 
 ## Special
 #### Unsorted
@@ -310,6 +316,7 @@ Welcome contributes to expand the tables of results.
 - [x] [CVPR 2019] ([paper](https://arxiv.org/pdf/1903.09372.pdf)) Few-shot Adaptive Faster R-CNN
 - [x] [CVPR 2019] Feature Selective Anchor-Free Module for Single-Shot Object Detection
 - [x] [ICCV 2019] ([paper](https://arxiv.org/pdf/1812.01866)) Few-shot Object Detection via Feature Reweighting
+- [x] [NIPS 2019] ([papre](https://arxiv.org/abs/1911.12529))One-Shot Object Detection with Co-Attention and Co-Excitation
 
 ### Segementation
 - [x] [CVPR 2019] CANet- Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning
@@ -318,6 +325,8 @@ Welcome contributes to expand the tables of results.
 
 - [x] [arXiv 2019] AMP-Adaptive Masked Proxies for Few-Shot Segmentation
     * Not sure result in this area.
+- [x] [AAAI 2019] Unsupervised Meta-learning of Figure-Ground Segmentation via Imitating Visual Effects
+    * Differetiate the background from images. 
 
 
 ### Generative Model
@@ -351,6 +360,11 @@ Welcome contributes to expand the tables of results.
 - [x] [ICCV 2019] (RECOMMANDED!) Task-Driven Modular Networks for Zero-Shot Compositional Learning
     * An interesting usage of a bunch of MLPs.
 - [x] [CVPR 2019] ([paper](http://openaccess.thecvf.com/content_CVPRW_2019/papers/PBVS/Rostami_SAR_Image_Classification_Using_Few-Shot_Cross-Domain_Transfer_Learning_CVPRW_2019_paper.pdf) [code](https://github.com/MSiam/AdaptiveMaskedProxies.)) SAR Image Classification Using Few-shot Cross-domain Transfer Learning
+- [x] [AAAI 2019] Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification
+    * Relation Classification with FewRel
+- [x] [AAAI 2019] Few-Shot Image and Sentence Matching via Gated Visual-Semantic Embedding
+    * Image and Sentence Matching
+- [x] [AAAI 2018] Few Shot Transfer Learning BetweenWord Relatedness and Similarity Tasks Using A Gated Recurrent Siamese Network
 
 ## How to recommend a paper
 You are highly welcome to recommend a paper to this repo. 

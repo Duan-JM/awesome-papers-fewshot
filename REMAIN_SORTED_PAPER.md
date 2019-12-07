@@ -4,25 +4,15 @@
 - [ ] [NIPS 2019] Reconciling meta-learning and continual learning with online mixtures of tasks
 - [ ] [NIPS 2019] Neural Relational Inference with Fast Modular Meta-learning
 
+# Arxiv
+- [x] [arXiv2019] MarioNETte: Few-shot Face Reenactment Preserving Identity of Unseen Targets
+- [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection    
 
 # New Comming
 - [ ] [NIPS 2018] Meta-Learning MCMC Proposals
 
 - [ ] [ACMMM 2019] TGG: Transferable Graph Generation for Zero-shot and Few-shot Learning
 - [ ] [ACMMM 2019] Fewer-Shots and Lower-Resolutions: Towards Ultrafast Face Recognition in the Wild
-
-- [ ] [AAAI 2019] Unsupervised Meta-learning of Figure-Ground Segmentation via Imitating Visual Effects
-- [ ] [AAAI 2019] AffinityNet: Semi-supervised Few-shot Learning for Disease Type Prediction
-- [ ] [AAAI 2019] Few-Shot Image and Sentence Matching via Gated Visual-Semantic Embedding
-- [ ] [AAAI 2019] Distribution Consistency based Covariance Metric Networks for Few Shot Learning
-- [ ] [AAAI 2019] A Dual Attention Network with Semantic Embedding for Few-shot Learning
-- [ ] [AAAI 2019] Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification
-- [ ] [AAAI 2019] Attention-based Multi-Context Guiding for Few-Shot Semantic Segmentation
-- [ ] [AAAI 2018] Meta Multi-Task Learning for Sequence Modeling
-- [ ] [AAAI 2018] Learning to Generalize: Meta-Learning for Domain Generalization
-- [ ] [AAAI 2018] Few Shot Transfer Learning BetweenWord Relatedness and Similarity Tasks Using A Gated Recurrent Siamese Network
-- [ ] [AAAI 2017] Automated Data Cleansing through Meta Learning
-
 
 - [ ] [ICML 2019] Online Meta-Learning
 - [ ] [ICML 2019] Fast Context Adaptation via Meta-Learning
