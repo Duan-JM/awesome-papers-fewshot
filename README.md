@@ -12,38 +12,36 @@ The papers collected in this repo are manually selected by myself, I am hoping t
 （注意：部分深入解释 Meta-Learning 的论文并未收入到此仓库中，有兴趣的朋友可以发 issue 一起讨论）。
 
 # 目录
-<!-- vim-markdown-toc GitLab -->
-
 * [Image Classification](#image-classification)
     * [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
-            * [Papers](#papers)
+        * [Papers](#papers)
     * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
-            * [Papers](#papers-1)
+        * [Papers](#papers)
     * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
-            * [Traditional](#traditional)
-            * [Semi-Supervised](#semi-supervised)
-            * [Supervised](#supervised)
+        * [Traditional](#traditional)
+        * [Semi-Supervised](#semi-supervised)
+        * [Supervised](#supervised)
     * [Special](#special)
-            * [Unsorted](#unsorted)
-            * [External Memory](#external-memory)
-            * [Architecture](#architecture)
-            * [Task Representation and Measure](#task-representation-and-measure)
-            * [Multi Label Image Classification](#multi-label-image-classification)
-            * [Add Additional Informations](#add-additional-informations)
-            * [Self-training](#self-training)
+        * [Unsorted](#unsorted)
+        * [External Memory](#external-memory)
+        * [Architecture](#architecture)
+        * [Task Representation and Measure](#task-representation-and-measure)
+        * [Multi Label Image Classification](#multi-label-image-classification)
+        * [Add Additional Informations](#add-additional-informations)
+        * [Self-training](#self-training)
     * [Results in Datasets](#results-in-datasets)
-            * [mini-Imagenet](#mini-imagenet)
+        * [mini-Imagenet](#mini-imagenet)
 * [More Direction](#more-direction)
-        * [Object Detection](#object-detection)
-        * [Segementation](#segementation)
-        * [Generative Model](#generative-model)
-        * [Domain Adaptation](#domain-adaptation)
-        * [Reinforcement Learning](#reinforcement-learning)
-        * [Visual Tracking](#visual-tracking)
-        * [Others](#others)
-    * [How to recommend a paper](#how-to-recommend-a-paper)
+    * [Object Detection](#object-detection)
+    * [Segementation](#segementation)
+    * [Generative Model](#generative-model)
+    * [Domain Adaptation](#domain-adaptation)
+    * [Reinforcement Learning](#reinforcement-learning)
+    * [Visual Tracking](#visual-tracking)
+    * [Others](#others)
+* [How to recommend a paper](#how-to-recommend-a-paper)
 
-<!-- vim-markdown-toc -->
+
 # Image Classification
 - [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/1904.05046.pdf)) Generalizing from a Few Examples A Survey on Few-Shot Learning
 - [x] [ICLR 2019] ([paper](https://arxiv.org/pdf/1904.04232) [code](https://github.com/wyharveychen/CloserLookFewShot)) A Closer Look At Few-shot Classification
