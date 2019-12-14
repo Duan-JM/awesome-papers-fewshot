@@ -45,6 +45,7 @@ The papers collected in this repo are manually selected by myself, I am hoping t
 # Image Classification
 - [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/1904.05046.pdf)) Generalizing from a Few Examples A Survey on Few-Shot Learning
 - [x] [ICLR 2019] ([paper](https://arxiv.org/pdf/1904.04232) [code](https://github.com/wyharveychen/CloserLookFewShot)) A Closer Look At Few-shot Classification
+- [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/1909.02729.pdf)) A Baseline for Few-shot Image Classification
 
 
 ## Optimize Based Few-shot Learning
