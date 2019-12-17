@@ -5,8 +5,38 @@
 - [ ] [NIPS 2019] Neural Relational Inference with Fast Modular Meta-learning
 
 # Arxiv
-- [x] [arXiv2019] MarioNETte: Few-shot Face Reenactment Preserving Identity of Unseen Targets
-- [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection    
+- [x] [arXiv 2019] MarioNETte: Few-shot Face Reenactment Preserving Identity of Unseen Targets
+- [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection
+- [x] [arXiv 2019] Knowledge Graph Transfer Network for Few-Shot Recognition
+    * Knowledge Graph Transfer Network for Few-Shot Recognition 把prototypes构建成一个图，然后搞的，可以留个记录，他的测试主要在ImageNet FS和ImageNet 6K，但是显示的是PN本身就能到80%的情况下，他到了83%
+
+- [x] [arXiv 2019] Learning Generalizable Representations via Diverse Supervision
+- [x] [arXiv 2019] One-Shot Object Detection with Co-Attention and Co-Excitation
+    * senet的迁移
+
+- [x] [arXiv 2019] Auxiliary Learning for Deep Multi-task Learning 
+    * 解决multitask 参数共享问题的
+
+- [x] [arXiv 2019] All you need is a good representation: A multi-level and classifier-centric representation for few-shot learning (一般)
+- [x] [arXiv 2019] A Multi-Task Gradient Descent Method for Multi-Label Learning
+- [x] [arXiv 2019] Lifelong Spectral Clustering 
+    * 连续学习、聚类后期对信息的存储
+
+- [x] [arXiv 2019] CNN-based Dual-Chain Models for Knowledge Graph Learning
+- [x] [arXiv 2019] MetAdapt: Meta-Learned Task-Adaptive Architecture for Few-Shot Classification
+    * 使用模型搜索搜出来的结构，号称 SOTA 在 mini-imagenet （存疑）
+
+- [x] [arXiv 2019] Charting the Right Manifold: Manifold Mixup for Few-shot Learning
+    * 这个是在feature上动文章的，关键词是self-supervised 和 regularization technique。This work investigates the role of learning relevant feature manifold for few-shot tasks using self-supervision and regularization techniques.
+
+- [x] [arXiv 2019] MetaFun: Meta-Learning with Iterative Functional Updates
+    * 用了无限的特征长度，还有一个什么东西，效果很好83%
+
+**Application**
+- [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
+- [x] [arXiv 2019] Few-Shot Knowledge Graph Completion (关系抽取)
+- [x] [arXiv 2019] Few Shot Network Compression via Cross Distillation (模型压缩)
+- [x] [arXiv 2019] Real-Time Object Tracking via Meta-Learning: Efficient Model Adaptation and One-Shot Channel Pruning （目标跟踪）
 
 # New Comming
 - [ ] [NIPS 2018] Meta-Learning MCMC Proposals
@@ -15,7 +45,6 @@
 - [ ] [ACMMM 2019] Fewer-Shots and Lower-Resolutions: Towards Ultrafast Face Recognition in the Wild
 
 - [ ] [ICML 2019] Online Meta-Learning
-- [ ] [ICML 2019] Fast Context Adaptation via Meta-Learning
 - [ ] [ICML 2019] Provable Guarantees for Gradient-Based Meta-Learning
 - [ ] [ICML 2019] Hierarchically Structured Meta-learning
 - [ ] [ICML 2019] Meta-Learning Neural Bloom Filters

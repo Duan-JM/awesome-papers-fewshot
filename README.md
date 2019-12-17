@@ -12,25 +12,27 @@ The papers collected in this repo are manually selected by myself, I am hoping t
 （注意：部分深入解释 Meta-Learning 的论文并未收入到此仓库中，有兴趣的朋友可以发 issue 一起讨论）。
 
 # 目录
+<!-- vim-markdown-toc GitLab -->
+
 * [Image Classification](#image-classification)
-    * [Optimize Based Few-shot Learning](#optimize-based-few-shot-learning)
-        * [Papers](#papers)
-    * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
-        * [Papers](#papers)
-    * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
-        * [Traditional](#traditional)
-        * [Semi-Supervised](#semi-supervised)
-        * [Supervised](#supervised)
-    * [Special](#special)
-        * [Unsorted](#unsorted)
-        * [External Memory](#external-memory)
-        * [Architecture](#architecture)
-        * [Task Representation and Measure](#task-representation-and-measure)
-        * [Multi Label Image Classification](#multi-label-image-classification)
-        * [Add Additional Informations](#add-additional-informations)
-        * [Self-training](#self-training)
-    * [Results in Datasets](#results-in-datasets)
-        * [mini-Imagenet](#mini-imagenet)
+  * [Parameter Optimize Based Few-shot Learning](#parameter-optimize-based-few-shot-learning)
+      * [Papers](#papers)
+  * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
+      * [Papers](#papers-1)
+  * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
+      * [Traditional](#traditional)
+      * [Semi-Supervised](#semi-supervised)
+      * [Supervised](#supervised)
+  * [Special](#special)
+      * [Unsorted](#unsorted)
+      * [External Memory](#external-memory)
+      * [Architecture](#architecture)
+      * [Task Representation and Measure](#task-representation-and-measure)
+      * [Multi Label Image Classification](#multi-label-image-classification)
+      * [Add Additional Informations](#add-additional-informations)
+      * [Self-training](#self-training)
+  * [Results in Datasets](#results-in-datasets)
+      * [mini-Imagenet](#mini-imagenet)
 * [More Direction](#more-direction)
     * [Object Detection](#object-detection)
     * [Segementation](#segementation)
@@ -39,8 +41,9 @@ The papers collected in this repo are manually selected by myself, I am hoping t
     * [Reinforcement Learning](#reinforcement-learning)
     * [Visual Tracking](#visual-tracking)
     * [Others](#others)
-* [How to recommend a paper](#how-to-recommend-a-paper)
+  * [How to recommend a paper](#how-to-recommend-a-paper)
 
+<!-- vim-markdown-toc -->
 
 # Image Classification
 - [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/1904.05046.pdf)) Generalizing from a Few Examples A Survey on Few-Shot Learning
@@ -48,7 +51,7 @@ The papers collected in this repo are manually selected by myself, I am hoping t
 - [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/1909.02729.pdf)) A Baseline for Few-shot Image Classification
 
 
-## Optimize Based Few-shot Learning
+## Parameter Optimize Based Few-shot Learning
 **One line descriptions:** Generate parameters for the classifier or finetune part of the models
 
 #### Papers
@@ -83,6 +86,9 @@ The papers collected in this repo are manually selected by myself, I am hoping t
 - [x] [ICLR 2019] Meta-learning with differentiable closed-form solvers
     * Teach to use tradional machining learning methods
     * Most likely no good than LEO
+
+- [x] [ICML 2019] Fast Context Adaptation via Meta-Learning
+    * Update partial parameters
 
 
 ## Generative Based Few-shot Learning
