@@ -41,7 +41,12 @@ The papers collected in this repo are manually selected by myself, I am hoping t
     * [Reinforcement Learning](#reinforcement-learning)
     * [Visual Tracking](#visual-tracking)
     * [Others](#others)
-  * [How to recommend a paper](#how-to-recommend-a-paper)
+* [Other Awesome Resources](#other-awesome-resources)
+    * [Relevant Awesome Datasets Repo](#relevant-awesome-datasets-repo)
+    * [Relevant Awesome Few-shot PlayGround Repo](#relevant-awesome-few-shot-playground-repo)
+    * [Relevant Awesome Blogs](#relevant-awesome-blogs)
+* [How to recommend a paper](#how-to-recommend-a-paper)
+* [Main Contributors](#main-contributors)
 
 <!-- vim-markdown-toc -->
 
@@ -371,7 +376,15 @@ Welcome contributes to expand the tables of results.
     * Image and Sentence Matching
 - [AAAI 2018] Few Shot Transfer Learning BetweenWord Relatedness and Similarity Tasks Using A Gated Recurrent Siamese Network
 
-## How to recommend a paper
+# Other Awesome Resources
+We collect some awesome code and blogs here.
+(Note that if you are now writing a few-shot papers, feel free to checkout `resources` file to get some bib there)
+
+### Relevant Awesome Datasets Repo
+### Relevant Awesome Few-shot PlayGround Repo
+### Relevant Awesome Blogs
+
+# How to recommend a paper
 You are highly welcome to recommend a paper to this repo. 
 The only thing you need to do is make a new issue with its name, conference name, years and some recommends words(no more than 400 words).
 
@@ -383,4 +396,6 @@ The only thing you need to do is make a new issue with its name, conference name
 >
 > Recommend: First paper point out how to measure the backbone is bad or good for the current task(episode).
 
+# Main Contributors
+- [Duan-JM](www.github.com/Duan-JM) (Image Classification)
 
