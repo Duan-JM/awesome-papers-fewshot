@@ -32,11 +32,15 @@
 - [x] [arXiv 2019] MetaFun: Meta-Learning with Iterative Functional Updates
     * 用了无限的特征长度，还有一个什么东西，效果很好83%
 
+
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
 - [x] [arXiv 2019] Few-Shot Knowledge Graph Completion (关系抽取)
 - [x] [arXiv 2019] Few Shot Network Compression via Cross Distillation (模型压缩)
 - [x] [arXiv 2019] Real-Time Object Tracking via Meta-Learning: Efficient Model Adaptation and One-Shot Channel Pruning （目标跟踪）
+- [x] [arXiv 2019] Defensive Few-shot Adversarial Learning
+- [x] [arXiv 2019] A New Benchmark for Evaluation of Cross-Domain Few-Shot Learning
+- [x] [arXiv 2019] Few-shot Learning with Contextual Cueing for Object Recognition in Complex Scenes
 
 # New Comming
 - [ ] [NIPS 2018] Meta-Learning MCMC Proposals
