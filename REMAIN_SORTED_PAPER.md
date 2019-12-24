@@ -32,6 +32,9 @@
 - [x] [arXiv 2019] MetaFun: Meta-Learning with Iterative Functional Updates
     * 用了无限的特征长度，还有一个什么东西，效果很好83%
 
+- [x] [arXiv 2019] Class Regularization-Improve Few-shot Image Classification by Reducing Meta Shift
+- [x] [arXiv 2019] Charting the Right Manifold: Manifold Mixup for Few-shot Learning
+
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
@@ -41,6 +44,8 @@
 - [x] [arXiv 2019] Defensive Few-shot Adversarial Learning
 - [x] [arXiv 2019] A New Benchmark for Evaluation of Cross-Domain Few-Shot Learning
 - [x] [arXiv 2019] Few-shot Learning with Contextual Cueing for Object Recognition in Complex Scenes
+- [x] [arXiv 2019] Meta-Learning with Dynamic-Memory-Based Prototypical Network
+
 
 # New Comming
 - [ ] [NIPS 2018] Meta-Learning MCMC Proposals
