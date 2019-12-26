@@ -34,7 +34,8 @@
 
 - [x] [arXiv 2019] Class Regularization-Improve Few-shot Image Classification by Reducing Meta Shift
 - [x] [arXiv 2019] Charting the Right Manifold: Manifold Mixup for Few-shot Learning
-
+- [x] [1909.11446] Decoder Choice Network for Meta-Learning
+    * leo分支的、目标是减参数，效果一般，可以看看怎么减少参数的
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
