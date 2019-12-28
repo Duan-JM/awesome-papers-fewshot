@@ -33,10 +33,18 @@
     * 用了无限的特征长度，还有一个什么东西，效果很好83%
 
 **Application**
+
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
 - [x] [arXiv 2019] Few-Shot Knowledge Graph Completion (关系抽取)
 - [x] [arXiv 2019] Few Shot Network Compression via Cross Distillation (模型压缩)
 - [x] [arXiv 2019] Real-Time Object Tracking via Meta-Learning: Efficient Model Adaptation and One-Shot Channel Pruning （目标跟踪）
+
+**detection**
+
+- [x] [ICCV 2019] ([paper](https://arxiv.org/abs/1904.02317))Comparison Network for One-Shot Conditional Object Detection
+  - Conditional probability problem and Bayesian method
+
+
 
 # New Comming
 - [ ] [NIPS 2018] Meta-Learning MCMC Proposals
