@@ -397,5 +397,7 @@ The only thing you need to do is make a new issue with its name, conference name
 > Recommend: First paper point out how to measure the backbone is bad or good for the current task(episode).
 
 # Main Contributors
-- [Duan-JM](www.github.com/Duan-JM) (Image Classification)
+- [Duan-JM](https://github.com/Duan-JM) (Founder)
+- [ximingxing](https://github.com/ximingxing)
+- [Bryce1010](https://github.com/Bryce1010)  
 
