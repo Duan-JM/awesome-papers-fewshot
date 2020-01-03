@@ -339,7 +339,7 @@ Welcome contributes to expand the tables of results.
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1812.01866)) Few-shot Object Detection via Feature Reweighting
   - “Feature Reweighting” as weights & useful loss function
 
-- [NIPS 2019] ([papre](https://arxiv.org/abs/1911.12529))One-Shot Object Detection with Co-Attention and Co-Excitation
+- [NIPS 2019] ([paper](https://arxiv.org/abs/1911.12529) [code](https://github.com/timy90022/One-Shot-Object-Detection))One-Shot Object Detection with Co-Attention and Co-Excitation
   - Non-local Operate & Squeeze and Excitation  
 
 ### Segementation
