@@ -12,7 +12,7 @@ The papers collected in this repo are manually selected by myself, I am hoping t
 （注意：部分深入解释 Meta-Learning 的论文并未收入到此仓库中，有兴趣的朋友可以发 issue 一起讨论）。
 
 
-### 目录
+### Contents
 <!-- vim-markdown-toc GitLab -->
 
   * [Paper Collection Categories](#paper-collection-categories)
@@ -20,7 +20,7 @@ The papers collected in this repo are manually selected by myself, I am hoping t
     * [Object Detection *Jump here*](#object-detection-jump-here)
     * [Segementation *Jump here*](#segementation-jump-here)
     * [Generators *Jump here*](#generators-jump-here)
-    * [Other *Jump here*](#other-jump-here)
+    * [Others *Jump here*](#others-jump-here)
   * [Awesome Resources](#awesome-resources)
     * [Relevant Awesome Datasets Repo](#relevant-awesome-datasets-repo)
     * [Relevant Awesome Few-shot PlayGround Repo](#relevant-awesome-few-shot-playground-repo)
@@ -48,11 +48,10 @@ aims at predict one or multible labels according to one image.
 #### Object Detection [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/object_detection/README.md)
 #### Segementation [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/segementation/README.md)
 #### Generators [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/generators/README.md)
-#### Other [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/other/README.md)
+#### Others [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/others/README.md)
 
 ### Awesome Resources
 We collect some awesome code and blogs here.
-
 **Note that** if you are now writing a few-shot papers, feel free to checkout `resources` folder under each categories to get some bib there
 
 除了论文我们还在这里收藏了一些很棒的开源代码和博客。除此之外，如果您已经开始写论文的话，bib
@@ -60,12 +59,7 @@ We collect some awesome code and blogs here.
 
 
 #### Relevant Awesome Datasets Repo
-- [pytorch-meta](https://github.com/tristandeleu/pytorch-meta)
-
-    A tools aiming at merging various dataset in few-shot learning with only a
-    few codes. 
-
-    Need to be attention that the image in mini-imagenet are pre-resized to 84x84.
+- [pytorch-meta](https://github.com/tristandeleu/pytorch-meta) (Recommended)
 - [meta-dataset](https://github.com/google-research/meta-dataset)
 - [Few-Shot-Object-Detection-Dataset](https://github.com/fanq15/Few-Shot-Object-Detection-Dataset)
 
@@ -77,7 +71,7 @@ We collect some awesome code and blogs here.
 #### Relevant Awesome Blogs
 - [Papers of Meta-Learning](https://github.com/sudharsan13296/Awesome-Meta-Learning)
 - [Meta-Learning: Learning to Learn Fast](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html)
-- [大数据时代的小样本深度学习问题的综述](https://zhuanlan.zhihu.com/p/60881968)
+- [大数据时代的小样本深度学习问题的综述](https://zhuanlan.zhihu.com/p/60881968)(Recommended)
 - [Hands-On-Meta-Learning-With-Python](https://github.com/sudharsan13296/Hands-On-Meta-Learning-With-Python)
 
 
