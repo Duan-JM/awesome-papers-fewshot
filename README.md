@@ -16,11 +16,6 @@ The papers collected in this repo are manually selected by myself, I am hoping t
 <!-- vim-markdown-toc GitLab -->
 
   * [Paper Collection Categories](#paper-collection-categories)
-    * [Image Classification *Jump here*](#image-classification-jump-here)
-    * [Object Detection *Jump here*](#object-detection-jump-here)
-    * [Segementation *Jump here*](#segementation-jump-here)
-    * [Generators *Jump here*](#generators-jump-here)
-    * [Others *Jump here*](#others-jump-here)
   * [Awesome Resources](#awesome-resources)
     * [Relevant Awesome Datasets Repo](#relevant-awesome-datasets-repo)
     * [Relevant Awesome Few-shot PlayGround Repo](#relevant-awesome-few-shot-playground-repo)
@@ -41,14 +36,11 @@ the other categories. Basically, we sort thoses papers, which quantitiy is few t
 **需要注意的是**如果你没有发现研究的小样本方向的话，尝试在 Other
 类别中找找，我们把出现的论文数少于 5 篇的方向暂时都划分为 Other 类。
 
-#### Image Classification [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/image_classification/README.md)
-Image classification / Image recognition category contraines the methods, which
-aims at predict one or multible labels according to one image.
-
-#### Object Detection [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/object_detection/README.md)
-#### Segementation [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/segementation/README.md)
-#### Generators [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/generators/README.md)
-#### Others [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/others/README.md)
+- Image Classification [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/image_classification/README.md)
+- Object Detection [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/object_detection/README.md)
+- Segementation [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/segementation/README.md)
+- Generators [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/generators/README.md)
+- Others [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/others/README.md)
 
 ### Awesome Resources
 We collect some awesome code and blogs here.
