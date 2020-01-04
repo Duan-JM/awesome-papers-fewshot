@@ -36,3 +36,4 @@
 - [AAAI 2019] Few-Shot Image and Sentence Matching via Gated Visual-Semantic Embedding
     * Image and Sentence Matching
 - [AAAI 2018] Few Shot Transfer Learning BetweenWord Relatedness and Similarity Tasks Using A Gated Recurrent Siamese Network
+- [ICLR 2020] FEW-SHOT TEXT CLASSIFICATION WITH DISTRIBUTIONAL SIGNATURES

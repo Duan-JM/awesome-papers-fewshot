@@ -200,6 +200,9 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [AAAI 2019] A Dual Attention Network with Semantic Embedding for Few-shot Learning
     * Add spatial attention and task attention.
 
+- [ICLR 2020] A THEORETICAL ANALYSIS OF THE NUMBER OF SHOTS IN FEW-SHOT LEARNING
+    * Analysis on Prototypical Networks, result is not significant, however we can have a look into the analysis
+
 ### Special
 #### Unsorted
 - [Nature 子刊 MI 2018] ([paper](https://arxiv.org/pdf/1810.01256.pdf)) Continuous Learning of Context-dependent Processing in Neural Networks
