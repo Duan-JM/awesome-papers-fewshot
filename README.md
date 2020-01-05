@@ -52,7 +52,7 @@ We collect some awesome code and blogs here.
 
 #### Relevant Awesome Datasets Repo
 - [pytorch-meta](https://github.com/tristandeleu/pytorch-meta) (Recommended)
-- [meta-dataset](https://github.com/google-research/meta-dataset)
+- [meta-dataset](https://github.com/google-research/meta-dataset) (Received in ICLR 2020)
 - [Few-Shot-Object-Detection-Dataset](https://github.com/fanq15/Few-Shot-Object-Detection-Dataset)
 
 

@@ -73,6 +73,13 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICML 2019] Fast Context Adaptation via Meta-Learning
     * Update partial parameters
 
+- [ICLR 2020] META-LEARNING WITH WARPED GRADIENT DESCENT
+    * feel not outperform the LEO
+
+- [ICLR 2020] LEARNING TO BALANCE: BAYESIAN META-LEARNING FOR IMBALANCED AND OUT-OF-DISTRIBUTION TASKS
+    * try to solve task- and class-imbalanced problems
+    * feel not significant on normal few-shot learing setup
+
 
 ### Generative Based Few-shot Learning
 **One line descriptions:** Generate features to expasion small datasets to large datasets, then fintune.
@@ -297,5 +304,6 @@ Welcome contributes to expand the tables of results.
 | 2017  | OPTIMIZATION AS A MODEL FOR FEW-SHOT LEARNING    |  Conv4   | 43.44+-0.77% | 60.60+-0.71% |
 | 2019  | Centroid Networks for Few-Shot Clustering and Unsupervised Few-Shot Classification    |  Conv4   |  | 62.6+-0.5% |
 | 2019  | Infinite Mixture Prototypes for Few-Shot Learning   |  Conv4   | 49.6+-0.8% | 68.1+-0.8% |
+| 2020  | META-LEARNING WITH WARPED GRADIENT DESCENT |  Conv4   | 52.3 ± 0.8% | 68.4 ± 0.6% |
 
 

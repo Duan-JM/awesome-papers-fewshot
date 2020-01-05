@@ -9,6 +9,7 @@
 ### Domain Adaptation
 - [NIPS 2017] Few-Shot Adversarial Domain Adaptation
 - [ICCV 2019] Bidirectional One-Shot Unsupervised Domain Mapping
+- [ICLR 2020] CROSS-DOMAIN FEW-SHOT CLASSIFICATION
 
 ### Reinforcement Learning
 - [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
@@ -37,3 +38,11 @@
     * Image and Sentence Matching
 - [AAAI 2018] Few Shot Transfer Learning BetweenWord Relatedness and Similarity Tasks Using A Gated Recurrent Siamese Network
 - [ICLR 2020] FEW-SHOT TEXT CLASSIFICATION WITH DISTRIBUTIONAL SIGNATURES
+- [ICLR 2020] METAPIX: FEW-SHOT VIDEO RETARGETING
+- [ICLR 2020] ONE-SHOT PRUNING OF RECURRENT NEURAL NETWORKS BY JACOBIAN SPECTRUM EVALUATION
+- [ICLR 2020] TOWARDS FAST ADAPTATION OF NEURAL ARCHITECTURES WITH META LEARNING
+    * NAS
+- [ICLR 2020] META-DATASET: A DATASET OF DATASETS FOR LEARNING TO LEARN FROM FEW EXAMPLES
+    * New datasets
+- [ICLR 2020] FEW-SHOT LEARNING ON GRAPHS VIA SUPERCLASSES BASED ON GRAPH SPECTRAL MEASURES
+    * NLP
