@@ -209,6 +209,8 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [ICLR 2020] A THEORETICAL ANALYSIS OF THE NUMBER OF SHOTS IN FEW-SHOT LEARNING
     * Analysis on Prototypical Networks, result is not significant, however we can have a look into the analysis
+    * Analysis the pheonomenia that when training shot missmatch the eval shot, the protonet's perform will degenerate.
+    * The review score is 8, 6, 6. I am little argue with the result, for train on small shot then eval on large shot could improve the result.  Furthermore, only 0.X% improvement or versus could casued by some other reasons, such like random seed, initializations, so I am little double with the results.
 
 ### Special
 #### Unsorted

@@ -46,3 +46,5 @@
     * New datasets
 - [ICLR 2020] FEW-SHOT LEARNING ON GRAPHS VIA SUPERCLASSES BASED ON GRAPH SPECTRAL MEASURES
     * NLP
+- [ECCV 2018] Few-Shot Human Motion Prediction via Meta-Learning
+- [ECCV 2018] Compound Memory Networks for Few-shot Video Classification

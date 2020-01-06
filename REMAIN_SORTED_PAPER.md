@@ -3,6 +3,13 @@
 - [ ] [NIPS 2019] Online-Within-Online Meta-Learning
 - [ ] [NIPS 2019] Reconciling meta-learning and continual learning with online mixtures of tasks
 - [ ] [NIPS 2019] Neural Relational Inference with Fast Modular Meta-learning
+- [ ] [ICCV 2017] Supplementary Meta-Learning: Towards a Dynamic Model for Deep Neural Networks
+
+
+# Stall
+- [x] [ECCV 2018] Dynamic Conditional Networks for Few-Shot Learning
+    * Add text information into the convolution layers
+    * Evaluate on three task, however didn't found mini-imagnet or other common datasets, so stall here.
 
 # Arxiv
 - [x] [arXiv 2019] MarioNETte: Few-shot Face Reenactment Preserving Identity of Unseen Targets
@@ -75,9 +82,6 @@
 
 - [ ] [ICLR 2019] Meta-Learning Probabilistic Inference for Prediction
 
-- [ ] [ECCV 2018] Few-Shot Human Motion Prediction via Meta-Learning
-- [ ] [ECCV 2018] Dynamic Conditional Networks for Few-Shot Learning
-- [ ] [ECCV 2018] Compound Memory Networks for Few-shot Video Classification
 
 - [ ] [ICCV 2019] Meta_R-CNN_Towards_General_Solver_for_Instance-Level_Low-Shot_Learning_ICCV_2019_paper.pdf
 - [ ] [ICCV 2019] PANet_Few-Shot_Image_Semantic_Segmentation_With_Prototype_Alignment_ICCV_2019_paper.pdf
