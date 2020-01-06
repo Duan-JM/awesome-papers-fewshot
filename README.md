@@ -11,208 +11,32 @@ The papers collected in this repo are manually selected by myself, I am hoping t
 仓库中收藏的论文均为我本人从历年顶会中手动挑选并阅读过和小样本学习相关的论文，也希望能有广大的同行来共同维护它。
 （注意：部分深入解释 Meta-Learning 的论文并未收入到此仓库中，有兴趣的朋友可以发 issue 一起讨论）。
 
-# 目录
+
+### Contents
 <!-- vim-markdown-toc GitLab -->
 
-* [Image Classification](#image-classification)
-  * [Parameter Optimize Based Few-shot Learning](#parameter-optimize-based-few-shot-learning)
-      * [Papers](#papers)
-  * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
-      * [Papers](#papers-1)
-  * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
-      * [Traditional](#traditional)
-      * [Semi-Supervised](#semi-supervised)
-      * [Supervised](#supervised)
-  * [Special](#special)
-      * [Unsorted](#unsorted)
-      * [External Memory](#external-memory)
-      * [Architecture](#architecture)
-      * [Task Representation and Measure](#task-representation-and-measure)
-      * [Multi Label Image Classification](#multi-label-image-classification)
-      * [Add Additional Informations](#add-additional-informations)
-      * [Self-training](#self-training)
-  * [Results in Datasets](#results-in-datasets)
-      * [mini-Imagenet](#mini-imagenet)
-* [More Direction](#more-direction)
-    * [Object Detection](#object-detection)
-    * [Segementation](#segementation)
-    * [Generative Model](#generative-model)
-    * [Domain Adaptation](#domain-adaptation)
-    * [Reinforcement Learning](#reinforcement-learning)
-    * [Visual Tracking](#visual-tracking)
-    * [Others](#others)
-* [Other Awesome Resources](#other-awesome-resources)
+  * [Paper Collection Categories](#paper-collection-categories)
+  * [Awesome Resources](#awesome-resources)
     * [Relevant Awesome Datasets Repo](#relevant-awesome-datasets-repo)
     * [Relevant Awesome Few-shot PlayGround Repo](#relevant-awesome-few-shot-playground-repo)
     * [Relevant Awesome Blogs](#relevant-awesome-blogs)
-* [How to recommend a paper](#how-to-recommend-a-paper)
+  * [How to recommend a paper](#how-to-recommend-a-paper)
 * [Main Contributors](#main-contributors)
 
 <!-- vim-markdown-toc -->
 
-# Image Classification
-- [arXiv 2019] ([paper](https://arxiv.org/pdf/1904.05046.pdf)) Generalizing from a Few Examples A Survey on Few-Shot Learning
-- [ICLR 2019] ([paper](https://arxiv.org/pdf/1904.04232) [code](https://github.com/wyharveychen/CloserLookFewShot)) A Closer Look At Few-shot Classification
-- [arXiv 2019] ([paper](https://arxiv.org/pdf/1909.02729.pdf)) A Baseline for Few-shot Image Classification
 
+### Paper Collection Categories
+The numbers of papers increased dramatically recently, so we decided to
+separate papers into different files according to their categories. 
+**Note that** if you don't find your researching categories below, give a shot into
+the other categories. Basically, we sort thoses papers, which quantitiy is few than 5, to the other.
 
-## Parameter Optimize Based Few-shot Learning
-**One line descriptions:** Generate parameters for the classifier or finetune part of the models
+今年随着小样本相关的论文的大量出现，我们决定把这些论文分类成以下几种类别，并存在相应的文件夹内。
+**需要注意的是**如果你没有发现研究的小样本方向的话，尝试在 Other
+类别中找找，我们把出现的论文数少于 5 篇的方向暂时都划分为 Other 类。
 
-#### Papers
-- [ICLR 2017 Meta-learner LSTM Ravi] ([paper](https://openreview.net/pdf?id=rJY0-Kcll&source=post_page---------------------------) [code](https://github.com/twitter/meta-learning-lstm.)) Optimization as a Model for Few-shot Learning
-    * Use LSTM to generate classifier's parameters
-
-- [arXiv 2018 REPTILE] ([paper](https://arxiv.org/pdf/1803.02999.pdf)) On First-Order Meta-Learning Algorithms
-- [ICLR 2018 SNAIL] ([paper](https://arxiv.org/pdf/1707.03141.pdf)) A Simple Neural Attentive Meta- Learner
-    * Improve the Meta-Learner LSTM, by adding temporal convolution and caual attention to the network.
-
-- [CVPR 2018] ([paper](https://arxiv.org/pdf/1804.09458.pdf) [code](https://github.com/gidariss/FewShotWithoutForgetting)) Dynamic Few-Shot Visual Learning without Forgetting
-- [CVPR 2018] ([paper](https://arxiv.org/pdf/1712.07136.pdf)) Low-Shot Learning with Imprinted Weights
-    * Passing, generate weights for classifier. (I DONOT like it, the exp only compare to matching networks and "Generative + classifier")
-
-- [CVPR 2019] (RECOMMENDED!) ([paper](https://arxiv.org/pdf/1710.06177.pdf)) Learning to Learn Image Classifiers with Visual Analogy
-- [CVPR 2019] ([paper](https://arxiv.org/pdf/1903.05050.pdf)) Dense Classification and Implanting for Few-Shot Learning
-- [ICML 2019] ([paper](https://arxiv.org/pdf/1905.06331.pdf) [code](https://github.com/likesiwell/LGM-Net/)) LGM-Net: Learning to Generate Matching Networks for Few shot Learning
-- [CVPR 2019] ([paper](https://arxiv.org/pdf/1904.05967.pdf) [code](https://github.com/ucbdrive/tafe-net)) TAFE-Net- Task-Aware Feature Embeddings for Low Shot Learning
-    * Use a meta-learner to generate parameters for the feature extractor
-
-- [NIPS 2019] ([paper](https://arxiv.org/pdf/1810.07218.pdf) [code](https://github.com/renmengye/inc-few-shot-attractor-public)) Incremental Few-Shot Learning with Attention Attractor Networks
-    * Using normal way to pretrain the backbone on the base classes, then using the base class weights to fintune the classifier on the few-shot episodic network.
-    * Achieve the normal
-
-- [ICLR 2019 LEO Vinyals] (RECOMMENDED!) ([paper](https://arxiv.org/pdf/1807.05960.pdf) [code](https://github.com/deepmind/leo)) Meta-learning with latent embedding optimization
-    * High dimensional problem is hard to solve in the low-data circumstances, so this work try to bypass the limitations by learning a data-dependent latent low-dimensional latent space of model parameters.
-
-- [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01102.pdf) [code](https://github.com/gidariss/wDAE_GNN_FewShot)) Generating Classification Weights with GNN Denoising Autoencoders for Few-Shot Learning
-    * Little better than LEO
-
-- [NIPS 2018] Delta-encoder: an effective sample synthesis method for few-shot object recognition
-- [ICLR 2019] Meta-learning with differentiable closed-form solvers
-    * Teach to use tradional machining learning methods
-    * Most likely no good than LEO
-
-- [ICML 2019] Fast Context Adaptation via Meta-Learning
-    * Update partial parameters
-
-
-## Generative Based Few-shot Learning
-**One line descriptions:** Generate features to expasion small datasets to large datasets, then fintune.
-
-- [NIPS 2018 Bengio] ([paper](https://papers.nips.cc/paper/7504-metagan-an-adversarial-approach-to-few-shot-learning.pdf)) MetaGAN An Adversarial Approach to Few-Shot Learning
-
-
-#### Papers
-- [ICCV 2017] ([paper](https://arxiv.org/pdf/1606.02819.pdf) [code](https://github.com/facebookresearch/low-shot-shrink-hallucinate)) Low-shot Visual Recognition by Shrinking and Hallucinating Features
-- [CVPR 2018] ([paper](https://arxiv.org/pdf/1801.05401.pdf)) Low-Shot Learning from Imaginary Data
-- [NIPS 2018] ([paper](https://arxiv.org/pdf/1810.11730.pdf)) Low-shot Learning via Covariance-Preserving Adversarial Augmentation Networks
-- [CVPR 2019] ([paper](https://arxiv.org/pdf/1812.01784.pdf) [code](https://github.com/edgarschnfld/CADA-VAE-PyTorc)) Generalized Zero- and Few-Shot Learning via Aligned Variational Autoencoders
-    * Aiming at cross modal situations
-    * Using encode image x and class descriptor y, then pull the mean and variance of them together by a loss.
-- [CVPR 2019 IDeMe-Net] ([paper](https://arxiv.org/pdf/1905.11641.pdf) [code](https://github.com/tankche1/IDeMe-Net.)) Image Deformation Meta-Networks for One-Shot Learning
-    * This paper assumes that deformed images may not be visually realistic, they still maintain critical semantic information.
-    * Pretty good at one-shot on mini-imagenet(59.14%)
-
-
-## Metric Based Few-shot Learning
-**One line descriptions:** Compute the class representation, then use metric functions to measure the similarity between query sample and each class representaions.
-
-#### Traditional
-- [ICML 2012] One-Shot Learning with a Hierarchical Nonparametric Bayesian Model
-    * Using Hierarchical Bayesian Model after extracted features. Which is similar to build the category graph method in IJCAI 2019.
-
-- [ICML 2015] Siamese Neural Networks for One-Shot Image Recognition
-- [NIPS 2016] Matching Networks for One Shot Learning
-    * This methods cast the problem of one-shot learning within the set-to-set framework
-
-- [NIPS 2017]  (RECOMMENDED!) Prototypical Networks for Few-shot Learning
-- [CVPR 2018] Learning to Compare：Relation Network for Few-Shot Learning
-    * Change metric functions to CNNs
-    * Provide a clean framework that elegantly encompasses both few and zero-shot learning.
-
-
-#### Semi-Supervised
-- [ICLR 2018 Ravi] ([paper](https://arxiv.org/pdf/1803.00676.pdf) [code](https://github.com/renmengye/few-shot-ssl-public)) Meta-Learning for Semi-Supervised Few-Shot Classification
-    * Using soft K-means to refine the prototypes, then using varient ways(training methods) to eliminate the outline points.
-    * Create new datasets - tiredImagenet
-
-- [ICLR 2018] Few-Shot Learning with Graph Neural Networks
-- [CVPR 2018] (RECOMMENDED!) Low-Shot Learning With Large-Scale Diffusion
-- [ICLR 2019] ([paper](https://arxiv.org/pdf/1805.10002.pdf)) Learning to Propagate Labels-transductive Propagation Network for Few-shot Learning
-- [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01436.pdf)) Edge-Labeling Graph Neural Network for Few-shot Learning
-
-
-#### Supervised
-- [NIPS 2017] Few-Shot Learning Through an Information Retrieval Lens
-- [NIPS 2018] (RECOMMENDED!) TADAM-Task dependent adaptive metric for improved few-shot learning 
-    * In every task, use task representations to finetune the output of each Conv Blocks, like BN functionally.
-
-- [ECCV 2018] ([paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Fang_Zhao_Dynamic_Conditional_Networks_ECCV_2018_paper.pdf)) Dynamic Conditional Networks for FewShot Learning
-    * Basically same as TADAM(using task representation to finetune the backbones), it use a conditional feature to influence the output of conv layers (Linear combination).
-
-- [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.11116.pdf) [code](https://github.com/Clarifai/few-shot-ctm.)) Finding Task-Relevant Features for Few-Shot Learning by Category Traversal
-- [ICML 2019] (RECOMMENDED!) ([paper](https://arxiv.org/pdf/1905.06549.pdf)) TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
-- [ICML 2019] ([paper](https://arxiv.org/pdf/1902.04552.pdf)) (RECOMMENDED!) Infinite Mixture Prototypes for Few-shot Learning
-    * Point out that data distribution for one class are not uni-model (Verify in my experiments too).
-    * (Clustering methods) Semi-Supervised methods for prototypical networks. Show this methods even suit for unsupervised situations(protentially).
-    * Improve on Alphabets dataset, remain or improve on omniglot and mini-imagenet.
-
-- [ICCV 2019] ([paper](https://arxiv.org/pdf/1908.05257)) Few-Shot Learning with Global Class Representations
-    * Synthesis new samples to elleviate the data imbalance problem between Base and Novel Classes.
-    * During training, compute two losses, one is the original losses, the other is the score for the whole classes including noval classes.
-
-
-- [IJCAI 2019] ([paper](https://arxiv.org/pdf/1905.04042) [code](https://github.com/liulu112601/PPN)) Prototype Propagation Networks (PPN) for Weakly-supervised Few-shot Learning on Category Graph
-    * Maually build an category graph, then add parents label's class represention into the child class representations.
-
-- [CVPR 2019] (RECOMMENDED) ([paper](https://arxiv.org/pdf/1904.08482.pdf) [code](https://github.com/mibastro/VPE)) Variational Prototyping-Encoder- One-Shot Learning with Prototypical Images
-    * Use encoder to translate the real images to abstract prototypes, such as painted traffic signs, then compare query and sample in the prototypes latent space.
-
-- [NIPS 2019] ([paper](https://arxiv.org/pdf/1902.07104.pdf)) Adaptive Cross-Modal Few-shot Learning
-    * Using texture information to enhance the performance, which reach a comparable result on mini-imagenet
-    * Perform well on 1-shot rather than 5-shot or 10-shot
-
-- [CVPR 2019] ([paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chu_Spot_and_Learn_A_Maximum-Entropy_Patch_Sampler_for_Few-Shot_Image_CVPR_2019_paper.pdf)) Spot and Learn A Maximum-Entropy Patch Sampler for Few-Shot Image Classification
-    * Sample parts of the image to form the batch to represent the class. 
-    * One-shot not pretty good(51%)
-
-- [CVPR 2019] ([paper](https://arxiv.org/pdf/1906.01905.pdf)) Baby steps towards few-shot learning with multiple semantics
-    * Show 4.5 years old baby perform 70% on 1-shot case, adult achieve 99%.
-    * Add multi-semantic into the task.
-    * However on 5-shot case LEO perform exceed both this paper and the paper above with no semantics information.
-    * For 1-shot case, this method achieve 67.2% +- 0.4% compare to 70% of human baby performance.
-
-- [CVPR 2019] ([paper](https://arxiv.org/pdf/1904.08502)) Few-Shot Learning with Localization in Realistic Settings
-    * Locate the object in the images first, then classify them.
-    * Classify in real-world images, somehow not interesting.
-
-- [NIPS 2019] ([paper](https://arxiv.org/pdf/1910.07677.pdf)) Cross Attention Network for Few-shot Classification
-    * Learn a attention(mask) to pay more attention on the part of the images
-    * Add transductive inference part
-    * Pretty good result on mini-imagenet 80.64 +- 0.35% under ResNet-12 (16 conv layers)
-
-- [CVPR 2019] ([paper](https://arxiv.org/pdf/1903.12290.pdf)) Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning
-    * Calculating the similarity between query and class represent feature in feature level, rather than instance level. It seperate original feature in m part and then compute the similarity to the K-nearst class partial features.
-    * Good Result on mini-ImageNet 71.02 ± 0.64% with Conv4_64F.
-
-- [CVPR 2019] Large-Scale Few-Shot Learning- Knowledge Transfer With Class Hierarchy
-    * Aiming at learning large-scale problem, not just on 5 novel class.
-    * Using the Class Names embeddings(text embedding) to form a class hierarchy.
-    * Get a pretter higher result than existing methods.
-
-- [CVPR 2019] ([paper](https://arxiv.org/pdf/1812.02391v2.pdf)) Meta-Transfer Learning for Few-Shot Learning
-    * Not like it, for the results are not significant, nearly no improve on 5 way 5 shot on mini-ImageNet.
-
-- [CVPR 2018] ([paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Temporal_Hallucinating_for_CVPR_2018_paper.pdf)) Temporal Hallucinating for Action Recognition with Few Still Images
-    * Attempt to recall cues from relevant action videos.
-    * Maybe good at one-shot, not worse than the baseline in 5-shot and 10-shot scenarios.
-
-- [NIPS 2019] Learning to Propagate for Graph Meta-Learning
-    * Learns to propagate messages between prototypes of different classes on the graph, so that learning the prototype of each class benefits from the data of other related classes.
-    * Attention mechanic.
-
-- [ICCV 2019] Transductive Episodic-Wise Adaptive Metric for Few-Shot Learning
-
+<<<<<<< HEAD
 - [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Hao_Collect_and_Select_Semantic_Alignment_Metric_Learning_for_Few-Shot_Learning_ICCV_2019_paper.pdf) Collect and Select: Semantic Alignment Metric Learning for Few-Shot Learning
     * Use attention to pick(Select) most relevant part to compare
 
@@ -331,54 +155,40 @@ Welcome contributes to expand the tables of results.
     * Not sure result in this area.
 - [AAAI 2019] Unsupervised Meta-learning of Figure-Ground Segmentation via Imitating Visual Effects
     * Differetiate the background from images. 
+=======
+- Image Classification [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/image_classification/README.md)
+- Object Detection [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/object_detection/README.md)
+- Segementation [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/segementation/README.md)
+- Generators [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/generators/README.md)
+- Others [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/others/README.md)
+>>>>>>> upstream/master
 
-
-### Generative Model
-- [ICCV 2019] ([paper](https://arxiv.org/pdf/1905.01723)) Few-Shot Unsupervised Image-to-Image Translation
-- [ICCV 2019 best] ([paper](https://arxiv.org/abs/1905.01164) [code](https://github.com/tamarott/SinGAN)) SinGAN: Learning a Generative Model from a Single Natural Image
-- [CVPR 2018] Multi-Content GAN for Few-Shot Font Style Transfer
-- [NIPS 2019] ( [paper](https://nvlabs.github.io/few-shot-vid2vid/main.pdf) [code](https://nvlabs.github.io/few-shot-vid2vid/) )Few-shot Video-to-Video Synthesis
-
-### Domain Adaptation
-- [NIPS 2017] Few-Shot Adversarial Domain Adaptation
-- [ICCV 2019] Bidirectional One-Shot Unsupervised Domain Mapping
-
-### Reinforcement Learning
-- [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
-
-### Visual Tracking
-- [ICCV 2019] Deep Meta Learning for Real-Time Target-Aware Visual Tracking
-
-### Others
-- [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
-- [AAAI 2018] AffinityNet- Semi-supervised Few-shot Learning for Disease Type Prediction
-    * Use few-shot method to enhance oringal disease type prediction
-
-- [arXiv 2019] ([paper](https://arxiv.org/pdf/1902.10482.pdf)) Few-Shot Text Classification with Induction Network
-    * Introduce dynamic routing to generate better class representations. One real industrial project.
-
-- [NIPS 2018] Neural Voice Cloning with a Few Samples
-- [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
-- [ICCV 2019] ([paper](https://arxiv.org/pdf/1909.01205)) Few-Shot Generalization for Single-Image 3D Reconstruction via Priors
-- [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)) ACMM: Aligned Cross-Modal Memory for Few-Shot Image and Sentence Matching
-- [ICCV 2019] (RECOMMANDED!) Task-Driven Modular Networks for Zero-Shot Compositional Learning
-    * An interesting usage of a bunch of MLPs.
-- [CVPR 2019] ([paper](http://openaccess.thecvf.com/content_CVPRW_2019/papers/PBVS/Rostami_SAR_Image_Classification_Using_Few-Shot_Cross-Domain_Transfer_Learning_CVPRW_2019_paper.pdf) [code](https://github.com/MSiam/AdaptiveMaskedProxies.)) SAR Image Classification Using Few-shot Cross-domain Transfer Learning
-- [AAAI 2019] Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification
-    * Relation Classification with FewRel
-- [AAAI 2019] Few-Shot Image and Sentence Matching via Gated Visual-Semantic Embedding
-    * Image and Sentence Matching
-- [AAAI 2018] Few Shot Transfer Learning BetweenWord Relatedness and Similarity Tasks Using A Gated Recurrent Siamese Network
-
-# Other Awesome Resources
+### Awesome Resources
 We collect some awesome code and blogs here.
-(Note that if you are now writing a few-shot papers, feel free to checkout `resources` file to get some bib there)
+**Note that** if you are now writing a few-shot papers, feel free to checkout `resources` folder under each categories to get some bib there
 
-### Relevant Awesome Datasets Repo
-### Relevant Awesome Few-shot PlayGround Repo
-### Relevant Awesome Blogs
+除了论文我们还在这里收藏了一些很棒的开源代码和博客。除此之外，如果您已经开始写论文的话，bib
+引用相关文件可以在对应的文件夹中找到，希望这些能节省一部分您的写作时间。
 
-# How to recommend a paper
+
+#### Relevant Awesome Datasets Repo
+- [pytorch-meta](https://github.com/tristandeleu/pytorch-meta) (Recommended)
+- [meta-dataset](https://github.com/google-research/meta-dataset) (Received in ICLR 2020)
+- [Few-Shot-Object-Detection-Dataset](https://github.com/fanq15/Few-Shot-Object-Detection-Dataset)
+
+
+#### Relevant Awesome Few-shot PlayGround Repo
+- [pytorch_metric_learning](https://github.com/KevinMusgrave/pytorch_metric_learning)
+
+
+#### Relevant Awesome Blogs
+- [Papers of Meta-Learning](https://github.com/sudharsan13296/Awesome-Meta-Learning)
+- [Meta-Learning: Learning to Learn Fast](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html)
+- [大数据时代的小样本深度学习问题的综述](https://zhuanlan.zhihu.com/p/60881968)(Recommended)
+- [Hands-On-Meta-Learning-With-Python](https://github.com/sudharsan13296/Hands-On-Meta-Learning-With-Python)
+
+
+### How to recommend a paper
 You are highly welcome to recommend a paper to this repo. 
 The only thing you need to do is make a new issue with its name, conference name, years and some recommends words(no more than 400 words).
 
@@ -390,8 +200,7 @@ The only thing you need to do is make a new issue with its name, conference name
 >
 > Recommend: First paper point out how to measure the backbone is bad or good for the current task(episode).
 
-# Main Contributors
-- [Duan-JM](https://github.com/Duan-JM) (Founder)
+## Main Contributors
+- [Duan-JM](https://github.com/Duan-JM) (Founder) (Image Classification)
+- [Bryce1010](https://github.com/Bryce1010) (Segementation)
 - [ximingxing](https://github.com/ximingxing)
-- [Bryce1010](https://github.com/Bryce1010)  
-
