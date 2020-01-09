@@ -43,6 +43,11 @@
 - [x] [arXiv 2019] Charting the Right Manifold: Manifold Mixup for Few-shot Learning
 - [x] [1909.11446] Decoder Choice Network for Meta-Learning
     * leo分支的、目标是减参数，效果一般，可以看看怎么减少参数的
+- [x] [arXiv 2018] Few-Shot Self Reminder to Overcome Catastrophic Forgetting
+    * Ultilize the loss between tasks
+    * Ultilize the generate feature betwwen tasks
+- [x] [arXiv 2019] Meta-Reinforced Synthetic Data for One-Shot Fine-Grained Visual Recognition
+    * Use Generator to generate a images to fuse on the original one
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
