@@ -48,6 +48,11 @@
     * Ultilize the generate feature betwwen tasks
 - [x] [arXiv 2019] Meta-Reinforced Synthetic Data for One-Shot Fine-Grained Visual Recognition
     * Use Generator to generate a images to fuse on the original one
+- [x] [arXiv 2019] Diversity Transfer Network for Few-Shot Learning
+    * ResNet12 77.91%
+- [x] [arXiv 2019] FLAT: Few-Shot Learning via Autoencoding Transformation Regularizers
+    * ResNet18 77%
+
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
@@ -76,17 +81,7 @@
 - [ ] [ICML 2018] Been There, Done That: Meta-Learning with Episodic Recall
 - [ ] [ICML 2018] Gradient-Based Meta-learning with learned layerwise metric and subspace
 
-- [ ] [CVPR 2019] Coloring With Limited Data: Few-Shot Colorization via Memory Augmented Networks
-- [ ] [CVPR 2019] Improving Few-Shot User-Specific Gaze Adaptation via Gaze Redirection Synthesis
-- [ ] [CVPR 2019] Task Agnostic Meta-Learning for Few-Shot Learning
-- [ ] [CVPR 2019] Learning to Learn How to Learn: Self-Adaptive Visual Navigation Using Meta-Learning
-- [ ] [CVPR 2019] Meta-Learning With Differentiable Convex Optimization
-- [ ] [CVPR 2019] Meta-Learning Convolutional Neural Architectures for Multi-Target Concrete Defect Classification With the COncrete DEfect BRidge IMage Dataset
-- [ ] [CVPR 2018] Few-Shot Image Recognition by Predicting Parameters From Activations
-- [ ] [CVPR 2017] Few-Shot Object Recognition From Machine-Labeled Web Images
-
 - [ ] [ICLR 2019] Meta-Learning Probabilistic Inference for Prediction
-
 
 - [ ] [ICCV 2019] Meta_R-CNN_Towards_General_Solver_for_Instance-Level_Low-Shot_Learning_ICCV_2019_paper.pdf
 - [ ] [ICCV 2019] PANet_Few-Shot_Image_Semantic_Segmentation_With_Prototype_Alignment_ICCV_2019_paper.pdf

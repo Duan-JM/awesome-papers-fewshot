@@ -49,6 +49,9 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2018] ([paper](https://arxiv.org/pdf/1712.07136.pdf)) Low-Shot Learning with Imprinted Weights
     * Passing, generate weights for classifier. (I DONOT like it, the exp only compare to matching networks and "Generative + classifier")
 
+- [NIPS 2018] Delta-encoder: an effective sample synthesis method for few-shot object recognition
+- [CVPR 2018] Few-Shot Image Recognition by Predicting Parameters From Activations
+
 - [CVPR 2019] (RECOMMENDED!) ([paper](https://arxiv.org/pdf/1710.06177.pdf)) Learning to Learn Image Classifiers with Visual Analogy
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1903.05050.pdf)) Dense Classification and Implanting for Few-Shot Learning
 - [ICML 2019] ([paper](https://arxiv.org/pdf/1905.06331.pdf) [code](https://github.com/likesiwell/LGM-Net/)) LGM-Net: Learning to Generate Matching Networks for Few shot Learning
@@ -65,7 +68,6 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01102.pdf) [code](https://github.com/gidariss/wDAE_GNN_FewShot)) Generating Classification Weights with GNN Denoising Autoencoders for Few-Shot Learning
     * Little better than LEO
 
-- [NIPS 2018] Delta-encoder: an effective sample synthesis method for few-shot object recognition
 - [ICLR 2019] Meta-learning with differentiable closed-form solvers
     * Teach to use tradional machining learning methods
     * Most likely no good than LEO
@@ -79,6 +81,9 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICLR 2020] LEARNING TO BALANCE: BAYESIAN META-LEARNING FOR IMBALANCED AND OUT-OF-DISTRIBUTION TASKS
     * try to solve task- and class-imbalanced problems
     * feel not significant on normal few-shot learing setup
+- [CVPR 2019] Task Agnostic Meta-Learning for Few-Shot Learning
+    * Improve MAML to 66%
+    * the initial model can be trained biased towards some tasks, particularly those sampled in meta-training phase
 
 
 ### Generative Based Few-shot Learning
@@ -198,7 +203,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [ICCV 2019] Transductive Episodic-Wise Adaptive Metric for Few-Shot Learning
 
-- [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Hao_Collect_and_Select_Semantic_Alignment_Metric_Learning_for_Few-Shot_Learning_ICCV_2019_paper.pdf) Collect and Select: Semantic Alignment Metric Learning for Few-Shot Learning
+- [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Hao_Collect_and_Select_Semantic_Alignment_Metric_Learning_for_Few-Shot_Learning_ICCV_2019_paper.pdf)) Collect and Select: Semantic Alignment Metric Learning for Few-Shot Learning
     * Use attention to pick(Select) most relevant part to compare
 
 - [AAAI 2019] Distribution Consistency based Covariance Metric Networks for Few Shot Learning
@@ -206,6 +211,8 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [AAAI 2019] A Dual Attention Network with Semantic Embedding for Few-shot Learning
     * Add spatial attention and task attention.
+
+- [CVPR 2019] ([code](https://github.com/kjunelee/MetaOptNet)) Meta-Learning With Differentiable Convex Optimization
 
 - [ICLR 2020] A THEORETICAL ANALYSIS OF THE NUMBER OF SHOTS IN FEW-SHOT LEARNING
     * Analysis on Prototypical Networks, result is not significant, however we can have a look into the analysis
@@ -226,6 +233,8 @@ issue 里面提出来，我会在第一时间进行回复的。
 
     This work lead NTM into the image classification, technically, this work should not belong to the few-shot problems.
     This method can identify the image labels, even the true label of current image are inputed along with the next image.
+
+- [CVPR 2016] Few-Shot Object Recognition From Machine-Labeled Web Images
 
 - [CVPR 2018] ([paper](https://arxiv.org/pdf/1804.08281.pdf)) Memory Matching Networks for One-Shot Image Recognition
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1902.02527.pdf) [code](https://github.com/cogentlabs/apl.)) Adaptive Posterior Learning-Few-Shot Learning with a Surprise-Based Memory Module
