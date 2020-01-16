@@ -7,3 +7,5 @@
     * Not sure result in this area.
 - [AAAI 2019] Unsupervised Meta-learning of Figure-Ground Segmentation via Imitating Visual Effects
     * Differetiate the background from images. 
+- [ICCV 2019] Feature Weighting and Boosting for Few-Shot Segmentation
+- [ICCV 2019] Meta R-CNN Towards General Solver for Instance-Level Low-Shot Learning

@@ -83,23 +83,13 @@
 
 - [ ] [ICLR 2019] Meta-Learning Probabilistic Inference for Prediction
 
-- [ ] [ICCV 2019] Meta_R-CNN_Towards_General_Solver_for_Instance-Level_Low-Shot_Learning_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] PANet_Few-Shot_Image_Semantic_Segmentation_With_Prototype_Alignment_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Boosting_Few-Shot_Visual_Learning_With_Self-Supervision_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] PARN_Position-Aware_Relation_Networks_for_Few-Shot_Learning_ICCV_2019_paper.pdf
+- [ ] [ICCV 2019] PANet Few-Shot Image Semantic Segmentation With Prototype Alignment
 - [ ] [ICCV 2019] ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf
 - [ ] [ICCV 2019] Diversity_With_Cooperation_Ensemble_Methods_for_Few-Shot_Classification_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Transductive_Episodic-Wise_Adaptive_Metric_for_Few-Shot_Learning_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Feature_Weighting_and_Boosting_for_Few-Shot_Segmentation_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Few-Shot_Image_Recognition_With_Knowledge_Transfer_ICCV_2019_paper.pdf
 - [ ] [ICCV 2019] Ravichandran_Few-Shot_Learning_With_Embedded_Class_Models_and_Shot-Free_Meta_Training_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] PANet_Few-Shot_Image_Semantic_Segmentation_With_Prototype_Alignment_ICCV_2019_paper.pdf
 - [ ] [ICCV 2019] Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Few-Shot_Adaptive_Gaze_Estimation_ICCV_2019_paper.pdf
 - [ ] [ICCV 2019] Few-Shot_Unsupervised_Image-to-Image_Translation_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] PARN_Position-Aware_Relation_Networks_for_Few-Shot_Learning_ICCV_2019_paper.pdf
 - [ ] [ICCV 2019] Learning_Compositional_Representations_for_Few-Shot_Recognition_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Transductive Episodic-Wise Adaptive Metric for Few-Shot Learning.pdf
 - [ ] [ICCV 2019] One-Shot Neural Architecture Search via Self-Evaluated Template Network.pdf
 - [ ] [ICCV 2019] Task-Driven Modular Networks for Zero-Shot Compositional Learning.pdf
 - [ ] [ICCV 2019] Attract or Distract-Exploit the Margin of Open Set
@@ -109,11 +99,7 @@
 - [ ] [ICCV 2019] ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf
 - [ ] [ICCV 2019] AMP_Adaptive_Masked_Proxies_for_Few-Shot_Segmentation_ICCV_2019_paper.pdf
 - [ ] [ICCV 2019] Few-Shot_Generalization_for_Single-Image_3D_Reconstruction_via_Priors_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Diversity_With_Cooperation_Ensemble_Methods_for_Few-Shot_Classification_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Transductive_Episodic-Wise_Adaptive_Metric_for_Few-Shot_Learning_ICCV_2019_paper.pdf
 - [ ] [ICCV 2019] Variational_Few-Shot_Learning_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Feature_Weighting_and_Boosting_for_Few-Shot_Segmentation_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Few-Shot_Image_Recognition_With_Knowledge_Transfer_ICCV_2019_paper.pdf
 - [ ] [ICCV 2019] Few-Shot_Learning_With_Embedded_Class_Models_and_Shot-Free_Meta_Training_ICCV_2019_paper.pdf
 
 ## CIKM Paper Collation for few-shot Learning and meta-learning

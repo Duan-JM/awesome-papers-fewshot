@@ -51,3 +51,4 @@
 - [CVPR 2019] Coloring With Limited Data: Few-Shot Colorization via Memory Augmented Networks
 - [CVPR 2019] Improving Few-Shot User-Specific Gaze Adaptation via Gaze Redirection Synthesis
 - [CVPR 2019] Learning to Learn How to Learn: Self-Adaptive Visual Navigation Using Meta-Learning
+- [ICCV 2019] Few-Shot Adaptive Gaze Estimation

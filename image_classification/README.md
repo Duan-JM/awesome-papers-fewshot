@@ -219,6 +219,10 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Analysis the pheonomenia that when training shot missmatch the eval shot, the protonet's perform will degenerate.
     * The review score is 8, 6, 6. I am little argue with the result, for train on small shot then eval on large shot could improve the result.  Furthermore, only 0.X% improvement or versus could casued by some other reasons, such like random seed, initializations, so I am little double with the results.
 
+- [ICCV 2019] PARN Position-Aware Relation Networks for Few-Shot Learning
+    * Improve on RelationNetwork, change a way to extract more information during feature extraction stage, then argue that when objects in the same class appear on the different spatial position will cause the misclassification, they redesign the metric module(the origianl 2CNN + 2FC) instead.  
+    * Conv4 71% on mini-imagenet 5shot
+
 ### Special
 #### Unsorted
 - [Nature 子刊 MI 2018] ([paper](https://arxiv.org/pdf/1810.01256.pdf)) Continuous Learning of Context-dependent Processing in Neural Networks
@@ -226,6 +230,9 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [ICCV 2019] (RECOMMANDED!) ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dvornik_Diversity_With_Cooperation_Ensemble_Methods_for_Few-Shot_Classification_ICCV_2019_paper.pdf)) Diversity with Cooperation: Ensemble Methods for Few-Shot Classification
     * New way to solve few-shot learning problems without meta-learing.
+
+- [ICCV 2019] Diversity With Cooperation Ensemble Methods for Few-Shot Classification
+    * Like title, accuracy of 81% on 5-shot mini-imagenet
 
 
 #### External Memory
@@ -238,6 +245,8 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [CVPR 2018] ([paper](https://arxiv.org/pdf/1804.08281.pdf)) Memory Matching Networks for One-Shot Image Recognition
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1902.02527.pdf) [code](https://github.com/cogentlabs/apl.)) Adaptive Posterior Learning-Few-Shot Learning with a Surprise-Based Memory Module
+- [ICCV 2019] Few-Shot Image Recognition With Knowledge Transfer
+
 
 #### Architecture
 - [ICML 2017] Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
@@ -245,9 +254,11 @@ issue 里面提出来，我会在第一时间进行回复的。
 
     A training method force model to learn a unbiased initial model without over-performing on some particular tasks.
 
+
 #### Task Representation and Measure
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1902.03545.pdf)) (RECOMMENDED!) TASK2VEC- Task Embedding for Meta-Learning
     * Use Fisher information matrix to judge which backbone is suitable for current task.
+
 
 #### Multi Label Image Classification
 - [CVPR 2019 oral] ([paper](https://arxiv.org/pdf/1902.09811.pdf)) LaSO-Label-Set Operations networks for multi-label few-shot learning
