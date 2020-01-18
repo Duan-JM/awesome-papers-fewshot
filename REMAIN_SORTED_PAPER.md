@@ -63,6 +63,8 @@
 - [x] [arXiv 2019] A New Benchmark for Evaluation of Cross-Domain Few-Shot Learning
 - [x] [arXiv 2019] Few-shot Learning with Contextual Cueing for Object Recognition in Complex Scenes
 - [x] [arXiv 2019] Meta-Learning with Dynamic-Memory-Based Prototypical Network
+- [x] [arXiv 2020] DAWSON: A Domain Adaptive Few Shot Generation Framework
+-   * generate music, a project under cs236 in stanford university
 
 
 # New Comming

@@ -85,6 +85,11 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Improve MAML to 66%
     * the initial model can be trained biased towards some tasks, particularly those sampled in meta-training phase
 
+- [ICLR 2020] Automated Relational Meta-learning
+    * adding knowledge graph on the prototypes
+    * not familiar with the dataset, but very interesting
+    * show 5% better than TADAM
+
 
 ### Generative Based Few-shot Learning
 **One line descriptions:** Generate features to expasion small datasets to large datasets, then fintune.
