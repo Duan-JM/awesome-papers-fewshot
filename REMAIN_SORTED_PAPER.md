@@ -85,24 +85,16 @@
 
 - [ ] [ICLR 2019] Meta-Learning Probabilistic Inference for Prediction
 
-- [ ] [ICCV 2019] PANet Few-Shot Image Semantic Segmentation With Prototype Alignment
-- [ ] [ICCV 2019] ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Diversity_With_Cooperation_Ensemble_Methods_for_Few-Shot_Classification_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Ravichandran_Few-Shot_Learning_With_Embedded_Class_Models_and_Shot-Free_Meta_Training_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Few-Shot_Unsupervised_Image-to-Image_Translation_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Learning_Compositional_Representations_for_Few-Shot_Recognition_ICCV_2019_paper.pdf
+- [ ] [ICCV 2019] Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
 - [ ] [ICCV 2019] One-Shot Neural Architecture Search via Self-Evaluated Template Network.pdf
 - [ ] [ICCV 2019] Task-Driven Modular Networks for Zero-Shot Compositional Learning.pdf
 - [ ] [ICCV 2019] Attract or Distract-Exploit the Margin of Open Set
 - [ ] [ICCV 2019] Semantic-Aware Knowledge Preservation for Zero-Shot Sketch-Based Image Retrieval
 - [ ] [ICCV 2019] Attract or Distract-Exploit the Margin of Open Set
 - [ ] [ICCV 2019 best paper] Larger Norm More Transferable- An Adaptive Feature Norm Approach for Unsupervised Domain Adaptation.pdf
-- [ ] [ICCV 2019] ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] AMP_Adaptive_Masked_Proxies_for_Few-Shot_Segmentation_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Few-Shot_Generalization_for_Single-Image_3D_Reconstruction_via_Priors_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Variational_Few-Shot_Learning_ICCV_2019_paper.pdf
-- [ ] [ICCV 2019] Few-Shot_Learning_With_Embedded_Class_Models_and_Shot-Free_Meta_Training_ICCV_2019_paper.pdf
+- [ ] [ICCV 2019] Few-Shot Generalization for Single-Image 3D Reconstruction via Priors
+- [ ] [ICCV 2019] Variational Few-Shot Learning
+- [ ] [ICCV 2019] Few-Shot Learning With Embedded Class Models and Shot-Free Meta Training
 
 ## CIKM Paper Collation for few-shot Learning and meta-learning
 
