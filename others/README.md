@@ -52,3 +52,4 @@
 - [CVPR 2019] Improving Few-Shot User-Specific Gaze Adaptation via Gaze Redirection Synthesis
 - [CVPR 2019] Learning to Learn How to Learn: Self-Adaptive Visual Navigation Using Meta-Learning
 - [ICCV 2019] Few-Shot Adaptive Gaze Estimation
+- [ICCV 2019] One-Shot Neural Architecture Search via Self-Evaluated Template Network

@@ -1,16 +1,3 @@
-# No Paper
-- [ ] [NIPS 2019] ([code](https://github.com/apple2373/MetaIRNet)) Metal-Reinforced Synthetic Data for One-Shot Fine-Grained Visual Recognition
-- [ ] [NIPS 2019] Online-Within-Online Meta-Learning
-- [ ] [NIPS 2019] Reconciling meta-learning and continual learning with online mixtures of tasks
-- [ ] [NIPS 2019] Neural Relational Inference with Fast Modular Meta-learning
-- [ ] [ICCV 2017] Supplementary Meta-Learning: Towards a Dynamic Model for Deep Neural Networks
-
-
-# Stall
-- [x] [ECCV 2018] Dynamic Conditional Networks for Few-Shot Learning
-    * Add text information into the convolution layers
-    * Evaluate on three task, however didn't found mini-imagnet or other common datasets, so stall here.
-
 # Arxiv
 - [x] [arXiv 2019] MarioNETte: Few-shot Face Reenactment Preserving Identity of Unseen Targets
 - [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection
@@ -46,12 +33,21 @@
 - [x] [arXiv 2018] Few-Shot Self Reminder to Overcome Catastrophic Forgetting
     * Ultilize the loss between tasks
     * Ultilize the generate feature betwwen tasks
-- [x] [arXiv 2019] Meta-Reinforced Synthetic Data for One-Shot Fine-Grained Visual Recognition
-    * Use Generator to generate a images to fuse on the original one
 - [x] [arXiv 2019] Diversity Transfer Network for Few-Shot Learning
     * ResNet12 77.91%
 - [x] [arXiv 2019] FLAT: Few-Shot Learning via Autoencoding Transformation Regularizers
     * ResNet18 77%
+- [x] [arXiv 2019] Improved Few-Shot Visual Classification
+    * 没有比 mini-imagenet
+    * 疑似是 TADAM 的延续工作
+- [x] [arXiv 2019] ([paper](https://arxiv.org/abs/1911.06045) [code](https://github.com/phecy/SSL-FEW-SHOT)) SELF-SUPERVISED LEARNING FOR FEW-SHOT IMAGE CLASSIFICATION
+    * 90% accuracy
+
+- [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/2001.09849.pdf)) Exploiting Unsupervised Inputs for Accurate Few-Shot Classification
+    * 85% Graph
+
+- [x] [arXiv 2019] ([paper](https://arxiv.org/abs/1906.02944) ) Learning Adaptive Classifiers Synthesis for Generalized Few-Shot Learning
+- [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/2001.08366.pdf)) Continual Local Replacement for Few-shot Image Recognition
 
 
 **Application**
@@ -65,38 +61,8 @@
 - [x] [arXiv 2019] Meta-Learning with Dynamic-Memory-Based Prototypical Network
 - [x] [arXiv 2020] DAWSON: A Domain Adaptive Few Shot Generation Framework
 -   * generate music, a project under cs236 in stanford university
+- [x] [arXiv 2020] BOFFIN TTS: FEW-SHOT SPEAKER ADAPTATION BY BAYESIAN OPTIMIZATION
+    * Text to Speech
 
-
-# New Comming
-- [ ] [NIPS 2018] Meta-Learning MCMC Proposals
-
-- [ ] [ACMMM 2019] TGG: Transferable Graph Generation for Zero-shot and Few-shot Learning
-- [ ] [ACMMM 2019] Fewer-Shots and Lower-Resolutions: Towards Ultrafast Face Recognition in the Wild
-
-- [ ] [ICML 2019] Online Meta-Learning
-- [ ] [ICML 2019] Provable Guarantees for Gradient-Based Meta-Learning
-- [ ] [ICML 2019] Hierarchically Structured Meta-learning
-- [ ] [ICML 2019] Meta-Learning Neural Bloom Filters
-- [ ] [ICML 2018] MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning
-- [ ] [ICML 2018] Bilevel Programming for Hyperparameter Optimization and Meta-Learning
-- [ ] [ICML 2018] Meta-Learning by Adjusting Priors Based on Extended PAC-Bayes Theory
-- [ ] [ICML 2018] Been There, Done That: Meta-Learning with Episodic Recall
-- [ ] [ICML 2018] Gradient-Based Meta-learning with learned layerwise metric and subspace
-
-- [ ] [ICLR 2019] Meta-Learning Probabilistic Inference for Prediction
-
-- [ ] [ICCV 2019] Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
-- [ ] [ICCV 2019] One-Shot Neural Architecture Search via Self-Evaluated Template Network.pdf
-- [ ] [ICCV 2019] Task-Driven Modular Networks for Zero-Shot Compositional Learning.pdf
-- [ ] [ICCV 2019] Attract or Distract-Exploit the Margin of Open Set
-- [ ] [ICCV 2019] Semantic-Aware Knowledge Preservation for Zero-Shot Sketch-Based Image Retrieval
-- [ ] [ICCV 2019] Attract or Distract-Exploit the Margin of Open Set
-- [ ] [ICCV 2019 best paper] Larger Norm More Transferable- An Adaptive Feature Norm Approach for Unsupervised Domain Adaptation.pdf
-- [ ] [ICCV 2019] Few-Shot Generalization for Single-Image 3D Reconstruction via Priors
-- [ ] [ICCV 2019] Variational Few-Shot Learning
-- [ ] [ICCV 2019] Few-Shot Learning With Embedded Class Models and Shot-Free Meta Training
-
-## CIKM Paper Collation for few-shot Learning and meta-learning
-
-- [ ] [CIKM 2019] ([paper](https://arxiv.org/pdf/1905.09718.pdf)) Meta-GNN: On Few-shot Node Classification in Graph Meta-learning
-- [ ] [CIKM 2019] ([paper](https://dl.acm.org/ft_gateway.cfm?id=3358100&ftid=2094704&dwn=1&CFID=171001657&CFTOKEN=1f6fc8985404ad9c-76434F7F-0C16-4973-955D9C02C525993F)) Large Margin Prototypical Network for Few-shot Relation Classification with Fine-grained Features
+- [x] [arXiv 2020] Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
+- [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/2001.08735.pdf))CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION

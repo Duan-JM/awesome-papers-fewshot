@@ -65,6 +65,7 @@ We collect some awesome code and blogs here.
 - [Meta-Learning: Learning to Learn Fast](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html)
 - [大数据时代的小样本深度学习问题的综述](https://zhuanlan.zhihu.com/p/60881968)(Recommended)
 - [Hands-On-Meta-Learning-With-Python](https://github.com/sudharsan13296/Hands-On-Meta-Learning-With-Python)
+- [Floodsung's Meta-Learning Paper lists](https://github.com/floodsung/Meta-Learning-Papers)
 
 
 ### How to recommend a paper

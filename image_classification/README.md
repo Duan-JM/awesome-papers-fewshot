@@ -85,6 +85,9 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Improve MAML to 66%
     * the initial model can be trained biased towards some tasks, particularly those sampled in meta-training phase
 
+- [NIPS 2019] Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation
+    * Augumnet for MAML
+
 - [ICLR 2020] Automated Relational Meta-learning
     * adding knowledge graph on the prototypes
     * not familiar with the dataset, but very interesting
@@ -217,7 +220,8 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [AAAI 2019] A Dual Attention Network with Semantic Embedding for Few-shot Learning
     * Add spatial attention and task attention.
 
-- [CVPR 2019] ([code](https://github.com/kjunelee/MetaOptNet)) Meta-Learning With Differentiable Convex Optimization
+- [CVPR 2019 oral] ([code](https://github.com/kjunelee/MetaOptNet)) Meta-Learning With Differentiable Convex Optimization
+    * 5-shot 5-way 80% on mini-imagenet
 
 - [ICLR 2020] A THEORETICAL ANALYSIS OF THE NUMBER OF SHOTS IN FEW-SHOT LEARNING
     * Analysis on Prototypical Networks, result is not significant, however we can have a look into the analysis
@@ -227,6 +231,12 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICCV 2019] PARN Position-Aware Relation Networks for Few-Shot Learning
     * Improve on RelationNetwork, change a way to extract more information during feature extraction stage, then argue that when objects in the same class appear on the different spatial position will cause the misclassification, they redesign the metric module(the origianl 2CNN + 2FC) instead.  
     * Conv4 71% on mini-imagenet 5shot
+
+- [NIPS 2019] Meta-Reinforced Synthetic Data for One-Shot Fine-Grained Visual Recognition
+    * Use a Generator to generate fused Image to extend prototypes
+
+- [ICCV 2019] Few-Shot Learning with Embedded Class Models and Shot-Free Meta Training
+    * Perform well in 5-5 train to 5-1 test
 
 ### Special
 #### Unsorted
@@ -239,6 +249,8 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICCV 2019] Diversity With Cooperation Ensemble Methods for Few-Shot Classification
     * Like title, accuracy of 81% on 5-shot mini-imagenet
 
+- [ICCV 2019] Variational Few-Shot Learning
+
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks
@@ -250,7 +262,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [CVPR 2018] ([paper](https://arxiv.org/pdf/1804.08281.pdf)) Memory Matching Networks for One-Shot Image Recognition
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1902.02527.pdf) [code](https://github.com/cogentlabs/apl.)) Adaptive Posterior Learning-Few-Shot Learning with a Surprise-Based Memory Module
-- [ICCV 2019] Few-Shot Image Recognition With Knowledge Transfer
+- [ICCV 2019] ([paper](https://pdfs.semanticscholar.org/9d04/7a9c96d1e929846b28a44498a230fffee06f.pdf?_ga=2.165168639.132909448.1580616762-480481026.1580441958))Few-Shot Image Recognition With Knowledge Transfer
 
 
 #### Architecture
