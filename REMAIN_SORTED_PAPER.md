@@ -48,7 +48,14 @@
 
 - [x] [arXiv 2019] ([paper](https://arxiv.org/abs/1906.02944) ) Learning Adaptive Classifiers Synthesis for Generalized Few-Shot Learning
 - [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/2001.08366.pdf)) Continual Local Replacement for Few-shot Image Recognition
+- [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/1812.04955.pdf)) Prior-Knowledge and Attention based Meta-Learning for Few-Shot Learning
+    * add Very Very simple attention(almost like SENet's attention model)
+    * add addition model to assist
+    * 1 per improve on PN
 
+- [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/2002.07522.pdf)) Few-Shot Few-Shot Learning and the role of Spatial Attention
+    * reported 80% acc
+    * Interesting
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
@@ -66,3 +73,12 @@
 
 - [x] [arXiv 2020] Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
 - [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/2001.08735.pdf))CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION
+- [x] [arXiv 2019] ADVERSARIALLY ROBUST FEW-SHOT LEARNING: A META-LEARNING APPROACH
+    * A approach is robust to adversarially attack
+- [x] [arXiv 2019] Learning to Few-Shot Learn Across Diverse Natural Language Classification Tasks
+    * Structure like LEO, named LEOPARD
+
+- [x] [arXiv 2019] Shaping Visual Representations with Language for Few-shot Classification
+    * jointly predicting natural language task descriptions
+- [x] [arXiv 2020] Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
+- [x] [arXiv 2020] CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION

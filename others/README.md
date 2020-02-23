@@ -9,7 +9,7 @@
 ### Domain Adaptation
 - [NIPS 2017] Few-Shot Adversarial Domain Adaptation
 - [ICCV 2019] Bidirectional One-Shot Unsupervised Domain Mapping
-- [ICLR 2020] CROSS-DOMAIN FEW-SHOT CLASSIFICATION
+- [ICLR 2020] CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION
 
 ### Reinforcement Learning
 - [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
