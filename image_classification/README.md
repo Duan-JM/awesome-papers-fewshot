@@ -81,6 +81,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICLR 2020] LEARNING TO BALANCE: BAYESIAN META-LEARNING FOR IMBALANCED AND OUT-OF-DISTRIBUTION TASKS
     * try to solve task- and class-imbalanced problems
     * feel not significant on normal few-shot learing setup
+
 - [CVPR 2019] Task Agnostic Meta-Learning for Few-Shot Learning
     * Improve MAML to 66%
     * the initial model can be trained biased towards some tasks, particularly those sampled in meta-training phase
@@ -171,7 +172,7 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Perform well on 1-shot rather than 5-shot or 10-shot
 
 - [CVPR 2019] ([paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chu_Spot_and_Learn_A_Maximum-Entropy_Patch_Sampler_for_Few-Shot_Image_CVPR_2019_paper.pdf)) Spot and Learn A Maximum-Entropy Patch Sampler for Few-Shot Image Classification
-    * Sample parts of the image to form the batch to represent the class. 
+    * Sample parts of the image to form the batch to represent the class.
     * One-shot not pretty good(51%)
 
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1906.01905.pdf)) Baby steps towards few-shot learning with multiple semantics
@@ -221,7 +222,7 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Add spatial attention and task attention.
 
 - [CVPR 2019 oral] ([code](https://github.com/kjunelee/MetaOptNet)) Meta-Learning With Differentiable Convex Optimization
-    * 5-shot 5-way 80% on mini-imagenet
+    * 5-shot 5-way 78% on mini-imagenet
 
 - [ICLR 2020] A THEORETICAL ANALYSIS OF THE NUMBER OF SHOTS IN FEW-SHOT LEARNING
     * Analysis on Prototypical Networks, result is not significant, however we can have a look into the analysis
@@ -237,7 +238,10 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [ICCV 2019] Few-Shot Learning with Embedded Class Models and Shot-Free Meta Training
     * Perform well in 5-5 train to 5-1 test
+    * 77\% for miniimagenet 5-5shot
 
+- [AAAI 2020] Knowledge Graph Transfer Network for Few-Shot Recognition
+    * Knowledge Graph Transfer Network for Few-Shot Recognition 把prototypes构建成一个图，然后搞的，可以留个记录，他的测试主要在ImageNet FS和ImageNet 6K，但是显示的是PN本身就能到80%的情况下，他到了83%
 ### Special
 #### Unsorted
 - [Nature 子刊 MI 2018] ([paper](https://arxiv.org/pdf/1810.01256.pdf)) Continuous Learning of Context-dependent Processing in Neural Networks

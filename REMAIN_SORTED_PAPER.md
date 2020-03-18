@@ -1,8 +1,6 @@
 # Arxiv
 - [x] [arXiv 2019] MarioNETte: Few-shot Face Reenactment Preserving Identity of Unseen Targets
 - [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection
-- [x] [arXiv 2019] Knowledge Graph Transfer Network for Few-Shot Recognition
-    * Knowledge Graph Transfer Network for Few-Shot Recognition 把prototypes构建成一个图，然后搞的，可以留个记录，他的测试主要在ImageNet FS和ImageNet 6K，但是显示的是PN本身就能到80%的情况下，他到了83%
 
 - [x] [arXiv 2019] Learning Generalizable Representations via Diverse Supervision
 - [x] [arXiv 2019] One-Shot Object Detection with Co-Attention and Co-Excitation
@@ -59,7 +57,6 @@
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
-- [x] [arXiv 2019] Few-Shot Knowledge Graph Completion (关系抽取)
 - [x] [arXiv 2019] Few Shot Network Compression via Cross Distillation (模型压缩)
 - [x] [arXiv 2019] Real-Time Object Tracking via Meta-Learning: Efficient Model Adaptation and One-Shot Channel Pruning （目标跟踪）
 - [x] [arXiv 2019] Defensive Few-shot Adversarial Learning

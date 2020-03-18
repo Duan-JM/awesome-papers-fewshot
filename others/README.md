@@ -9,7 +9,7 @@
 ### Domain Adaptation
 - [NIPS 2017] Few-Shot Adversarial Domain Adaptation
 - [ICCV 2019] Bidirectional One-Shot Unsupervised Domain Mapping
-- [ICLR 2020] CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION
+- [ICLR 2020] CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION 
 
 ### Reinforcement Learning
 - [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
@@ -53,3 +53,4 @@
 - [CVPR 2019] Learning to Learn How to Learn: Self-Adaptive Visual Navigation Using Meta-Learning
 - [ICCV 2019] Few-Shot Adaptive Gaze Estimation
 - [ICCV 2019] One-Shot Neural Architecture Search via Self-Evaluated Template Network
+- [AAAI 2020] Few-Shot Knowledge Graph Completion (关系抽取)
