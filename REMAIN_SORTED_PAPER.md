@@ -27,12 +27,6 @@
 - [ ] [2002.05287] Geom-GCN: Geometric Graph Convolutional Networks
 - [ ] [2002.06619] CRL: Class Representative Learning for Image Classification
 - [ ] [2001.03288] Efficient Memory Management for Deep Neural Net Inference
-- [ ] [AAAI 2020]  Knowledge Graph Transfer Network for Few-Shot Recognition
-- [ ] [AAAI 2020]  Neural Snowball for Few-Shot Relation Learning
-- [ ] [AAAI 2020]  Diversity Transfer Network for Few-Shot Learning
-- [ ] [AAAI 2020]  Context-Transformer: Tackling Object Confusion for Few-Shot Detection
-- [ ] [AAAI 2020]  Few-Shot Bayesian Imitation Learning with Logical Program Policies
-- [ ] [AAAI 2020]  Few Shot Network Compression via Cross Distillation
 
 # Arxiv
 - [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection
@@ -129,7 +123,6 @@
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
-- [x] [arXiv 2019] Few Shot Network Compression via Cross Distillation (模型压缩)
 - [x] [arXiv 2019] Real-Time Object Tracking via Meta-Learning: Efficient Model Adaptation and One-Shot Channel Pruning （目标跟踪）
 - [x] [arXiv 2019] Defensive Few-shot Adversarial Learning
 - [x] [arXiv 2019] A New Benchmark for Evaluation of Cross-Domain Few-Shot Learning

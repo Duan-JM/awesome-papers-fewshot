@@ -22,4 +22,6 @@
 - [NIPS 2019] ([paper](https://arxiv.org/abs/1911.12529) [code](https://github.com/timy90022/One-Shot-Object-Detection)) One-Shot Object Detection with Co-Attention and Co-Excitation
   - Non-local Operate & Squeeze and Excitation
 
+- [AAAI 2020]  Context-Transformer: Tackling Object Confusion for Few-Shot Detection
+
 

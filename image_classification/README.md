@@ -247,6 +247,9 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2020 oral] DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers
     * 65.91 1-shot， 82.41 5-shot
     * new distance measrue
+- [AAAI 2020]  Diversity Transfer Network for Few-Shot Learning
+    * 63% for 1-shot 77.9% for 5-shot
+    * using external refernce image to form auxilary tasks
 
 ### Special
 #### Unsorted
