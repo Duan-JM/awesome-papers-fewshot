@@ -240,8 +240,14 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Perform well in 5-5 train to 5-1 test
     * 77\% for miniimagenet 5-5shot
 
-- [AAAI 2020] Knowledge Graph Transfer Network for Few-Shot Recognition
+- [AAAI 2020]  Knowledge Graph Transfer Network for Few-Shot Recognition
     * Knowledge Graph Transfer Network for Few-Shot Recognition 把prototypes构建成一个图，然后搞的，可以留个记录，他的测试主要在ImageNet FS和ImageNet 6K，但是显示的是PN本身就能到80%的情况下，他到了83%
+    * did not compare in mini-imagenet, seems fine
+
+- [CVPR 2020 oral] DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers
+    * 65.91 1-shot， 82.41 5-shot
+    * new distance measrue
+
 ### Special
 #### Unsorted
 - [Nature 子刊 MI 2018] ([paper](https://arxiv.org/pdf/1810.01256.pdf)) Continuous Learning of Context-dependent Processing in Neural Networks

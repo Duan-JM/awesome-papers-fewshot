@@ -54,3 +54,6 @@
 - [ICCV 2019] Few-Shot Adaptive Gaze Estimation
 - [ICCV 2019] One-Shot Neural Architecture Search via Self-Evaluated Template Network
 - [AAAI 2020] Few-Shot Knowledge Graph Completion (关系抽取)
+- [AAAI 2020]  Learning Meta Model for Zero- and Few-shot Face Anti-spoofing
+- [AAAI 2020]  SGAP-Net: Semantic-Guided Attentive Prototypes Network for Few-Shot Human-Object Interaction Recognition
+- [AAAI 2020]  Graph Few-shot Learning via Knowledge Transfer

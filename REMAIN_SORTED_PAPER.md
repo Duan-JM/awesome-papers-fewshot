@@ -12,10 +12,6 @@
 - [ ] [arXiv 2020] On the Texture Bias for Few-Shot CNN Segmentation
 - [ ] [arXiv 2020] TransMatch: A Transfer-Learning Scheme for Semi-Supervised Few-Shot Learning
 - [ ] [arXiv 2020] Continual Local Replacement for Few-shot Learning
-- [ ] [arXiv 2020] A New Meta-Baseline for Few-Shot Learning
-- [ ] [arXiv 2020] Efficient Intent Detection with Dual Sentence Encoders
-- [ ] [arXiv 2020] Incremental Few-Shot Object Detection
-- [ ] [arXiv 2020] Meta-Learning Initializations for Low-Resource Drug Discovery
 - [ ] [arXiv 2020] An Open-set Recognition and Few-Shot Learning Dataset for Audio Event Classification in Domestic Environments
 - [ ] [2002.12017] Transductive Few-shot Learning with Meta-Learned Confidence
 - [ ] [2002.12328] Few-shot Natural Language Generation for Task-Oriented Dialog
@@ -32,14 +28,10 @@
 - [ ] [2002.06619] CRL: Class Representative Learning for Image Classification
 - [ ] [2001.03288] Efficient Memory Management for Deep Neural Net Inference
 - [ ] [AAAI 2020]  Knowledge Graph Transfer Network for Few-Shot Recognition
-- [ ] [AAAI 2020]  SGAP-Net: Semantic-Guided Attentive Prototypes Network for Few-Shot Human-Object Interaction Recognition
 - [ ] [AAAI 2020]  Neural Snowball for Few-Shot Relation Learning
 - [ ] [AAAI 2020]  Diversity Transfer Network for Few-Shot Learning
 - [ ] [AAAI 2020]  Context-Transformer: Tackling Object Confusion for Few-Shot Detection
-- [ ] [AAAI 2020]  Graph Few-shot Learning via Knowledge Transfer
 - [ ] [AAAI 2020]  Few-Shot Bayesian Imitation Learning with Logical Program Policies
-- [ ] [AAAI 2020]  Learning Meta Model for Zero- and Few-shot Face Anti-spoofing
-- [ ] [AAAI 2020]  Differentiable Meta-learning Model for Few-shot Semantic Segmentation
 - [ ] [AAAI 2020]  Few Shot Network Compression via Cross Distillation
 
 # Arxiv
@@ -101,13 +93,19 @@
 - [x] [arXiv 2020] StarNet: towards weakly supervised few-shot detection and explainable few-shot classification
     * explanable few-shot classification
     * 79% on mini-imagenet
-- [x] [arXiv 2020] DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers
-    * 65.91 1-shot， 82.41 5-shot
-    * new distance measrue
 - [x] [arXiv 2020] TAFSSL: Task-Adaptive Feature Sub-Space Learning for few-shot classification
     * 77% for 1shot and 84.99 for 5-shot on mini-Imagenet
 - [x] [arXiv 2020] Associative Alignment for Few-shot Image Classification
     * assit with base instances
+- [ ] [arXiv 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
+- [x] [arXiv 2020] Selecting Relevant Features from a Universal Representation for Few-shot Classification
+    * mixup the final feature with multi model output or multi depth layer in the models output
+- [x] [arXiv 2020] Few-Shot Learning with Geometric Constraints
+    * main contribution is on remain accurarcy for both novel and base
+    * outperform in both situations on miniImagenet
+- [x] [arXiv 2020] Rethinking Few-Shot Image Classification: a Good Embedding Is All You Need?
+    * finetune is all you need
+- [x] [arXiv 2020] A New Meta-Baseline for Few-Shot Learning
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
@@ -118,6 +116,11 @@
 - [x] [arXiv 2020] Any-Shot Object Detection
 - [x] [arXiv 2020] Frustratingly Simple Few-Shot Object Detection
     * say fintune is outperform meta-learning methods
+- [ ] [arXiv 2020] Incremental Few-Shot Object Detection
+
+**Segmentation**
+- [ ] [arXiv 2020] CRNet: Cross-Reference Networks for Few-Shot Segmentation
+- [ ] [arXiv 2020] Semi-supervised few-shot learning for medical image segmentation
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
@@ -144,3 +147,8 @@
 - [x] [arXiv 2020] Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
 - [x] [arXiv 2020] CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION
 - [x] [arXiv 2020] Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning
+- [ ] [arXiv 2020] Meta-Learning Initializations for Low-Resource Drug Discovery
+- [ ] [arXiv 2020] An Open-set Recognition and Few-Shot Learning Dataset for Audio Event Classification in Domestic Environments
+- [ ] [arXiv 2020] Additive Angular Margin for Few Shot Learning to Classify Clinical Endoscopy Images
+- [ ] [arXiv 2020] Domain-Adaptive Few-Shot Learning
+- [ ] [arXiv 2020] Efficient Intent Detection with Dual Sentence Encoders
