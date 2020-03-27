@@ -1,3 +1,8 @@
+## Awesome Papers - Few shot 
+
+![](https://img.shields.io/badge/FewShot-study-yellowgreen)
+![](https://img.shields.io/badge/Welcome-contributors-yellowbrightgreen)
+
 Awesome Papers Few-shot focus on collecting paper published on top conferences in Few-shot learning area,
 hoping that this cut some time costing for beginners. Morever we also glad to see this repo can be a virtual online seminar,
 which can be a home to all researchers who have the enthusiasm to exchange interesting ideas.
