@@ -106,6 +106,11 @@
 - [x] [arXiv 2020] Rethinking Few-Shot Image Classification: a Good Embedding Is All You Need?
     * finetune is all you need
 - [x] [arXiv 2020] A New Meta-Baseline for Few-Shot Learning
+- [x] [arXiv 2020] [exist code] Instance Credibility Inference for Few-Shot Learning
+    * useing linear classifier to make presudo labels to expand support set
+    * pretty good results for 1-shot 71%
+- [ ] [arXiv 2020] [exist code] Negative Margin Matters: Understanding Margin in Few-shot Classification
+    * 62% for 1shot
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
