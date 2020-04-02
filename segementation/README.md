@@ -10,4 +10,5 @@
 - [ICCV 2019] Feature Weighting and Boosting for Few-Shot Segmentation
 - [ICCV 2019] Meta R-CNN Towards General Solver for Instance-Level Low-Shot Learning
 - [ICCV 2019] PANet Few-Shot Image Semantic Segmentation With Prototype Alignment
-- [AAAI 2020]  Differentiable Meta-learning Model for Few-shot Semantic Segmentation
+- [AAAI 2020] Differentiable Meta-learning Model for Few-shot Semantic Segmentation
+- [CVPR 2020] FGN: Fully Guided Network for Few-Shot Instance Segmentation

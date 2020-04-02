@@ -24,4 +24,6 @@
 
 - [AAAI 2020]  Context-Transformer: Tackling Object Confusion for Few-Shot Detection
 
+- [CVPR 2020] Few-Shot Object Detection with Attention-RPN and Multi-Relation Detector
+
 

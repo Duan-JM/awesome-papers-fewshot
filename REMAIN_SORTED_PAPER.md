@@ -1,32 +1,23 @@
+# No Papers
+- [ ] [AAAI 2020] SGAP-Net: Semantic-Guided Attentive Prototypes Network for Few-Shot Human-Object Interaction Recognition
+
 # Remain Read Papers
+- [ ] [arXiv 2020] Geom-GCN: Geometric Graph Convolutional Networks
 - [ ] [arXiv 2020] PAC-Bayesian Meta-learning with Implicit Prior
-- [ ] [arXiv 2020] Towards Fair Cross-Domain Adaptation via Generative Learning
-- [ ] [arXiv 2020] Zero-Shot Cross-Lingual Transfer with Meta Learning
-- [ ] [arXiv 2020] Generalized Adaptation for Few-Shot Learning
-- [ ] [arXiv 2020] Prototype Rectification for Few-Shot Learning
-- [ ] [arXiv 2020] AdarGCN: Adaptive Aggregation GCN for Few-Shot Learning
+- [ ] [arXiv 2020] Unsupervised Discovery of Interpretable Directions in the GAN Latent Space
+- [ ] [arXiv 2020] Efficient Memory Management for Deep Neural Net Inference
+- [ ] [arXiv 2020] A convolutional neural network reaches optimal sensitivity for detecting some, but not all, patterns
 - [ ] [arXiv 2020] Meta-Learning across Meta-Tasks for Few-Shot Learning
-- [ ] [arXiv 2020] Cross-Domain Few-Shot Classification via Learned Feature-Wise Transformation
-- [ ] [arXiv 2020] Learning to Few-Shot Learn Across Diverse Natural Language Classification Tasks
-- [ ] [arXiv 2020] Embedding Propagation: Smoother Manifold for Few-Shot Classification
-- [ ] [arXiv 2020] On the Texture Bias for Few-Shot CNN Segmentation
-- [ ] [arXiv 2020] TransMatch: A Transfer-Learning Scheme for Semi-Supervised Few-Shot Learning
-- [ ] [arXiv 2020] Continual Local Replacement for Few-shot Learning
-- [ ] [arXiv 2020] An Open-set Recognition and Few-Shot Learning Dataset for Audio Event Classification in Domestic Environments
-- [ ] [2002.12017] Transductive Few-shot Learning with Meta-Learned Confidence
-- [ ] [2002.12328] Few-shot Natural Language Generation for Task-Oriented Dialog
-- [ ] [2002.09571] Learning to Continually Learn
-- [ ] [1902.10658] Unsupervised Attention Mechanism across Neural Network Layers
-- [ ] [1911.05055] A convolutional neural network reaches optimal sensitivity for detecting some, but not all, patterns
-- [ ] [2002.08473] Revisiting Training Strategies and Generalization Performance in Deep Metric Learning
-- [ ] [2002.08799] A Structured Prediction Approach for Conditional Meta-Learning
-- [ ] [2002.08721] A survey on Semi-, Self- and Unsupervised Techniques in Image Classification
-- [ ] [2002.03754] Unsupervised Discovery of Interpretable Directions in the GAN Latent Space
-- [ ] [2002.06797] Deep Domain Adaptive Object Detection: a Survey
-- [ ] [2002.06753] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
-- [ ] [2002.05287] Geom-GCN: Geometric Graph Convolutional Networks
-- [ ] [2002.06619] CRL: Class Representative Learning for Image Classification
-- [ ] [2001.03288] Efficient Memory Management for Deep Neural Net Inference
+- [ ] [arXiv 2020] Unsupervised Attention Mechanism across Neural Network Layers
+- [ ] [arXiv 2020] Revisiting Training Strategies and Generalization Performance in Deep Metric Learning
+- [ ] [arXiv 2020] A Structured Prediction Approach for Conditional Meta-Learning
+- [ ] [arXiv 2020] A survey on Semi-, Self- and Unsupervised Techniques in Image Classification
+- [ ] [arXiv 2020] Deep Domain Adaptive Object Detection: a Survey
+- [ ] [arXiv 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
+- [ ] [arXiv 2020] CRL: Class Representative Learning for Image Classification
+
+# Not so Top Conference
+- [x] [WACV 2020] Charting the Right Manifold: Manifold Mixup for Few-shot Learning
 
 # Arxiv
 - [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection
@@ -46,14 +37,12 @@
 - [x] [arXiv 2019] MetAdapt: Meta-Learned Task-Adaptive Architecture for Few-Shot Classification
     * 使用模型搜索搜出来的结构，号称 SOTA 在 mini-imagenet （存疑）
 
-- [x] [arXiv 2019] Charting the Right Manifold: Manifold Mixup for Few-shot Learning
     * 这个是在feature上动文章的，关键词是self-supervised 和 regularization technique。This work investigates the role of learning relevant feature manifold for few-shot tasks using self-supervision and regularization techniques.
 
 - [x] [arXiv 2019] MetaFun: Meta-Learning with Iterative Functional Updates
     * 用了无限的特征长度，还有一个什么东西，效果很好83%
 
 - [x] [arXiv 2019] Class Regularization-Improve Few-shot Image Classification by Reducing Meta Shift
-- [x] [arXiv 2019] Charting the Right Manifold: Manifold Mixup for Few-shot Learning
 - [x] [1909.11446] Decoder Choice Network for Meta-Learning
     * leo分支的、目标是减参数，效果一般，可以看看怎么减少参数的
 - [x] [arXiv 2018] Few-Shot Self Reminder to Overcome Catastrophic Forgetting
@@ -74,6 +63,9 @@
 
 - [x] [arXiv 2019] ([paper](https://arxiv.org/abs/1906.02944) ) Learning Adaptive Classifiers Synthesis for Generalized Few-Shot Learning
 - [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/2001.08366.pdf)) Continual Local Replacement for Few-shot Image Recognition
+    * using generative model to generate iamge to replace support set locally(pretty fun)
+    * 66 1shot 81 5-shot
+
 - [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/1812.04955.pdf)) Prior-Knowledge and Attention based Meta-Learning for Few-Shot Learning
     * add Very Very simple attention(almost like SENet's attention model)
     * add addition model to assist
@@ -105,6 +97,20 @@
     * pretty good results for 1-shot 71%
 - [ ] [arXiv 2020] [exist code] Negative Margin Matters: Understanding Margin in Few-shot Classification
     * 62% for 1shot
+- [x] [arXiv 2020] AdarGCN: Adaptive Aggregation GCN for Few-Shot Learning
+    * a new circumstance with noise input
+- [x] [arXiv 2020] Prototype Rectification for Few-Shot Learning
+    * Using query set to enhance prototype, good results in 1-shot 70%, however, potential
+        model leaky problem, wait for opensource
+- [x] [arXiv 2020] [exist code] Embedding Propagation: Smoother Manifold for Few-Shot Classification
+    * ElementAI
+    * 70 1-shot 81 5-shot
+- [x] [arXiv 2020] TransMatch: A Transfer-Learning Scheme for Semi-Supervised Few-Shot Learning
+    * Imprinted weights to finetune 
+    * SSL settings
+    * 63% 1-shot 82% 5shot
+- [x] [arXiv 2020] [exist code] Transductive Few-shot Learning with Meta-Learned Confidence
+    * 78 1-shot 86 5-shot
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
@@ -120,6 +126,7 @@
 **Segmentation**
 - [ ] [arXiv 2020] CRNet: Cross-Reference Networks for Few-Shot Segmentation
 - [ ] [arXiv 2020] Semi-supervised few-shot learning for medical image segmentation
+- [ ] [arXiv 2020] On the Texture Bias for Few-Shot CNN Segmentation
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
@@ -137,16 +144,20 @@
 - [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/2001.08735.pdf))CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION
 - [x] [arXiv 2019] ADVERSARIALLY ROBUST FEW-SHOT LEARNING: A META-LEARNING APPROACH
     * A approach is robust to adversarially attack
-- [x] [arXiv 2019] Learning to Few-Shot Learn Across Diverse Natural Language Classification Tasks
-    * Structure like LEO, named LEOPARD
 
 - [x] [arXiv 2019] Shaping Visual Representations with Language for Few-shot Classification
     * jointly predicting natural language task descriptions
 - [x] [arXiv 2020] Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
-- [x] [arXiv 2020] CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION
 - [x] [arXiv 2020] Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning
 - [ ] [arXiv 2020] Meta-Learning Initializations for Low-Resource Drug Discovery
 - [ ] [arXiv 2020] An Open-set Recognition and Few-Shot Learning Dataset for Audio Event Classification in Domestic Environments
 - [ ] [arXiv 2020] Additive Angular Margin for Few Shot Learning to Classify Clinical Endoscopy Images
 - [ ] [arXiv 2020] Domain-Adaptive Few-Shot Learning
 - [ ] [arXiv 2020] Efficient Intent Detection with Dual Sentence Encoders
+- [ ] [arXiv 2020] Zero-Shot Cross-Lingual Transfer with Meta Learning
+- [ ] [arXiv 2020] Towards Fair Cross-Domain Adaptation via Generative Learning
+- [ ] [arXiv 2020] Learning to Few-Shot Learn Across Diverse Natural Language Classification Tasks
+    * LEO 风格的文本分类
+    * Structure like LEO, named LEOPARD
+- [ ] [arXiv 2020] An Open-set Recognition and Few-Shot Learning Dataset for Audio Event Classification in Domestic Environments
+- [ ] [arXiv 2020] Few-shot Natural Language Generation for Task-Oriented Dialog

@@ -59,4 +59,5 @@
 - [AAAI 2020] Graph Few-shot Learning via Knowledge Transfer
 - [AAAI 2020] Few Shot Network Compression via Cross Distillation (模型压缩)
 - [AAAI 2020] Few-Shot Bayesian Imitation Learning with Logical Program Policies
-- [AAAI 2020]  Neural Snowball for Few-Shot Relation Learning
+- [AAAI 2020] Neural Snowball for Few-Shot Relation Learning
+- [CVPR 2020] Meta-Transfer Learning for Zero-Shot Super-Resolution
