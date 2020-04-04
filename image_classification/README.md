@@ -139,7 +139,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2018] (RECOMMENDED!) Low-Shot Learning With Large-Scale Diffusion
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1805.10002.pdf)) Learning to Propagate Labels-transductive Propagation Network for Few-shot Learning
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01436.pdf)) Edge-Labeling Graph Neural Network for Few-shot Learning
-- [CVPR 2020] DPGN: Distribution Propagation Graph Network for Few-shot Learning
+- [CVPR 2020] ([code](https://github.com/megvii- research/DPGN) DPGN: Distribution Propagation Graph Network for Few-shot Learning
     * 67% for 1-shot 84% for 5-shot
 
 
@@ -254,7 +254,7 @@ issue 里面提出来，我会在第一时间进行回复的。
     * 63% for 1-shot 77.9% for 5-shot
     * using external refernce image to form auxilary tasks
 
-- [CVPR 2020] Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions
+- [CVPR 2020] [ [exist code](https://github.com/Sha-Lab/FEAT.) ] Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions
     * 66% for 1-shot 82 for 5-shot
 
 

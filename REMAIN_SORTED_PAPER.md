@@ -2,19 +2,6 @@
 - [ ] [AAAI 2020] SGAP-Net: Semantic-Guided Attentive Prototypes Network for Few-Shot Human-Object Interaction Recognition
 
 # Remain Read Papers
-- [ ] [arXiv 2020] Geom-GCN: Geometric Graph Convolutional Networks
-- [ ] [arXiv 2020] PAC-Bayesian Meta-learning with Implicit Prior
-- [ ] [arXiv 2020] Unsupervised Discovery of Interpretable Directions in the GAN Latent Space
-- [ ] [arXiv 2020] Efficient Memory Management for Deep Neural Net Inference
-- [ ] [arXiv 2020] A convolutional neural network reaches optimal sensitivity for detecting some, but not all, patterns
-- [ ] [arXiv 2020] Meta-Learning across Meta-Tasks for Few-Shot Learning
-- [ ] [arXiv 2020] Unsupervised Attention Mechanism across Neural Network Layers
-- [ ] [arXiv 2020] Revisiting Training Strategies and Generalization Performance in Deep Metric Learning
-- [ ] [arXiv 2020] A Structured Prediction Approach for Conditional Meta-Learning
-- [ ] [arXiv 2020] A survey on Semi-, Self- and Unsupervised Techniques in Image Classification
-- [ ] [arXiv 2020] Deep Domain Adaptive Object Detection: a Survey
-- [ ] [arXiv 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
-- [ ] [arXiv 2020] CRL: Class Representative Learning for Image Classification
 
 # Not so Top Conference
 - [x] [WACV 2020] Charting the Right Manifold: Manifold Mixup for Few-shot Learning
@@ -58,8 +45,9 @@
 - [x] [arXiv 2019] ([paper](https://arxiv.org/abs/1911.06045) [code](https://github.com/phecy/SSL-FEW-SHOT)) SELF-SUPERVISED LEARNING FOR FEW-SHOT IMAGE CLASSIFICATION
     * 90% accuracy
 
-- [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/2001.09849.pdf)) Exploiting Unsupervised Inputs for Accurate Few-Shot Classification
+- [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/2001.09849.pdf) [code](https://github.com/yhu01/transfer-sgc)) Exploiting Unsupervised Inputs for Accurate Few-Shot Classification
     * 85% Graph
+    * wait author to refine the paper
 
 - [x] [arXiv 2019] ([paper](https://arxiv.org/abs/1906.02944) ) Learning Adaptive Classifiers Synthesis for Generalized Few-Shot Learning
 - [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/2001.08366.pdf)) Continual Local Replacement for Few-shot Image Recognition
@@ -83,7 +71,7 @@
     * 77% for 1shot and 84.99 for 5-shot on mini-Imagenet
 - [x] [arXiv 2020] Associative Alignment for Few-shot Image Classification
     * assit with base instances
-- [ ] [arXiv 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
+- [x] [arXiv 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
 - [x] [arXiv 2020] Selecting Relevant Features from a Universal Representation for Few-shot Classification
     * mixup the final feature with multi model output or multi depth layer in the models output
 - [x] [arXiv 2020] Few-Shot Learning with Geometric Constraints
@@ -161,3 +149,6 @@
     * Structure like LEO, named LEOPARD
 - [ ] [arXiv 2020] An Open-set Recognition and Few-Shot Learning Dataset for Audio Event Classification in Domestic Environments
 - [ ] [arXiv 2020] Few-shot Natural Language Generation for Task-Oriented Dialog
+- [ ] [arXiv 2020 wip] PAC-BAYESIAN META-LEARNING WITH IMPLICIT PRIOR
+    * 63 for 1shot, 78 for 5-shot
+    * LEO branch
