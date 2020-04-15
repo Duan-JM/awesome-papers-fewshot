@@ -9,7 +9,10 @@
 - [AAAI 2020] MarioNETte: Few-shot Face Reenactment Preserving Identity of Unseen Targets
 - [CVPR 2020] One-Shot Domain Adaptation For Face Generation
 - [CVPR 2020] Semi-supervised Learning for Few-shot Image-to-Image Translation
-
+- [CVPR 2020] Meta-Transfer Learning for Zero-Shot Super-Resolution
+- [CVPR 2020] MineGAN: effective knowledge transfer from GANs to target domains with few images
+- [NIPS 2019] ([paper](http://papers.nips.cc/paper/8935-first-order-motion-model-for-image-animation) [colab](https://colab.research.google.com/github/AliaksandrSiarohin/first-order-model/blob/master/demo.ipynb) [code](https://github.com/AliaksandrSiarohin/first-order-model)) First Order Motion Model for Image Animation
+    * Recommand!!!
 
 #### NLP
 - [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf)) Few-Shot Adversarial Learning of Realistic Neural Talking Head Models

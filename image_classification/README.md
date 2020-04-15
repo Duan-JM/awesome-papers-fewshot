@@ -257,6 +257,15 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2020] [ [exist code](https://github.com/Sha-Lab/FEAT.) ] Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions
     * 66% for 1-shot 82 for 5-shot
 
+- [CVPR2020] Adversarial Feature Hallucination Networks for Few-Shot Learning
+    * Two novel regularizers: classification regularizer and anti-collapse regularizer
+    * 62.38% 1-shot 78.16 5-shot
+
+- [CVPR 2020] Revisiting Pose-Normalization for Fine-Grained Few-Shot Recognition
+- [AAAI 2020] Variational Metric Scaling for Metric-Based Meta-Learning
+    * 60% for 1-shot on TADAM and 77% for 5-shot on mini-imagenet
+- [CVPR 2020] Improved Few-Shot Visual Classification
+    * 没有比 mini-imagenet
 
 ### Special
 #### Unsorted
@@ -283,6 +292,9 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2018] ([paper](https://arxiv.org/pdf/1804.08281.pdf)) Memory Matching Networks for One-Shot Image Recognition
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1902.02527.pdf) [code](https://github.com/cogentlabs/apl.)) Adaptive Posterior Learning-Few-Shot Learning with a Surprise-Based Memory Module
 - [ICCV 2019] ([paper](https://pdfs.semanticscholar.org/9d04/7a9c96d1e929846b28a44498a230fffee06f.pdf?_ga=2.165168639.132909448.1580616762-480481026.1580441958))Few-Shot Image Recognition With Knowledge Transfer
+- [CVPR 2020] Instance Credibility Inference for Few-Shot Learning
+    * pick out most trust unlabled samples, then re train classifier
+    * 71% for 1-shot and 81% for 5shot
 
 
 #### Architecture

@@ -61,3 +61,5 @@
 - [AAAI 2020] Few-Shot Bayesian Imitation Learning with Logical Program Policies
 - [AAAI 2020] Neural Snowball for Few-Shot Relation Learning
 - [CVPR 2020] Meta-Transfer Learning for Zero-Shot Super-Resolution
+- [CVPR 2020] Learning from Web Data with Self-Organizing Memory Module
+    * solve label noise and background noise in the images with memory module

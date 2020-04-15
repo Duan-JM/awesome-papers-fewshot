@@ -2,9 +2,15 @@
 - [ ] [AAAI 2020] SGAP-Net: Semantic-Guided Attentive Prototypes Network for Few-Shot Human-Object Interaction Recognition
 
 # Remain Read Papers
+- [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
+    * finished 
+    * no compare to mini-imagenet, so hard to compare
+    * exist code
 
 # Not so Top Conference
 - [x] [WACV 2020] Charting the Right Manifold: Manifold Mixup for Few-shot Learning
+- [x] [ESANN 2020] Zero-shot and few-shot time series forecasting with ordinal regression recurrent neural networks
+- [x] [CVPR 2020 Workshop] MA 3 : Model Agnostic Adversarial Augmentation for Few Shot learning
 
 # Arxiv
 - [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection
@@ -39,9 +45,6 @@
     * ResNet12 77.91%
 - [x] [arXiv 2019] FLAT: Few-Shot Learning via Autoencoding Transformation Regularizers
     * ResNet18 77%
-- [x] [arXiv 2019] Improved Few-Shot Visual Classification
-    * 没有比 mini-imagenet
-    * 疑似是 TADAM 的延续工作
 - [x] [arXiv 2019] ([paper](https://arxiv.org/abs/1911.06045) [code](https://github.com/phecy/SSL-FEW-SHOT)) SELF-SUPERVISED LEARNING FOR FEW-SHOT IMAGE CLASSIFICATION
     * 90% accuracy
 
@@ -80,9 +83,6 @@
 - [x] [arXiv 2020] Rethinking Few-Shot Image Classification: a Good Embedding Is All You Need?
     * finetune is all you need
 - [x] [arXiv 2020] A New Meta-Baseline for Few-Shot Learning
-- [x] [arXiv 2020] [exist code] Instance Credibility Inference for Few-Shot Learning
-    * useing linear classifier to make presudo labels to expand support set
-    * pretty good results for 1-shot 71%
 - [ ] [arXiv 2020] [exist code] Negative Margin Matters: Understanding Margin in Few-shot Classification
     * 62% for 1shot
 - [x] [arXiv 2020] AdarGCN: Adaptive Aggregation GCN for Few-Shot Learning
@@ -99,6 +99,13 @@
     * 63% 1-shot 82% 5shot
 - [x] [arXiv 2020] [exist code] Transductive Few-shot Learning with Meta-Learned Confidence
     * 78 1-shot 86 5-shot
+- [x] [arXiv 2020] Self-Augmentation: Generalizing Deep Networks to Unseen Classes for Few-Shot Learning
+    * 65 1-shot 82 5-shot 
+    * deep metric learninng & cutmix
+- [x] [arXiv 2020] Embedding Propagation: Smoother Manifold for Few-Shot Classification
+    * rotation as self-supervised, not impressive
+    * 83% for 5 shot under SSL settings
+- [ ] [arXiv 2020] Unsupervised Few-shot Learning via Distribution Shift-based Augmentation
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
@@ -115,6 +122,10 @@
 - [ ] [arXiv 2020] CRNet: Cross-Reference Networks for Few-Shot Segmentation
 - [ ] [arXiv 2020] Semi-supervised few-shot learning for medical image segmentation
 - [ ] [arXiv 2020] On the Texture Bias for Few-Shot CNN Segmentation
+- [ ] [arXiv 2020] [exist code] Learning to Segment the Tail
+- [ ] [arXiv 2020] Semi-supervised few-shot learning for medical image segmentation
+- [ ] [arXiv 2020] Objectness-Aware One-Shot Semantic Segmentation
+- [ ] [arXiv 2020] Self-Supervised Tuning for Few-Shot Segmentation
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
@@ -152,3 +163,11 @@
 - [ ] [arXiv 2020 wip] PAC-BAYESIAN META-LEARNING WITH IMPLICIT PRIOR
     * 63 for 1shot, 78 for 5-shot
     * LEO branch
+- [ ] [arXiv 2020] Revisiting Few-shot Activity Detection with Class Similarity Control
+- [ ] [arXiv 2020] Meta Fine-Tuning Neural Language Models for Multi-Domain Text Mining
+- [ ] [arXiv 2020] Meta-Learning for Few-Shot NMT Adaptation
+- [ ] [arXiv 2020] Knowledge Guided Metric Learning for Few-Shot Text Classification
+- [ ] [arXiv 2020] CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection
+- [ ] [arXiv 2020] SSHFD: Single Shot Human Fall Detection with Occluded Joints Resilience
+- [ ] [arXiv 2020] Gradient-based Data Augmentation for Semi-Supervised Learning
+- [ ] [arXiv 2020] Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors
