@@ -11,6 +11,7 @@
 - [x] [WACV 2020] Charting the Right Manifold: Manifold Mixup for Few-shot Learning
 - [x] [ESANN 2020] Zero-shot and few-shot time series forecasting with ordinal regression recurrent neural networks
 - [x] [CVPR 2020 Workshop] MA 3 : Model Agnostic Adversarial Augmentation for Few Shot learning
+- [ ] [Neuro Computing 2020] Revisiting Metric Learning for Few-Shot Image Classification
 
 # Arxiv
 - [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection
@@ -106,6 +107,8 @@
     * rotation as self-supervised, not impressive
     * 83% for 5 shot under SSL settings
 - [ ] [arXiv 2020] Unsupervised Few-shot Learning via Distribution Shift-based Augmentation
+- [ ] [arXiv 2020] Meta-Meta-Classification for One-Shot Learning
+- [ ] [arXiv 2020] Divergent Search for Few-Shot Image Classification
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation

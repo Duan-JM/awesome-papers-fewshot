@@ -63,3 +63,4 @@
 - [CVPR 2020] Meta-Transfer Learning for Zero-Shot Super-Resolution
 - [CVPR 2020] Learning from Web Data with Self-Organizing Memory Module
     * solve label noise and background noise in the images with memory module
+- [ACL 2020] Few-Shot NLG with Pre-Trained Language Model
