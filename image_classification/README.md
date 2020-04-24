@@ -295,7 +295,8 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2020] Instance Credibility Inference for Few-Shot Learning
     * pick out most trust unlabled samples, then re train classifier
     * 71% for 1-shot and 81% for 5shot
-
+- [ICCV 2019] Few-Shot Learning with Embedded Class Models and Shot-Free Meta Training
+    * life-long few-shot learning problems
 
 #### Architecture
 - [ICML 2017] Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
