@@ -123,7 +123,6 @@
 
 **Segmentation**
 - [ ] [arXiv 2020] CRNet: Cross-Reference Networks for Few-Shot Segmentation
-- [ ] [arXiv 2020] Semi-supervised few-shot learning for medical image segmentation
 - [ ] [arXiv 2020] On the Texture Bias for Few-Shot CNN Segmentation
 - [ ] [arXiv 2020] [exist code] Learning to Segment the Tail
 - [ ] [arXiv 2020] Semi-supervised few-shot learning for medical image segmentation
@@ -174,3 +173,5 @@
 - [ ] [arXiv 2020] SSHFD: Single Shot Human Fall Detection with Occluded Joints Resilience
 - [ ] [arXiv 2020] Gradient-based Data Augmentation for Semi-Supervised Learning
 - [ ] [arXiv 2020] Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors
+- [ ] [arXiv 2020] Alleviating the Incompatibility between Cross Entropy Loss and Episode Training for Few-shot Skin Disease Classification
+- [ ] [arXIv 2020] TAEN: Temporal Aware Embedding Network for Few-Shot Action Recognition
