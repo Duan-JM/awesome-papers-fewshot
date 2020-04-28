@@ -175,3 +175,6 @@
 - [ ] [arXiv 2020] Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors
 - [ ] [arXiv 2020] Alleviating the Incompatibility between Cross Entropy Loss and Episode Training for Few-shot Skin Disease Classification
 - [ ] [arXIv 2020] TAEN: Temporal Aware Embedding Network for Few-Shot Action Recognition
+- [ ] [arXiv 2020] Signal Level Deep Metric Learning for Multimodal One-Shot Action Recognition
+- [ ] [arXiv 2020] ST2: Small-data Text Style Transfer via Multi-task Meta-Learning
+- [ ] [arXiv 2020] Learning to Classify Intents and Slot Labels Given a Handful of Examples
