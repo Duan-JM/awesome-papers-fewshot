@@ -12,7 +12,8 @@
 - [x] [ESANN 2020] Zero-shot and few-shot time series forecasting with ordinal regression recurrent neural networks
 - [x] [CVPR 2020 Workshop] MA 3 : Model Agnostic Adversarial Augmentation for Few Shot learning
 - [ ] [Neuro Computing 2020] Revisiting Metric Learning for Few-Shot Image Classification
-
+- [ ] [IJCNN 2020] RelationNet2: Deep Comparison Columns for Few-Shot Learning
+- [ ] [CVPR 2020 Workshop] Meta-Learning for Few-Shot Land Cover Classification
 # Arxiv
 - [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection
 - [x] [arXiv 2019] Learning Generalizable Representations via Diverse Supervision
@@ -178,3 +179,4 @@
 - [ ] [arXiv 2020] Signal Level Deep Metric Learning for Multimodal One-Shot Action Recognition
 - [ ] [arXiv 2020] ST2: Small-data Text Style Transfer via Multi-task Meta-Learning
 - [ ] [arXiv 2020] Learning to Classify Intents and Slot Labels Given a Handful of Examples
+- [ ] [arXiv 2020] PuzzLing Machines: A Challenge on Learning From Small Data

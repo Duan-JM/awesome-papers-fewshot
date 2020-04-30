@@ -64,3 +64,4 @@
 - [CVPR 2020] Learning from Web Data with Self-Organizing Memory Module
     * solve label noise and background noise in the images with memory module
 - [ACL 2020] Few-Shot NLG with Pre-Trained Language Model
+- [CVPR 2020] Single-view view synthesis with multiplane images

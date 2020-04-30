@@ -32,6 +32,8 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [arXiv 2019] ([paper](https://arxiv.org/pdf/1904.05046.pdf)) Generalizing from a Few Examples A Survey on Few-Shot Learning
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1904.04232) [code](https://github.com/wyharveychen/CloserLookFewShot)) A Closer Look At Few-shot Classification
 - [ICLR 2020] ([paper](https://arxiv.org/pdf/1909.02729.pdf)) A Baseline for Few-shot Image Classification
+- [arXiv 2020] A COMPREHENSIVE OVERVIEW AND SURVEY OF RECENT ADVANCES IN META-LEARNING
+- [arXiv 2020] Defining Benchmarks for Continual Few-Shot Learning
 
 
 ### Parameter Optimize Based Few-shot Learning
@@ -141,7 +143,9 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01436.pdf)) Edge-Labeling Graph Neural Network for Few-shot Learning
 - [CVPR 2020] ([code](https://github.com/megvii- research/DPGN) DPGN: Distribution Propagation Graph Network for Few-shot Learning
     * 67% for 1-shot 84% for 5-shot
-
+- [ICLR 2020] Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
+    * semi-supervised learning 
+    * WRN-28-10 70% for 1-shot and 79 for 5-shot
 
 #### Supervised
 - [NIPS 2017] Few-Shot Learning Through an Information Retrieval Lens
