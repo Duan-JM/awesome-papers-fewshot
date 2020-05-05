@@ -110,6 +110,8 @@
 - [ ] [arXiv 2020] Unsupervised Few-shot Learning via Distribution Shift-based Augmentation
 - [ ] [arXiv 2020] Meta-Meta-Classification for One-Shot Learning
 - [ ] [arXiv 2020] Divergent Search for Few-Shot Image Classification
+- [ ] [arXiv 2020] Physarum Powered Differentiable Linear Programming Layers and Applications
+    * An plug and play layer, FC-100 improve Cifar-100 FS for 1% on MetaOptSVM
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
@@ -180,3 +182,11 @@
 - [ ] [arXiv 2020] ST2: Small-data Text Style Transfer via Multi-task Meta-Learning
 - [ ] [arXiv 2020] Learning to Classify Intents and Slot Labels Given a Handful of Examples
 - [ ] [arXiv 2020] PuzzLing Machines: A Challenge on Learning From Small Data
+- [ ] [arXiv 2020] Cross-lingual Zero- and Few-shot Hate Speech Detection Utilising Frozen Transformer Language Models and AXEL
+- [ ] [arXiv 2020] MICK: A Meta-Learning Framework for Few-shot Relation Classification with Little Training Data
+    * Relation Classification
+- [ ] [arXiv 2020] Learning to Learn to Disambiguate: Meta-Learning for Few-Shot Word Sense Disambiguation
+- [ ] [arXiv 2020] Logic2Text: High-Fidelity Natural Language Generation from Logical Forms
+- [ ] [arXiv 2020] Few-Shot Natural Language Generation by Rewriting Templates
+- [ ] [arXiv 2020] Few-Shot Learning for Abstractive Multi-Document Opinion Summarization
+- [ ] [arXiv 2020] Interactive Video Stylization Using Few-Shot Patch-Based Training

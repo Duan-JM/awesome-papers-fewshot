@@ -23,7 +23,7 @@ issue 里面提出来，我会在第一时间进行回复的。
   * [Architecture](#architecture)
   * [Task Representation and Measure](#task-representation-and-measure)
   * [Multi Label Image Classification](#multi-label-image-classification)
-  * [Add Additional Informations](#add-additional-informations)
+  * [Add Additional Informations (Cross-modal)](#add-additional-informations-cross-modal)
   * [Self-training](#self-training)
 * [Results in Datasets](#results-in-datasets)
   * [mini-Imagenet](#mini-imagenet)
@@ -143,9 +143,10 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01436.pdf)) Edge-Labeling Graph Neural Network for Few-shot Learning
 - [CVPR 2020] ([code](https://github.com/megvii- research/DPGN) DPGN: Distribution Propagation Graph Network for Few-shot Learning
     * 67% for 1-shot 84% for 5-shot
-- [ICLR 2020] Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
-    * semi-supervised learning 
-    * WRN-28-10 70% for 1-shot and 79 for 5-shot
+- [ICLR 2020] ([code](https://github.com/amzn/xfer))Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
+    * semi-supervised learning, using model to synthetic fake gradients to
+        simulate the true gradients on query set
+    * WRN-28-10(pre-trained) 70% for 1-shot and 79 for 5-shot
 
 #### Supervised
 - [NIPS 2017] Few-Shot Learning Through an Information Retrieval Lens
@@ -173,19 +174,10 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2019] (RECOMMENDED) ([paper](https://arxiv.org/pdf/1904.08482.pdf) [code](https://github.com/mibastro/VPE)) Variational Prototyping-Encoder- One-Shot Learning with Prototypical Images
     * Use encoder to translate the real images to abstract prototypes, such as painted traffic signs, then compare query and sample in the prototypes latent space.
 
-- [NIPS 2019] ([paper](https://arxiv.org/pdf/1902.07104.pdf)) Adaptive Cross-Modal Few-shot Learning
-    * Using texture information to enhance the performance, which reach a comparable result on mini-imagenet
-    * Perform well on 1-shot rather than 5-shot or 10-shot
 
 - [CVPR 2019] ([paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chu_Spot_and_Learn_A_Maximum-Entropy_Patch_Sampler_for_Few-Shot_Image_CVPR_2019_paper.pdf)) Spot and Learn A Maximum-Entropy Patch Sampler for Few-Shot Image Classification
     * Sample parts of the image to form the batch to represent the class.
     * One-shot not pretty good(51%)
-
-- [CVPR 2019] ([paper](https://arxiv.org/pdf/1906.01905.pdf)) Baby steps towards few-shot learning with multiple semantics
-    * Show 4.5 years old baby perform 70% on 1-shot case, adult achieve 99%.
-    * Add multi-semantic into the task.
-    * However on 5-shot case LEO perform exceed both this paper and the paper above with no semantics information.
-    * For 1-shot case, this method achieve 67.2% +- 0.4% compare to 70% of human baby performance.
 
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1904.08502)) Few-Shot Learning with Localization in Realistic Settings
     * Locate the object in the images first, then classify them.
@@ -199,11 +191,6 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1903.12290.pdf)) Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning
     * Calculating the similarity between query and class represent feature in feature level, rather than instance level. It seperate original feature in m part and then compute the similarity to the K-nearst class partial features.
     * Good Result on mini-ImageNet 71.02 ± 0.64% with Conv4_64F.
-
-- [CVPR 2019] Large-Scale Few-Shot Learning- Knowledge Transfer With Class Hierarchy
-    * Aiming at learning large-scale problem, not just on 5 novel class.
-    * Using the Class Names embeddings(text embedding) to form a class hierarchy.
-    * Get a pretter higher result than existing methods.
 
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1812.02391v2.pdf)) Meta-Transfer Learning for Few-Shot Learning
     * Not like it, for the results are not significant, nearly no improve on 5 way 5 shot on mini-ImageNet.
@@ -283,6 +270,9 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Like title, accuracy of 81% on 5-shot mini-imagenet
 
 - [ICCV 2019] Variational Few-Shot Learning
+- [CVPR 2020 oral] ([paper](https://arxiv.org/pdf/2004.10956.pdf)) Few-Shot Class-Incremental Learning
+    * class-incremental problems
+    * continue-learning
 
 
 #### External Memory
@@ -317,7 +307,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 #### Multi Label Image Classification
 - [CVPR 2019 oral] ([paper](https://arxiv.org/pdf/1902.09811.pdf)) LaSO-Label-Set Operations networks for multi-label few-shot learning
 
-#### Add Additional Informations
+#### Add Additional Informations (Cross-modal)
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1812.09213.pdf) [code](https://sites.google.com/view/comprepr/home)) Learning Compositional Representations for Few-Shot Recognition
 
     Add additional annotations to the classes.
@@ -329,6 +319,22 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1906.05186.pdf)) Boosting Few-Shot Visual Learning with Self-Supervision
 
     Self-supervision means to rotate itself, and compute two losses.
+
+- [CVPR 2019] ([paper](https://arxiv.org/pdf/1906.01905.pdf)) Baby steps towards few-shot learning with multiple semantics
+    * Show 4.5 years old baby perform 70% on 1-shot case, adult achieve 99%.
+    * Add multi-semantic into the task.
+    * However on 5-shot case LEO perform exceed both this paper and the paper above with no semantics information.
+    * For 1-shot case, this method achieve 67.2% +- 0.4% compare to 70% of human baby performance.
+
+- [NIPS 2019] ([paper](https://arxiv.org/pdf/1902.07104.pdf)) Adaptive Cross-Modal Few-shot Learning
+    * Using texture information to enhance the performance, which reach a comparable result on mini-imagenet
+    * Perform well on 1-shot rather than 5-shot or 10-shot
+
+- [CVPR 2019] Large-Scale Few-Shot Learning- Knowledge Transfer With Class Hierarchy
+    * Aiming at learning large-scale problem, not just on 5 novel class.
+    * Using the Class Names embeddings(text embedding) to form a class hierarchy.
+    * Get a pretter higher result than existing methods.
+
 
 #### Self-training
 

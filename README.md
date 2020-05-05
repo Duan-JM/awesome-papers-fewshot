@@ -59,6 +59,7 @@ We collect some awesome code and blogs here.
 - [pytorch-meta](https://github.com/tristandeleu/pytorch-meta) (Recommended)
 - [meta-dataset](https://github.com/google-research/meta-dataset) (Received in ICLR 2020)
 - [Few-Shot-Object-Detection-Dataset](https://github.com/fanq15/Few-Shot-Object-Detection-Dataset)
+- [Few-shot-Segmentations-1000](https://github.com/HKUSTCV/FSS-1000)
 
 
 #### Relevant Awesome Few-shot PlayGround Repo
