@@ -29,7 +29,7 @@ issue 里面提出来，我会在第一时间进行回复的。
   * [mini-Imagenet](#mini-imagenet)
 
 <!-- vim-markdown-toc -->
-- [arXiv 2019] ([paper](https://arxiv.org/pdf/1904.05046.pdf)) Generalizing from a Few Examples A Survey on Few-Shot Learning
+- [ACM Computing Surveys 2020] ([paper](https://arxiv.org/pdf/1904.05046.pdf)) Generalizing from a Few Examples A Survey on Few-Shot Learning
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1904.04232) [code](https://github.com/wyharveychen/CloserLookFewShot)) A Closer Look At Few-shot Classification
 - [ICLR 2020] ([paper](https://arxiv.org/pdf/1909.02729.pdf)) A Baseline for Few-shot Image Classification
 - [arXiv 2020] A COMPREHENSIVE OVERVIEW AND SURVEY OF RECENT ADVANCES IN META-LEARNING
@@ -285,7 +285,6 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [CVPR 2018] ([paper](https://arxiv.org/pdf/1804.08281.pdf)) Memory Matching Networks for One-Shot Image Recognition
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1902.02527.pdf) [code](https://github.com/cogentlabs/apl.)) Adaptive Posterior Learning-Few-Shot Learning with a Surprise-Based Memory Module
-- [ICCV 2019] ([paper](https://pdfs.semanticscholar.org/9d04/7a9c96d1e929846b28a44498a230fffee06f.pdf?_ga=2.165168639.132909448.1580616762-480481026.1580441958))Few-Shot Image Recognition With Knowledge Transfer
 - [CVPR 2020] Instance Credibility Inference for Few-Shot Learning
     * pick out most trust unlabled samples, then re train classifier
     * 71% for 1-shot and 81% for 5shot
@@ -335,6 +334,11 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Using the Class Names embeddings(text embedding) to form a class hierarchy.
     * Get a pretter higher result than existing methods.
 
+- [ICCV 2019] ([paper](https://pdfs.semanticscholar.org/9d04/7a9c96d1e929846b28a44498a230fffee06f.pdf?_ga=2.165168639.132909448.1580616762-480481026.1580441958))Few-Shot Image Recognition With Knowledge Transfer
+- [ACMMM 2019] TGG: Transferable Graph Generation for Zero-shot and Few-shot Learning
+    * using class-level knowledge graph to enhance instance-level graph
+    * pretty interesting
+    * did not compare on the mini-imagenet
 
 #### Self-training
 

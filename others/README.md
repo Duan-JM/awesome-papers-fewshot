@@ -65,3 +65,6 @@
     * solve label noise and background noise in the images with memory module
 - [ACL 2020] Few-Shot NLG with Pre-Trained Language Model
 - [CVPR 2020] Single-view view synthesis with multiplane images
+- [ACMMM 2018] Few-Shot Adaptation for Multimedia Semantic Indexing
+- [ACMMM 2018] Fast Parameter Adaptation for Few-shot Image Captioning and Visual Question Answering
+- [AAAI 2020] ([paper](https://aaai.org/Papers/AAAI/2020GB/AAAI-JiZ.4799.pdf)) SGAP-Net: Semantic-Guided Attentive Prototypes Network for Few-Shot Human-Object Interaction Recognition
