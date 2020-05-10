@@ -68,3 +68,4 @@
 - [ACMMM 2018] Few-Shot Adaptation for Multimedia Semantic Indexing
 - [ACMMM 2018] Fast Parameter Adaptation for Few-shot Image Captioning and Visual Question Answering
 - [AAAI 2020] ([paper](https://aaai.org/Papers/AAAI/2020GB/AAAI-JiZ.4799.pdf)) SGAP-Net: Semantic-Guided Attentive Prototypes Network for Few-Shot Human-Object Interaction Recognition
+- [IJCAI 2020] SimPropNet: Improved Similarity Propagation for Few-shot Image Segmentation

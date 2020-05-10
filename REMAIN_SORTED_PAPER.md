@@ -13,11 +13,10 @@
 - [ ] [Neuro Computing 2020] Revisiting Metric Learning for Few-Shot Image Classification
 - [ ] [IJCNN 2020] RelationNet2: Deep Comparison Columns for Few-Shot Learning
 - [ ] [CVPR 2020 Workshop] Meta-Learning for Few-Shot Land Cover Classification
+
 # Arxiv
 - [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection
 - [x] [arXiv 2019] Learning Generalizable Representations via Diverse Supervision
-- [x] [arXiv 2019] One-Shot Object Detection with Co-Attention and Co-Excitation
-    * senet的迁移
 
 - [x] [arXiv 2019] Auxiliary Learning for Deep Multi-task Learning 
     * 解决multitask 参数共享问题的
@@ -111,6 +110,14 @@
 - [ ] [arXiv 2020] Divergent Search for Few-Shot Image Classification
 - [ ] [arXiv 2020] Physarum Powered Differentiable Linear Programming Layers and Applications
     * An plug and play layer, FC-100 improve Cifar-100 FS for 1% on MetaOptSVM
+- [x] [arXiv 2020] Generalized Reinforcement Meta Learning for Few-Shot Optimization
+    * This paper's motivation like "Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
+" in ICLR 2020, both of them use a mechanism to estimate or synthesis the
+gradients, so if you interesting in this paper, you'd better have look it that
+one.
+    * 71% with Resnet on mini-Imagenet (not so impressive)
+- [ ] [arXiv 2020] Bayesian Online Meta-Learning with Laplace Approximation
+    * continue learning
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
@@ -122,6 +129,8 @@
 - [x] [arXiv 2020] Frustratingly Simple Few-Shot Object Detection
     * say fintune is outperform meta-learning methods
 - [ ] [arXiv 2020] Incremental Few-Shot Object Detection
+- [x] [arXiv 2019] One-Shot Object Detection with Co-Attention and Co-Excitation
+    * senet的迁移
 
 **Segmentation**
 - [ ] [arXiv 2020] CRNet: Cross-Reference Networks for Few-Shot Segmentation
@@ -158,6 +167,7 @@
 - [ ] [arXiv 2020] Domain-Adaptive Few-Shot Learning
 - [ ] [arXiv 2020] Efficient Intent Detection with Dual Sentence Encoders
 - [ ] [arXiv 2020] Zero-Shot Cross-Lingual Transfer with Meta Learning
+- [ ] [arXiv 2020] From Zero to Hero: On the Limitations of Zero-Shot Cross-Lingual Transfer with Multilingual Transformers
 - [ ] [arXiv 2020] Towards Fair Cross-Domain Adaptation via Generative Learning
 - [ ] [arXiv 2020] Learning to Few-Shot Learn Across Diverse Natural Language Classification Tasks
     * LEO 风格的文本分类
@@ -189,3 +199,4 @@
 - [ ] [arXiv 2020] Few-Shot Natural Language Generation by Rewriting Templates
 - [ ] [arXiv 2020] Few-Shot Learning for Abstractive Multi-Document Opinion Summarization
 - [ ] [arXiv 2020] Interactive Video Stylization Using Few-Shot Patch-Based Training
+- [ ] [arXiv 2020] MAD-X: An Adapter-based Framework for Multi-task Cross-lingual Transfer
