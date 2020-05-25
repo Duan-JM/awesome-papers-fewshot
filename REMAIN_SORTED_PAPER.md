@@ -6,13 +6,15 @@
     * no compare to mini-imagenet, so hard to compare
     * exist code
 
-# Not so Top Conference
+# Other Conference
 - [x] [WACV 2020] Charting the Right Manifold: Manifold Mixup for Few-shot Learning
 - [x] [ESANN 2020] Zero-shot and few-shot time series forecasting with ordinal regression recurrent neural networks
 - [x] [CVPR 2020 Workshop] MA 3 : Model Agnostic Adversarial Augmentation for Few Shot learning
 - [ ] [Neuro Computing 2020] Revisiting Metric Learning for Few-Shot Image Classification
 - [ ] [IJCNN 2020] RelationNet2: Deep Comparison Columns for Few-Shot Learning
 - [ ] [CVPR 2020 Workshop] Meta-Learning for Few-Shot Land Cover Classification
+- [x] [OCEANS 2020] A Comparison of Few-Shot Learning Methods for Underwater Optical and Sonar Image Classification
+    * K-means enhance the prototypes, similar to my previous papers.
 
 # Arxiv
 - [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection
@@ -54,7 +56,7 @@
 
 - [x] [arXiv 2019] ([paper](https://arxiv.org/abs/1906.02944) ) Learning Adaptive Classifiers Synthesis for Generalized Few-Shot Learning
 - [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/2001.08366.pdf)) Continual Local Replacement for Few-shot Image Recognition
-    * using generative model to generate iamge to replace support set locally(pretty fun)
+    * using generative model to generate image to replace support set locally(pretty fun)
     * 66 1shot 81 5-shot
 
 - [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/1812.04955.pdf)) Prior-Knowledge and Attention based Meta-Learning for Few-Shot Learning
@@ -101,7 +103,7 @@
     * 78 1-shot 86 5-shot
 - [x] [arXiv 2020] Self-Augmentation: Generalizing Deep Networks to Unseen Classes for Few-Shot Learning
     * 65 1-shot 82 5-shot 
-    * deep metric learninng & cutmix
+    * deep metric learning & cutmix
 - [x] [arXiv 2020] Embedding Propagation: Smoother Manifold for Few-Shot Classification
     * rotation as self-supervised, not impressive
     * 83% for 5 shot under SSL settings
@@ -139,6 +141,7 @@ one.
 - [ ] [arXiv 2020] Semi-supervised few-shot learning for medical image segmentation
 - [ ] [arXiv 2020] Objectness-Aware One-Shot Semantic Segmentation
 - [ ] [arXiv 2020] Self-Supervised Tuning for Few-Shot Segmentation
+- [ ] [arXiv 2020] Prototype Refinement Network for Few-Shot Segmentation
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
@@ -153,7 +156,6 @@ one.
     * Text to Speech
 
 - [x] [arXiv 2020] Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
-- [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/2001.08735.pdf))CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION
 - [x] [arXiv 2019] ADVERSARIALLY ROBUST FEW-SHOT LEARNING: A META-LEARNING APPROACH
     * A approach is robust to adversarially attack
 
@@ -200,3 +202,5 @@ one.
 - [ ] [arXiv 2020] Few-Shot Learning for Abstractive Multi-Document Opinion Summarization
 - [ ] [arXiv 2020] Interactive Video Stylization Using Few-Shot Patch-Based Training
 - [ ] [arXiv 2020] MAD-X: An Adapter-based Framework for Multi-task Cross-lingual Transfer
+- [ ] [arXiv 2020] SOLOIST: Few-shot Task-Oriented Dialog with A Single Pre-trained Auto-regressive Model
+- [ ] [arXiv 2020] Self-Training with Improved Regularization for Few-Shot Chest X-Ray Classification

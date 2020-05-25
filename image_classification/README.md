@@ -32,6 +32,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ACM Computing Surveys 2020] ([paper](https://arxiv.org/pdf/1904.05046.pdf)) Generalizing from a Few Examples A Survey on Few-Shot Learning
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1904.04232) [code](https://github.com/wyharveychen/CloserLookFewShot)) A Closer Look At Few-shot Classification
 - [ICLR 2020] ([paper](https://arxiv.org/pdf/1909.02729.pdf)) A Baseline for Few-shot Image Classification
+- [ICLR 2020] A New Meta-Baseline for Few-Shot Learning
 - [arXiv 2020] A COMPREHENSIVE OVERVIEW AND SURVEY OF RECENT ADVANCES IN META-LEARNING
 - [arXiv 2020] Defining Benchmarks for Continual Few-Shot Learning
 
@@ -40,9 +41,12 @@ issue 里面提出来，我会在第一时间进行回复的。
 **One line descriptions:** Generate parameters for the classifier or finetune part of the models
 
 #### Papers
+- [ICML 2017] Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
 - [ICLR 2017 Meta-learner LSTM Ravi] ([paper](https://openreview.net/pdf?id=rJY0-Kcll&source=post_page---------------------------) [code](https://github.com/twitter/meta-learning-lstm.)) Optimization as a Model for Few-shot Learning
     * Use LSTM to generate classifier's parameters
 
+- [NIPS 2018] Probabilistic model-agnostic meta-learning
+- [NIPS 2018] Bayesian model-agnostic meta-learning
 - [arXiv 2018 REPTILE] ([paper](https://arxiv.org/pdf/1803.02999.pdf)) On First-Order Meta-Learning Algorithms
 - [ICLR 2018 SNAIL] ([paper](https://arxiv.org/pdf/1707.03141.pdf)) A Simple Neural Attentive Meta- Learner
     * Improve the Meta-Learner LSTM, by adding temporal convolution and caual attention to the network.
@@ -67,6 +71,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICLR 2019 LEO Vinyals] (RECOMMENDED!) ([paper](https://arxiv.org/pdf/1807.05960.pdf) [code](https://github.com/deepmind/leo)) Meta-learning with latent embedding optimization
     * High dimensional problem is hard to solve in the low-data circumstances, so this work try to bypass the limitations by learning a data-dependent latent low-dimensional latent space of model parameters.
 
+- [ICLR 2019] CAML: FAST CONTEXT ADAPTATION VIA META-LEARNING
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01102.pdf) [code](https://github.com/gidariss/wDAE_GNN_FewShot)) Generating Classification Weights with GNN Denoising Autoencoders for Few-Shot Learning
     * Little better than LEO
 
@@ -95,6 +100,7 @@ issue 里面提出来，我会在第一时间进行回复的。
     * adding knowledge graph on the prototypes
     * not familiar with the dataset, but very interesting
     * show 5% better than TADAM
+    * nearly no effect on mini-Imagenet (have room for improvement)
 
 
 ### Generative Based Few-shot Learning
@@ -193,7 +199,8 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Good Result on mini-ImageNet 71.02 ± 0.64% with Conv4_64F.
 
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1812.02391v2.pdf)) Meta-Transfer Learning for Few-Shot Learning
-    * Not like it, for the results are not significant, nearly no improve on 5 way 5 shot on mini-ImageNet.
+    * nearly no improve on 5 way 5 shot on mini-ImageNet.
+    * improve in 1-shot
 
 - [CVPR 2018] ([paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Temporal_Hallucinating_for_CVPR_2018_paper.pdf)) Temporal Hallucinating for Action Recognition with Few Still Images
     * Attempt to recall cues from relevant action videos.
@@ -240,6 +247,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2020 oral] DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers
     * 65.91 1-shot， 82.41 5-shot
     * new distance measrue
+    * [code remain release](https://github.com/icoz69/DeepEMD)
 
 - [AAAI 2020] [exist code] Diversity Transfer Network for Few-Shot Learning
     * 63% for 1-shot 77.9% for 5-shot
@@ -257,6 +265,7 @@ issue 里面提出来，我会在第一时间进行回复的。
     * 60% for 1-shot on TADAM and 77% for 5-shot on mini-imagenet
 - [CVPR 2020] Improved Few-Shot Visual Classification
     * 没有比 mini-imagenet
+- [ACMMM 2019] TGG: Transferable Graph Generation for Zero-shot and Few-shot Learning
 
 ### Special
 #### Unsorted
@@ -292,7 +301,6 @@ issue 里面提出来，我会在第一时间进行回复的。
     * life-long few-shot learning problems
 
 #### Architecture
-- [ICML 2017] Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1805.07722.pdf)) Task-Agnostic Meta-Learning for Few-shot Learning
 
     A training method force model to learn a unbiased initial model without over-performing on some particular tasks.

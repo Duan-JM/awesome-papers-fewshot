@@ -9,7 +9,7 @@
 ### Domain Adaptation
 - [NIPS 2017] Few-Shot Adversarial Domain Adaptation
 - [ICCV 2019] Bidirectional One-Shot Unsupervised Domain Mapping
-- [ICLR 2020] CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION 
+- [ICLR 2020] ([paper](https://arxiv.org/pdf/2001.08735.pdf) ) CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION 
 
 ### Reinforcement Learning
 - [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
@@ -29,13 +29,14 @@
 - [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1909.01205)) Few-Shot Generalization for Single-Image 3D Reconstruction via Priors
 - [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)) ACMM: Aligned Cross-Modal Memory for Few-Shot Image and Sentence Matching
+    * Image and Sentence Matching
+- [AAAI 2019] Few-Shot Image and Sentence Matching via Gated Visual-Semantic Embedding
+    * Image and Sentence Matching
 - [ICCV 2019] (RECOMMANDED!) Task-Driven Modular Networks for Zero-Shot Compositional Learning
     * An interesting usage of a bunch of MLPs.
 - [CVPR 2019] ([paper](http://openaccess.thecvf.com/content_CVPRW_2019/papers/PBVS/Rostami_SAR_Image_Classification_Using_Few-Shot_Cross-Domain_Transfer_Learning_CVPRW_2019_paper.pdf) [code](https://github.com/MSiam/AdaptiveMaskedProxies.)) SAR Image Classification Using Few-shot Cross-domain Transfer Learning
 - [AAAI 2019] Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification
     * Relation Classification with FewRel
-- [AAAI 2019] Few-Shot Image and Sentence Matching via Gated Visual-Semantic Embedding
-    * Image and Sentence Matching
 - [AAAI 2018] Few Shot Transfer Learning BetweenWord Relatedness and Similarity Tasks Using A Gated Recurrent Siamese Network
 - [ICLR 2020] FEW-SHOT TEXT CLASSIFICATION WITH DISTRIBUTIONAL SIGNATURES
 - [ICLR 2020] METAPIX: FEW-SHOT VIDEO RETARGETING
@@ -68,4 +69,3 @@
 - [ACMMM 2018] Few-Shot Adaptation for Multimedia Semantic Indexing
 - [ACMMM 2018] Fast Parameter Adaptation for Few-shot Image Captioning and Visual Question Answering
 - [AAAI 2020] ([paper](https://aaai.org/Papers/AAAI/2020GB/AAAI-JiZ.4799.pdf)) SGAP-Net: Semantic-Guided Attentive Prototypes Network for Few-Shot Human-Object Interaction Recognition
-- [IJCAI 2020] SimPropNet: Improved Similarity Propagation for Few-shot Image Segmentation

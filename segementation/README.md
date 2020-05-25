@@ -12,3 +12,4 @@
 - [ICCV 2019] PANet Few-Shot Image Semantic Segmentation With Prototype Alignment
 - [AAAI 2020] Differentiable Meta-learning Model for Few-shot Semantic Segmentation
 - [CVPR 2020] FGN: Fully Guided Network for Few-Shot Instance Segmentation
+- [IJCAI 2020] SimPropNet: Improved Similarity Propagation for Few-shot Image Segmentation
