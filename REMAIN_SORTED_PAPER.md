@@ -1,3 +1,7 @@
+# Introdution
+This part save the papers collected from arXiv, paper will be deleted if I
+judge it is not good or not accpeted to the top conference over one year.
+
 # No Papers
 
 # Remain Read Papers
@@ -17,6 +21,17 @@
     * K-means enhance the prototypes, similar to my previous papers.
 
 # Arxiv
+## Summary
+- [arXiv 2020] A Concise Review of Recent Few-shot Meta-learning Methods
+    * Change the Methods into four methods. (Basically exclude metric-based such as ProtoNet)
+        * Learning an Initialization
+        * Generation of Parameters
+        * Learning an Optimizer (doubt for this, maybe sort to the second)
+        * Memory-based Methods
+
+- [x] [arXiv 2019] A New Benchmark for Evaluation of Cross-Domain Few-Shot Learning
+
+## Image Classification
 - [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection
 - [x] [arXiv 2019] Learning Generalizable Representations via Diverse Supervision
 
@@ -123,6 +138,7 @@ one.
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
+- [x] [arXiv 2020] Few-shot Compositional Font Generation with Dual Memory
 
 **Object Detection**
 - [x] [arXiv 2020] Context-Transformer: Tackling Object Confusion for Few-Shot Detection
@@ -143,24 +159,45 @@ one.
 - [ ] [arXiv 2020] Self-Supervised Tuning for Few-Shot Segmentation
 - [ ] [arXiv 2020] Prototype Refinement Network for Few-Shot Segmentation
 
+**NLP**
+- [ ] [arXiv 2020] Few-shot Natural Language Generation for Task-Oriented Dialog
+- [ ] [arXiv 2020] SOLOIST: Few-shot Task-Oriented Dialog with A Single Pre-trained Auto-regressive Model
+- [x] [arXiv 2020] Prototypical Q Networks for Automatic Conversational Diagnosis and Few-Shot New Disease Adaption
+    * Using a dialog to simulate patient and doctors' conversition to finally
+        give a diagnosis
+
+- [x] [arXiv 2020] BOFFIN TTS: FEW-SHOT SPEAKER ADAPTATION BY BAYESIAN OPTIMIZATION
+    * Text to Speech
+- [x] [arXiv 2019] Shaping Visual Representations with Language for Few-shot Classification
+    * jointly predicting natural language task descriptions
+- [ ] [arXiv 2020] MICK: A Meta-Learning Framework for Few-shot Relation Classification with Little Training Data
+    * Relation Classification
+- [ ] [arXiv 2020] Logic2Text: High-Fidelity Natural Language Generation from Logical Forms
+- [ ] [arXiv 2020] Learning to Few-Shot Learn Across Diverse Natural Language Classification Tasks
+    * LEO 风格的文本分类
+    * Structure like LEO, named LEOPARD
+- [ ] [arXiv 2020] Meta Fine-Tuning Neural Language Models for Multi-Domain Text Mining
+- [ ] [arXiv 2020] Cross-lingual Zero- and Few-shot Hate Speech Detection Utilising Frozen Transformer Language Models and AXEL
+- [ ] [arXiv 2020] Few-Shot Natural Language Generation by Rewriting Templates
+
+**Cross-Domain**
+- [ ] [arXiv 2020] Towards Fair Cross-Domain Adaptation via Generative Learning
+- [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
+- [ ] [arXiv 2020] Feature Transformation Ensemble Model with Batch Spectral Regularization for Cross-Domain Few-Shot Classification
+
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
 - [x] [arXiv 2019] Real-Time Object Tracking via Meta-Learning: Efficient Model Adaptation and One-Shot Channel Pruning （目标跟踪）
 - [x] [arXiv 2019] Defensive Few-shot Adversarial Learning
-- [x] [arXiv 2019] A New Benchmark for Evaluation of Cross-Domain Few-Shot Learning
 - [x] [arXiv 2019] Few-shot Learning with Contextual Cueing for Object Recognition in Complex Scenes
 - [x] [arXiv 2019] Meta-Learning with Dynamic-Memory-Based Prototypical Network
 - [x] [arXiv 2020] DAWSON: A Domain Adaptive Few Shot Generation Framework
 -   * generate music, a project under cs236 in stanford university
-- [x] [arXiv 2020] BOFFIN TTS: FEW-SHOT SPEAKER ADAPTATION BY BAYESIAN OPTIMIZATION
-    * Text to Speech
 
 - [x] [arXiv 2020] Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
 - [x] [arXiv 2019] ADVERSARIALLY ROBUST FEW-SHOT LEARNING: A META-LEARNING APPROACH
     * A approach is robust to adversarially attack
 
-- [x] [arXiv 2019] Shaping Visual Representations with Language for Few-shot Classification
-    * jointly predicting natural language task descriptions
 - [x] [arXiv 2020] Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
 - [x] [arXiv 2020] Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning
 - [ ] [arXiv 2020] Meta-Learning Initializations for Low-Resource Drug Discovery
@@ -170,17 +207,11 @@ one.
 - [ ] [arXiv 2020] Efficient Intent Detection with Dual Sentence Encoders
 - [ ] [arXiv 2020] Zero-Shot Cross-Lingual Transfer with Meta Learning
 - [ ] [arXiv 2020] From Zero to Hero: On the Limitations of Zero-Shot Cross-Lingual Transfer with Multilingual Transformers
-- [ ] [arXiv 2020] Towards Fair Cross-Domain Adaptation via Generative Learning
-- [ ] [arXiv 2020] Learning to Few-Shot Learn Across Diverse Natural Language Classification Tasks
-    * LEO 风格的文本分类
-    * Structure like LEO, named LEOPARD
 - [ ] [arXiv 2020] An Open-set Recognition and Few-Shot Learning Dataset for Audio Event Classification in Domestic Environments
-- [ ] [arXiv 2020] Few-shot Natural Language Generation for Task-Oriented Dialog
 - [ ] [arXiv 2020 wip] PAC-BAYESIAN META-LEARNING WITH IMPLICIT PRIOR
     * 63 for 1shot, 78 for 5-shot
     * LEO branch
 - [ ] [arXiv 2020] Revisiting Few-shot Activity Detection with Class Similarity Control
-- [ ] [arXiv 2020] Meta Fine-Tuning Neural Language Models for Multi-Domain Text Mining
 - [ ] [arXiv 2020] Meta-Learning for Few-Shot NMT Adaptation
 - [ ] [arXiv 2020] Knowledge Guided Metric Learning for Few-Shot Text Classification
 - [ ] [arXiv 2020] CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection
@@ -193,14 +224,11 @@ one.
 - [ ] [arXiv 2020] ST2: Small-data Text Style Transfer via Multi-task Meta-Learning
 - [ ] [arXiv 2020] Learning to Classify Intents and Slot Labels Given a Handful of Examples
 - [ ] [arXiv 2020] PuzzLing Machines: A Challenge on Learning From Small Data
-- [ ] [arXiv 2020] Cross-lingual Zero- and Few-shot Hate Speech Detection Utilising Frozen Transformer Language Models and AXEL
-- [ ] [arXiv 2020] MICK: A Meta-Learning Framework for Few-shot Relation Classification with Little Training Data
-    * Relation Classification
 - [ ] [arXiv 2020] Learning to Learn to Disambiguate: Meta-Learning for Few-Shot Word Sense Disambiguation
-- [ ] [arXiv 2020] Logic2Text: High-Fidelity Natural Language Generation from Logical Forms
-- [ ] [arXiv 2020] Few-Shot Natural Language Generation by Rewriting Templates
 - [ ] [arXiv 2020] Few-Shot Learning for Abstractive Multi-Document Opinion Summarization
 - [ ] [arXiv 2020] Interactive Video Stylization Using Few-Shot Patch-Based Training
 - [ ] [arXiv 2020] MAD-X: An Adapter-based Framework for Multi-task Cross-lingual Transfer
-- [ ] [arXiv 2020] SOLOIST: Few-shot Task-Oriented Dialog with A Single Pre-trained Auto-regressive Model
 - [ ] [arXiv 2020] Self-Training with Improved Regularization for Few-Shot Chest X-Ray Classification
+- [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
+- [ ] [arXiv 2020] 3FabRec: Fast Few-shot Face alignment by Reconstruction
+    * facial landmark detection
