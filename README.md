@@ -60,6 +60,9 @@ We collect some awesome code and blogs here.
 - [meta-dataset](https://github.com/google-research/meta-dataset) (Received in ICLR 2020)
 - [Few-Shot-Object-Detection-Dataset](https://github.com/fanq15/Few-Shot-Object-Detection-Dataset)
 - [Few-shot-Segmentations-1000](https://github.com/HKUSTCV/FSS-1000)
+- [Northumberland Dolphin Dataset 2020](https://doi.org/10.25405/data.ncl.c.4982342) (CVPR 2020 workshop)
+- [mini-ImageNet contained label embeddings](https://drive.google.com/file/d/1g4wOa0FpWalffXJMN2IZw0K2TM2uxzbk/view) (Used in AM3)
+- [tiered-ImageNet contained label embeddings](https://drive.google.com/file/d/1Letu5U_kAjQfqJjNPWS_rdjJ7Fd46LbX/view) (Used in AM3)
 
 
 #### Relevant Awesome Few-shot PlayGround Repo
