@@ -2,7 +2,8 @@
 This part save the papers collected from arXiv, paper will be deleted if I
 judge it is not good or not accpeted to the top conference over one year.
 
-# No Papers
+# Remain checkout
+- [ ] [ACL 2020] Learning to Customize Model Structures for Few-shot Dialogue Generation Tasks
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
@@ -19,6 +20,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [CVPR 2020 Workshop] Meta-Learning for Few-Shot Land Cover Classification
 - [x] [OCEANS 2020] A Comparison of Few-Shot Learning Methods for Underwater Optical and Sonar Image Classification
     * K-means enhance the prototypes, similar to my previous papers.
+- [ ] [InterSpeech 2020] AdaDurIAN: Few-shot Adaptation for Neural Text-to-Speech with DurIAN
 
 # Arxiv
 ## Summary
@@ -129,12 +131,17 @@ judge it is not good or not accpeted to the top conference over one year.
     * An plug and play layer, FC-100 improve Cifar-100 FS for 1% on MetaOptSVM
 - [x] [arXiv 2020] Generalized Reinforcement Meta Learning for Few-Shot Optimization
     * This paper's motivation like "Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
-" in ICLR 2020, both of them use a mechanism to estimate or synthesis the
-gradients, so if you interesting in this paper, you'd better have look it that
-one.
+    *in ICLR 2020, both of them use a mechanism to estimate or synthesis the gradients, so if you interesting in this paper, you'd better have look it that one.
     * 71% with Resnet on mini-Imagenet (not so impressive)
 - [ ] [arXiv 2020] Bayesian Online Meta-Learning with Laplace Approximation
     * continue learning
+- [ ] [arXiv 2020] Compositional Few-Shot Recognition with Primitive Discovery and Enhancing
+- [x] [arXiv 2020] ONE OF THESE (FEW) THINGS IS NOT LIKE THE OTHERS
+    * image classification task, however need to classify the outliner, like cross-domain settings
+    * they define a "junk" classes specific, may not significant
+- [ ] [arXiv 2020] Compositional Few-Shot Recognition with Primitive Discovery and Enhancing
+    * 63.21 ± 0.78% for 1-shot on mini-ImageNet
+    * insterest, they improve the results by decompose the image into several compostions, sound reasonable
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
@@ -179,11 +186,16 @@ one.
 - [ ] [arXiv 2020] Meta Fine-Tuning Neural Language Models for Multi-Domain Text Mining
 - [ ] [arXiv 2020] Cross-lingual Zero- and Few-shot Hate Speech Detection Utilising Frozen Transformer Language Models and AXEL
 - [ ] [arXiv 2020] Few-Shot Natural Language Generation by Rewriting Templates
+- [ ] [arXiv 2020] SOLOIST: Few-shot Task-Oriented Dialog with A Single Pre-trained Auto-regressive Model
+- [ ] [arXiv 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification
+    * result seems great
+    * work follow the inductino network, explicitly add dynamic memory model (constructed by base classes) to enhance "prototypes".
 
 **Cross-Domain**
 - [ ] [arXiv 2020] Towards Fair Cross-Domain Adaptation via Generative Learning
 - [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
 - [ ] [arXiv 2020] Feature Transformation Ensemble Model with Batch Spectral Regularization for Cross-Domain Few-Shot Classification
+- [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
@@ -229,6 +241,6 @@ one.
 - [ ] [arXiv 2020] Interactive Video Stylization Using Few-Shot Patch-Based Training
 - [ ] [arXiv 2020] MAD-X: An Adapter-based Framework for Multi-task Cross-lingual Transfer
 - [ ] [arXiv 2020] Self-Training with Improved Regularization for Few-Shot Chest X-Ray Classification
-- [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
 - [ ] [arXiv 2020] 3FabRec: Fast Few-shot Face alignment by Reconstruction
     * facial landmark detection
+- [ ] [arXiv 2020] Combining Deep Learning with Geometric Features for Image based Localization in the Gastrointestinal Tract
