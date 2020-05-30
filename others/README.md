@@ -9,10 +9,15 @@
 ### Domain Adaptation
 - [NIPS 2017] Few-Shot Adversarial Domain Adaptation
 - [ICCV 2019] Bidirectional One-Shot Unsupervised Domain Mapping
-- [ICLR 2020] ([paper](https://arxiv.org/pdf/2001.08735.pdf) ) CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION 
+- [ICLR 2020 spotlight] ([paper](https://arxiv.org/pdf/2001.08735.pdf) ) CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION 
+- [ICLR 2020] Meta-learning curiosity algorithms
+- [ICLR 2020] Meta Reinforcement Learning with Autonomous Inference of Subtask Dependencies
 
 ### Reinforcement Learning
 - [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
+- [ICLR 2020] Meta Reinforcement Learning with Autonomous Inference of Subtask Dependencies
+- [ICLR 2020] VariBAD: A Very Good Method for Bayes-Adaptive Deep RL via Meta-Learning
+- [ICLR 2020 Bengio] A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms
 
 ### Visual Tracking
 - [ICCV 2019] Deep Meta Learning for Real-Time Target-Aware Visual Tracking
@@ -69,3 +74,7 @@
 - [ACMMM 2018] Few-Shot Adaptation for Multimedia Semantic Indexing
 - [ACMMM 2018] Fast Parameter Adaptation for Few-shot Image Captioning and Visual Question Answering
 - [AAAI 2020] ([paper](https://aaai.org/Papers/AAAI/2020GB/AAAI-JiZ.4799.pdf)) SGAP-Net: Semantic-Guided Attentive Prototypes Network for Few-Shot Human-Object Interaction Recognition
+- [ICLR 2020] Few-shot Text Classification with Distributional Signatures
+- [ICLR 2020] MetaPix: Few-Shot Video Retargeting
+- [ICLR 2020] ([paper](https://openreview.net/forum?id=r1eowANFvr)) Towards Fast Adaptation of Neural Architectures with Meta Learning 
+- [ICLR 2020] Query-efficient Meta Attack to Deep Neural Networks

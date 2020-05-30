@@ -130,8 +130,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Physarum Powered Differentiable Linear Programming Layers and Applications
     * An plug and play layer, FC-100 improve Cifar-100 FS for 1% on MetaOptSVM
 - [x] [arXiv 2020] Generalized Reinforcement Meta Learning for Few-Shot Optimization
-    * This paper's motivation like "Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
-    *in ICLR 2020, both of them use a mechanism to estimate or synthesis the gradients, so if you interesting in this paper, you'd better have look it that one.
+    * This paper's motivation like "Empirical Bayes Transductive Meta-Learning with Synthetic Gradients in ICLR 2020, both of them use a mechanism to estimate or synthesis the gradients, so if you interesting in this paper, you'd better have look it that one.
     * 71% with Resnet on mini-Imagenet (not so impressive)
 - [ ] [arXiv 2020] Bayesian Online Meta-Learning with Laplace Approximation
     * continue learning

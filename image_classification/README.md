@@ -32,7 +32,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ACM Computing Surveys 2020] ([paper](https://arxiv.org/pdf/1904.05046.pdf)) Generalizing from a Few Examples A Survey on Few-Shot Learning
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1904.04232) [code](https://github.com/wyharveychen/CloserLookFewShot)) A Closer Look At Few-shot Classification
 - [ICLR 2020] ([paper](https://arxiv.org/pdf/1909.02729.pdf)) A Baseline for Few-shot Image Classification
-- [ICLR 2020] A New Meta-Baseline for Few-Shot Learning
+- [arXiv 2020] A New Meta-Baseline for Few-Shot Learning
 - [arXiv 2020] A COMPREHENSIVE OVERVIEW AND SURVEY OF RECENT ADVANCES IN META-LEARNING
 - [arXiv 2020] Defining Benchmarks for Continual Few-Shot Learning
 
@@ -101,6 +101,8 @@ issue 里面提出来，我会在第一时间进行回复的。
     * not familiar with the dataset, but very interesting
     * show 5% better than TADAM
     * nearly no effect on mini-Imagenet (have room for improvement)
+- [ICLR 2020] ES-MAML: Simple Hessian-Free Meta Learning
+    * estimate second derivatives using bp is difficult, ES avoids the problem of estimating second derivatives
 
 
 ### Generative Based Few-shot Learning
@@ -266,6 +268,8 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2020] Improved Few-Shot Visual Classification
     * 没有比 mini-imagenet
 - [ACMMM 2019] TGG: Transferable Graph Generation for Zero-shot and Few-shot Learning
+- [ICLR 2020] FEW-SHOT LEARNING ON GRAPHS VIA SUPER- CLASSES BASED ON GRAPH SPECTRAL MEASURES
+- [ICLR 2020] META DROPOUT: LEARNING TO PERTURB LATENT FEATURES FOR GENERALIZATION
 
 ### Special
 #### Unsorted
@@ -299,6 +303,7 @@ issue 里面提出来，我会在第一时间进行回复的。
     * 71% for 1-shot and 81% for 5shot
 - [ICCV 2019] Few-Shot Learning with Embedded Class Models and Shot-Free Meta Training
     * life-long few-shot learning problems
+- [ICLR 2020] Meta-Learning Deep Energy-Based Memory Models
 
 #### Architecture
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1805.07722.pdf)) Task-Agnostic Meta-Learning for Few-shot Learning
@@ -347,6 +352,11 @@ issue 里面提出来，我会在第一时间进行回复的。
     * using class-level knowledge graph to enhance instance-level graph
     * pretty interesting
     * did not compare on the mini-imagenet
+- [CVPR 2020] Boosting Few-Shot Learning With Adaptive Margin Loss
+    * using word embeddings to compute the relationship between classes and
+        this relationship is used as guidance to learn the adaptive margin
+        loss, sound reasonable.
+    * 67.10 ± 0.52% and 79.54 ± 0.60% on mini-ImageNet
 
 #### Self-training
 
@@ -361,7 +371,7 @@ Basically, we use [Omniglot](https://github.com/brendenlake/omniglot), [mini-Ima
 Welcome contributes to expand the tables of results. 
 
 基本上在小样本图像分类领域，主流的数据集为 Omniglot，mini-Imagenet，tired-Imagenet，CUB 和完整的 ImageNet。在这里我们总结了当前已有的方法在 mini-ImageNet 上的表现。
-非常欢迎大家来补充呀。
+非常欢迎大家来补充呀。(鉴于精力有限，这部分的内容不再维护了，如果有小伙伴也愿意一起维护的话，可以联系我呀)
 
 #### [mini-Imagenet](http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning)
 
