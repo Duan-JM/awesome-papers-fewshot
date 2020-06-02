@@ -134,13 +134,20 @@ judge it is not good or not accpeted to the top conference over one year.
     * 71% with Resnet on mini-Imagenet (not so impressive)
 - [ ] [arXiv 2020] Bayesian Online Meta-Learning with Laplace Approximation
     * continue learning
-- [ ] [arXiv 2020] Compositional Few-Shot Recognition with Primitive Discovery and Enhancing
 - [x] [arXiv 2020] ONE OF THESE (FEW) THINGS IS NOT LIKE THE OTHERS
     * image classification task, however need to classify the outliner, like cross-domain settings
     * they define a "junk" classes specific, may not significant
-- [ ] [arXiv 2020] Compositional Few-Shot Recognition with Primitive Discovery and Enhancing
+- [x] [arXiv 2020] Compositional Few-Shot Recognition with Primitive Discovery and Enhancing
     * 63.21 ± 0.78% for 1-shot on mini-ImageNet
     * insterest, they improve the results by decompose the image into several compostions, sound reasonable
+- [x] [arXiv 2020] Looking back to lower-level information in few-shot learning
+    * arguing that output of each layer in the backbone's could use to learn
+    * build TPN on each layer of the graph
+    * Improve TPN for 1~2% for mini-Imagenet and tiered-Imagenet compare to TPN
+- [x] [arXiv 2020] Low-Rank Pairwise Alignment Bilinear Network For Few-Shot Fine-Grained Image Classification
+    * very similar to one of work in CVPR 2019 -> Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning
+    * Not compare in mini-ImageNet
+- [ ] [arXiv 2020] TOAN: Target-Oriented Alignment Network for Fine-Grained Image Categorization with Few Labeled Samples
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
@@ -186,15 +193,19 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Cross-lingual Zero- and Few-shot Hate Speech Detection Utilising Frozen Transformer Language Models and AXEL
 - [ ] [arXiv 2020] Few-Shot Natural Language Generation by Rewriting Templates
 - [ ] [arXiv 2020] SOLOIST: Few-shot Task-Oriented Dialog with A Single Pre-trained Auto-regressive Model
-- [ ] [arXiv 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification
     * result seems great
     * work follow the inductino network, explicitly add dynamic memory model (constructed by base classes) to enhance "prototypes".
+- [ ] [arXiv 2020] Pay Attention to What You Read: Non-recurrent Handwritten Text-Line Recognition
+- [ ] [arXiv 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification
+- [ ] [arXiv 2020] Few-shot Text Classification with Distributional Signatures
+- [ ] [arXiv 2020] Knowledge Guided Metric Learning for Few-Shot Text Classification
 
 **Cross-Domain**
 - [ ] [arXiv 2020] Towards Fair Cross-Domain Adaptation via Generative Learning
 - [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
 - [ ] [arXiv 2020] Feature Transformation Ensemble Model with Batch Spectral Regularization for Cross-Domain Few-Shot Classification
 - [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
+- [ ] [arXiv 2020] Few-Shot Open-Set Recognition using Meta-Learning
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
@@ -224,7 +235,6 @@ judge it is not good or not accpeted to the top conference over one year.
     * LEO branch
 - [ ] [arXiv 2020] Revisiting Few-shot Activity Detection with Class Similarity Control
 - [ ] [arXiv 2020] Meta-Learning for Few-Shot NMT Adaptation
-- [ ] [arXiv 2020] Knowledge Guided Metric Learning for Few-Shot Text Classification
 - [ ] [arXiv 2020] CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection
 - [ ] [arXiv 2020] SSHFD: Single Shot Human Fall Detection with Occluded Joints Resilience
 - [ ] [arXiv 2020] Gradient-based Data Augmentation for Semi-Supervised Learning
@@ -243,3 +253,6 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] 3FabRec: Fast Few-shot Face alignment by Reconstruction
     * facial landmark detection
 - [ ] [arXiv 2020] Combining Deep Learning with Geometric Features for Image based Localization in the Gastrointestinal Tract
+- [ ] [arXiv 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
+- [ ] [arXiv 2020] SSM-Net for Plants Disease Identification in LowData Regime
+    * disease in agricultural

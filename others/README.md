@@ -78,3 +78,6 @@
 - [ICLR 2020] MetaPix: Few-Shot Video Retargeting
 - [ICLR 2020] ([paper](https://openreview.net/forum?id=r1eowANFvr)) Towards Fast Adaptation of Neural Architectures with Meta Learning 
 - [ICLR 2020] Query-efficient Meta Attack to Deep Neural Networks
+- [arXiv 2020] Language Models are Few-Shot Learners
+    * GPT-3
+    * add here for its

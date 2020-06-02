@@ -175,13 +175,11 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Synthesis new samples to elleviate the data imbalance problem between Base and Novel Classes.
     * During training, compute two losses, one is the original losses, the other is the score for the whole classes including noval classes.
 
-
 - [IJCAI 2019] ([paper](https://arxiv.org/pdf/1905.04042) [code](https://github.com/liulu112601/PPN)) Prototype Propagation Networks (PPN) for Weakly-supervised Few-shot Learning on Category Graph
     * Maually build an category graph, then add parents label's class represention into the child class representations.
 
 - [CVPR 2019] (RECOMMENDED) ([paper](https://arxiv.org/pdf/1904.08482.pdf) [code](https://github.com/mibastro/VPE)) Variational Prototyping-Encoder- One-Shot Learning with Prototypical Images
     * Use encoder to translate the real images to abstract prototypes, such as painted traffic signs, then compare query and sample in the prototypes latent space.
-
 
 - [CVPR 2019] ([paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chu_Spot_and_Learn_A_Maximum-Entropy_Patch_Sampler_for_Few-Shot_Image_CVPR_2019_paper.pdf)) Spot and Learn A Maximum-Entropy Patch Sampler for Few-Shot Image Classification
     * Sample parts of the image to form the batch to represent the class.
