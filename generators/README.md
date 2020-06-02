@@ -15,6 +15,7 @@
     * Recommand!!!
 
 #### NLP
+- [SIGIR 2020] ([github](https://github.com/thunlp/ConversationQueryRewriter）Few-Shot Generative Conversational Query Rewriting
 - [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf)) Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
 - [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
 - [NIPS 2018] Neural Voice Cloning with a Few Samples
