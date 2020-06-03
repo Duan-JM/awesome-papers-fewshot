@@ -93,8 +93,11 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Improve MAML to 66%
     * the initial model can be trained biased towards some tasks, particularly those sampled in meta-training phase
 
-- [NIPS 2019] Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation
-    * Augumnet for MAML
+- [NIPS 2019] ([paper](https://arxiv.org/abs/1910.13616) [code](https://github.com/shaohua0116/MMAML-Classification)) Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation
+    * Modal in this paper is not mean visual or semantic information, but refer
+        to different task distributions. For example, Omniglot and mini-Imagenet are regared as two mode.
+    * They augment MAML with the capability to identify the mode of tasks sampled from a multimodal task distribution and adapt quickly through gradient updates. 
+    * Architecture is similar to TADAM, just check it out
 
 - [ICLR 2020] Automated Relational Meta-learning
     * adding knowledge graph on the prototypes
@@ -252,14 +255,11 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [AAAI 2020] [exist code] Diversity Transfer Network for Few-Shot Learning
     * 63% for 1-shot 77.9% for 5-shot
     * using external refernce image to form auxilary tasks
-
 - [CVPR 2020] [ [exist code](https://github.com/Sha-Lab/FEAT.) ] Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions
     * 66% for 1-shot 82 for 5-shot
-
 - [CVPR2020] Adversarial Feature Hallucination Networks for Few-Shot Learning
     * Two novel regularizers: classification regularizer and anti-collapse regularizer
     * 62.38% 1-shot 78.16 5-shot
-
 - [CVPR 2020] Revisiting Pose-Normalization for Fine-Grained Few-Shot Recognition
 - [AAAI 2020] Variational Metric Scaling for Metric-Based Meta-Learning
     * 60% for 1-shot on TADAM and 77% for 5-shot on mini-imagenet

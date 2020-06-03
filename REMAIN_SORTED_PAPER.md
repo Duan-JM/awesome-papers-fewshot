@@ -3,7 +3,6 @@ This part save the papers collected from arXiv, paper will be deleted if I
 judge it is not good or not accpeted to the top conference over one year.
 
 # Remain checkout
-- [ ] [ACL 2020] Learning to Customize Model Structures for Few-shot Dialogue Generation Tasks
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
@@ -144,24 +143,29 @@ judge it is not good or not accpeted to the top conference over one year.
     * arguing that output of each layer in the backbone's could use to learn
     * build TPN on each layer of the graph
     * Improve TPN for 1~2% for mini-Imagenet and tiered-Imagenet compare to TPN
-- [x] [arXiv 2020] Low-Rank Pairwise Alignment Bilinear Network For Few-Shot Fine-Grained Image Classification
+
+- [x] [arXiv 2020] TOAN: Target-Oriented Alignment Network for Fine-Grained Image Categorization with Few Labeled Samples
     * very similar to one of work in CVPR 2019 -> Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning
     * Not compare in mini-ImageNet
-- [ ] [arXiv 2020] TOAN: Target-Oriented Alignment Network for Fine-Grained Image Categorization with Few Labeled Samples
+    * same to "Low-Rank Pairwise Alignment Bilinear Network For Few-Shot Fine-Grained Image Classification"
+
+- [ ] [arXiv 2020] Few-shot Learning for Domain-specific Fine-grained Image Classification
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
 - [x] [arXiv 2020] Few-shot Compositional Font Generation with Dual Memory
 
-**Object Detection**
+**Object Detection & Tracking**
+- [x] [arXiv 2019] One-Shot Object Detection with Co-Attention and Co-Excitation
+    * senet的迁移
 - [x] [arXiv 2020] Context-Transformer: Tackling Object Confusion for Few-Shot Detection
 - [x] [arXiv 2020] Meta R-CNN : Towards General Solver for Instance-level Few-shot Learning
 - [x] [arXiv 2020] Any-Shot Object Detection
 - [x] [arXiv 2020] Frustratingly Simple Few-Shot Object Detection
     * say fintune is outperform meta-learning methods
 - [ ] [arXiv 2020] Incremental Few-Shot Object Detection
-- [x] [arXiv 2019] One-Shot Object Detection with Co-Attention and Co-Excitation
-    * senet的迁移
+- [x] [arXiv 2020] MOTS: Multiple Object Tracking for General Categories Based On Few-Shot Method
+    * nearly same to prototype networks
 
 **Segmentation**
 - [ ] [arXiv 2020] CRNet: Cross-Reference Networks for Few-Shot Segmentation
@@ -181,8 +185,6 @@ judge it is not good or not accpeted to the top conference over one year.
 
 - [x] [arXiv 2020] BOFFIN TTS: FEW-SHOT SPEAKER ADAPTATION BY BAYESIAN OPTIMIZATION
     * Text to Speech
-- [x] [arXiv 2019] Shaping Visual Representations with Language for Few-shot Classification
-    * jointly predicting natural language task descriptions
 - [ ] [arXiv 2020] MICK: A Meta-Learning Framework for Few-shot Relation Classification with Little Training Data
     * Relation Classification
 - [ ] [arXiv 2020] Logic2Text: High-Fidelity Natural Language Generation from Logical Forms
@@ -192,13 +194,10 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Meta Fine-Tuning Neural Language Models for Multi-Domain Text Mining
 - [ ] [arXiv 2020] Cross-lingual Zero- and Few-shot Hate Speech Detection Utilising Frozen Transformer Language Models and AXEL
 - [ ] [arXiv 2020] Few-Shot Natural Language Generation by Rewriting Templates
-- [ ] [arXiv 2020] SOLOIST: Few-shot Task-Oriented Dialog with A Single Pre-trained Auto-regressive Model
-    * result seems great
-    * work follow the inductino network, explicitly add dynamic memory model (constructed by base classes) to enhance "prototypes".
 - [ ] [arXiv 2020] Pay Attention to What You Read: Non-recurrent Handwritten Text-Line Recognition
-- [ ] [arXiv 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification
 - [ ] [arXiv 2020] Few-shot Text Classification with Distributional Signatures
 - [ ] [arXiv 2020] Knowledge Guided Metric Learning for Few-Shot Text Classification
+- [ ] [arXiv 2020] CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection
 
 **Cross-Domain**
 - [ ] [arXiv 2020] Towards Fair Cross-Domain Adaptation via Generative Learning
@@ -206,6 +205,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Feature Transformation Ensemble Model with Batch Spectral Regularization for Cross-Domain Few-Shot Classification
 - [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
 - [ ] [arXiv 2020] Few-Shot Open-Set Recognition using Meta-Learning
+- [ ] [arXiv 2020] Large Margin Mechanism and Pseudo Query Set on Cross-Domain Few-Shot Learning
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
@@ -235,7 +235,6 @@ judge it is not good or not accpeted to the top conference over one year.
     * LEO branch
 - [ ] [arXiv 2020] Revisiting Few-shot Activity Detection with Class Similarity Control
 - [ ] [arXiv 2020] Meta-Learning for Few-Shot NMT Adaptation
-- [ ] [arXiv 2020] CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection
 - [ ] [arXiv 2020] SSHFD: Single Shot Human Fall Detection with Occluded Joints Resilience
 - [ ] [arXiv 2020] Gradient-based Data Augmentation for Semi-Supervised Learning
 - [ ] [arXiv 2020] Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors

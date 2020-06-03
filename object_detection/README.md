@@ -26,4 +26,3 @@
 
 - [CVPR 2020] Few-Shot Object Detection with Attention-RPN and Multi-Relation Detector
 
-- [CVPR 2020] Tracking by Instance Detection: A Meta-Learning Approach
