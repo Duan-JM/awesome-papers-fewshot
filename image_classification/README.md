@@ -197,9 +197,9 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Add transductive inference part
     * Pretty good result on mini-imagenet 80.64 +- 0.35% under ResNet-12 (16 conv layers)
 
-- [CVPR 2019] ([paper](https://arxiv.org/pdf/1903.12290.pdf)) Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning
+- [CVPR 2019] ([paper](https://arxiv.org/pdf/1903.12290.pdf) [code](https://github.com/WenbinLee/DN4.git)) Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning
     * Calculating the similarity between query and class represent feature in feature level, rather than instance level. It seperate original feature in m part and then compute the similarity to the K-nearst class partial features.
-    * Good Result on mini-ImageNet 71.02 ± 0.64% with Conv4_64F.
+    * Good Result on mini-ImageNet 71.02 ± 0.64% for 5shot and 51.24% for 1shot with Conv4_64F.
 
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1812.02391v2.pdf)) Meta-Transfer Learning for Few-Shot Learning
     * nearly no improve on 5 way 5 shot on mini-ImageNet.

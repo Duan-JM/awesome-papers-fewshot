@@ -53,7 +53,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [x] [arXiv 2019] MetaFun: Meta-Learning with Iterative Functional Updates
     * 用了无限的特征长度，还有一个什么东西，效果很好83%
 
-- [x] [arXiv 2019] Class Regularization-Improve Few-shot Image Classification by Reducing Meta Shift
+- [x] [arXiv 2019] Semantic Regularization: Improve Few-shot Image Classification by Reducing Meta Shift
 - [x] [1909.11446] Decoder Choice Network for Meta-Learning
     * leo分支的、目标是减参数，效果一般，可以看看怎么减少参数的
 - [x] [arXiv 2018] Few-Shot Self Reminder to Overcome Catastrophic Forgetting
@@ -66,7 +66,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [x] [arXiv 2019] ([paper](https://arxiv.org/abs/1911.06045) [code](https://github.com/phecy/SSL-FEW-SHOT)) SELF-SUPERVISED LEARNING FOR FEW-SHOT IMAGE CLASSIFICATION
     * 90% accuracy
 
-- [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/2001.09849.pdf) [code](https://github.com/yhu01/transfer-sgc)) Exploiting Unsupervised Inputs for Accurate Few-Shot Classification
+- [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/2001.09849.pdf) [code](https://github.com/yhu01/transfer-sgc)) Exploiting Unsupervised Inputs for Accurate Few-Shot Classification
     * 85% Graph
     * wait author to refine the paper
 
@@ -255,3 +255,4 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
 - [ ] [arXiv 2020] SSM-Net for Plants Disease Identification in LowData Regime
     * disease in agricultural
+- [ ] [arXiv 2020] Interpretable Time-series Classification on Few-shot Samples

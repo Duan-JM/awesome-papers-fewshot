@@ -4,6 +4,7 @@
 * [Reinforcement Learning](#reinforcement-learning)
 * [Visual Tracking](#visual-tracking)
 * [NLP relevant](#nlp-relevant)
+* [Theoritical](#theoritical)
 * [Others](#others)
 
 <!-- vim-markdown-toc -->
@@ -51,6 +52,11 @@
     * GPT-3
     * add here for its
 - [ICLR 2020] Few-shot Text Classification with Distributional Signatures
+
+### Theoritical
+- [ICLR 2020 Bengio] A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms
+    * Argue that how to fast adapt to new distributions by meta-learn causal structures
+    * Also have follow paper on arxiv [here](https://www.semanticscholar.org/paper/An-Analysis-of-the-Adaptation-Speed-of-Causal-Priol-Harikandeh/982816b03c2f09f7eb63f40dfbedd03caa3e5570?utm_source=alert_email&utm_content=AuthorPaper&utm_campaign=AlertEmails_DAILY&utm_term=AuthorPaper&email_index=0-0-0&utm_medium=244646)
 
 ### Others
 - [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition

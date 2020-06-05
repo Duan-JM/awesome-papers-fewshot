@@ -75,7 +75,8 @@ We collect some awesome code and blogs here.
 - [大数据时代的小样本深度学习问题的综述](https://zhuanlan.zhihu.com/p/60881968)(Recommended)
 - [Hands-On-Meta-Learning-With-Python](https://github.com/sudharsan13296/Hands-On-Meta-Learning-With-Python)
 - [Floodsung's Meta-Learning Paper lists](https://github.com/floodsung/Meta-Learning-Papers)
-
+- [Open-Sourcing BiT: Exploring Large-Scale Pre-training for Computer Vision](https://ai.googleblog.com/2020/05/open-sourcing-bit-exploring-large-scale.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+blogspot%2FgJZg+%28Google+AI+Blog%29)
+    * Large-scale pretrained strategy can be used to solve low resource circumstances.
 
 ### How to recommend a paper
 You are highly welcome to recommend a paper to this repo. 
