@@ -3,6 +3,22 @@ This part save the papers collected from arXiv, paper will be deleted if I
 judge it is not good or not accpeted to the top conference over one year.
 
 # Remain checkout
+- [ ] [ICML 2020] On the Global Optimality of Model-Agnostic Meta-Learning
+- [ ] [ICML 2020] Meta-learning for mixed linear regression
+- [ ] [ICML 2020] A Sample Complexity Separation between Non-Convex and Convex Meta-Learning
+- [ ] [ICML 2020] MetaFun: Meta-Learning with Iterative Functional Updates
+- [ ] [ICML 2020] Learning Attentive Meta-Transfer
+- [ ] [ICML 2020] Meta-learning with Stochastic Linear Bandits
+- [ ] [ICML 2020] Meta-Learning with Shared Amortized Variational Inference
+- [ ] [ICML 2020] TaskNorm: Rethinking Batch Normalization for Meta-Learning
+- [ ] [ICML 2020] Meta Variance Transfer: Learning to Augment from the Others
+- [ ] [ICML 2020] XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning
+- [ ] [ICML 2020] Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
+- [ ] [ICML 2020] Few-shot Relation Extraction via Bayesian Meta-learning on Task Graph
+- [ ] [ICML 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
+- [ ] [ICML 2020] Laplacian Regularized Few-Shot Learning
+- [ ] [ICML 2020] Frustratingly Simple Few-Shot Object Detection
+- [ ] [ICML 2020] Few-shot Domain Adaptation by Causal Mechanism Transfer
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
@@ -198,7 +214,6 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Few-shot Text Classification with Distributional Signatures
 - [ ] [arXiv 2020] Knowledge Guided Metric Learning for Few-Shot Text Classification
 - [ ] [arXiv 2020] CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection
-
 **Cross-Domain**
 - [ ] [arXiv 2020] Towards Fair Cross-Domain Adaptation via Generative Learning
 - [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
@@ -206,6 +221,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
 - [ ] [arXiv 2020] Few-Shot Open-Set Recognition using Meta-Learning
 - [ ] [arXiv 2020] Large Margin Mechanism and Pseudo Query Set on Cross-Domain Few-Shot Learning
+- [ ] [arXiv 2020] M3P: Learning Universal Representations via Multitask Multilingual Multimodal Pre-training
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
