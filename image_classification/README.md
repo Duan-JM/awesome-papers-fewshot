@@ -106,7 +106,8 @@ issue 里面提出来，我会在第一时间进行回复的。
     * nearly no effect on mini-Imagenet (have room for improvement)
 - [ICLR 2020] ES-MAML: Simple Hessian-Free Meta Learning
     * estimate second derivatives using bp is difficult, ES avoids the problem of estimating second derivatives
-
+- [ICML 2020] Learning to Stop While Learning to Predict
+    * Plug an stop mechanism onto the MAML to avoid "over-thinking"
 
 ### Generative Based Few-shot Learning
 **One line descriptions:** Generate features to expasion small datasets to large datasets, then fintune.
@@ -154,7 +155,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01436.pdf)) Edge-Labeling Graph Neural Network for Few-shot Learning
 - [CVPR 2020] ([code](https://github.com/megvii- research/DPGN) DPGN: Distribution Propagation Graph Network for Few-shot Learning
     * 67% for 1-shot 84% for 5-shot
-- [ICLR 2020] ([code](https://github.com/amzn/xfer))Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
+- [ICLR 2020] ([code](https://github.com/amzn/xfer)) Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
     * semi-supervised learning, using model to synthetic fake gradients to
         simulate the true gradients on query set
     * WRN-28-10(pre-trained) 70% for 1-shot and 79 for 5-shot
@@ -243,6 +244,7 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Perform well in 5-5 train to 5-1 test
     * 77\% for miniimagenet 5-5shot
 
+- [ACMMM 2019] TGG: Transferable Graph Generation for Zero-shot and Few-shot Learning
 - [AAAI 2020]  Knowledge Graph Transfer Network for Few-Shot Recognition
     * Knowledge Graph Transfer Network for Few-Shot Recognition 把prototypes构建成一个图，然后搞的，可以留个记录，他的测试主要在ImageNet FS和ImageNet 6K，但是显示的是PN本身就能到80%的情况下，他到了83%
     * did not compare in mini-imagenet, seems fine
@@ -265,9 +267,13 @@ issue 里面提出来，我会在第一时间进行回复的。
     * 60% for 1-shot on TADAM and 77% for 5-shot on mini-imagenet
 - [CVPR 2020] Improved Few-Shot Visual Classification
     * 没有比 mini-imagenet
-- [ACMMM 2019] TGG: Transferable Graph Generation for Zero-shot and Few-shot Learning
 - [ICLR 2020] FEW-SHOT LEARNING ON GRAPHS VIA SUPER- CLASSES BASED ON GRAPH SPECTRAL MEASURES
 - [ICLR 2020] META DROPOUT: LEARNING TO PERTURB LATENT FEATURES FOR GENERALIZATION
+- [ICML 2020] ([paper](https://arxiv.org/pdf/2002.02050.pdf) [exist code](https://github.com/JiechaoGuan/FSL-DAPNA)) Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
+    * Using MDD loss, which is very common in domain adaptation areas, to align features between episodes
+    * 71.88% for 1-shot and 84.07 for 5-shot with WRN-28-10 mini-ImageNet
+    * 69.14% for 1-shot and 85.82 for 5-shot on tiered-ImageNet
+
 
 ### Special
 #### Unsorted
@@ -276,8 +282,6 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [ICCV 2019] (RECOMMANDED!) ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Dvornik_Diversity_With_Cooperation_Ensemble_Methods_for_Few-Shot_Classification_ICCV_2019_paper.pdf)) Diversity with Cooperation: Ensemble Methods for Few-Shot Classification
     * New way to solve few-shot learning problems without meta-learing.
-
-- [ICCV 2019] Diversity With Cooperation Ensemble Methods for Few-Shot Classification
     * Like title, accuracy of 81% on 5-shot mini-imagenet
 
 - [ICCV 2019] Variational Few-Shot Learning
@@ -295,7 +299,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2016] Few-Shot Object Recognition From Machine-Labeled Web Images
 
 - [CVPR 2018] ([paper](https://arxiv.org/pdf/1804.08281.pdf)) Memory Matching Networks for One-Shot Image Recognition
-- [ICLR 2019] ([paper](https://arxiv.org/pdf/1902.02527.pdf) [code](https://github.com/cogentlabs/apl.)) Adaptive Posterior Learning-Few-Shot Learning with a Surprise-Based Memory Module
+- [ICLR 2019] ([paper](https://arxiv.org/pdf/1902.02527.pdf) [code](https://github.com/cogentlabs/apl)) Adaptive Posterior Learning-Few-Shot Learning with a Surprise-Based Memory Module
 - [CVPR 2020] Instance Credibility Inference for Few-Shot Learning
     * pick out most trust unlabled samples, then re train classifier
     * 71% for 1-shot and 81% for 5shot
@@ -312,7 +316,6 @@ issue 里面提出来，我会在第一时间进行回复的。
 #### Task Representation and Measure
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1902.03545.pdf)) (RECOMMENDED!) TASK2VEC- Task Embedding for Meta-Learning
     * Use Fisher information matrix to judge which backbone is suitable for current task.
-
 
 #### Multi Label Image Classification
 - [CVPR 2019 oral] ([paper](https://arxiv.org/pdf/1902.09811.pdf)) LaSO-Label-Set Operations networks for multi-label few-shot learning

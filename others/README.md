@@ -16,6 +16,7 @@
     * Training in pair-wise sample strategy between seen domain and unseen domain.
 - [ICLR 2020] Meta-learning curiosity algorithms
 - [ICLR 2020] Meta Reinforcement Learning with Autonomous Inference of Subtask Dependencies
+- [ICML 2020] Few-shot Domain Adaptation by Causal Mechanism Transfer
 
 ### Reinforcement Learning
 - [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning

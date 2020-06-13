@@ -13,12 +13,9 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [ICML 2020] TaskNorm: Rethinking Batch Normalization for Meta-Learning
 - [ ] [ICML 2020] Meta Variance Transfer: Learning to Augment from the Others
 - [ ] [ICML 2020] XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning
-- [ ] [ICML 2020] Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
 - [ ] [ICML 2020] Few-shot Relation Extraction via Bayesian Meta-learning on Task Graph
 - [ ] [ICML 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
 - [ ] [ICML 2020] Laplacian Regularized Few-Shot Learning
-- [ ] [ICML 2020] Frustratingly Simple Few-Shot Object Detection
-- [ ] [ICML 2020] Few-shot Domain Adaptation by Causal Mechanism Transfer
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
@@ -114,8 +111,9 @@ judge it is not good or not accpeted to the top conference over one year.
 - [x] [arXiv 2020] Few-Shot Learning with Geometric Constraints
     * main contribution is on remain accurarcy for both novel and base
     * outperform in both situations on miniImagenet
-- [x] [arXiv 2020] Rethinking Few-Shot Image Classification: a Good Embedding Is All You Need?
+- [x] [arXiv 2020] ([code](http://github.com/WangYueFt/rfs/)) Rethinking Few-Shot Image Classification: a Good Embedding Is All You Need?
     * finetune is all you need
+    * 62.02% or 64.82% 1-shot and 79.64% or 82.14% 5shot
 - [x] [arXiv 2020] A New Meta-Baseline for Few-Shot Learning
 - [ ] [arXiv 2020] [exist code] Negative Margin Matters: Understanding Margin in Few-shot Classification
     * 62% for 1shot
@@ -166,6 +164,8 @@ judge it is not good or not accpeted to the top conference over one year.
     * same to "Low-Rank Pairwise Alignment Bilinear Network For Few-Shot Fine-Grained Image Classification"
 
 - [ ] [arXiv 2020] Few-shot Learning for Domain-specific Fine-grained Image Classification
+- [ ] [arXiv 2020] Distributionally Robust $k$-Nearest Neighbors for Few-Shot Learning
+    * Seem mathmatically methods, will verify it later
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
@@ -177,8 +177,6 @@ judge it is not good or not accpeted to the top conference over one year.
 - [x] [arXiv 2020] Context-Transformer: Tackling Object Confusion for Few-Shot Detection
 - [x] [arXiv 2020] Meta R-CNN : Towards General Solver for Instance-level Few-shot Learning
 - [x] [arXiv 2020] Any-Shot Object Detection
-- [x] [arXiv 2020] Frustratingly Simple Few-Shot Object Detection
-    * say fintune is outperform meta-learning methods
 - [ ] [arXiv 2020] Incremental Few-Shot Object Detection
 - [x] [arXiv 2020] MOTS: Multiple Object Tracking for General Categories Based On Few-Shot Method
     * nearly same to prototype networks
@@ -214,6 +212,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Few-shot Text Classification with Distributional Signatures
 - [ ] [arXiv 2020] Knowledge Guided Metric Learning for Few-Shot Text Classification
 - [ ] [arXiv 2020] CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection
+
 **Cross-Domain**
 - [ ] [arXiv 2020] Towards Fair Cross-Domain Adaptation via Generative Learning
 - [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
@@ -222,6 +221,15 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Few-Shot Open-Set Recognition using Meta-Learning
 - [ ] [arXiv 2020] Large Margin Mechanism and Pseudo Query Set on Cross-Domain Few-Shot Learning
 - [ ] [arXiv 2020] M3P: Learning Universal Representations via Multitask Multilingual Multimodal Pre-training
+- [ ] [arXiv 2020] Few-Shot Open-Set Recognition using Meta-Learning
+
+**Uncertainty**
+- [ ] [arXiv 2020] Calibrated neighborhood aware confidence measure for deep metric learning
+    * The approach approximates the distribution of data points for each class using a Gaussian kernel smoothing function.
+    * They sperate the uncertainty measure methods into three branches Calibration on the held-out validation data, Bayesian approximation / Support set based uncertainnty estimation
+    * The gt used for uncertainty is measured by eucildean distances and I
+        doublt the uncertainty measured by eucildean in high dimensional spaces
+        is accurate.
 
 **Application**
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
@@ -232,11 +240,9 @@ judge it is not good or not accpeted to the top conference over one year.
 - [x] [arXiv 2020] DAWSON: A Domain Adaptive Few Shot Generation Framework
 -   * generate music, a project under cs236 in stanford university
 
-- [x] [arXiv 2020] Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
 - [x] [arXiv 2019] ADVERSARIALLY ROBUST FEW-SHOT LEARNING: A META-LEARNING APPROACH
     * A approach is robust to adversarially attack
 
-- [x] [arXiv 2020] Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
 - [x] [arXiv 2020] Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning
 - [ ] [arXiv 2020] Meta-Learning Initializations for Low-Resource Drug Discovery
 - [ ] [arXiv 2020] An Open-set Recognition and Few-Shot Learning Dataset for Audio Event Classification in Domestic Environments
@@ -272,3 +278,5 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] SSM-Net for Plants Disease Identification in LowData Regime
     * disease in agricultural
 - [ ] [arXiv 2020] Interpretable Time-series Classification on Few-shot Samples
+- [ ] [arXiv 2020] Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
+    * out-of-graph link prediction task
