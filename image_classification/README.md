@@ -35,7 +35,8 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [arXiv 2020] A New Meta-Baseline for Few-Shot Learning
 - [arXiv 2020] A COMPREHENSIVE OVERVIEW AND SURVEY OF RECENT ADVANCES IN META-LEARNING
 - [arXiv 2020] Defining Benchmarks for Continual Few-Shot Learning
-
+- [ICML 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
+    * Choice to impact of meta-learning methods, and design module over it
 
 ### Parameter Optimize Based Few-shot Learning
 **One line descriptions:** Generate parameters for the classifier or finetune part of the models
@@ -300,7 +301,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [CVPR 2018] ([paper](https://arxiv.org/pdf/1804.08281.pdf)) Memory Matching Networks for One-Shot Image Recognition
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1902.02527.pdf) [code](https://github.com/cogentlabs/apl)) Adaptive Posterior Learning-Few-Shot Learning with a Surprise-Based Memory Module
-- [CVPR 2020] Instance Credibility Inference for Few-Shot Learning
+- [CVPR 2020] ([paper](https://github.com/Yikai-Wang/ICI-FSL)) Instance Credibility Inference for Few-Shot Learning
     * pick out most trust unlabled samples, then re train classifier
     * 71% for 1-shot and 81% for 5shot
 - [ICCV 2019] Few-Shot Learning with Embedded Class Models and Shot-Free Meta Training

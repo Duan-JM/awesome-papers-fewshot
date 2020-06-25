@@ -2,6 +2,9 @@
 This part save the papers collected from arXiv, paper will be deleted if I
 judge it is not good or not accpeted to the top conference over one year.
 
+# No papers
+- [ ] [ICML 2020] Few-shot Relation Extraction via Bayesian Meta-learning on Task Graph
+
 # Remain checkout
 - [ ] [ICML 2020] On the Global Optimality of Model-Agnostic Meta-Learning
 - [ ] [ICML 2020] Meta-learning for mixed linear regression
@@ -13,7 +16,6 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [ICML 2020] TaskNorm: Rethinking Batch Normalization for Meta-Learning
 - [ ] [ICML 2020] Meta Variance Transfer: Learning to Augment from the Others
 - [ ] [ICML 2020] XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning
-- [ ] [ICML 2020] Few-shot Relation Extraction via Bayesian Meta-learning on Task Graph
 - [ ] [ICML 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
 - [ ] [ICML 2020] Laplacian Regularized Few-Shot Learning
 
@@ -33,6 +35,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [x] [OCEANS 2020] A Comparison of Few-Shot Learning Methods for Underwater Optical and Sonar Image Classification
     * K-means enhance the prototypes, similar to my previous papers.
 - [ ] [InterSpeech 2020] AdaDurIAN: Few-shot Adaptation for Neural Text-to-Speech with DurIAN
+- [ ] [SIGIR 2020] Few-Shot Generative Conversational Query Rewriting
 
 # Arxiv
 ## Summary
@@ -166,6 +169,21 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Few-shot Learning for Domain-specific Fine-grained Image Classification
 - [ ] [arXiv 2020] Distributionally Robust $k$-Nearest Neighbors for Few-Shot Learning
     * Seem mathmatically methods, will verify it later
+- [x] [arXiv 2020] Learning to Learn Kernels with Variational Random Features
+    * LSTM to adjust kernel
+    * 54% for 1-shot 67.8% for 5-shot
+- [x] [arXiv 2020] Prototype Rectification for Few-Shot Learning
+    * 70.31% fot 1-shot and 81.89% for 5-shot
+- [arXiv 2020] Convergence of Meta-Learning with Task-Specific Adaptation over Partial Parameters
+    * update paritial parameters in inner loop
+    * improve for MAML
+- [arXiv 2020] ([code](https://github.com/brjathu/SKD))Self-supervised Knowledge Distillation for Few-shot Learning
+    * learn feature into stage, pretrain + self-traning
+    * 67% for 1-shot on mini-Imagenet with ResNet12
+- [arXiv 2020] Unsupervised Meta-Learning through Latent-Space Interpolation in Generative Models
+    * unsupervised, compare to DeepCluster
+- [arXiv 2020] Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification
+    * Graph level query
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
@@ -180,6 +198,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Incremental Few-Shot Object Detection
 - [x] [arXiv 2020] MOTS: Multiple Object Tracking for General Categories Based On Few-Shot Method
     * nearly same to prototype networks
+- [ ] [arXiv 2020] Few-shot Object Detection on Remote Sensing Images
 
 **Segmentation**
 - [ ] [arXiv 2020] CRNet: Cross-Reference Networks for Few-Shot Segmentation
@@ -280,3 +299,4 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Interpretable Time-series Classification on Few-shot Samples
 - [ ] [arXiv 2020] Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
     * out-of-graph link prediction task
+- [ ] [arXiv 2020] Extensively Matching for Few-shot Learning Event Detection

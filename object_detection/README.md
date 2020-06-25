@@ -27,4 +27,4 @@
 - [CVPR 2020] Few-Shot Object Detection with Attention-RPN and Multi-Relation Detector
 
 - [ICML 2020] ([paper](https://arxiv.org/pdf/2003.06957.pdf) [code](https://github.com/ucbdrive/few-shot-object-detection)) Frustratingly Simple Few-Shot Object Detection
-    * say fintune is outperform meta-learning methods
+- [CVPR 2020 oral] Overcoming Classifier Imbalance for Long-tail Object Detection with Balanced Group Softmax   * say fintune is outperform meta-learning methods
