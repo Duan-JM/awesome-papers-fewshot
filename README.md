@@ -26,6 +26,7 @@ The papers collected in this repo are manually selected by myself, I am hoping t
     * [Relevant Awesome Few-shot PlayGround Repo](#relevant-awesome-few-shot-playground-repo)
     * [Relevant Awesome Blogs](#relevant-awesome-blogs)
   * [How to recommend a paper](#how-to-recommend-a-paper)
+  * [ChangeLog](#changelog)
 * [Main Contributors](#main-contributors)
 
 <!-- vim-markdown-toc -->
@@ -89,6 +90,9 @@ The only thing you need to do is make a new issue with its name, conference name
 > Title: [ICML 2019] TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
 >
 > Recommend: First paper point out how to measure the backbone is bad or good for the current task(episode).
+
+### ChangeLog
+- 2020-06-26 `REAMIN_SORTED_PAPAERS.md` no longer collected all papers from arxiv, only interesting and effectiveness ones will be collected here
 
 ## Main Contributors
 - [Duan-JM](https://github.com/Duan-JM) (Founder) (Image Classification)

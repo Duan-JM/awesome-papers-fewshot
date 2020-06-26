@@ -1,4 +1,4 @@
-# Introdution
+# Intro
 This part save the papers collected from arXiv, paper will be deleted if I
 judge it is not good or not accpeted to the top conference over one year.
 
@@ -182,8 +182,16 @@ judge it is not good or not accpeted to the top conference over one year.
     * 67% for 1-shot on mini-Imagenet with ResNet12
 - [arXiv 2020] Unsupervised Meta-Learning through Latent-Space Interpolation in Generative Models
     * unsupervised, compare to DeepCluster
+- [arXiv 2020] ([code](https://github.com/yhu01/PT-MAP)) Leveraging the Feature Distribution in Transfer-based Few-Shot Learning
+    * 82% for 1-shot
+    * First force the encoded feautre to satisfy a certain distritbution, then use spesific algorithm designed for the distribution
+- [arXiv 2020] Graph Meta Learning via Local Subgraphs
+    * target Graph query the related graphs
 - [arXiv 2020] Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification
     * Graph level query
+- [arXiv 2020] Improving Few-Shot Visual Classification with Unlabelled Examples
+    * Cluster-based proto finetune methods
+    * 80% for 1-shot on mini-Imagenet
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
@@ -194,7 +202,7 @@ judge it is not good or not accpeted to the top conference over one year.
     * senet的迁移
 - [x] [arXiv 2020] Context-Transformer: Tackling Object Confusion for Few-Shot Detection
 - [x] [arXiv 2020] Meta R-CNN : Towards General Solver for Instance-level Few-shot Learning
-- [x] [arXiv 2020] Any-Shot Object Detection
+- [x] [arXiv 2020] Weakly-supervised Any-shot Object Detection
 - [ ] [arXiv 2020] Incremental Few-Shot Object Detection
 - [x] [arXiv 2020] MOTS: Multiple Object Tracking for General Categories Based On Few-Shot Method
     * nearly same to prototype networks
@@ -300,3 +308,5 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
     * out-of-graph link prediction task
 - [ ] [arXiv 2020] Extensively Matching for Few-shot Learning Event Detection
+- [ ] [arXiv 2020] Text Recognition in Real Scenarios with a Few Labeled Samples
+    * They trying to address the text retrievel problems when targe domain is nosiy
