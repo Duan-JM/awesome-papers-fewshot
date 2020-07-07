@@ -4,6 +4,7 @@ judge it is not good or not accpeted to the top conference over one year.
 
 # No papers
 - [ ] [ICML 2020] Few-shot Relation Extraction via Bayesian Meta-learning on Task Graph
+- [ ] [ICML 2020] Laplacian Regularized Few-Shot Learning
 
 # Remain checkout
 - [ ] [ICML 2020] On the Global Optimality of Model-Agnostic Meta-Learning
@@ -15,9 +16,45 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [ICML 2020] Meta-Learning with Shared Amortized Variational Inference
 - [ ] [ICML 2020] TaskNorm: Rethinking Batch Normalization for Meta-Learning
 - [ ] [ICML 2020] Meta Variance Transfer: Learning to Augment from the Others
-- [ ] [ICML 2020] XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning
 - [ ] [ICML 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
-- [ ] [ICML 2020] Laplacian Regularized Few-Shot Learning
+- [ ] [ECCV 2020] Self-Supervision with Superpixels: Training Few-shot Medical Image Segmentation without Annotation
+- [ ] [ECCV 2020] Attentive Prototype Few-shot Learning with Capsule Network-based Embedding
+- [ ] [ECCV 2020] A Broader Study of Cross-Domain Few-Shot Learning
+- [ ] [ECCV 2020] [exist code] Embedding Propagation: Smoother Manifold for Few-Shot Classification
+    * ElementAI
+    * 70 1-shot 81 5-shot
+    * rotation as self-supervised, not impressive
+    * 83% for 5 shot under SSL settings
+- [ ] [ECCV 2020] Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors
+- [ ] [ECCV 2020] SEN: A Novel Dissimilarity Measure for Prototypical Few-Shot Learning Networks
+- [ ] [ECCV 2020] Few-shot Compositional Font Generation with Dual Memory
+- [ ] [ECCV 2020] Deep Complementary Joint Model for Complex Scene Registration and Few-shot Segmentation on Medical Images
+- [ ] [ECCV 2020] Few-Shot Object Detection and Viewpoint Estimation for Objects in the Wild
+- [ ] [ECCV 2020] Impact of base dataset design on few-shot image classification
+- [ ] [ECCV 2020] Multi-Scale Positive Sample Refinement for Few-Shot Object Detection
+- [ ] [ECCV 2020] An Ensemble of Epoch-wise Empirical Bayes for Few-shot Learning
+    * addon on the SIB(semi) 81% on 5shot in miniImagnet
+- [ ] [ECCV 2020] ([code](http://github.com/WangYueFt/rfs/)) Rethinking Few-Shot Image Classification: a Good Embedding Is All You Need?
+    * finetune is all you need
+    * 62.02% or 64.82% 1-shot and 79.64% or 82.14% 5shot
+- [ ] [ECCV 2020] Few-Shot Semantic Segmentation with Democratic Attention Networks
+- [ ] [ECCV 2020] Selecting Relevant Features from a Universal Representation for Few-shot Learning
+    * mixup the final feature with multi model output or multi depth layer in the models output
+- [ ] [ECCV 2020] Large-Scale Few-Shot Learning via Multi-Modal Knowledge Discovery
+- [ ] [ECCV 2020] Meta-Learning across Meta-Tasks for Few-Shot Learning
+- [ ] [ECCV 2020] Part-aware Prototype Network for Few-shot Semantic Segmentation
+- [ ] [ECCV 2020] Prototype Mixture Models for Few-shot Semantic Segmentation
+- [ ] [ECCV 2020] Incremental Few-Shot Meta-Learning via Indirect Feature Alignment
+- [ ] [ECCV 2020] When Does Self-supervision Improve Few-shot Learning?
+- [ ] [ECCV 2020] TAFSSL: Task-Adaptive Feature Sub-Space Learning for few-shot classification
+    * 77% for 1shot and 84.99 for 5-shot on mini-Imagenet
+- [ ] [ECCV 2020 spotlight]Few-shot Action Recognition via Permutation-invariant Attention
+- [ ] [ECCV 2020 spotlight] Few-Shot Scene-Adaptive Anomaly Detection
+- [ ] [ECCV 2020 spotlight]  Associative Alignment for Few-shot Image Classification
+- [ ] [ECCV 2020 spotlight]  Negative Margin Matters: Understanding Margin in Few-shot Classification
+- [ ] [ECCV 2020 spotliight] Few-Shot Unsupervised Image Translation with a Content Conditioned Style Encoder
+- [ ] [ECCV 2020 oral] Prototype Rectification for Few-Shot Learning
+- [ ] [ECCV 2020 oral]  Model-Agnostic Boundary-Adversarial Sampling for Test-Time Generalization in Few-Shot learning
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
@@ -99,24 +136,14 @@ judge it is not good or not accpeted to the top conference over one year.
 - [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/2002.07522.pdf)) Few-Shot Few-Shot Learning and the role of Spatial Attention
     * reported 80% acc
     * Interesting
-- [x] [arXiv 2020] An Ensemble of Epoch-wise Empirical Bayes for Few-shot Learning
-    * addon on the SIB(semi) 81% on 5shot in miniImagnet
 - [x] [arXiv 2020] StarNet: towards weakly supervised few-shot detection and explainable few-shot classification
     * explanable few-shot classification
     * 79% on mini-imagenet
-- [x] [arXiv 2020] TAFSSL: Task-Adaptive Feature Sub-Space Learning for few-shot classification
-    * 77% for 1shot and 84.99 for 5-shot on mini-Imagenet
 - [x] [arXiv 2020] Associative Alignment for Few-shot Image Classification
     * assit with base instances
-- [x] [arXiv 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
-- [x] [arXiv 2020] Selecting Relevant Features from a Universal Representation for Few-shot Classification
-    * mixup the final feature with multi model output or multi depth layer in the models output
 - [x] [arXiv 2020] Few-Shot Learning with Geometric Constraints
     * main contribution is on remain accurarcy for both novel and base
     * outperform in both situations on miniImagenet
-- [x] [arXiv 2020] ([code](http://github.com/WangYueFt/rfs/)) Rethinking Few-Shot Image Classification: a Good Embedding Is All You Need?
-    * finetune is all you need
-    * 62.02% or 64.82% 1-shot and 79.64% or 82.14% 5shot
 - [x] [arXiv 2020] A New Meta-Baseline for Few-Shot Learning
 - [ ] [arXiv 2020] [exist code] Negative Margin Matters: Understanding Margin in Few-shot Classification
     * 62% for 1shot
@@ -125,9 +152,6 @@ judge it is not good or not accpeted to the top conference over one year.
 - [x] [arXiv 2020] Prototype Rectification for Few-Shot Learning
     * Using query set to enhance prototype, good results in 1-shot 70%, however, potential
         model leaky problem, wait for opensource
-- [x] [arXiv 2020] [exist code] Embedding Propagation: Smoother Manifold for Few-Shot Classification
-    * ElementAI
-    * 70 1-shot 81 5-shot
 - [x] [arXiv 2020] TransMatch: A Transfer-Learning Scheme for Semi-Supervised Few-Shot Learning
     * Imprinted weights to finetune 
     * SSL settings
@@ -137,9 +161,6 @@ judge it is not good or not accpeted to the top conference over one year.
 - [x] [arXiv 2020] Self-Augmentation: Generalizing Deep Networks to Unseen Classes for Few-Shot Learning
     * 65 1-shot 82 5-shot 
     * deep metric learning & cutmix
-- [x] [arXiv 2020] Embedding Propagation: Smoother Manifold for Few-Shot Classification
-    * rotation as self-supervised, not impressive
-    * 83% for 5 shot under SSL settings
 - [ ] [arXiv 2020] Unsupervised Few-shot Learning via Distribution Shift-based Augmentation
 - [ ] [arXiv 2020] Meta-Meta-Classification for One-Shot Learning
 - [ ] [arXiv 2020] Divergent Search for Few-Shot Image Classification
@@ -195,7 +216,6 @@ judge it is not good or not accpeted to the top conference over one year.
 
 **Generation**
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
-- [x] [arXiv 2020] Few-shot Compositional Font Generation with Dual Memory
 
 **Object Detection & Tracking**
 - [x] [arXiv 2019] One-Shot Object Detection with Co-Attention and Co-Excitation

@@ -274,7 +274,9 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Using MDD loss, which is very common in domain adaptation areas, to align features between episodes
     * 71.88% for 1-shot and 84.07 for 5-shot with WRN-28-10 mini-ImageNet
     * 69.14% for 1-shot and 85.82 for 5-shot on tiered-ImageNet
-
+- [ICML 2020] XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning
+    * Task specific generate classifier weights
+    * Task specific Meta-CNN branch
 
 ### Special
 #### Unsorted
