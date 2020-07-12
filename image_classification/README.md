@@ -154,8 +154,10 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2018] (RECOMMENDED!) Low-Shot Learning With Large-Scale Diffusion
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1805.10002.pdf)) Learning to Propagate Labels-transductive Propagation Network for Few-shot Learning
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.01436.pdf)) Edge-Labeling Graph Neural Network for Few-shot Learning
-- [CVPR 2020] ([code](https://github.com/megvii- research/DPGN) DPGN: Distribution Propagation Graph Network for Few-shot Learning
-    * 67% for 1-shot 84% for 5-shot
+- [CVPR 2020] ([code](https://github.com/megvii-research/DPGN) DPGN: Distribution Propagation Graph Network for Few-shot Learning
+    * 67% for 1-shot 84% for 5-shot (ResNet18), however Conv can achieve 66.01%
+    * Construct two graph, one for sample-wise one for distribution
+
 - [ICLR 2020] ([code](https://github.com/amzn/xfer)) Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
     * semi-supervised learning, using model to synthetic fake gradients to
         simulate the true gradients on query set
@@ -309,6 +311,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICCV 2019] Few-Shot Learning with Embedded Class Models and Shot-Free Meta Training
     * life-long few-shot learning problems
 - [ICLR 2020] Meta-Learning Deep Energy-Based Memory Models
+- [TKDE 2020] Many-Class Few-Shot Learning on Multi-Granularity Class Hierarchy
 
 #### Architecture
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1805.07722.pdf)) Task-Agnostic Meta-Learning for Few-shot Learning

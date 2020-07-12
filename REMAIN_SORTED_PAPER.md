@@ -2,11 +2,12 @@
 This part save the papers collected from arXiv, paper will be deleted if I
 judge it is not good or not accpeted to the top conference over one year.
 
+
 # No papers
 - [ ] [ICML 2020] Few-shot Relation Extraction via Bayesian Meta-learning on Task Graph
-- [ ] [ICML 2020] Laplacian Regularized Few-Shot Learning
 
 # Remain checkout
+- [ ] [ICML 2020] ([paper](https://arxiv.org/abs/2006.15486))Laplacian Regularized Few-Shot Learning
 - [ ] [ICML 2020] On the Global Optimality of Model-Agnostic Meta-Learning
 - [ ] [ICML 2020] Meta-learning for mixed linear regression
 - [ ] [ICML 2020] A Sample Complexity Separation between Non-Convex and Convex Meta-Learning
@@ -42,6 +43,8 @@ judge it is not good or not accpeted to the top conference over one year.
     * mixup the final feature with multi model output or multi depth layer in the models output
 - [ ] [ECCV 2020] Large-Scale Few-Shot Learning via Multi-Modal Knowledge Discovery
 - [ ] [ECCV 2020] Meta-Learning across Meta-Tasks for Few-Shot Learning
+    * WRN 72.41% 1-shot 84.34% 5-shot for mini-Imagenet
+    * Build MKD and MDA across tasks to make model to learn relationship between same tasks and differennt tasks
 - [ ] [ECCV 2020] Part-aware Prototype Network for Few-shot Semantic Segmentation
 - [ ] [ECCV 2020] Prototype Mixture Models for Few-shot Semantic Segmentation
 - [ ] [ECCV 2020] Incremental Few-Shot Meta-Learning via Indirect Feature Alignment
@@ -204,7 +207,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [arXiv 2020] Unsupervised Meta-Learning through Latent-Space Interpolation in Generative Models
     * unsupervised, compare to DeepCluster
 - [arXiv 2020] ([code](https://github.com/yhu01/PT-MAP)) Leveraging the Feature Distribution in Transfer-based Few-Shot Learning
-    * 82% for 1-shot
+    * 82% for 1-shot 88% for 5-shot WRN
     * First force the encoded feautre to satisfy a certain distritbution, then use spesific algorithm designed for the distribution
 - [arXiv 2020] Graph Meta Learning via Local Subgraphs
     * target Graph query the related graphs
@@ -213,22 +216,28 @@ judge it is not good or not accpeted to the top conference over one year.
 - [arXiv 2020] Improving Few-Shot Visual Classification with Unlabelled Examples
     * Cluster-based proto finetune methods
     * 80% for 1-shot on mini-Imagenet
+- [arXiv 2020] Improving Few-Shot Learning using Composite Rotation based Auxiliary Task
+    * Result is impressive
+    * 68% for 1-shot 84 for 5-shot for mini-Imagenet (ResNet 18)
+    * rotation image to perform self-supervise learning
+- [arXiv 2020] ([code](https://github.com/liulu112601/URT)) A Universal Representation Transformer Layer for Few-Shot Image Classification
+    * The author have one paper accepeted in TKDE
+    * Idea is interesting
+    * Universal Representation Transformer (URT) layer, that meta-learns to leverage universal features for few-shot classification by dynamically re-weighting and composing the most appropriate domain-specific representations
 
-**Generation**
+## Generation
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
 
 **Object Detection & Tracking**
 - [x] [arXiv 2019] One-Shot Object Detection with Co-Attention and Co-Excitation
     * senet的迁移
-- [x] [arXiv 2020] Context-Transformer: Tackling Object Confusion for Few-Shot Detection
 - [x] [arXiv 2020] Meta R-CNN : Towards General Solver for Instance-level Few-shot Learning
 - [x] [arXiv 2020] Weakly-supervised Any-shot Object Detection
-- [ ] [arXiv 2020] Incremental Few-Shot Object Detection
 - [x] [arXiv 2020] MOTS: Multiple Object Tracking for General Categories Based On Few-Shot Method
     * nearly same to prototype networks
 - [ ] [arXiv 2020] Few-shot Object Detection on Remote Sensing Images
 
-**Segmentation**
+## Segmentation
 - [ ] [arXiv 2020] CRNet: Cross-Reference Networks for Few-Shot Segmentation
 - [ ] [arXiv 2020] On the Texture Bias for Few-Shot CNN Segmentation
 - [ ] [arXiv 2020] [exist code] Learning to Segment the Tail
@@ -236,8 +245,9 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Objectness-Aware One-Shot Semantic Segmentation
 - [ ] [arXiv 2020] Self-Supervised Tuning for Few-Shot Segmentation
 - [ ] [arXiv 2020] Prototype Refinement Network for Few-Shot Segmentation
+- [ ] [arXiv 2020] Few-Shot Semantic Segmentation Augmented with Image-Level Weak Annotations
 
-**NLP**
+## NLP
 - [ ] [arXiv 2020] Few-shot Natural Language Generation for Task-Oriented Dialog
 - [ ] [arXiv 2020] SOLOIST: Few-shot Task-Oriented Dialog with A Single Pre-trained Auto-regressive Model
 - [x] [arXiv 2020] Prototypical Q Networks for Automatic Conversational Diagnosis and Few-Shot New Disease Adaption
@@ -260,7 +270,12 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Knowledge Guided Metric Learning for Few-Shot Text Classification
 - [ ] [arXiv 2020] CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection
 
-**Cross-Domain**
+## Incremental Learning
+- [ ] [arXiv 2020] Incremental Few-Shot Object Detection
+- [ ] [arXiv 2020] Few-Shot Class-Incremental Learning via Feature Space Composition
+    * Train one base model, then stack different tasks feature onto it
+
+## Cross-Domain
 - [ ] [arXiv 2020] Towards Fair Cross-Domain Adaptation via Generative Learning
 - [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
 - [ ] [arXiv 2020] Feature Transformation Ensemble Model with Batch Spectral Regularization for Cross-Domain Few-Shot Classification
@@ -270,7 +285,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] M3P: Learning Universal Representations via Multitask Multilingual Multimodal Pre-training
 - [ ] [arXiv 2020] Few-Shot Open-Set Recognition using Meta-Learning
 
-**Uncertainty**
+## Uncertainty
 - [ ] [arXiv 2020] Calibrated neighborhood aware confidence measure for deep metric learning
     * The approach approximates the distribution of data points for each class using a Gaussian kernel smoothing function.
     * They sperate the uncertainty measure methods into three branches Calibration on the held-out validation data, Bayesian approximation / Support set based uncertainnty estimation
@@ -278,7 +293,7 @@ judge it is not good or not accpeted to the top conference over one year.
         doublt the uncertainty measured by eucildean in high dimensional spaces
         is accurate.
 
-**Application**
+## Application
 - [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
 - [x] [arXiv 2019] Real-Time Object Tracking via Meta-Learning: Efficient Model Adaptation and One-Shot Channel Pruning （目标跟踪）
 - [x] [arXiv 2019] Defensive Few-shot Adversarial Learning
