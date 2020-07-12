@@ -105,3 +105,4 @@
 - [ICLR 2020] ([paper](https://openreview.net/forum?id=r1eowANFvr)) Towards Fast Adaptation of Neural Architectures with Meta Learning 
 - [ICLR 2020] Query-efficient Meta Attack to Deep Neural Networks
 - [SIGGRAPH Asia 2019] Artistic Glyph Image Synthesis via One-Stage Few-Shot Learning
+- [IJCNN 2020] Interpretable Time-series Classification on Few-shot Samples
