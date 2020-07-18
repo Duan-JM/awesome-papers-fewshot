@@ -4,7 +4,7 @@ judge it is not good or not accpeted to the top conference over one year.
 
 
 # No papers
-- [ ] [ICML 2020] Few-shot Relation Extraction via Bayesian Meta-learning on Task Graph
+- [ ] [ECCV 2020 oral]  Model-Agnostic Boundary-Adversarial Sampling for Test-Time Generalization in Few-Shot learning
 
 # Remain checkout
 - [ ] [ICML 2020] ([paper](https://arxiv.org/abs/2006.15486))Laplacian Regularized Few-Shot Learning
@@ -56,8 +56,8 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [ECCV 2020 spotlight]  Associative Alignment for Few-shot Image Classification
 - [ ] [ECCV 2020 spotlight]  Negative Margin Matters: Understanding Margin in Few-shot Classification
 - [ ] [ECCV 2020 spotliight] Few-Shot Unsupervised Image Translation with a Content Conditioned Style Encoder
-- [ ] [ECCV 2020 oral] Prototype Rectification for Few-Shot Learning
-- [ ] [ECCV 2020 oral]  Model-Agnostic Boundary-Adversarial Sampling for Test-Time Generalization in Few-Shot learning
+- [ ] [SIGIR 2020] Few-Shot Generative Conversational Query Rewriting
+- [x] [ESANN 2020] Zero-shot and few-shot time series forecasting with ordinal regression recurrent neural networks
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
@@ -67,7 +67,6 @@ judge it is not good or not accpeted to the top conference over one year.
 
 # Other Conference
 - [x] [WACV 2020] Charting the Right Manifold: Manifold Mixup for Few-shot Learning
-- [x] [ESANN 2020] Zero-shot and few-shot time series forecasting with ordinal regression recurrent neural networks
 - [x] [CVPR 2020 Workshop] MA 3 : Model Agnostic Adversarial Augmentation for Few Shot learning
 - [ ] [Neuro Computing 2020] Revisiting Metric Learning for Few-Shot Image Classification
 - [ ] [IJCNN 2020] RelationNet2: Deep Comparison Columns for Few-Shot Learning
@@ -75,7 +74,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [x] [OCEANS 2020] A Comparison of Few-Shot Learning Methods for Underwater Optical and Sonar Image Classification
     * K-means enhance the prototypes, similar to my previous papers.
 - [ ] [InterSpeech 2020] AdaDurIAN: Few-shot Adaptation for Neural Text-to-Speech with DurIAN
-- [ ] [SIGIR 2020] Few-Shot Generative Conversational Query Rewriting
+- [x] [ICML 2020 Workshop]Covariate Distribution Aware Meta-learning
 
 # Arxiv
 ## Summary
@@ -345,3 +344,5 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Extensively Matching for Few-shot Learning Event Detection
 - [ ] [arXiv 2020] Text Recognition in Real Scenarios with a Few Labeled Samples
     * They trying to address the text retrievel problems when targe domain is nosiy
+- [x] [arXiv 2020] Inductive Relational Matrix Completion
+    * Recommand System cold-start relevant

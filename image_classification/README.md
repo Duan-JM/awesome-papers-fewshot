@@ -269,7 +269,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [AAAI 2020] Variational Metric Scaling for Metric-Based Meta-Learning
     * 60% for 1-shot on TADAM and 77% for 5-shot on mini-imagenet
 - [CVPR 2020] Improved Few-Shot Visual Classification
-    * 没有比 mini-imagenet
+    * Seam very impressive result on mini-Imagenet
 - [ICLR 2020] FEW-SHOT LEARNING ON GRAPHS VIA SUPER- CLASSES BASED ON GRAPH SPECTRAL MEASURES
 - [ICLR 2020] META DROPOUT: LEARNING TO PERTURB LATENT FEATURES FOR GENERALIZATION
 - [ICML 2020] ([paper](https://arxiv.org/pdf/2002.02050.pdf) [exist code](https://github.com/JiechaoGuan/FSL-DAPNA)) Few-Shot Learning as Domain Adaptation: Algorithm and Analysis
@@ -279,6 +279,12 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICML 2020] XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning
     * Task specific generate classifier weights
     * Task specific Meta-CNN branch
+- [NIPS 2019] Fast and Flexible Multi-Task Classification Using Conditional Neural Adaptive Processes
+- [ECCV 2020 oral] Prototype Rectification for Few-Shot Learning
+    * intra-cross bias -> soft-KNN methods to adjust proto
+    * cross-class bias -> proposed a normalize term to force query set to support set
+    * !!! IT HAS SOME THEORETICAL ANAYLSIS !!!
+    * Result impressive
 
 ### Special
 #### Unsorted

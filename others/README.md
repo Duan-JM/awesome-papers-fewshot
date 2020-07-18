@@ -5,6 +5,7 @@
 * [Visual Tracking](#visual-tracking)
 * [NLP relevant](#nlp-relevant)
 * [Theoritical](#theoritical)
+* [Relation Relevant](#relation-relevant)
 * [Others](#others)
 
 <!-- vim-markdown-toc -->
@@ -59,6 +60,12 @@
     * Argue that how to fast adapt to new distributions by meta-learn causal structures
     * Also have follow paper on arxiv [here](https://www.semanticscholar.org/paper/An-Analysis-of-the-Adaptation-Speed-of-Causal-Priol-Harikandeh/982816b03c2f09f7eb63f40dfbedd03caa3e5570?utm_source=alert_email&utm_content=AuthorPaper&utm_campaign=AlertEmails_DAILY&utm_term=AuthorPaper&email_index=0-0-0&utm_medium=244646)
 
+### Relation Relevant
+- [ICML 2020] ([paper](https://arxiv.org/abs/2007.02387)) Few-shot Relation Extraction via Bayesian Meta-learning on Task Graph
+- [AAAI 2019] Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification
+    * Relation Classification with FewRel
+- [AAAI 2020] Neural Snowball for Few-Shot Relation Learning
+
 ### Others
 - [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
 - [AAAI 2018] AffinityNet- Semi-supervised Few-shot Learning for Disease Type Prediction
@@ -74,8 +81,6 @@
 - [ICCV 2019] (RECOMMANDED!) Task-Driven Modular Networks for Zero-Shot Compositional Learning
     * An interesting usage of a bunch of MLPs.
 - [CVPR 2019] ([paper](http://openaccess.thecvf.com/content_CVPRW_2019/papers/PBVS/Rostami_SAR_Image_Classification_Using_Few-Shot_Cross-Domain_Transfer_Learning_CVPRW_2019_paper.pdf) [code](https://github.com/MSiam/AdaptiveMaskedProxies.)) SAR Image Classification Using Few-shot Cross-domain Transfer Learning
-- [AAAI 2019] Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification
-    * Relation Classification with FewRel
 - [ICLR 2020] FEW-SHOT TEXT CLASSIFICATION WITH DISTRIBUTIONAL SIGNATURES
 - [ICLR 2020] METAPIX: FEW-SHOT VIDEO RETARGETING
 - [ICLR 2020] ONE-SHOT PRUNING OF RECURRENT NEURAL NETWORKS BY JACOBIAN SPECTRUM EVALUATION
@@ -95,7 +100,6 @@
 - [AAAI 2020] Graph Few-shot Learning via Knowledge Transfer
 - [AAAI 2020] Few Shot Network Compression via Cross Distillation (模型压缩)
 - [AAAI 2020] Few-Shot Bayesian Imitation Learning with Logical Program Policies
-- [AAAI 2020] Neural Snowball for Few-Shot Relation Learning
 - [CVPR 2020] Meta-Transfer Learning for Zero-Shot Super-Resolution
 - [CVPR 2020] Learning from Web Data with Self-Organizing Memory Module
     * solve label noise and background noise in the images with memory module
