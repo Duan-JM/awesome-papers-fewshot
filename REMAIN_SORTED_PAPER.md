@@ -8,7 +8,6 @@ judge it is not good or not accpeted to the top conference over one year.
 
 # Remain checkout
 - [ ] [ICML 2020] ([paper](https://arxiv.org/abs/2006.15486))Laplacian Regularized Few-Shot Learning
-- [ ] [ICML 2020] On the Global Optimality of Model-Agnostic Meta-Learning
 - [ ] [ICML 2020] Meta-learning for mixed linear regression
 - [ ] [ICML 2020] A Sample Complexity Separation between Non-Convex and Convex Meta-Learning
 - [ ] [ICML 2020] MetaFun: Meta-Learning with Iterative Functional Updates

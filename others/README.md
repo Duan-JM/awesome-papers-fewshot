@@ -4,6 +4,11 @@
 * [Reinforcement Learning](#reinforcement-learning)
 * [Visual Tracking](#visual-tracking)
 * [NLP relevant](#nlp-relevant)
+  * [Representation](#representation)
+  * [NLU](#nlu)
+  * [DCM](#dcm)
+  * [NLG](#nlg)
+  * [Applications](#applications)
 * [Theoritical](#theoritical)
 * [Relation Relevant](#relation-relevant)
 * [Others](#others)
@@ -31,29 +36,37 @@
     * MAML-Tracker
 
 ### NLP relevant
-- [AAAI 2018] Few Shot Transfer Learning Between Word Relatedness and Similarity Tasks Using A Gated Recurrent Siamese Network
-- [ACMMM 2018] Few-Shot Adaptation for Multimedia Semantic Indexing
-- [ACMMM 2018] Fast Parameter Adaptation for Few-shot Image Captioning and Visual Question Answering
-- [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
-- [AAAI 2019] Few-Shot Image and Sentence Matching via Gated Visual-Semantic Embedding
-    * Image and Sentence Matching
-- [ACL 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification
-    * result seems great
-    * work follow the inductino network, explicitly add dynamic memory model (constructed by base classes) to enhance "prototypes".
+#### Representation
 - [ACL 2020] Shaping Visual Representations with Language for Few-shot Classification
     * jointly predicting natural language task descriptions at training time
     * How can we let language guide representa- tion learning in machine learning models? 
-
-- [ACL 2020] Hypernymy Detection for Low-Resource Languages via Meta Learning
-- [ACL 2020] Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network
-- [ACL 2020] Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations
-- [ACL 2020] Learning to Customize Model Structures for Few-shot Dialogue Generation Tasks
-- [ACL 2020] Few-Shot NLG with Pre-Trained Language Model
-- [ICLR 2020] FEW-SHOT LEARNING ON GRAPHS VIA SUPERCLASSES BASED ON GRAPH SPECTRAL MEASURES
 - [arXiv 2020] Language Models are Few-Shot Learners
     * GPT-3
     * add here for its
+- [ACL 2020] Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations
+
+#### NLU
+- [ACL 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification
+    * result seems great
+    * work follow the inductino network, explicitly add dynamic memory model (constructed by base classes) to enhance "prototypes".
 - [ICLR 2020] Few-shot Text Classification with Distributional Signatures
+
+#### DCM
+- [ACL 2020] Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network
+
+#### NLG
+- [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
+- [ACL 2020] Few-Shot NLG with Pre-Trained Language Model
+- [ACL 2020] Learning to Customize Model Structures for Few-shot Dialogue Generation Tasks
+
+#### Applications
+- [AAAI 2018] Few Shot Transfer Learning Between Word Relatedness and Similarity Tasks Using A Gated Recurrent Siamese Network
+- [ACMMM 2018] Few-Shot Adaptation for Multimedia Semantic Indexing
+- [ACMMM 2018] Fast Parameter Adaptation for Few-shot Image Captioning and Visual Question Answering
+- [AAAI 2019] Few-Shot Image and Sentence Matching via Gated Visual-Semantic Embedding
+    * Image and Sentence Matching
+- [ACL 2020] Hypernymy Detection for Low-Resource Languages via Meta Learning
+- [ICLR 2020] FEW-SHOT LEARNING ON GRAPHS VIA SUPERCLASSES BASED ON GRAPH SPECTRAL MEASURES
 
 ### Theoritical
 - [ICLR 2020 Bengio] A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms
