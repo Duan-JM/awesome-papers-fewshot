@@ -43,6 +43,8 @@
 - [arXiv 2020] Language Models are Few-Shot Learners
     * GPT-3
     * add here for its
+- [arXiv 2019] ([paper](https://arxiv.org/pdf/1902.10482.pdf)) Few-Shot Text Classification with Induction Network
+    * Introduce dynamic routing to generate better class representations. One real industrial project.
 - [ACL 2020] Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations
 
 #### NLU
@@ -50,6 +52,7 @@
     * result seems great
     * work follow the inductino network, explicitly add dynamic memory model (constructed by base classes) to enhance "prototypes".
 - [ICLR 2020] Few-shot Text Classification with Distributional Signatures
+- [EMNLP/IJCNLP 2019] Hierarchical Attention Prototypical Networks for Few-Shot Text Classification
 
 #### DCM
 - [ACL 2020] Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network
@@ -84,8 +87,6 @@
 - [AAAI 2018] AffinityNet- Semi-supervised Few-shot Learning for Disease Type Prediction
     * Use few-shot method to enhance oringal disease type prediction
 
-- [arXiv 2019] ([paper](https://arxiv.org/pdf/1902.10482.pdf)) Few-Shot Text Classification with Induction Network
-    * Introduce dynamic routing to generate better class representations. One real industrial project.
 
 - [NIPS 2018] Neural Voice Cloning with a Few Samples
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1909.01205)) Few-Shot Generalization for Single-Image 3D Reconstruction via Priors
@@ -123,3 +124,6 @@
 - [ICLR 2020] Query-efficient Meta Attack to Deep Neural Networks
 - [SIGGRAPH Asia 2019] Artistic Glyph Image Synthesis via One-Stage Few-Shot Learning
 - [IJCNN 2020] Interpretable Time-series Classification on Few-shot Samples
+- [CVPR 2018] ([paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Temporal_Hallucinating_for_CVPR_2018_paper.pdf)) Temporal Hallucinating for Action Recognition with Few Still Images
+    * Attempt to recall cues from relevant action videos.
+    * Maybe good at one-shot, not worse than the baseline in 5-shot and 10-shot scenarios.
