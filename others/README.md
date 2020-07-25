@@ -43,7 +43,7 @@
 - [arXiv 2020] Language Models are Few-Shot Learners
     * GPT-3
     * add here for its
-- [arXiv 2019] ([paper](https://arxiv.org/pdf/1902.10482.pdf)) Few-Shot Text Classification with Induction Network
+- [EMNLP 2019] ([paper](https://arxiv.org/pdf/1902.10482.pdf)) Few-Shot Text Classification with Induction Network
     * Introduce dynamic routing to generate better class representations. One real industrial project.
 - [ACL 2020] Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations
 
@@ -70,6 +70,9 @@
     * Image and Sentence Matching
 - [ACL 2020] Hypernymy Detection for Low-Resource Languages via Meta Learning
 - [ICLR 2020] FEW-SHOT LEARNING ON GRAPHS VIA SUPERCLASSES BASED ON GRAPH SPECTRAL MEASURES
+- [EMNLP 2019] Meta Relational Learning for Few-Shot Link Prediction in Knowledge Graphs
+- [EMNLP 2019] Adapting Meta Knowledge Graph Information for Multi-Hop Reasoning over Few-Shot Relations
+- [EMNLP 2019] FewRel 2.0: Towards More Challenging Few-Shot Relation Classification
 
 ### Theoritical
 - [ICLR 2020 Bengio] A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms
