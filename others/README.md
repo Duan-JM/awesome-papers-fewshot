@@ -36,6 +36,8 @@
     * MAML-Tracker
 
 ### NLP relevant
+- [ACL 2020] Learning Low-Resource End-To-End Goal-Oriented Dialog for Fast and Reliable System Deployment
+
 #### Representation
 - [ACL 2020] Shaping Visual Representations with Language for Few-shot Classification
     * jointly predicting natural language task descriptions at training time
@@ -45,14 +47,15 @@
     * add here for its
 - [EMNLP 2019] ([paper](https://arxiv.org/pdf/1902.10482.pdf)) Few-Shot Text Classification with Induction Network
     * Introduce dynamic routing to generate better class representations. One real industrial project.
+- [EMNLP/IJCNLP 2019] Hierarchical Attention Prototypical Networks for Few-Shot Text Classification
 - [ACL 2020] Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations
+- [SIGIR 2020 best short paper] ([code exist]()) Few-Shot Generative Conversational Query Rewriting
 
 #### NLU
 - [ACL 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification
     * result seems great
     * work follow the inductino network, explicitly add dynamic memory model (constructed by base classes) to enhance "prototypes".
 - [ICLR 2020] Few-shot Text Classification with Distributional Signatures
-- [EMNLP/IJCNLP 2019] Hierarchical Attention Prototypical Networks for Few-Shot Text Classification
 
 #### DCM
 - [ACL 2020] Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network
