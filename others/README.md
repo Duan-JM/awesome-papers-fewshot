@@ -133,3 +133,6 @@
 - [CVPR 2018] ([paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Temporal_Hallucinating_for_CVPR_2018_paper.pdf)) Temporal Hallucinating for Action Recognition with Few Still Images
     * Attempt to recall cues from relevant action videos.
     * Maybe good at one-shot, not worse than the baseline in 5-shot and 10-shot scenarios.
+- [ECCV 2020] n-Reference Transfer Learning for Saliency Prediction
+- [ICML 2020] Meta-learning with Stochastic Linear Bandits
+    * Linear Bandits itself is a task

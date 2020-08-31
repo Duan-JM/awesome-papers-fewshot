@@ -9,14 +9,15 @@ issue 里面提出来，我会在第一时间进行回复的。
 ### Contents
 <!-- vim-markdown-toc GitLab -->
 
+* [Surveys](#surveys)
+* [Chanllenges](#chanllenges)
+* [Theoretical Analysis](#theoretical-analysis)
 * [Parameter Optimize Based Few-shot Learning](#parameter-optimize-based-few-shot-learning)
   * [Papers](#papers)
 * [Generative Based Few-shot Learning](#generative-based-few-shot-learning)
-  * [Theoretical Analysis](#theoretical-analysis)
   * [Papers](#papers-1)
 * [Metric Based Few-shot Learning](#metric-based-few-shot-learning)
   * [Classic Methods](#classic-methods)
-  * [Theoretical Analysis](#theoretical-analysis-1)
   * [Features Extractor Enhanced Methods](#features-extractor-enhanced-methods)
   * [Proto-Enhanced Methods](#proto-enhanced-methods)
   * [Metric Functions / Graph based methods](#metric-functions-graph-based-methods)
@@ -33,14 +34,43 @@ issue 里面提出来，我会在第一时间进行回复的。
   * [mini-Imagenet](#mini-imagenet)
 
 <!-- vim-markdown-toc -->
+### Surveys
 - [ACM Computing Surveys 2020] ([paper](https://arxiv.org/pdf/1904.05046.pdf)) Generalizing from a Few Examples A Survey on Few-Shot Learning
 - [ICLR 2019] ([paper](https://arxiv.org/pdf/1904.04232) [code](https://github.com/wyharveychen/CloserLookFewShot)) A Closer Look At Few-shot Classification
-- [ICLR 2020] ([paper](https://arxiv.org/pdf/1909.02729.pdf)) A Baseline for Few-shot Image Classification
 - [arXiv 2020] A New Meta-Baseline for Few-Shot Learning
-- [arXiv 2020] A COMPREHENSIVE OVERVIEW AND SURVEY OF RECENT ADVANCES IN META-LEARNING
+- [arXiv 2020] A Comprehensive Overview and Survey of Recent Advances in Meta-Learning
 - [arXiv 2020] Defining Benchmarks for Continual Few-Shot Learning
 - [ICML 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
     * Choice to impact of meta-learning methods, and design module over it
+
+### Chanllenges
+- [ICLR 2020] ([paper](https://arxiv.org/pdf/1909.02729.pdf)) A Baseline for Few-shot Image Classification
+- [ECCV 2020] ([code](http://github.com/WangYueFt/rfs/)) Rethinking Few-Shot Image Classification: a Good Embedding Is All You Need?
+    * Similar to ICLR 2020 above, they chanllenge that simple finetune can be
+        better than sophisticated meta-learning algorithms.
+    * Used Technique are NN / LR / L-2 / Aug / Distill
+    * With all techniques results are 62.02% or 64.82% 1-shot and 79.64% or 82.14% 5-shot on mini-Imagenet
+
+### Theoretical Analysis
+
+- [NIPS 2018 Bengio] ([paper](https://papers.nips.cc/paper/7504-metagan-an-adversarial-approach-to-few-shot-learning.pdf)) MetaGAN An Adversarial Approach to Few-Shot Learning
+
+- [ICLR 2020] A THEORETICAL ANALYSIS OF THE NUMBER OF SHOTS IN FEW-SHOT LEARNING
+    * Analysis on Prototypical Networks, result is not significant, however we can have a look into the analysis
+    * Analysis the phenomena that when training shot mismatch the val shot, the prototype's perform will degenerate.
+    * The review score is 8, 6, 6. I am little argue with the result, for train on small shot then evaluate on large shot could improve the result.  Furthermore, only 0.X% improvement or versus could casued by some other reasons, such like random seed, initializations, so I am little double with the results.
+
+- [ICLR 2020] Rapid Learning or Feature Reuse? Towards Understanding the Effectiveness of MAML
+    * Explore MAML then propose ANIL
+
+- [ICML 2020] On the Global Optimality of Model-Agnostic Meta-Learning
+    * Theoretical analysis for meta-learning
+
+- [ICML 2020] Meta-learning for mixed linear regression
+    * Theoretical analysis on how many auxiliary tasks can help small-data task
+
+- [ICML 2020] A Sample Complexity Separation between Non-Convex and Convex Meta-Learning
+    * RECOMMANDED!
 
 ### Parameter Optimize Based Few-shot Learning
 ** Descriptions 01**: They use normal classifier to classify samples
@@ -115,12 +145,18 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICML 2020] Learning to Stop While Learning to Predict
     * Plug an stop mechanism onto the MAML to avoid "over-thinking"
 
+- [ICLR 2020] ([code](https://github.com/amzn/xfer)) Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
+    * semi-supervised learning, using model to synthetic fake gradients to
+        simulate the true gradients on query set
+    * WRN-28-10(pre-trained) 70% for 1-shot and 79 for 5-shot
+    * abbrev is SIB in other papers
+
+- [ECCV 2020] ([code]( https://gitlab.mpi-klsb.mpg.de/yaoyaoliu/e3bm))An Ensemble of Epoch-wise Empirical Bayes for Few-shot Learning
+    * addon on the SIB(semi) 71.4% for 1-shot and 81.2% for 5-shot in miniImagnet
+- [ICML 2020] MetaFun: Meta-Learning with Iterative Functional Updates
+
 ### Generative Based Few-shot Learning
 ** Descriptions 01**: To extend small datasets to larger one, they generate fake samples.
-
-#### Theoretical Analysis
-- [NIPS 2018 Bengio] ([paper](https://papers.nips.cc/paper/7504-metagan-an-adversarial-approach-to-few-shot-learning.pdf)) MetaGAN An Adversarial Approach to Few-Shot Learning
-
 
 #### Papers
 - [ICCV 2017] ([paper](https://arxiv.org/pdf/1606.02819.pdf) [code](https://github.com/facebookresearch/low-shot-shrink-hallucinate)) Low-shot Visual Recognition by Shrinking and Hallucinating Features
@@ -151,18 +187,6 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Change metric functions to CNNs
     * Provide a clean framework that elegantly encompasses both few and zero-shot learning.
 
-#### Theoretical Analysis
-
-- [ICLR 2020] A THEORETICAL ANALYSIS OF THE NUMBER OF SHOTS IN FEW-SHOT LEARNING
-    * Analysis on Prototypical Networks, result is not significant, however we can have a look into the analysis
-    * Analysis the phenomena that when training shot mismatch the val shot, the prototype's perform will degenerate.
-    * The review score is 8, 6, 6. I am little argue with the result, for train on small shot then evaluate on large shot could improve the result.  Furthermore, only 0.X% improvement or versus could casued by some other reasons, such like random seed, initializations, so I am little double with the results.
-
-- [ICML 2020] On the Global Optimality of Model-Agnostic Meta-Learning
-    * Theoretical analysis for meta-learning
-
-- [ICML 2020] Meta-learning for mixed linear regression
-    * Theoretical analysis on how many auxiliary tasks can help small-data task
 
 #### Features Extractor Enhanced Methods
 ** Descriptions 01**: They improve classic methods by enhancing feature extractors
@@ -179,6 +203,8 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Belong to TADAM
     * Same very impressive result on mini-Imagenet
     * Change Distance in CNAPS
+- [ICML 2020] TaskNorm: Rethinking Batch Normalization for Meta-Learning
+    * We can compare with TADAM CNAPS simple CNAPS  - very interesting
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1905.11116.pdf) [code](https://github.com/Clarifai/few-shot-ctm.)) Finding Task-Relevant Features for Few-Shot Learning by Category Traversal
     * Need attention to its code
     * Not recommended
@@ -223,8 +249,15 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Point out that data distribution for one class are not uni-model (Verify in my experiments too).
     * (Clustering methods) Semi-Supervised methods for prototypical networks. Show this methods even suit for unsupervised situations(protentially).
     * Improve on Alphabets dataset, remain or improve on omniglot and mini-imagenet.
+- [ECCV 2020] TAFSSL: Task-Adaptive Feature Sub-Space Learning for few-shot classification
+    * 77% for 1shot and 84.99 for 5-shot on mini-Imagenet
+    * Motivation: Assume there exists "noizo" parttern contained in features
+        extraced by backbone. They need to pick out which of them is useful for
+        current task
+    * Methods divided into two step: Dimensionality reduction(PCA or ICA) -> Cluster methods(BKM or MSP)
 
 **cross-modal**:
+  You can find relevant cross-modality methods below
 
 #### Metric Functions / Graph based methods 
 
@@ -247,10 +280,6 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2020] ([code](https://github.com/megvii-research/DPGN) DPGN: Distribution Propagation Graph Network for Few-shot Learning
     * 67% for 1-shot 84% for 5-shot (ResNet18), however Conv can achieve 66.01%
     * Construct two graph, one for sample-wise one for distribution
-- [ICLR 2020] ([code](https://github.com/amzn/xfer)) Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
-    * semi-supervised learning, using model to synthetic fake gradients to
-        simulate the true gradients on query set
-    * WRN-28-10(pre-trained) 70% for 1-shot and 79 for 5-shot
 - [CVPR 2020 oral] ([code](https://github.com/icoz69/DeepEMD)) DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers
     * 65.91 1-shot， 82.41 5-shot
     * new metric functions
@@ -266,7 +295,13 @@ issue 里面提出来，我会在第一时间进行回复的。
     * 69.14% for 1-shot and 85.82 for 5-shot on tiered-ImageNet
 - [CVPR 2020] [ [exist code](https://github.com/Sha-Lab/FEAT.) ] Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions
     * 66% for 1-shot 82 for 5-shot
-
+- [ECCV 2020] ([code](https://github.com/ElementAI/embedding-propagation)) Embedding Propagation: Smoother Manifold for Few-Shot Classification
+    * ElementAI
+    * 70 1-shot 81 5-shot
+    * Using rotation as self-supervised during pre-trained period
+    * Perform label propagation during finetune period
+    * [WRN-28-10] 70.74 for 1-shot and 84.34% for 5-shot for mini-imagenet
+    * [WRN-28-10] 79.22 for 1-shot and 88.05% for 5-shot under SSL settings for mini-imagenet
 
 ### Special
 #### Unsorted
@@ -284,10 +319,10 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Classify in real-world images, somehow not interesting.
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1812.02391v2.pdf)) Meta-Transfer Learning for Few-Shot Learning
     * nearly no improve on 5 way 5 shot on mini-ImageNet.
-    * Improve in 1-shot
+    * In ECCV 2020 paper, with ResNet-25 can achieve 63.4 for 1-shot and 81.17 for 5-shot on mini-ImageNet
 - [ICCV 2019] Few-Shot Learning with Embedded Class Models and Shot-Free Meta Training
     * Perform well in 5-5 train to 5-1 test
-    * 77\% for miniimagenet 5-5shot
+    * 77% for miniimagenet 5-5shot
 - [AAAI 2020] [exist code] Diversity Transfer Network for Few-Shot Learning
     * 63% for 1-shot 77.9% for 5-shot
     * using external reference image to form auxiliary tasks
@@ -296,7 +331,14 @@ issue 里面提出来，我会在第一时间进行回复的。
     * 62.38% 1-shot 78.16 5-shot
 - [CVPR 2020] Revisiting Pose-Normalization for Fine-Grained Few-Shot Recognition
 - [ICLR 2020] META DROPOUT: LEARNING TO PERTURB LATENT FEATURES FOR GENERALIZATION
-
+- [ICML 2020] ([paper](https://arxiv.org/abs/2006.15486)) Laplacian Regularized Few-Shot Learning
+    * Regulation term
+        * a unary term assigning query samples to the nearest class prototype
+        * a pairwise Laplacian term encouraging nearby query samples to have consistent label assignments
+    * No re-train the base model: graph clustering of the query set, subject to
+        supervision constraints from the support set
+    * ResNet-18 72.11 for 1-shot and 82.31 for 5-shot
+    * WRN 74.86 for 1-shot and 84.13 for 5-shot
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks
@@ -387,12 +429,14 @@ Welcome contributes to expand the tables of results.
 非常欢迎大家来补充呀。(鉴于精力有限，这部分的内容不再维护了，如果有小伙伴也愿意一起维护的话，可以联系我呀)
 
 #### [mini-Imagenet](http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning)
+Basically, most methods achieve 70+% for 1-shot and 82+% for mini-ImageNet.
 
 | Years | Methods              | Backbone | 5-way 1-shot    | 5-way 5-shot    |
 |-------|----------------------|----------|-----------------|-----------------|
 | 2016  | Matching Network     | Conv4    | 43.56 +- 0.84%  | 55.31% +- 0.73% |
 | 2017  | MAML                 | Conv4    | 48.7% +- 1.84%  | 63.15% +- 0.91% |
 | 2017  | Prototypical Network | Conv4    | 49.42% +- 0.78% | 68.20% +- 0.66% |
+| 2017  | OPTIMIZATION AS A MODEL FOR FEW-SHOT LEARNING    |  Conv4   | 43.44+-0.77% | 60.60+-0.71% |
 | 2018  | Relation Network     | Conv4    | 50.44% +- 0.82% | 65.32% +- 0.70% |
 | 2018  | MetaGAN: An Adversarial Approach to Few-Shot Learning    |  Conv4   | 46.13+-1.78% | 60.71+-0.89% |
 | 2019  | Incremental Few-Shot Learning with Attention Attractor Networks    | ResNet-10    | 54.95+-0.30 | 63.04+-0.30 |
@@ -418,9 +462,6 @@ Welcome contributes to expand the tables of results.
 | 2019  | LEARNING TO PROPAGATE LABELS: TRANSDUCTIVE PROPAGATION NETWORK FOR FEW-SHOT LEARNING  | Conv4    | 55.51% | 69.86% |
 | 2018  | META-LEARNING FOR SEMI-SUPERVISED FEW-SHOT CLASSIFICATION    |  Conv4   | 50.09+-0.45% | 64.59+-0.28% |
 | 2018  | A SIMPLE NEURAL ATTENTIVE META-LEARNER    |  Conv4   | 55.71+-0.99% | 68.88+-0.92% |
-| 2017  | OPTIMIZATION AS A MODEL FOR FEW-SHOT LEARNING    |  Conv4   | 43.44+-0.77% | 60.60+-0.71% |
 | 2019  | Centroid Networks for Few-Shot Clustering and Unsupervised Few-Shot Classification    |  Conv4   |  | 62.6+-0.5% |
 | 2019  | Infinite Mixture Prototypes for Few-Shot Learning   |  Conv4   | 49.6+-0.8% | 68.1+-0.8% |
 | 2020  | META-LEARNING WITH WARPED GRADIENT DESCENT |  Conv4   | 52.3 ± 0.8% | 68.4 ± 0.6% |
-
-

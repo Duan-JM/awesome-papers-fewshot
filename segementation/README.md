@@ -13,3 +13,4 @@
 - [AAAI 2020] Differentiable Meta-learning Model for Few-shot Semantic Segmentation
 - [CVPR 2020] FGN: Fully Guided Network for Few-Shot Instance Segmentation
 - [IJCAI 2020] SimPropNet: Improved Similarity Propagation for Few-shot Image Segmentation
+- [ECCV 2020] ([code](github.com/Yang-Bob/PMMs.)) Prototype Mixture Models for Few-shot Semantic Segmentation
