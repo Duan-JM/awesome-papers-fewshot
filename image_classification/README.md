@@ -72,6 +72,9 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICML 2020] A Sample Complexity Separation between Non-Convex and Convex Meta-Learning
     * RECOMMANDED!
 
+- [ECCV 2020 spotlight] ([paper](https://arxiv.org/abs/2003.12060) [code](https://github.com/bl0/negative-margin.few-shot)) Negative Margin Matters: Understanding Margin in Few-shot Classification
+    * [Author @bl0]Introduces a negative margin loss to metric learning based few-shot learning methods and achieves state-of-the-art accuracy. To understand why the negative margin loss performs well, we provide both the intuitive and theoretical analysis.
+
 ### Parameter Optimize Based Few-shot Learning
 ** Descriptions 01**: They use normal classifier to classify samples
 ** Descriptions 02**: They mainly generate/optimize classifier parameters

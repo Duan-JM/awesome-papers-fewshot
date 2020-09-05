@@ -36,7 +36,6 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [ECCV 2020 spotlight]Few-shot Action Recognition via Permutation-invariant Attention
 - [ ] [ECCV 2020 spotlight] Few-Shot Scene-Adaptive Anomaly Detection
 - [ ] [ECCV 2020 spotlight]  Associative Alignment for Few-shot Image Classification
-- [ ] [ECCV 2020 spotlight]  Negative Margin Matters: Understanding Margin in Few-shot Classification
 - [ ] [ECCV 2020 spotliight] Few-Shot Unsupervised Image Translation with a Content Conditioned Style Encoder
 - [ ] [SIGIR 2020] Few-Shot Generative Conversational Query Rewriting
 
