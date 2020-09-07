@@ -13,6 +13,7 @@
 - [CVPR 2020] MineGAN: effective knowledge transfer from GANs to target domains with few images
 - [NIPS 2019] ([paper](http://papers.nips.cc/paper/8935-first-order-motion-model-for-image-animation) [colab](https://colab.research.google.com/github/AliaksandrSiarohin/first-order-model/blob/master/demo.ipynb) [code](https://github.com/AliaksandrSiarohin/first-order-model)) First Order Motion Model for Image Animation
     * Recommand!!!
+- [ECCV 2020 spotliight] Few-Shot Unsupervised Image Translation with a Content Conditioned Style Encoder
 
 #### NLP
 - [SIGIR 2020] ([github](https://github.com/thunlp/ConversationQueryRewriter）Few-Shot Generative Conversational Query Rewriting

@@ -33,10 +33,6 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [ECCV 2020] Part-aware Prototype Network for Few-shot Semantic Segmentation
 - [ ] [ECCV 2020] Incremental Few-Shot Meta-Learning via Indirect Feature Alignment
 - [ ] [ECCV 2020] When Does Self-supervision Improve Few-shot Learning?
-- [ ] [ECCV 2020 spotlight]Few-shot Action Recognition via Permutation-invariant Attention
-- [ ] [ECCV 2020 spotlight] Few-Shot Scene-Adaptive Anomaly Detection
-- [ ] [ECCV 2020 spotlight]  Associative Alignment for Few-shot Image Classification
-- [ ] [ECCV 2020 spotliight] Few-Shot Unsupervised Image Translation with a Content Conditioned Style Encoder
 - [ ] [SIGIR 2020] Few-Shot Generative Conversational Query Rewriting
 
 # Remain Read Papers
@@ -122,8 +118,6 @@ judge it is not good or not accpeted to the top conference over one year.
 - [x] [arXiv 2020] StarNet: towards weakly supervised few-shot detection and explainable few-shot classification
     * explanable few-shot classification
     * 79% on mini-imagenet
-- [x] [arXiv 2020] Associative Alignment for Few-shot Image Classification
-    * assit with base instances
 - [x] [arXiv 2020] Few-Shot Learning with Geometric Constraints
     * main contribution is on remain accurarcy for both novel and base
     * outperform in both situations on miniImagenet

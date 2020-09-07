@@ -117,9 +117,6 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Teach to use traditional machining learning methods
     * Most likely no good than LEO
 
-- [ICML 2019] Fast Context Adaptation via Meta-Learning
-    * Update partial parameters
-
 - [ICLR 2020] META-LEARNING WITH WARPED GRADIENT DESCENT
     * feel not outperform the LEO
 
@@ -142,6 +139,7 @@ issue 里面提出来，我会在第一时间进行回复的。
     * not familiar with the dataset, but very interesting
     * show 5% better than TADAM
     * nearly no effect on mini-Imagenet (have room for improvement)
+
 - [ICLR 2020] ES-MAML: Simple Hessian-Free Meta Learning
     * estimate second derivatives using bp is difficult, ES avoids the problem of estimating second derivatives
 
@@ -156,7 +154,11 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [ECCV 2020] ([code]( https://gitlab.mpi-klsb.mpg.de/yaoyaoliu/e3bm))An Ensemble of Epoch-wise Empirical Bayes for Few-shot Learning
     * addon on the SIB(semi) 71.4% for 1-shot and 81.2% for 5-shot in miniImagnet
+
 - [ICML 2020] MetaFun: Meta-Learning with Iterative Functional Updates
+- [ECCV 2020 spotlight]  Associative Alignment for Few-shot Image Classification
+    * This paper proposes the idea of associative alignment for leveraging part of the base data by aligning the novel training instances to the closely related ones in the base training set.
+    * WRN-28-10: 65.92% for 1-shot and 82.85% for 5-shot on mini-ImageNet
 
 ### Generative Based Few-shot Learning
 ** Descriptions 01**: To extend small datasets to larger one, they generate fake samples.
