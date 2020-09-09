@@ -30,3 +30,6 @@
 - [CVPR 2020 oral] Overcoming Classifier Imbalance for Long-tail Object Detection with Balanced Group Softmax   
   * say fintune is outperform meta-learning methods
 - [ECML-PKDD 2020] Few-Shot Microscopy Image Cell Segmentation
+- [ECCV 2020] Few-Shot Object Detection and Viewpoint Estimation for Objects in the Wild
+- [ECCV 2020] Few-Shot Object Detection and Viewpoint Estimation for Objects in the Wild
+- [ECCV 2020] Multi-Scale Positive Sample Refinement for Few-Shot Object Detection

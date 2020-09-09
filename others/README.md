@@ -136,5 +136,5 @@
 - [ECCV 2020] n-Reference Transfer Learning for Saliency Prediction
 - [ICML 2020] Meta-learning with Stochastic Linear Bandits
     * Linear Bandits itself is a task
-- [ECCV 2020 spotlight]Few-shot Action Recognition via Permutation-invariant Attention
+- [ECCV 2020 spotlight] Few-shot Action Recognition via Permutation-invariant Attention
 - [ECCV 2020 spotlight] Few-Shot Scene-Adaptive Anomaly Detection

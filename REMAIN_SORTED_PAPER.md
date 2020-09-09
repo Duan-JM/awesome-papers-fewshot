@@ -9,30 +9,12 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [ICML 2020] Learning Attentive Meta-Transfer
 - [ ] [ECCV 2020] Attentive Prototype Few-shot Learning with Capsule Network-based Embedding
 - [ ] [ECCV 2020] SEN: A Novel Dissimilarity Measure for Prototypical Few-Shot Learning Networks
-- [ ] [ECCV 2020 oral]  Model-Agnostic Boundary-Adversarial Sampling for Test-Time Generalization in Few-Shot learning
+- [ ] [ECCV 2020 oral] Model-Agnostic Boundary-Adversarial Sampling for Test-Time Generalization in Few-Shot learning
 
 # Remain checkout
 
 - [ ] [ICML 2020] MetaFun: Meta-Learning with Iterative Functional Updates
 - [ ] [ICML 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
-- [ ] [ECCV 2020] Self-Supervision with Superpixels: Training Few-shot Medical Image Segmentation without Annotation
-- [ ] [ECCV 2020] A Broader Study of Cross-Domain Few-Shot Learning
-- [ ] [ECCV 2020] Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors
-- [ ] [ECCV 2020] Few-shot Compositional Font Generation with Dual Memory
-- [ ] [ECCV 2020] Deep Complementary Joint Model for Complex Scene Registration and Few-shot Segmentation on Medical Images
-- [ ] [ECCV 2020] Few-Shot Object Detection and Viewpoint Estimation for Objects in the Wild
-- [ ] [ECCV 2020] Impact of base dataset design on few-shot image classification
-- [ ] [ECCV 2020] Multi-Scale Positive Sample Refinement for Few-Shot Object Detection
-- [ ] [ECCV 2020] Few-Shot Semantic Segmentation with Democratic Attention Networks
-- [ ] [ECCV 2020] Selecting Relevant Features from a Universal Representation for Few-shot Learning
-    * mixup the final feature with multi model output or multi depth layer in the models output
-- [ ] [ECCV 2020] Large-Scale Few-Shot Learning via Multi-Modal Knowledge Discovery
-- [ ] [ECCV 2020] Meta-Learning across Meta-Tasks for Few-Shot Learning
-    * WRN 72.41% 1-shot 84.34% 5-shot for mini-Imagenet
-    * Build MKD and MDA across tasks to make model to learn relationship between same tasks and differennt tasks
-- [ ] [ECCV 2020] Part-aware Prototype Network for Few-shot Semantic Segmentation
-- [ ] [ECCV 2020] Incremental Few-Shot Meta-Learning via Indirect Feature Alignment
-- [ ] [ECCV 2020] When Does Self-supervision Improve Few-shot Learning?
 - [ ] [SIGIR 2020] Few-Shot Generative Conversational Query Rewriting
 
 # Remain Read Papers
@@ -295,7 +277,6 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Meta-Learning for Few-Shot NMT Adaptation
 - [ ] [arXiv 2020] SSHFD: Single Shot Human Fall Detection with Occluded Joints Resilience
 - [ ] [arXiv 2020] Gradient-based Data Augmentation for Semi-Supervised Learning
-- [ ] [arXiv 2020] Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors
 - [ ] [arXiv 2020] Alleviating the Incompatibility between Cross Entropy Loss and Episode Training for Few-shot Skin Disease Classification
 - [ ] [arXIv 2020] TAEN: Temporal Aware Embedding Network for Few-Shot Action Recognition
 - [ ] [arXiv 2020] Signal Level Deep Metric Learning for Multimodal One-Shot Action Recognition

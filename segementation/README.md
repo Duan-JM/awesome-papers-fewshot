@@ -14,3 +14,7 @@
 - [CVPR 2020] FGN: Fully Guided Network for Few-Shot Instance Segmentation
 - [IJCAI 2020] SimPropNet: Improved Similarity Propagation for Few-shot Image Segmentation
 - [ECCV 2020] ([code](github.com/Yang-Bob/PMMs.)) Prototype Mixture Models for Few-shot Semantic Segmentation
+- [ECCV 2020] Part-aware Prototype Network for Few-shot Semantic Segmentation
+- [ECCV 2020] Deep Complementary Joint Model for Complex Scene Registration and Few-shot Segmentation on Medical Images
+- [ECCV 2020] Self-Supervision with Superpixels: Training Few-shot Medical Image Segmentation without Annotation
+- [ECCV 2020] Few-Shot Semantic Segmentation with Democratic Attention Networks

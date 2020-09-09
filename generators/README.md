@@ -14,7 +14,8 @@
 - [NIPS 2019] ([paper](http://papers.nips.cc/paper/8935-first-order-motion-model-for-image-animation) [colab](https://colab.research.google.com/github/AliaksandrSiarohin/first-order-model/blob/master/demo.ipynb) [code](https://github.com/AliaksandrSiarohin/first-order-model)) First Order Motion Model for Image Animation
     * Recommand!!!
 - [ECCV 2020 spotliight] Few-Shot Unsupervised Image Translation with a Content Conditioned Style Encoder
-
+- [ECCV 2020] Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors
+- [ECCV 2020] Few-shot Compositional Font Generation with Dual Memory
 #### NLP
 - [SIGIR 2020] ([github](https://github.com/thunlp/ConversationQueryRewriter）Few-Shot Generative Conversational Query Rewriting
 - [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf)) Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
