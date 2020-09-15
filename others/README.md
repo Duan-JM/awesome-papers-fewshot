@@ -11,6 +11,7 @@
   * [Applications](#applications)
 * [Theoritical](#theoritical)
 * [Relation Relevant](#relation-relevant)
+* [Recommendation System](#recommendation-system)
 * [Others](#others)
 
 <!-- vim-markdown-toc -->
@@ -87,15 +88,20 @@
 - [AAAI 2019] Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification
     * Relation Classification with FewRel
 - [AAAI 2020] Neural Snowball for Few-Shot Relation Learning
+- [AAAI 2020] Few-Shot Knowledge Graph Completion (关系抽取)
+
+### Recommendation System
+- [SKIM 2020] Learning to Profile: User Meta-Profile Network for Few-Shot Learning
+    * Interesting Time sequence encoding methods
+    * Using meta-learning methods to learn user-profile representations
+    * Can be used to solve data scarcity or class imbalance problem
 
 ### Others
 - [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
 - [AAAI 2018] AffinityNet- Semi-supervised Few-shot Learning for Disease Type Prediction
-    * Use few-shot method to enhance oringal disease type prediction
-
+    * Use few-shot method to enhance urinal disease type prediction
 
 - [NIPS 2018] Neural Voice Cloning with a Few Samples
-- [ICCV 2019] ([paper](https://arxiv.org/pdf/1909.01205)) Few-Shot Generalization for Single-Image 3D Reconstruction via Priors
 - [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)) ACMM: Aligned Cross-Modal Memory for Few-Shot Image and Sentence Matching
     * Image and Sentence Matching
 - [ICCV 2019] (RECOMMANDED!) Task-Driven Modular Networks for Zero-Shot Compositional Learning
@@ -104,6 +110,7 @@
 - [ICLR 2020] FEW-SHOT TEXT CLASSIFICATION WITH DISTRIBUTIONAL SIGNATURES
 - [ICLR 2020] METAPIX: FEW-SHOT VIDEO RETARGETING
 - [ICLR 2020] ONE-SHOT PRUNING OF RECURRENT NEURAL NETWORKS BY JACOBIAN SPECTRUM EVALUATION
+    * Pruning
 - [ICLR 2020] TOWARDS FAST ADAPTATION OF NEURAL ARCHITECTURES WITH META LEARNING
     * NAS
 - [ICLR 2020] META-DATASET: A DATASET OF DATASETS FOR LEARNING TO LEARN FROM FEW EXAMPLES
@@ -115,15 +122,13 @@
 - [CVPR 2019] Learning to Learn How to Learn: Self-Adaptive Visual Navigation Using Meta-Learning
 - [ICCV 2019] Few-Shot Adaptive Gaze Estimation
 - [ICCV 2019] One-Shot Neural Architecture Search via Self-Evaluated Template Network
-- [AAAI 2020] Few-Shot Knowledge Graph Completion (关系抽取)
 - [AAAI 2020] Learning Meta Model for Zero- and Few-shot Face Anti-spoofing
 - [AAAI 2020] Graph Few-shot Learning via Knowledge Transfer
 - [AAAI 2020] Few Shot Network Compression via Cross Distillation (模型压缩)
 - [AAAI 2020] Few-Shot Bayesian Imitation Learning with Logical Program Policies
 - [CVPR 2020] Meta-Transfer Learning for Zero-Shot Super-Resolution
 - [CVPR 2020] Learning from Web Data with Self-Organizing Memory Module
-    * solve label noise and background noise in the images with memory module
-- [CVPR 2020] Single-view view synthesis with multiplane images
+    * solve label noise and background noise in the images with memory module [CVPR 2020] Single-view view synthesis with multi plane images
 - [AAAI 2020] ([paper](https://aaai.org/Papers/AAAI/2020GB/AAAI-JiZ.4799.pdf)) SGAP-Net: Semantic-Guided Attentive Prototypes Network for Few-Shot Human-Object Interaction Recognition
 - [ICLR 2020] MetaPix: Few-Shot Video Retargeting
 - [ICLR 2020] ([paper](https://openreview.net/forum?id=r1eowANFvr)) Towards Fast Adaptation of Neural Architectures with Meta Learning 
