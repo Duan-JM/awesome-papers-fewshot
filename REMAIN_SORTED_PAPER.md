@@ -1,6 +1,6 @@
 # Intro
 This part save the papers collected from arXiv, paper will be deleted if I
-judge it is not good or not accpeted to the top conference over one year.
+judge it is not good or not accepted to the top conference over one year.
 
 
 # No papers
@@ -101,7 +101,7 @@ judge it is not good or not accpeted to the top conference over one year.
     * explanable few-shot classification
     * 79% on mini-imagenet
 - [x] [arXiv 2020] Few-Shot Learning with Geometric Constraints
-    * main contribution is on remain accurarcy for both novel and base
+    * main contribution is on remain accuracy for both novel and base
     * outperform in both situations on miniImagenet
 - [x] [arXiv 2020] A New Meta-Baseline for Few-Shot Learning
 - [ ] [arXiv 2020] [exist code] Negative Margin Matters: Understanding Margin in Few-shot Classification
@@ -131,11 +131,11 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Bayesian Online Meta-Learning with Laplace Approximation
     * continue learning
 - [x] [arXiv 2020] ONE OF THESE (FEW) THINGS IS NOT LIKE THE OTHERS
-    * image classification task, however need to classify the outliner, like cross-domain settings
+    * image classification task, however need to classify the outline, like cross-domain settings
     * they define a "junk" classes specific, may not significant
 - [x] [arXiv 2020] Compositional Few-Shot Recognition with Primitive Discovery and Enhancing
     * 63.21 ± 0.78% for 1-shot on mini-ImageNet
-    * insterest, they improve the results by decompose the image into several compostions, sound reasonable
+    * interest, they improve the results by decompose the image into several compositions, sound reasonable
 - [x] [arXiv 2020] Looking back to lower-level information in few-shot learning
     * arguing that output of each layer in the backbone's could use to learn
     * build TPN on each layer of the graph
@@ -164,7 +164,7 @@ judge it is not good or not accpeted to the top conference over one year.
     * unsupervised, compare to DeepCluster
 - [arXiv 2020] ([code](https://github.com/yhu01/PT-MAP)) Leveraging the Feature Distribution in Transfer-based Few-Shot Learning
     * 82% for 1-shot 88% for 5-shot WRN
-    * First force the encoded feautre to satisfy a certain distritbution, then use spesific algorithm designed for the distribution
+    * First force the encoded feature to satisfy a certain distribution, then use specific algorithm designed for the distribution
 - [arXiv 2020] Graph Meta Learning via Local Subgraphs
     * target Graph query the related graphs
 - [arXiv 2020] Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification
@@ -177,9 +177,12 @@ judge it is not good or not accpeted to the top conference over one year.
     * 68% for 1-shot 84 for 5-shot for mini-Imagenet (ResNet 18)
     * rotation image to perform self-supervise learning
 - [arXiv 2020] ([code](https://github.com/liulu112601/URT)) A Universal Representation Transformer Layer for Few-Shot Image Classification
-    * The author have one paper accepeted in TKDE
+    * The author have one paper accepted in TKDE
     * Idea is interesting
     * Universal Representation Transformer (URT) layer, that meta-learns to leverage universal features for few-shot classification by dynamically re-weighting and composing the most appropriate domain-specific representations
+- [arXiv 2020] ([code](https://github.com/mboudiaf/TIM)) Transductive Information Maximization For Few-Shot Learning
+    * Our method maximizes the mutual information between the query features and predictions of a few-shot task, subject to supervision constraints from the support set.
+    * Results very high in WRN-28 77.8% and 87% for 1-shot and 5-shot on mini-ImageNet
 
 ## Generation
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
@@ -207,7 +210,7 @@ judge it is not good or not accpeted to the top conference over one year.
 - [ ] [arXiv 2020] Few-shot Natural Language Generation for Task-Oriented Dialog
 - [ ] [arXiv 2020] SOLOIST: Few-shot Task-Oriented Dialog with A Single Pre-trained Auto-regressive Model
 - [x] [arXiv 2020] Prototypical Q Networks for Automatic Conversational Diagnosis and Few-Shot New Disease Adaption
-    * Using a dialog to simulate patient and doctors' conversition to finally
+    * Using a dialog to simulate patient and doctors' conversation to finally
         give a diagnosis
 
 - [x] [arXiv 2020] BOFFIN TTS: FEW-SHOT SPEAKER ADAPTATION BY BAYESIAN OPTIMIZATION
@@ -244,9 +247,9 @@ judge it is not good or not accpeted to the top conference over one year.
 ## Uncertainty
 - [ ] [arXiv 2020] Calibrated neighborhood aware confidence measure for deep metric learning
     * The approach approximates the distribution of data points for each class using a Gaussian kernel smoothing function.
-    * They sperate the uncertainty measure methods into three branches Calibration on the held-out validation data, Bayesian approximation / Support set based uncertainnty estimation
-    * The gt used for uncertainty is measured by eucildean distances and I
-        doublt the uncertainty measured by eucildean in high dimensional spaces
+    * They operate the uncertainty measure methods into three branches Calibration on the held-out validation data, Bayesian approximation / Support set based uncertainty estimation
+    * The gt used for uncertainty is measured by euclidean distances and I
+        doublet the uncertainty measured by euclidean in high dimensional spaces
         is accurate.
 
 ## Application
@@ -256,10 +259,10 @@ judge it is not good or not accpeted to the top conference over one year.
 - [x] [arXiv 2019] Few-shot Learning with Contextual Cueing for Object Recognition in Complex Scenes
 - [x] [arXiv 2019] Meta-Learning with Dynamic-Memory-Based Prototypical Network
 - [x] [arXiv 2020] DAWSON: A Domain Adaptive Few Shot Generation Framework
--   * generate music, a project under cs236 in stanford university
+-   * generate music, a project under cs236 in Stanford university
 
 - [x] [arXiv 2019] ADVERSARIALLY ROBUST FEW-SHOT LEARNING: A META-LEARNING APPROACH
-    * A approach is robust to adversarially attack
+    * A approach is robust to adversarial attack
 
 - [x] [arXiv 2020] Few-Shot Scene Adaptive Crowd Counting Using Meta-Learning
 - [ ] [arXiv 2020] Meta-Learning Initializations for Low-Resource Drug Discovery
@@ -299,6 +302,9 @@ judge it is not good or not accpeted to the top conference over one year.
     * out-of-graph link prediction task
 - [ ] [arXiv 2020] Extensively Matching for Few-shot Learning Event Detection
 - [ ] [arXiv 2020] Text Recognition in Real Scenarios with a Few Labeled Samples
-    * They trying to address the text retrievel problems when targe domain is nosiy
+    * They trying to address the text retrieval problems when Targe domain is nosey
 - [x] [arXiv 2020] Inductive Relational Matrix Completion
-    * Recommand System cold-start relevant
+    * Recommend System cold-start relevant
+- [x] Learning to Profile: User Meta-Profile Network for Few-Shot Learning
+    * Few-shot in recommend system, basically focus on encoding more efficient. 
+    * Pretty Interesting , may read later
