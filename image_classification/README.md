@@ -279,6 +279,10 @@ issue 里面提出来，我会在第一时间进行回复的。
         extracted by backbone. They need to pick out which of them is useful for
         current task
     * Methods divided into two step: Dimensionality reduction(PCA or ICA) -> Cluster methods(BKM or MSP)
+- [ICML 2020] Meta Variance Transfer: Learning to Augment from the Others
+    * Use support categories to enhance target categories embeddings
+- [ICML 2020] Meta-Learning with Shared Amortized Variational Inference
+    * Using Shared Amortized Variational Inference to generalize more precise prototypes
 
 **cross-modal**:
   You can find relevant cross-modality methods below
@@ -397,6 +401,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 #### Multi Label Image Classification
 - [CVPR 2019 oral] ([paper](https://arxiv.org/pdf/1902.09811.pdf)) LaSO-Label-Set Operations networks for multi-label few-shot learning
+- [TPAMI 2020] Knowledge-Guided Multi-Label Few-Shot Learning for General Image Recognition
 
 #### Incremental Learning
 - [CVPR 2020 oral] ([paper](https://arxiv.org/pdf/2004.10956.pdf)) Few-Shot Class-Incremental Learning

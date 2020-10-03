@@ -64,6 +64,7 @@ We collect some awesome code and blogs here.
 - [Northumberland Dolphin Dataset 2020](https://doi.org/10.25405/data.ncl.c.4982342) (CVPR 2020 workshop)
 - [mini-ImageNet contained label embeddings](https://drive.google.com/file/d/1g4wOa0FpWalffXJMN2IZw0K2TM2uxzbk/view) (Used in AM3)
 - [tiered-ImageNet contained label embeddings](https://drive.google.com/file/d/1Letu5U_kAjQfqJjNPWS_rdjJ7Fd46LbX/view) (Used in AM3)
+- [FewRel](https://github.com/thunlp/FewRel) (EMNLP 2018)
 
 
 #### Relevant Awesome Few-shot PlayGround Repo
