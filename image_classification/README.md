@@ -82,6 +82,9 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [ECCV 2020] When Does Self-supervision Improve Few-shot Learning?
 
+- [NIPS 2020] Interventional Few-Shot Learning
+    * Very insteresting, explicitly point out P(B|do(A))!
+
 ### Parameter Optimize Based Few-shot Learning
 ** Descriptions 01**: They use normal classifier to classify samples
 ** Descriptions 02**: They mainly generate/optimize classifier parameters
@@ -180,7 +183,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [CVPR 2019 IDeMe-Net] ([paper](https://arxiv.org/pdf/1905.11641.pdf) [code](https://github.com/tankche1/IDeMe-Net.)) Image Deformation Meta-Networks for One-Shot Learning
     * This paper assumes that deformed images may not be visually realistic, they still maintain critical semantic information.
     * Pretty good at one-shot on mini-imagenet(59.14%)
-
+- [ECCV 2020 oral] ([paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460579.pdf))  Model-Agnostic Boundary-Adversarial Sampling for Test-Time Generalization in Few-Shot learning
 
 ### Metric Based Few-shot Learning
 ** Descriptions 01:** They classify target samples by using metric functions which are used to measure similarity between samples or classes.
@@ -241,6 +244,10 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Learn a attention(mask) to pay more attention on the part of the images
     * Add transductive inference part
     * Pretty good result on mini-imagenet 80.64 +- 0.35% under ResNet-12 (16 conv layers)
+- [ECCV 2020] ([paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730239.pdf)) Attentive Prototype Few-shot Learning with Capsule Network-based Embedding
+    * Use capsule as its feature extractor
+    * 66%/82% for mini-Imagenet, 69%/86% for tiered-Imagenet 
+    * I think it can proof that capsule's efficient for low-resource circumstances.
 
 #### Proto-Enhanced Methods
 ** Descriptions 01**: They improve classic methods by enrich prototypes
@@ -330,6 +337,7 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Perform label propagation during finetune period
     * [WRN-28-10] 70.74 for 1-shot and 84.34% for 5-shot for mini-imagenet
     * [WRN-28-10] 79.22 for 1-shot and 88.05% for 5-shot under SSL settings for mini-imagenet
+- [ECCV 2020] SEN: A Novel Dissimilarity Measure for Prototypical Few-Shot Learning Networks
 
 ### Special
 #### Unsorted
