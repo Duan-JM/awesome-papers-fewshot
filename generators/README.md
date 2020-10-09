@@ -17,6 +17,7 @@
 - [ECCV 2020] Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors
 - [ECCV 2020] Few-shot Compositional Font Generation with Dual Memory
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1909.01205)) Few-Shot Generalization for Single-Image 3D Reconstruction via Priors
+- [ACMMM 2020] ([paper](https://arxiv.org/abs/2008.07783)) Mesh Guided One-shot Face Reenactment using Graph Convolutional Networks
 
 #### NLP
 - [SIGIR 2020] ([github](https://github.com/thunlp/ConversationQueryRewriter）Few-Shot Generative Conversational Query Rewriting

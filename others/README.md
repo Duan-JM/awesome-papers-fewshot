@@ -17,6 +17,7 @@
 - [ICLR 2020] Meta-learning curiosity algorithms
 - [ICLR 2020] Meta Reinforcement Learning with Autonomous Inference of Subtask Dependencies
 - [ICML 2020] Few-shot Domain Adaptation by Causal Mechanism Transfer
+- [ICML 2020] ([paper](https://arxiv.org/abs/2002.03497)) Few-shot Domain Adaptation by Causal Mechanism Transfer
 
 ### Reinforcement Learning
 - [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
@@ -88,3 +89,4 @@
 - [ECCV 2020 spotlight] Few-shot Action Recognition via Permutation-invariant Attention
 - [ECCV 2020 spotlight] Few-Shot Scene-Adaptive Anomaly Detection
 - [NIPS 2020] Self-Supervised Few-Shot Learning on Point Clouds
+- [MICAI 2020] ([paper](https://arxiv.org/abs/2008.07724)) Domain Generalizer: A Few-shot Meta Learning Framework for Domain Generalization in Medical Imaging
