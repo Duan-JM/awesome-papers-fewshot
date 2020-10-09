@@ -4,12 +4,6 @@ judge it is not good or not accepted to the top conference over one year.
 
 
 # No papers
-- [ ] [ICML 2020] Meta Variance Transfer: Learning to Augment from the Others
-- [ ] [ICML 2020] Meta-Learning with Shared Amortized Variational Inference
-- [ ] [ICML 2020] Learning Attentive Meta-Transfer
-- [ ] [ECCV 2020] Attentive Prototype Few-shot Learning with Capsule Network-based Embedding
-- [ ] [ECCV 2020] SEN: A Novel Dissimilarity Measure for Prototypical Few-Shot Learning Networks
-- [ ] [ECCV 2020 oral] Model-Agnostic Boundary-Adversarial Sampling for Test-Time Generalization in Few-Shot learning
 
 # Remain checkout
 
@@ -297,7 +291,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [arXiv 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
 - [ ] [arXiv 2020] SSM-Net for Plants Disease Identification in LowData Regime
     * disease in agricultural
-- [ ] [arXiv 2020] Interpretable Time-series Classification on Few-shot Samples
 - [ ] [arXiv 2020] Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
     * out-of-graph link prediction task
 - [ ] [arXiv 2020] Extensively Matching for Few-shot Learning Event Detection

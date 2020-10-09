@@ -87,3 +87,4 @@
     * Linear Bandits itself is a task
 - [ECCV 2020 spotlight] Few-shot Action Recognition via Permutation-invariant Attention
 - [ECCV 2020 spotlight] Few-Shot Scene-Adaptive Anomaly Detection
+- [NIPS 2020] Self-Supervised Few-Shot Learning on Point Clouds

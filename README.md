@@ -79,6 +79,8 @@ We collect some awesome code and blogs here.
 - [Floodsung's Meta-Learning Paper lists](https://github.com/floodsung/Meta-Learning-Papers)
 - [Open-Sourcing BiT: Exploring Large-Scale Pre-training for Computer Vision](https://ai.googleblog.com/2020/05/open-sourcing-bit-exploring-large-scale.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+blogspot%2FgJZg+%28Google+AI+Blog%29)
     * Large-scale pretrained strategy can be used to solve low resource circumstances.
+- [Meta-Learning in Neural Netorks: A Survey](https://arxiv.org/pdf/2004.05439.pdf)
+    * Meta-Learning methods are not equal to Few-shot Learning methods.
 
 ### How to recommend a paper
 You are highly welcome to recommend a paper to this repo. 
