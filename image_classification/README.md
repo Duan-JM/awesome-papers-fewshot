@@ -375,6 +375,7 @@ issue 里面提出来，我会在第一时间进行回复的。
         supervision constraints from the support set
     * ResNet-18 72.11 for 1-shot and 82.31 for 5-shot
     * WRN 74.86 for 1-shot and 84.13 for 5-shot
+- [ICML 2020] Informative Dropout for Robust Representation Learning: A Shape-bias Perspective
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks

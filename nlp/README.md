@@ -31,6 +31,11 @@
 - [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
 - [ACL 2020] Few-Shot NLG with Pre-Trained Language Model
 - [ACL 2020] Learning to Customize Model Structures for Few-shot Dialogue Generation Tasks
+- [EMNLP2020] Augmented Natural Language for Generative Sequence Labeling
+- [SIGIR 2020] ([github](https://github.com/thunlp/ConversationQueryRewriter）Few-Shot Generative Conversational Query Rewriting
+- [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf)) Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
+- [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
+- [NIPS 2018] Neural Voice Cloning with a Few Samples
 
 ### Relation Relevant
 - [ICML 2020] ([paper](https://arxiv.org/abs/2007.02387)) Few-shot Relation Extraction via Bayesian Meta-learning on Task Graph
@@ -50,3 +55,4 @@
 - [EMNLP 2019] Meta Relational Learning for Few-Shot Link Prediction in Knowledge Graphs
 - [EMNLP 2019] Adapting Meta Knowledge Graph Information for Multi-Hop Reasoning over Few-Shot Relations
 - [EMNLP 2019] FewRel 2.0: Towards More Challenging Few-Shot Relation Classification
+- [INTERSPEECH 2020] An Investigation of Few-Shot Learning in Spoken Term Classification

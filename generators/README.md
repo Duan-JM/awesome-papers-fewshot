@@ -18,9 +18,6 @@
 - [ECCV 2020] Few-shot Compositional Font Generation with Dual Memory
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1909.01205)) Few-Shot Generalization for Single-Image 3D Reconstruction via Priors
 - [ACMMM 2020] ([paper](https://arxiv.org/abs/2008.07783)) Mesh Guided One-shot Face Reenactment using Graph Convolutional Networks
+- [ACMMM 2020] ([paper](https://arxiv.org/abs/2008.01999)) F2GAN: Fusing-and-Filling GAN for Few-shot Image Generation
 
 #### NLP
-- [SIGIR 2020] ([github](https://github.com/thunlp/ConversationQueryRewriter）Few-Shot Generative Conversational Query Rewriting
-- [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf)) Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
-- [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
-- [NIPS 2018] Neural Voice Cloning with a Few Samples

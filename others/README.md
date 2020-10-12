@@ -16,7 +16,6 @@
     * Training in pair-wise sample strategy between seen domain and unseen domain.
 - [ICLR 2020] Meta-learning curiosity algorithms
 - [ICLR 2020] Meta Reinforcement Learning with Autonomous Inference of Subtask Dependencies
-- [ICML 2020] Few-shot Domain Adaptation by Causal Mechanism Transfer
 - [ICML 2020] ([paper](https://arxiv.org/abs/2002.03497)) Few-shot Domain Adaptation by Causal Mechanism Transfer
 
 ### Reinforcement Learning
@@ -90,3 +89,4 @@
 - [ECCV 2020 spotlight] Few-Shot Scene-Adaptive Anomaly Detection
 - [NIPS 2020] Self-Supervised Few-Shot Learning on Point Clouds
 - [MICAI 2020] ([paper](https://arxiv.org/abs/2008.07724)) Domain Generalizer: A Few-shot Meta Learning Framework for Domain Generalization in Medical Imaging
+- [ICML 2020] ([paper](https://arxiv.org/abs/2008.02952)) Informative Dropout for Robust Representation Learning: A Shape-bias Perspective
