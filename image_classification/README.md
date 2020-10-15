@@ -82,8 +82,10 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [ECCV 2020] When Does Self-supervision Improve Few-shot Learning?
 
-- [NIPS 2020] Interventional Few-Shot Learning
-    * Very insteresting, explicitly point out P(B|do(A))!
+- [NIPS 2020] Interventional Few-Shot Learning (Need to be cautious)
+    * First paper to try theory in the book of why in pratical
+    * However, maybe still miss some assumptions
+    * Recommand people who interested in this paper to read 7th chapter of the book of why.(Focus on the the three rules for do operation)
 
 ### Parameter Optimize Based Few-shot Learning
 ** Descriptions 01**: They use normal classifier to classify samples
