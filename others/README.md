@@ -90,3 +90,4 @@
 - [NIPS 2020] Self-Supervised Few-Shot Learning on Point Clouds
 - [MICAI 2020] ([paper](https://arxiv.org/abs/2008.07724)) Domain Generalizer: A Few-shot Meta Learning Framework for Domain Generalization in Medical Imaging
 - [ICML 2020] ([paper](https://arxiv.org/abs/2008.02952)) Informative Dropout for Robust Representation Learning: A Shape-bias Perspective
+- [IEEE IROS 2020] ([paper](https://arxiv.org/abs/2008.00819)) Tell me what this is: Few-Shot Incremental Object Learning by a Robot

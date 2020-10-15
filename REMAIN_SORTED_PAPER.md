@@ -10,6 +10,44 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [ICML 2020] MetaFun: Meta-Learning with Iterative Functional Updates
 - [ ] [ICML 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
 - [ ] [SIGIR 2020] Few-Shot Generative Conversational Query Rewriting
+- [ ] [CVPR 2020] Revisiting Pose-Normalization for Fine-Grained Few-Shot Recognition
+- [ ] [CVPR 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
+- [ ] [CVPR 2020] Few-Shot Video Classification via Temporal Alignment
+- [ ] [CVPR 2020] Instance Credibility Inference for Few-Shot Learning
+- [ ] [CVPR 2020] TransMatch: A Transfer-Learning Scheme for Semi-Supervised Few-Shot Learning
+- [ ] [CVPR 2020] Boosting Few-Shot Learning With Adaptive Margin Loss
+- [ ] [CVPR 2020] Incremental Few-Shot Object Detection
+- [ ] [CVPR 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
+- [ ] [CVPR 2020] Few-Shot Class-Incremental Learning
+- [ ] [CVPR 2020] Adversarial Feature Hallucination Networks for Few-Shot Learning
+- [ ] [CVPR 2020] Revisiting Pose-Normalization for Fine-Grained Few-Shot Recognition
+- [ ] [CVPR 2020] DPGN: Distribution Propagation Graph Network for Few-shot Learning
+- [ ] [CVPR 2020] Adversarial Feature Hallucination Networks for Few-Shot Learning
+- [ ] [CVPR 2020] Revisiting Pose-Normalization for Fine-Grained Few-Shot Recognition
+- [ ] [CVPR 2020] Improved Few-Shot Visual Classification
+- [ ] [CVPR 2020] Few-Shot Pill Recognition
+- [ ] [CVPR 2020] DPGN: Distribution Propagation Graph Network for Few-shot Learning
+- [ ] [CVPR 2020] Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions
+- [ ] [CVPR 2020] Few-Shot Open-Set Recognition using Meta-Learning
+- [ ] [CVPR 2020] 3FabRec: Fast Few-shot Face alignment by Reconstruction
+- [ ] [CVPR 2020] FGN: Fully Guided Network for Few-Shot Instance Segmentation
+- [ ] [CVPR 2020] Multi-Domain Learning for Accurate and Few-Shot Color Constancy
+- [ ] [CVPR 2020] Few-shot Learning of Part-specific Probability Space for 3D Shape Segmentation
+- [ ] [CVPR 2020] Few-Shot Object Detection with Attention-RPN and Multi-Relation Detector
+- [ ] [CVPR 2020] Adaptive Subspaces for Few-Shot Learning
+- [ ] [CVPR 2020] FSS-1000: A 1000-Class Dataset for Few-Shot Segmentation
+- [ ] [CVPR 2020] Semi-supervised Learning for Few-shot Image-to-Image Translation
+- [ ] [CVPR 2020] Learning to Select Base Classes for Few-shot Classification
+- [ ] [CVPR 2020] CRNet: Cross-Reference Networks for Few-Shot Segmentation
+- [ ] [EMNLP 2020] Localizing Open-Ontology QA Semantic Parsers in a Day Using Machine Translation
+- [ ] [EMNLP 2020] Unsupervised Distillation of Syntactic Information from Contextualized Word Representations
+- [ ] [EMNLP 2020] Structural Supervision Improves Few-Shot Learning and Syntactic Generalization in Neural Language Models
+- [ ] [CIKM 2020] Few-shot Insider Threat Detection
+- [ ] [CIKM 2020] Enhance Prototypical Networks with Text Descriptions for Few-shot Relation Classification
+- [ ] [CIKM 2020] Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification
+- [ ] [CIKM 2020] Graph Few-shot Learning with Attribute Matching
+- [ ] [CIKM 2020] Graph Prototypical Networks for Few-shot Learning on Attributed Networks
+- [ ] [CIKM 2020] MICK: A Meta-Learning Framework for Few-shot Relation Classification with Small Training Data
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
