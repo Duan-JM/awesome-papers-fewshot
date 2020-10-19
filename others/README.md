@@ -5,6 +5,7 @@
 * [Visual Tracking](#visual-tracking)
 * [Theoritical](#theoritical)
 * [Recommendation System](#recommendation-system)
+* [Graph Classification](#graph-classification)
 * [Others](#others)
 
 <!-- vim-markdown-toc -->
@@ -39,6 +40,11 @@
     * Interesting Time sequence encoding methods
     * Using meta-learning methods to learn user-profile representations
     * Can be used to solve data scarcity or class imbalance problem
+
+### Graph Classification
+- [CIKM 2020] Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification
+- [CIKM 2020] Graph Prototypical Networks for Few-shot Learning on Attributed Networks
+    * Graph node classification
 
 ### Others
 - [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
