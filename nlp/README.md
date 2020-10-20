@@ -44,6 +44,8 @@
 - [AAAI 2020] Neural Snowball for Few-Shot Relation Learning
 - [AAAI 2020] Few-Shot Knowledge Graph Completion (关系抽取)
 - [AAAI 2018] Few Shot Transfer Learning Between Word Relatedness and Similarity Tasks Using A Gated Recurrent Siamese Network
+- [CIKM 2020] Enhance Prototypical Networks with Text Descriptions for Few-shot Relation Classification
+- [CIKM 2020] MICK: A Meta-Learning Framework for Few-shot Relation Classification with Small Training Data
 
 ### Applications
 - [ACMMM 2018] Few-Shot Adaptation for Multimedia Semantic Indexing
