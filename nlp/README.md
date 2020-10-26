@@ -6,9 +6,8 @@
 - [ACL 2020] Shaping Visual Representations with Language for Few-shot Classification
     * jointly predicting natural language task descriptions at training time
     * How can we let language guide representation learning in machine learning models? 
-- [arXiv 2020] Language Models are Few-Shot Learners
+- [NIPS 2020] Language Models are Few-Shot Learners
     * GPT-3
-    * add here for its
 - [EMNLP 2019] ([paper](https://arxiv.org/pdf/1902.10482.pdf)) Few-Shot Text Classification with Induction Network
     * Introduce dynamic routing to generate better class representations. One real industrial project.
 - [EMNLP/IJCNLP 2019] Hierarchical Attention Prototypical Networks for Few-Shot Text Classification

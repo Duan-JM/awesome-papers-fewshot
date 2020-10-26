@@ -18,6 +18,8 @@
 - [ICLR 2020] Meta-learning curiosity algorithms
 - [ICLR 2020] Meta Reinforcement Learning with Autonomous Inference of Subtask Dependencies
 - [ICML 2020] ([paper](https://arxiv.org/abs/2002.03497)) Few-shot Domain Adaptation by Causal Mechanism Transfer
+- [NIPS 2020] CrossTransformers: spatially-aware few-shot transfer
+    * Using transformer as encoder and query images performed as query keys
 
 ### Reinforcement Learning
 - [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
@@ -44,6 +46,9 @@
 ### Graph Classification
 - [CIKM 2020] Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification
 - [CIKM 2020] Graph Prototypical Networks for Few-shot Learning on Attributed Networks
+    * Graph node classification
+- [CIKM 2020] Graph Few-shot Learning with Attribute Matching
+- [NIPS 2020] Few-shot Visual Reasoning with Meta-Analogical Contrastive Learning
     * Graph node classification
 
 ### Others
@@ -98,3 +103,7 @@
 - [ICML 2020] ([paper](https://arxiv.org/abs/2008.02952)) Informative Dropout for Robust Representation Learning: A Shape-bias Perspective
 - [IEEE IROS 2020] ([paper](https://arxiv.org/abs/2008.00819)) Tell me what this is: Few-Shot Incremental Object Learning by a Robot
 - [CIKM 2020] Few-shot Insider Threat Detection
+- [ACMMM 2020] Depth Guided Adaptive Meta-Fusion Network for Few-shot Video Recognition
+- [NIPS 2020] Self-Supervised Few-Shot Learning on Point Clouds
+- [NIPS 2020] Few-shot Visual Reasoning with Meta-Analogical Contrastive Learning
+    * Visual Reasoning
