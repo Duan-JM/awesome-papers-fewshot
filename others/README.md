@@ -50,11 +50,11 @@
 - [CIKM 2020] Graph Few-shot Learning with Attribute Matching
 - [NIPS 2020] Few-shot Visual Reasoning with Meta-Analogical Contrastive Learning
     * Graph node classification
+- [NIPS 2020] Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
 
 ### Others
 - [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
-- [AAAI 2018] AffinityNet- Semi-supervised Few-shot Learning for Disease Type Prediction
-    * Use few-shot method to enhance urinal disease type prediction
+- [AAAI 2018] AffinityNet- Semi-supervised Few-shot Learning for Disease Type Prediction Use few-shot method to enhance urinal disease type prediction
 
 - [NIPS 2018] Neural Voice Cloning with a Few Samples
 - [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ACMM_Aligned_Cross-Modal_Memory_for_Few-Shot_Image_and_Sentence_Matching_ICCV_2019_paper.pdf)) ACMM: Aligned Cross-Modal Memory for Few-Shot Image and Sentence Matching
@@ -107,3 +107,7 @@
 - [NIPS 2020] Self-Supervised Few-Shot Learning on Point Clouds
 - [NIPS 2020] Few-shot Visual Reasoning with Meta-Analogical Contrastive Learning
     * Visual Reasoning
+- [NIPS 2020] OOD-MAML: Meta-Learning for Few-Shot Out-of-Distribution Detection and Classification
+- [NIPS 2020] One Solution is Not All You Need: Few-Shot Extrapolation via Structured MaxEnt RL
+- [NIPS 2020] Adversarially Robust Few-Shot Learning: A Meta-Learning Approach
+    * Adversarially Robust FSL

@@ -2,15 +2,11 @@
 This part save the papers collected from arXiv, paper will be deleted if I
 judge it is not good or not accepted to the top conference over one year.
 
-
 # No papers
 - [CIKM 2020] Graph Few-shot Learning with Attribute Matching
 
 # Remain checkout
 
-- [ ] [ICML 2020] MetaFun: Meta-Learning with Iterative Functional Updates
-- [ ] [ICML 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
-- [ ] [SIGIR 2020] Few-Shot Generative Conversational Query Rewriting
 - [ ] [CVPR 2020] Revisiting Pose-Normalization for Fine-Grained Few-Shot Recognition
 - [ ] [CVPR 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
 - [ ] [CVPR 2020] Few-Shot Video Classification via Temporal Alignment
@@ -43,12 +39,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [EMNLP 2020] Localizing Open-Ontology QA Semantic Parsers in a Day Using Machine Translation
 - [ ] [EMNLP 2020] Unsupervised Distillation of Syntactic Information from Contextualized Word Representations
 - [ ] [EMNLP 2020] Structural Supervision Improves Few-Shot Learning and Syntactic Generalization in Neural Language Models
-- [ ] [CIKM 2020] Few-shot Insider Threat Detection
-- [ ] [CIKM 2020] Enhance Prototypical Networks with Text Descriptions for Few-shot Relation Classification
-- [ ] [CIKM 2020] Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification
-- [ ] [CIKM 2020] Graph Few-shot Learning with Attribute Matching
-- [ ] [CIKM 2020] Graph Prototypical Networks for Few-shot Learning on Attributed Networks
-- [ ] [CIKM 2020] MICK: A Meta-Learning Framework for Few-shot Relation Classification with Small Training Data
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
@@ -96,9 +86,6 @@ judge it is not good or not accepted to the top conference over one year.
     * 使用模型搜索搜出来的结构，号称 SOTA 在 mini-imagenet （存疑）
 
     * 这个是在feature上动文章的，关键词是self-supervised 和 regularization technique。This work investigates the role of learning relevant feature manifold for few-shot tasks using self-supervision and regularization techniques.
-
-- [x] [arXiv 2019] MetaFun: Meta-Learning with Iterative Functional Updates
-    * 用了无限的特征长度，还有一个什么东西，效果很好83%
 
 - [x] [arXiv 2019] Semantic Regularization: Improve Few-shot Image Classification by Reducing Meta Shift
 - [x] [1909.11446] Decoder Choice Network for Meta-Learning

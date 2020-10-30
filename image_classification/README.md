@@ -42,6 +42,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [arXiv 2020] Defining Benchmarks for Continual Few-Shot Learning
 - [ICML 2020] Unraveling Meta-Learning: Understanding Feature Representations for Few-Shot Tasks
     * Choice to impact of meta-learning methods, and design module over it
+- [arXiv 2020] ([paper](https://arxiv.org/pdf/2009.02653.pdf)) Learning from very few samples: A survey
 
 ### Challenges
 - [ICLR 2020] ([paper](https://arxiv.org/pdf/1909.02729.pdf)) A Baseline for Few-shot Image Classification
@@ -378,6 +379,8 @@ issue 里面提出来，我会在第一时间进行回复的。
     * ResNet-18 72.11 for 1-shot and 82.31 for 5-shot
     * WRN 74.86 for 1-shot and 84.13 for 5-shot
 - [ICML 2020] Informative Dropout for Robust Representation Learning: A Shape-bias Perspective
+- [NIPS 2020] Transductive Information Maximization for Few-Shot Learning
+- [NIPS 2020] Bayesian Meta-Learning for the Few-Shot Setting via Deep Kernels
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks
@@ -396,6 +399,7 @@ issue 里面提出来，我会在第一时间进行回复的。
     * life-long few-shot learning problems
 - [ICLR 2020] Meta-Learning Deep Energy-Based Memory Models
 - [TKDE 2020] Many-Class Few-Shot Learning on Multi-Granularity Class Hierarchy
+- [NIPS 2020] Learning to Learn Variational Semantic Memory
 
 #### Architecture
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1805.07722.pdf)) Task-Agnostic Meta-Learning for Few-shot Learning

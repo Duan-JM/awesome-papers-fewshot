@@ -13,8 +13,7 @@
 
 - [CVPR 2019] ([paper](https://arxiv.org/abs/1903.00621) [code](https://github.com/hdjang/Feature-Selective-Anchor-Free-Module-for-Single-Shot-Object-Detection)) Feature Selective Anchor-Free Module for Single-Shot Object Detection
 
-- [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Rahman_Transductive_Learning_for_Zero-Shot_Object_Detection_ICCV_2019_paper.html)) Transductive Learning for Zero-Shot Object Detection
-  - Fixed Pseudo-label and Dynamic Pseudo-label
+- [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Rahman_Transductive_Learning_for_Zero-Shot_Object_Detection_ICCV_2019_paper.html)) Transductive Learning for Zero-Shot Object Detection Fixed Pseudo-label and Dynamic Pseudo-label
 
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1812.01866) [code](https://github.com/bingykang/Fewshot_Detection)) Few-shot Object Detection via Feature Reweighting
   - “Feature Reweighting” as weights & useful loss function
@@ -33,3 +32,4 @@
 - [ECCV 2020] Few-Shot Object Detection and Viewpoint Estimation for Objects in the Wild
 - [ECCV 2020] Few-Shot Object Detection and Viewpoint Estimation for Objects in the Wild
 - [ECCV 2020] Multi-Scale Positive Sample Refinement for Few-Shot Object Detection
+- [NIPS 2020] Restoring Negative Information in Few-Shot Object Detection

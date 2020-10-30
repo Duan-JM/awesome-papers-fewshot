@@ -19,5 +19,4 @@
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1909.01205)) Few-Shot Generalization for Single-Image 3D Reconstruction via Priors
 - [ACMMM 2020] ([paper](https://arxiv.org/abs/2008.07783)) Mesh Guided One-shot Face Reenactment using Graph Convolutional Networks
 - [ACMMM 2020] ([paper](https://arxiv.org/abs/2008.01999)) F2GAN: Fusing-and-Filling GAN for Few-shot Image Generation
-
-#### NLP
+- [NIPS 2020] Few-shot Image Generation with Elastic Weight Consolidation
