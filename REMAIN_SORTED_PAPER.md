@@ -13,7 +13,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [CVPR 2020] Instance Credibility Inference for Few-Shot Learning
 - [ ] [CVPR 2020] TransMatch: A Transfer-Learning Scheme for Semi-Supervised Few-Shot Learning
 - [ ] [CVPR 2020] Boosting Few-Shot Learning With Adaptive Margin Loss
-- [ ] [CVPR 2020] Incremental Few-Shot Object Detection
 - [ ] [CVPR 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
 - [ ] [CVPR 2020] Few-Shot Class-Incremental Learning
 - [ ] [CVPR 2020] Adversarial Feature Hallucination Networks for Few-Shot Learning
@@ -26,16 +25,8 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [CVPR 2020] DPGN: Distribution Propagation Graph Network for Few-shot Learning
 - [ ] [CVPR 2020] Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions
 - [ ] [CVPR 2020] Few-Shot Open-Set Recognition using Meta-Learning
-- [ ] [CVPR 2020] 3FabRec: Fast Few-shot Face alignment by Reconstruction
-- [ ] [CVPR 2020] FGN: Fully Guided Network for Few-Shot Instance Segmentation
-- [ ] [CVPR 2020] Multi-Domain Learning for Accurate and Few-Shot Color Constancy
-- [ ] [CVPR 2020] Few-shot Learning of Part-specific Probability Space for 3D Shape Segmentation
-- [ ] [CVPR 2020] Few-Shot Object Detection with Attention-RPN and Multi-Relation Detector
 - [ ] [CVPR 2020] Adaptive Subspaces for Few-Shot Learning
-- [ ] [CVPR 2020] FSS-1000: A 1000-Class Dataset for Few-Shot Segmentation
-- [ ] [CVPR 2020] Semi-supervised Learning for Few-shot Image-to-Image Translation
 - [ ] [CVPR 2020] Learning to Select Base Classes for Few-shot Classification
-- [ ] [CVPR 2020] CRNet: Cross-Reference Networks for Few-Shot Segmentation
 - [ ] [EMNLP 2020] Localizing Open-Ontology QA Semantic Parsers in a Day Using Machine Translation
 - [ ] [EMNLP 2020] Unsupervised Distillation of Syntactic Information from Contextualized Word Representations
 - [ ] [EMNLP 2020] Structural Supervision Improves Few-Shot Learning and Syntactic Generalization in Neural Language Models
@@ -217,7 +208,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [arXiv 2020] Few-shot Object Detection on Remote Sensing Images
 
 ## Segmentation
-- [ ] [arXiv 2020] CRNet: Cross-Reference Networks for Few-Shot Segmentation
 - [ ] [arXiv 2020] On the Texture Bias for Few-Shot CNN Segmentation
 - [ ] [arXiv 2020] [exist code] Learning to Segment the Tail
 - [ ] [arXiv 2020] Semi-supervised few-shot learning for medical image segmentation
@@ -250,7 +240,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [arXiv 2020] CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection
 
 ## Incremental Learning
-- [ ] [arXiv 2020] Incremental Few-Shot Object Detection
 - [ ] [arXiv 2020] Few-Shot Class-Incremental Learning via Feature Space Composition
     * Train one base model, then stack different tasks feature onto it
 
@@ -311,8 +300,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [arXiv 2020] Interactive Video Stylization Using Few-Shot Patch-Based Training
 - [ ] [arXiv 2020] MAD-X: An Adapter-based Framework for Multi-task Cross-lingual Transfer
 - [ ] [arXiv 2020] Self-Training with Improved Regularization for Few-Shot Chest X-Ray Classification
-- [ ] [arXiv 2020] 3FabRec: Fast Few-shot Face alignment by Reconstruction
-    * facial landmark detection
 - [ ] [arXiv 2020] Combining Deep Learning with Geometric Features for Image based Localization in the Gastrointestinal Tract
 - [ ] [arXiv 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
 - [ ] [arXiv 2020] SSM-Net for Plants Disease Identification in LowData Regime
