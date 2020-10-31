@@ -20,3 +20,5 @@
 - [ACMMM 2020] ([paper](https://arxiv.org/abs/2008.07783)) Mesh Guided One-shot Face Reenactment using Graph Convolutional Networks
 - [ACMMM 2020] ([paper](https://arxiv.org/abs/2008.01999)) F2GAN: Fusing-and-Filling GAN for Few-shot Image Generation
 - [NIPS 2020] Few-shot Image Generation with Elastic Weight Consolidation
+- [CVPR 2020] 3FabRec: Fast Few-shot Face alignment by Reconstruction
+- [CVPR 2020] Semi-supervised Learning for Few-shot Image-to-Image Translation

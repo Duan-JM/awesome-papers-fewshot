@@ -111,3 +111,4 @@
 - [NIPS 2020] One Solution is Not All You Need: Few-Shot Extrapolation via Structured MaxEnt RL
 - [NIPS 2020] Adversarially Robust Few-Shot Learning: A Meta-Learning Approach
     * Adversarially Robust FSL
+- [CVPR 2020] Multi-Domain Learning for Accurate and Few-Shot Color Constancy
