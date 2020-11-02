@@ -13,6 +13,8 @@
 - [EMNLP/IJCNLP 2019] Hierarchical Attention Prototypical Networks for Few-Shot Text Classification
 - [ACL 2020] Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations
 - [SIGIR 2020 best short paper] ([code exist]()) Few-Shot Generative Conversational Query Rewriting
+- [EMNLP 2020] Word Frequency Does Not Predict Grammatical Knowledge in Language Models
+- [EMNLP 2020] Unsupervised Distillation of Syntactic Information from Contextualized Word Representations
 
 ### NLU
 - [ACL 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification
@@ -35,6 +37,7 @@
 - [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf)) Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
 - [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
 - [NIPS 2018] Neural Voice Cloning with a Few Samples
+- [EMNLP 2020] Structural Supervision Improves Few-Shot Learning and Syntactic Generalization in Neural Language Models
 
 ### Relation Relevant
 - [ICML 2020] ([paper](https://arxiv.org/abs/2007.02387)) Few-shot Relation Extraction via Bayesian Meta-learning on Task Graph
@@ -57,3 +60,4 @@
 - [EMNLP 2019] Adapting Meta Knowledge Graph Information for Multi-Hop Reasoning over Few-Shot Relations
 - [EMNLP 2019] FewRel 2.0: Towards More Challenging Few-Shot Relation Classification
 - [INTERSPEECH 2020] An Investigation of Few-Shot Learning in Spoken Term Classification
+- [EMNLP 2020] ([paper](https://arxiv.org/abs/2010.05106))Localizing Open-Ontology QA Semantic Parsers in a Day Using Machine Translation
