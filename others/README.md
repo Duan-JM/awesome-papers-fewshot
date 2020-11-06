@@ -112,3 +112,7 @@
 - [NIPS 2020] Adversarially Robust Few-Shot Learning: A Meta-Learning Approach
     * Adversarially Robust FSL
 - [CVPR 2020] Multi-Domain Learning for Accurate and Few-Shot Color Constancy
+- [CVPR 2020] Few-Shot Video Classification via Temporal Alignment
+- [CVPR 2020] Few-Shot Pill Recognition
+- [CVPR 2020] Learning to Select Base Classes for Few-shot Classification
+- [CVPR 2020] Few-Shot Open-Set Recognition using Meta-Learning

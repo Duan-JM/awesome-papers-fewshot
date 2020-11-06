@@ -7,29 +7,9 @@ judge it is not good or not accepted to the top conference over one year.
 
 # Remain checkout
 
-- [ ] [CVPR 2020] Revisiting Pose-Normalization for Fine-Grained Few-Shot Recognition
-- [ ] [CVPR 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
-- [ ] [CVPR 2020] Few-Shot Video Classification via Temporal Alignment
-- [ ] [CVPR 2020] Instance Credibility Inference for Few-Shot Learning
-- [ ] [CVPR 2020] TransMatch: A Transfer-Learning Scheme for Semi-Supervised Few-Shot Learning
-- [ ] [CVPR 2020] Boosting Few-Shot Learning With Adaptive Margin Loss
-- [ ] [CVPR 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
-- [ ] [CVPR 2020] Few-Shot Class-Incremental Learning
-- [ ] [CVPR 2020] Adversarial Feature Hallucination Networks for Few-Shot Learning
-- [ ] [CVPR 2020] Revisiting Pose-Normalization for Fine-Grained Few-Shot Recognition
-- [ ] [CVPR 2020] DPGN: Distribution Propagation Graph Network for Few-shot Learning
-- [ ] [CVPR 2020] Adversarial Feature Hallucination Networks for Few-Shot Learning
-- [ ] [CVPR 2020] Revisiting Pose-Normalization for Fine-Grained Few-Shot Recognition
-- [ ] [CVPR 2020] Improved Few-Shot Visual Classification
-- [ ] [CVPR 2020] Few-Shot Pill Recognition
-- [ ] [CVPR 2020] DPGN: Distribution Propagation Graph Network for Few-shot Learning
-- [ ] [CVPR 2020] Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions
 - [ ] [CVPR 2020] Few-Shot Open-Set Recognition using Meta-Learning
 - [ ] [CVPR 2020] Adaptive Subspaces for Few-Shot Learning
 - [ ] [CVPR 2020] Learning to Select Base Classes for Few-shot Classification
-- [ ] [EMNLP 2020] Localizing Open-Ontology QA Semantic Parsers in a Day Using Machine Translation
-- [ ] [EMNLP 2020] Unsupervised Distillation of Syntactic Information from Contextualized Word Representations
-- [ ] [EMNLP 2020] Structural Supervision Improves Few-Shot Learning and Syntactic Generalization in Neural Language Models
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
@@ -122,10 +102,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [x] [arXiv 2020] Prototype Rectification for Few-Shot Learning
     * Using query set to enhance prototype, good results in 1-shot 70%, however, potential
         model leaky problem, wait for opensource
-- [x] [arXiv 2020] TransMatch: A Transfer-Learning Scheme for Semi-Supervised Few-Shot Learning
-    * Imprinted weights to finetune 
-    * SSL settings
-    * 63% 1-shot 82% 5shot
 - [x] [arXiv 2020] [exist code] Transductive Few-shot Learning with Meta-Learned Confidence
     * 78 1-shot 86 5-shot
 - [x] [arXiv 2020] Self-Augmentation: Generalizing Deep Networks to Unseen Classes for Few-Shot Learning
@@ -239,10 +215,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [arXiv 2020] Knowledge Guided Metric Learning for Few-Shot Text Classification
 - [ ] [arXiv 2020] CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection
 
-## Incremental Learning
-- [ ] [arXiv 2020] Few-Shot Class-Incremental Learning via Feature Space Composition
-    * Train one base model, then stack different tasks feature onto it
-
 ## Cross-Domain
 - [ ] [arXiv 2020] Towards Fair Cross-Domain Adaptation via Generative Learning
 - [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
@@ -301,7 +273,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [arXiv 2020] MAD-X: An Adapter-based Framework for Multi-task Cross-lingual Transfer
 - [ ] [arXiv 2020] Self-Training with Improved Regularization for Few-Shot Chest X-Ray Classification
 - [ ] [arXiv 2020] Combining Deep Learning with Geometric Features for Image based Localization in the Gastrointestinal Tract
-- [ ] [arXiv 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
 - [ ] [arXiv 2020] SSM-Net for Plants Disease Identification in LowData Regime
     * disease in agricultural
 - [ ] [arXiv 2020] Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
