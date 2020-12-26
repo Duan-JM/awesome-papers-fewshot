@@ -104,7 +104,6 @@
 - [IEEE IROS 2020] ([paper](https://arxiv.org/abs/2008.00819)) Tell me what this is: Few-Shot Incremental Object Learning by a Robot
 - [CIKM 2020] Few-shot Insider Threat Detection
 - [ACMMM 2020] Depth Guided Adaptive Meta-Fusion Network for Few-shot Video Recognition
-- [NIPS 2020] Self-Supervised Few-Shot Learning on Point Clouds
 - [NIPS 2020] Few-shot Visual Reasoning with Meta-Analogical Contrastive Learning
     * Visual Reasoning
 - [NIPS 2020] OOD-MAML: Meta-Learning for Few-Shot Out-of-Distribution Detection and Classification

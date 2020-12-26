@@ -248,10 +248,6 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Improve on Relation Network, change a way to extract more information during feature extraction stage, then argue that when objects in the same class appear on the different spatial position will cause the misclassification, they redesign the metric module(the origianl 2CNN + 2FC) instead.  
     * Conv-4 71% on mini-imagenet 5shot
 
-- [NIPS 2019] ([paper](https://arxiv.org/pdf/1910.07677.pdf)) Cross Attention Network for Few-shot Classification
-    * Learn a attention(mask) to pay more attention on the part of the images
-    * Add transductive inference part
-    * Pretty good result on mini-imagenet 80.64 +- 0.35% under ResNet-12 (16 conv layers)
 - [ECCV 2020] ([paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730239.pdf)) Attentive Prototype Few-shot Learning with Capsule Network-based Embedding
     * Use capsule as its feature extractor
     * 66%/82% for mini-Imagenet, 69%/86% for tiered-Imagenet 
@@ -439,31 +435,42 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ECCV 2020] Incremental Few-Shot Meta-Learning via Indirect Feature Alignment
 
 #### Add Additional Informations (Cross-modal)
+- [NIPS 2019] ([paper](https://arxiv.org/pdf/1910.07677.pdf)) Cross Attention Network for Few-shot Classification
+    * Learn a attention(mask) to pay more attention on the part of the images
+    * Add transductive inference part
+    * Pretty good result on mini-imagenet 80.64 +- 0.35% under ResNet-12 (16 conv layers)
+
+- [NIPS 2019] ([paper](https://arxiv.org/pdf/1902.07104.pdf)) Adaptive Cross-Modal Few-shot Learning
+    * Using texture information to enhance the performance, which reach a comparable result on mini-imagenet
+    * Perform well on 1-shot rather than 5-shot or 10-shot
+
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1906.01905.pdf)) Baby steps towards few-shot learning with multiple semantics
     * Show 4.5 years old baby perform 70% on 1-shot case, adult achieve 99%.
     * Add multi-semantic into the task.
     * However on 5-shot case LEO perform exceed both this paper and the paper above with no semantics information.
     * For 1-shot case, this method achieve 67.2% +- 0.4% compare to 70% of human baby performance.
-- [NIPS 2019] ([paper](https://arxiv.org/pdf/1902.07104.pdf)) Adaptive Cross-Modal Few-shot Learning
-    * Using texture information to enhance the performance, which reach a comparable result on mini-imagenet
-    * Perform well on 1-shot rather than 5-shot or 10-shot
+
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1812.09213.pdf) [code](https://sites.google.com/view/comprepr/home)) Learning Compositional Representations for Few-Shot Recognition
     Add additional annotations to the classes.
+
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1904.03472.pdf)) Few-shot Learning via Saliency-guided Hallucination of Samples
     Form segmentations and mix up, aiming at eliminates the back ground noise.
+
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1906.05186.pdf)) Boosting Few-Shot Visual Learning with Self-Supervision
     * Self-supervision means to rotate itself, and compute two losses.
+
+- [ICCV 2019] ([paper](https://pdfs.semanticscholar.org/9d04/7a9c96d1e929846b28a44498a230fffee06f.pdf?_ga=2.165168639.132909448.1580616762-480481026.1580441958)) Few-Shot Image Recognition With Knowledge Transfer
 
 - [CVPR 2019] Large-Scale Few-Shot Learning- Knowledge Transfer With Class Hierarchy
     * Aiming at learning large-scale problem, not just on 5 novel class.
     * Using the Class Names embeddings(text embedding) to form a class hierarchy.
     * Get a pretty higher result than existing methods.
 
-- [ICCV 2019] ([paper](https://pdfs.semanticscholar.org/9d04/7a9c96d1e929846b28a44498a230fffee06f.pdf?_ga=2.165168639.132909448.1580616762-480481026.1580441958))Few-Shot Image Recognition With Knowledge Transfer
 - [ACMMM 2019] TGG: Transferable Graph Generation for Zero-shot and Few-shot Learning
     * using class-level knowledge graph to enhance instance-level graph
     * pretty interesting
     * did not compare on the mini-imagenet
+
 - [CVPR 2020] Boosting Few-Shot Learning With Adaptive Margin Loss
     * using word embeddings to compute the relationship between classes and
         this relationship is used as guidance to learn the adaptive margin

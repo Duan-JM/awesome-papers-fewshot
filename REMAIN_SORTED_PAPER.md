@@ -6,10 +6,26 @@ judge it is not good or not accepted to the top conference over one year.
 - [CIKM 2020] Graph Few-shot Learning with Attribute Matching
 
 # Remain checkout
-
-- [ ] [CVPR 2020] Few-Shot Open-Set Recognition using Meta-Learning
-- [ ] [CVPR 2020] Adaptive Subspaces for Few-Shot Learning
-- [ ] [CVPR 2020] Learning to Select Base Classes for Few-shot Classification
+- [ ] [TIP 2020] BSNet: Bi-Similarity Network for Few-shot Fine-grained Image Classification
+- [ ] [NIPS 2020] Few-shot Image Generation
+- [ ] [COLING 2021 shot] Event Guided Denoising for Multilingual Relation Learning
+- [ ] [NIPS 2020] One Solution is Not All You Need: Few-Shot Extrapolation via Structured MaxEnt RL
+- [ ] [AAAI 2021] Progressive Network Grafting for Few-Shot Knowledge Distillation
+- [ ] [WWW 2021] Zero-shot Learning for Relation Extraction
+- [ ] [AAAI 2021] PTN: A Poisson Transfer Network for Semi-supervised Few-shot Learning
+- [ ] [NIPS 2020] CrossTransformers: spatially-aware few-shot transfer
+- [ ] [NIPS 2020] Transductive Information Maximization for Few-Shot Learning
+- [ ] [NIPS 2020] OOD-MAML: Meta-Learning for Few-Shot Out-of-Distribution Detection and Classification
+- [ ] [NIPS 2020] Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Linnk Prediction
+- [ ] [NIPS 2020] Node Classification on Graphs with Few-Shot Novel Labels via Meta Transformed Network Embedding
+- [ ] [NIPS 2020] Uncertainty-aware Self-training for Few-shot Text Classification
+- [ ] [NIPS 2020] Few-shot Image Generation with Elastic Weight Consolidation
+- [ ] [NIPS 2020] Adversarially Robust Few-Shot Learning: A Meta-Learning Approach
+- [ ] [NIPS 2020] Bayesiann Meta-Learning for the Few-Shot Setting via Deep Kernels
+- [ ] [NIPS 2020] One Solution is Not All You Need: Few-Shot Extrapolation via Structured MaxEnt RL
+- [ ] [NIPS 2020] Self-Supervised Few-Shot Learning on Poinnt Clouds
+- [ ] [NIPS 2020] Few-shot Visual Reasoning with Meta-Analogical Contrastive Learning
+- [ ] [NIPS 2020] Restoring Negative Information in Few-Shot Object Detection
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
@@ -220,10 +236,8 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
 - [ ] [arXiv 2020] Feature Transformation Ensemble Model with Batch Spectral Regularization for Cross-Domain Few-Shot Classification
 - [ ] [arXiv 2020] Cross-Domain Few-Shot Learning with Meta Fine-Tuning
-- [ ] [arXiv 2020] Few-Shot Open-Set Recognition using Meta-Learning
 - [ ] [arXiv 2020] Large Margin Mechanism and Pseudo Query Set on Cross-Domain Few-Shot Learning
 - [ ] [arXiv 2020] M3P: Learning Universal Representations via Multitask Multilingual Multimodal Pre-training
-- [ ] [arXiv 2020] Few-Shot Open-Set Recognition using Meta-Learning
 
 ## Uncertainty
 - [ ] [arXiv 2020] Calibrated neighborhood aware confidence measure for deep metric learning
