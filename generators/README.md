@@ -22,3 +22,4 @@
 - [NIPS 2020] Few-shot Image Generation with Elastic Weight Consolidation
 - [CVPR 2020] 3FabRec: Fast Few-shot Face alignment by Reconstruction
 - [CVPR 2020] Semi-supervised Learning for Few-shot Image-to-Image Translation
+- [NIPS 2020] ([paper](https://yijunmaverick.github.io/publications/ewc/) Few-shot Image Generation with Elastic Weight Consolidation 
