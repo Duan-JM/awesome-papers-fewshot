@@ -15,6 +15,7 @@
 - [SIGIR 2020 best short paper] ([code exist]()) Few-Shot Generative Conversational Query Rewriting
 - [EMNLP 2020] Word Frequency Does Not Predict Grammatical Knowledge in Language Models
 - [EMNLP 2020] Unsupervised Distillation of Syntactic Information from Contextualized Word Representations
+- [NIPS 2020] ([paper](https://arxiv.org/pdf/2006.15315.pdf)) Uncertainty-aware Self-training for Few-shot Text Classification
 
 ### NLU
 - [ACL 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification
@@ -48,6 +49,8 @@
 - [AAAI 2018] Few Shot Transfer Learning Between Word Relatedness and Similarity Tasks Using A Gated Recurrent Siamese Network
 - [CIKM 2020] Enhance Prototypical Networks with Text Descriptions for Few-shot Relation Classification
 - [CIKM 2020] MICK: A Meta-Learning Framework for Few-shot Relation Classification with Small Training Data
+- [NIPS 2020] ([paper](https://arxiv.org/pdf/2006.06648.pdf)) Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
+- [WWW 2021] ([paper](https://arxiv.org/pdf/2011.07126.pdf)) Zero-shot Learning for Relation Extraction
 
 ### Applications
 - [ACMMM 2018] Few-Shot Adaptation for Multimedia Semantic Indexing

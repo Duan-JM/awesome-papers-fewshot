@@ -343,7 +343,13 @@ issue 里面提出来，我会在第一时间进行回复的。
     * [WRN-28-10] 70.74 for 1-shot and 84.34% for 5-shot for mini-imagenet
     * [WRN-28-10] 79.22 for 1-shot and 88.05% for 5-shot under SSL settings for mini-imagenet
 - [ECCV 2020] SEN: A Novel Dissimilarity Measure for Prototypical Few-Shot Learning Networks
+- [AAAI 2021] ([paper](https://arxiv.org/abs/2012.10844)) PTN: A Poisson Transfer Network for Semi-supervised Few-shot Learning
+    * 82.66% for 1shot and 88.43% for 5shot on mini-Imagenet with WRN-28-10
+    * 84.70% for 1shot and 89.14% for 5shot on tiered-Imagenet with WRN-28-10
 
+
+
+When: Today
 ### Special
 #### Unsorted
 - [Nature 子刊 MI 2018] ([paper](https://arxiv.org/pdf/1810.01256.pdf)) Continuous Learning of Context-dependent Processing in Neural Networks
@@ -384,6 +390,8 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [NIPS 2020] Transductive Information Maximization for Few-Shot Learning
 - [NIPS 2020] Bayesian Meta-Learning for the Few-Shot Setting via Deep Kernels
 - [CVPR 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
+- [NIPS 2020] Transductive Information Maximization for Few-Shot Learning
+    * TIM-GD 77.8% for 1-shot and 87.4% for 5-shot for mini-Imagenet
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks

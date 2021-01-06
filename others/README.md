@@ -49,9 +49,8 @@
 - [CIKM 2020] Graph Prototypical Networks for Few-shot Learning on Attributed Networks
     * Graph node classification
 - [CIKM 2020] Graph Few-shot Learning with Attribute Matching
-- [NIPS 2020] Few-shot Visual Reasoning with Meta-Analogical Contrastive Learning
-    * Graph node classification
 - [NIPS 2020] Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
+- [NIPS 2020] ([paper](https://arxiv.org/pdf/2007.02914.pdf)) Node Classification on Graphs with Few-Shot Novel Labels via Meta Transformed Network Embedding
 
 ### Others
 - [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
@@ -108,7 +107,6 @@
 - [NIPS 2020] Few-shot Visual Reasoning with Meta-Analogical Contrastive Learning
     * Visual Reasoning
 - [NIPS 2020] OOD-MAML: Meta-Learning for Few-Shot Out-of-Distribution Detection and Classification
-- [NIPS 2020] One Solution is Not All You Need: Few-Shot Extrapolation via Structured MaxEnt RL
 - [NIPS 2020] Adversarially Robust Few-Shot Learning: A Meta-Learning Approach
     * Adversarially Robust FSL
 - [CVPR 2020] Multi-Domain Learning for Accurate and Few-Shot Color Constancy
@@ -117,3 +115,6 @@
 - [CVPR 2020] Learning to Select Base Classes for Few-shot Classification
 - [CVPR 2020] Few-Shot Open-Set Recognition using Meta-Learning
 - [NIPS 2020] ([paper](https://arxiv.org/abs/2012.02721)) Event Guided Denoising for Multilingual Relation Learning
+- [AAAI 2021] Progressive Network Grafting for Few-Shot Knowledge Distillation
+- [NIPS 2020] ADVERSARIALLY ROBUST FEW-SHOT LEARNING: A META-LEARNING APPROACH
+    * A approach is robust to adversarial attack
