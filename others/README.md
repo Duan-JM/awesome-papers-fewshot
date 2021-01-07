@@ -49,7 +49,6 @@
 - [CIKM 2020] Graph Prototypical Networks for Few-shot Learning on Attributed Networks
     * Graph node classification
 - [CIKM 2020] Graph Few-shot Learning with Attribute Matching
-- [NIPS 2020] Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
 - [NIPS 2020] ([paper](https://arxiv.org/pdf/2007.02914.pdf)) Node Classification on Graphs with Few-Shot Novel Labels via Meta Transformed Network Embedding
 
 ### Others

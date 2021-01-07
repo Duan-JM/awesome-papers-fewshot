@@ -6,12 +6,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [CIKM 2020] Graph Few-shot Learning with Attribute Matching
 
 # Remain checkout
-- [ ] [TIP 2020] BSNet: Bi-Similarity Network for Few-shot Fine-grained Image Classification
-- [ ] [NIPS 2020] Few-shot Image Generation
-- [ ] [NIPS 2020] Transductive Information Maximization for Few-Shot Learning
-- [ ] [NIPS 2020] Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Linnk Prediction
-- [ ] [NIPS 2020] Node Classification on Graphs with Few-Shot Novel Labels via Meta Transformed Network Embedding
-- [ ] [NIPS 2020] Uncertainty-aware Self-training for Few-shot Text Classification
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
@@ -30,6 +24,7 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [InterSpeech 2020] AdaDurIAN: Few-shot Adaptation for Neural Text-to-Speech with DurIAN
 - [x] [ICML 2020 Workshop]Covariate Distribution Aware Meta-learning
 - [x] [ESANN 2020] Zero-shot and few-shot time series forecasting with ordinal regression recurrent neural networks
+- [ ] [TIP 2020] BSNet: Bi-Similarity Network for Few-shot Fine-grained Image Classification
 
 # Arxiv
 ## Summary
@@ -272,8 +267,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [arXiv 2020] Combining Deep Learning with Geometric Features for Image based Localization in the Gastrointestinal Tract
 - [ ] [arXiv 2020] SSM-Net for Plants Disease Identification in LowData Regime
     * disease in agricultural
-- [ ] [arXiv 2020] Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
-    * out-of-graph link prediction task
 - [ ] [arXiv 2020] Extensively Matching for Few-shot Learning Event Detection
 - [ ] [arXiv 2020] Text Recognition in Real Scenarios with a Few Labeled Samples
     * They trying to address the text retrieval problems when Targe domain is nosey

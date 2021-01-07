@@ -387,7 +387,6 @@ When: Today
     * ResNet-18 72.11 for 1-shot and 82.31 for 5-shot
     * WRN 74.86 for 1-shot and 84.13 for 5-shot
 - [ICML 2020] Informative Dropout for Robust Representation Learning: A Shape-bias Perspective
-- [NIPS 2020] Transductive Information Maximization for Few-Shot Learning
 - [NIPS 2020] Bayesian Meta-Learning for the Few-Shot Setting via Deep Kernels
 - [CVPR 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
 - [NIPS 2020] Transductive Information Maximization for Few-Shot Learning
