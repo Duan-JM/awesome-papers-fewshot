@@ -25,7 +25,6 @@
 - [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
 - [ICLR 2020] Meta Reinforcement Learning with Autonomous Inference of Subtask Dependencies
 - [ICLR 2020] VariBAD: A Very Good Method for Bayes-Adaptive Deep RL via Meta-Learning
-- [ICLR 2020 Bengio] A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms
 - [NIPS 2020] ([paper](https://arxiv.org/abs/2010.14484)) One Solution is Not All You Need: Few-Shot Extrapolation via Structured MaxEnt RL
 
 ### Visual Tracking
