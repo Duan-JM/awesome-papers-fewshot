@@ -99,7 +99,7 @@ The only thing you need to do is make a new issue with its name, conference name
 - 2020-06-26 `REAMIN_SORTED_PAPAERS.md` no longer collected all papers from arxiv, only interesting and effectiveness ones will be collected here
 
 ### Buy me a coffee
-![WeChat][https://raw.githubusercontent.com/Duan-JM/awesome-papers-fewshot/master/assets/wechat.JPG =50x50]
+![WeChat][https://raw.githubusercontent.com/Duan-JM/awesome-papers-fewshot/master/assets/wechat.JPG]
 
 ## Main Contributors
 - [Duan-JM](https://github.com/Duan-JM) (Founder) (Image Classification)
