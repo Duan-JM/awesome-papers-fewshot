@@ -27,7 +27,6 @@ The papers collected in this repo are manually selected by myself, I am hoping t
     * [Relevant Awesome Blogs](#relevant-awesome-blogs)
   * [How to recommend a paper](#how-to-recommend-a-paper)
   * [ChangeLog](#changelog)
-  * [Buy me a coffee](#buy-me-a-coffee)
 * [Main Contributors](#main-contributors)
 
 <!-- vim-markdown-toc -->
@@ -97,9 +96,6 @@ The only thing you need to do is make a new issue with its name, conference name
 
 ### ChangeLog
 - 2020-06-26 `REAMIN_SORTED_PAPAERS.md` no longer collected all papers from arxiv, only interesting and effectiveness ones will be collected here
-
-### Buy me a coffee
-![WeChat][https://raw.githubusercontent.com/Duan-JM/awesome-papers-fewshot/master/assets/wechat.JPG]
 
 ## Main Contributors
 - [Duan-JM](https://github.com/Duan-JM) (Founder) (Image Classification)
