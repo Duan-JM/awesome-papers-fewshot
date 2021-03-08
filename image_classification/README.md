@@ -178,6 +178,14 @@ issue 里面提出来，我会在第一时间进行回复的。
     * SSL settings
     * 63% 1-shot 82% 5shot
 
+- [ICLR 2021] ([paper](https://arxiv.org/pdf/2007.10417.pdf)) BAYESIAN FEW-SHOT CLASSIFICATION WITH ONE-VS-EACH PO ́ LYA-GAMMA AUGMENTED GAUSSIAN PROCESSES
+    * They propose a Gaussian process classifier based on a novel combination of Po ́lya-Gamma augmentation and the one-vs-each softmax approximation (Titsias, 2016) that allows us to efficiently marginalize over functions rather than model parameters.
+
+- [ICLR 2021] ([paper](https://arxiv.org/pdf/2008.08882.pdf)) BOIL: TOWARDS REPRESENTATION CHANGE FOR FEW-SHOT LEARNING
+    * They investigate the necessity of representation change for the ultimate goal of few-shot learning, which is solving domain-agnostic tasks.
+    * Only update body of extractor in the inner loop, to enhance MAML
+    * TL;DR: The results imply that representation change in gradient-based meta-learning approaches is a critical component.
+
 ### Generative Based Few-shot Learning
 ** Descriptions 01**: To extend small datasets to larger one, they generate fake samples.
 
@@ -192,6 +200,13 @@ issue 里面提出来，我会在第一时间进行回复的。
     * This paper assumes that deformed images may not be visually realistic, they still maintain critical semantic information.
     * Pretty good at one-shot on mini-imagenet(59.14%)
 - [ECCV 2020 oral] ([paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460579.pdf))  Model-Agnostic Boundary-Adversarial Sampling for Test-Time Generalization in Few-Shot learning
+- [ICLR 2021 oral] ([paper](https://arxiv.org/pdf/2101.06395.pdf)) FREE LUNCH FOR FEW-SHOT LEARNING: DISTRIBUTION CALIBRATION
+    * Calibrate the distribution of these few-sample classes by transferring statistics from the classes with sufficient examples, then generate an adequate number of examples
+    * Assume every dimension in the feature representation follows a Gaussian distribution
+    * 68.57 ± 0.55 / 82.88 ± 0.42 on miniImagnet
+    * 78.19 ± 0.25 / 89.90 ± 0.41 on tieredImagnet
+    * 79.56 ± 0.87 / 90.67 ± 0.35 on CUB
+- [ICLR 2021] ([paper](https://arxiv.org/pdf/2008.06981.pdf)) BOWTIE NETWORKS: GENERATIVE MODELING FOR JOINT FEW-SHOT RECOGNITION AND NOVEL-VIEW SYNTHESIS
 
 ### Metric Based Few-shot Learning
 ** Descriptions 01:** They classify target samples by using metric functions which are used to measure similarity between samples or classes.
@@ -492,6 +507,11 @@ When: Today
 - [NIPS 2019] ([paper](https://arxiv.org/pdf/1906.00562.pdf)) Learning to Self-Train for Semi-Supervised Few-Shot Classification
   - Label the query set for the first run, then retrain the model with the pseudo label for the second run. (Simple but effective)
 
+- [ICLR 2021 oral] ([paper](https://arxiv.org/pdf/2010.07734.pdf)) SELF-TRAINING FOR FEW-SHOT TRANSFER ACROSS EXTREME TASK DIFFERENCES
+  - Focusing on the task where the difference between base and novel is as extreme
+  - They assume few-shot learning tech fail to bridge extreme difference and self-supervised tech fail when they ignore inductive biases from ImageNet
+  - They pretrained on source domain, then use pre-trained backbone to grouping
+      unlabeled samples then re-training on it.
 
 ### Results in Datasets
 Basically, we use [Omniglot](https://github.com/brendenlake/omniglot), [mini-Imagenet](http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning),
