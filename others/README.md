@@ -116,3 +116,5 @@
 - [AAAI 2021] Progressive Network Grafting for Few-Shot Knowledge Distillation
 - [NIPS 2020] ADVERSARIALLY ROBUST FEW-SHOT LEARNING: A META-LEARNING APPROACH
     * A approach is robust to adversarial attack
+- [ICLR 2021] ([paper](https://openreview.net/pdf?id=bJxgv5C3sYc)) FEW-SHOT BAYESIAN OPTIMIZATION WITH DEEP KERNEL SURROGATES
+    * Hyper Parameter Optimization

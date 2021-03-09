@@ -27,6 +27,7 @@ issue 里面提出来，我会在第一时间进行回复的。
   * [Architecture](#architecture)
   * [Task Representation and Measure](#task-representation-and-measure)
   * [Multi Label Image Classification](#multi-label-image-classification)
+  * [3D Image Classification](#3d-image-classification)
   * [Incremental Learning](#incremental-learning)
   * [Add Additional Informations (Cross-modal)](#add-additional-informations-cross-modal)
   * [Self-training](#self-training)
@@ -268,6 +269,11 @@ issue 里面提出来，我会在第一时间进行回复的。
     * 66%/82% for mini-Imagenet, 69%/86% for tiered-Imagenet 
     * I think it can proof that capsule's efficient for low-resource circumstances.
 
+- [ICLR 2021] ([paper](https://openreview.net/pdf?id=vujTf_I8Kmc)) CONSTELLATION NETS FOR FEW-SHOT LEARNING
+    * constellation block right behind each conv block
+    * performs cell feature clustering and encoding with a dense part representation
+    * captures the relationships among the cell features are further modeled by an attention mechanism
+
 #### Proto-Enhanced Methods
 ** Descriptions 01**: They improve classic methods by enrich prototypes
 ** ATTENTION 01**: Proto-enhanced Cross-modal methods are not include here, found them below
@@ -406,6 +412,8 @@ When: Today
 - [CVPR 2020] Meta-Learning of Neural Architectures for Few-Shot Learning
 - [NIPS 2020] Transductive Information Maximization for Few-Shot Learning
     * TIM-GD 77.8% for 1-shot and 87.4% for 5-shot for mini-Imagenet
+- [ICLR 2021] METANORM: LEARNING TO NORMALIZE FEW-SHOT BATCHES ACROSS DOMAINS
+    * add norm over meta-tasks
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks
@@ -443,6 +451,10 @@ When: Today
 - [CVPR 2019 oral] ([paper](https://arxiv.org/pdf/1902.09811.pdf)) LaSO-Label-Set Operations networks for multi-label few-shot learning
 - [TPAMI 2020] Knowledge-Guided Multi-Label Few-Shot Learning for General Image Recognition
 
+#### 3D Image Classification
+- [ICLR 2021] ([paper](https://openreview.net/pdf?id=-Lr-u0b42he)) DISENTANGLING 3D PROTOTYPICAL NETWORKS FOR FEW-SHOT CONCEPT LEARNING
+    * 3D image classification
+
 #### Incremental Learning
 - [CVPR 2020 oral] ([paper](https://arxiv.org/pdf/2004.10956.pdf)) Few-Shot Class-Incremental Learning
     * class-incremental problems
@@ -453,8 +465,8 @@ When: Today
 - [NIPS 2019] ([paper](https://arxiv.org/pdf/1810.07218.pdf) [code](https://github.com/renmengye/inc-few-shot-attractor-public)) Incremental Few-Shot Learning with Attention Attractor Networks
     * Using normal way to pretrain the backbone on the base classes, then using the base class weights to fintune the classifier on the few-shot episodic network.
     * Achieve the normal
-
 - [ECCV 2020] Incremental Few-Shot Meta-Learning via Indirect Feature Alignment
+- [ICLR 2021] ([paper](https://openreview.net/pdf?id=3SV-ZePhnZM)) INCREMENTAL FEW-SHOT LEARNING VIA VECTOR QUANTIZATION IN DEEP EMBEDDED SPACE
 
 #### Add Additional Informations (Cross-modal)
 - [NIPS 2019] ([paper](https://arxiv.org/pdf/1910.07677.pdf)) Cross Attention Network for Few-shot Classification
