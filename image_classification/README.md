@@ -89,6 +89,9 @@ issue 里面提出来，我会在第一时间进行回复的。
     * However, maybe still miss some assumptions
     * Recommand people who interested in this paper to read 7th chapter of the book of why.(Focus on the the three rules for do operation)
 
+- [ICLR 2021] ([paper](https://openreview.net/pdf?id=pW2Q2xLwIMD)) FEW-SHOT LEARNING VIA LEARNING THE REPRESENTATION, PROVABLY
+    * TL;DR: demonstrate the advantage of representation learning in both high-dimensional linear regression and neural networks, and show that representation learning can fully utilize all n_1T samples from source tasks.
+
 ### Parameter Optimize Based Few-shot Learning
 ** Descriptions 01**: They use normal classifier to classify samples
 ** Descriptions 02**: They mainly generate/optimize classifier parameters
@@ -316,6 +319,9 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICML 2020] Meta-Learning with Shared Amortized Variational Inference
     * Using Shared Amortized Variational Inference to generalize more precise prototypes
 - [CVPR 2020] Adaptive Subspaces for Few-Shot Learning
+- [ICLR 2021] ([paper](https://openreview.net/pdf?id=D3PcGLdMx0)) MELR: META-LEARNING VIA MODELING EPISODE- LEVEL RELATIONSHIPS FOR FEW-SHOT LEARNING
+    * Build up attention model between adjacency episode
+    * ResNet12 - 67.40% / 83.40% for mini-ImageNet 72.14%/87.01% for tiered-ImageNet
 
 **cross-modal**:
   You can find relevant cross-modality methods below
@@ -367,10 +373,11 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [AAAI 2021] ([paper](https://arxiv.org/abs/2012.10844)) PTN: A Poisson Transfer Network for Semi-supervised Few-shot Learning
     * 82.66% for 1shot and 88.43% for 5shot on mini-Imagenet with WRN-28-10
     * 84.70% for 1shot and 89.14% for 5shot on tiered-Imagenet with WRN-28-10
+- [ICLR 2021] ([paper](https://openreview.net/pdf?id=eJIJF3-LoZO)) CONCEPT LEARNERS FOR FEW-SHOT LEARNING
+    * Seperate single prototype to several prototypes which represents one
+        concept each
+    * Comparaed on CUB / Tabula Muris / Reuters
 
-
-
-When: Today
 ### Special
 #### Unsorted
 - [Nature 子刊 MI 2018] ([paper](https://arxiv.org/pdf/1810.01256.pdf)) Continuous Learning of Context-dependent Processing in Neural Networks
@@ -414,6 +421,9 @@ When: Today
     * TIM-GD 77.8% for 1-shot and 87.4% for 5-shot for mini-Imagenet
 - [ICLR 2021] METANORM: LEARNING TO NORMALIZE FEW-SHOT BATCHES ACROSS DOMAINS
     * add norm over meta-tasks
+- [ICLR 2021] ([paper](https://openreview.net/pdf?id=xzqLpqRzxLq)) IEPT: INSTANCE-LEVEL AND EPISODE-LEVEL PRE- TEXT TASKS FOR FEW-SHOT LEARNING
+    * Add three addition loss (instance-level SSL, cross episode SSL)
+    * 67.05% / 82.90% mini-ImageNet, 72.24% / 86.73% tiered-ImageNet
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks
@@ -467,6 +477,9 @@ When: Today
     * Achieve the normal
 - [ECCV 2020] Incremental Few-Shot Meta-Learning via Indirect Feature Alignment
 - [ICLR 2021] ([paper](https://openreview.net/pdf?id=3SV-ZePhnZM)) INCREMENTAL FEW-SHOT LEARNING VIA VECTOR QUANTIZATION IN DEEP EMBEDDED SPACE
+- [ICLR 2021] ([paper](https://openreview.net/pdf?id=oZIvHV04XgC)) WANDERING WITHIN A WORLD: ONLINE CONTEXTUALIZED FEW-SHOT LEARNING
+    * Continue Learning
+    * New Datasets
 
 #### Add Additional Informations (Cross-modal)
 - [NIPS 2019] ([paper](https://arxiv.org/pdf/1910.07677.pdf)) Cross Attention Network for Few-shot Classification
@@ -570,3 +583,4 @@ Basically, most methods achieve 70+% for 1-shot and 82+% for mini-ImageNet.
 | 2019  | Centroid Networks for Few-Shot Clustering and Unsupervised Few-Shot Classification    |  Conv4   |  | 62.6+-0.5% |
 | 2019  | Infinite Mixture Prototypes for Few-Shot Learning   |  Conv4   | 49.6+-0.8% | 68.1+-0.8% |
 | 2020  | META-LEARNING WITH WARPED GRADIENT DESCENT |  Conv4   | 52.3 ± 0.8% | 68.4 ± 0.6% |
+| 2021  | IEPT |  ResNet-12   | 67.05 ± 0.44% | 82.90 ± 0.30% |

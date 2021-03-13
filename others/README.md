@@ -20,6 +20,9 @@
 - [ICML 2020] ([paper](https://arxiv.org/abs/2002.03497)) Few-shot Domain Adaptation by Causal Mechanism Transfer
 - [NIPS 2020] CrossTransformers: spatially-aware few-shot transfer
     * Using transformer as encoder and query images performed as query keys
+- [ICLR 2021] ([paper](https://openreview.net/pdf?id=04cII6MumYV)) A UNIVERSAL REPRESENTATION TRANSFORMER LAYER FOR FEW-SHOT IMAGE CLASSIFICATION
+    * multi-domain few-shot image classification
+- [ICLR 2021] ([paper](https://openreview.net/pdf?id=qkLMTphG5-h)) REPURPOSING PRETRAINED MODELS FOR ROBUST OUT-OF-DOMAIN FEW-SHOT LEARNING
 
 ### Reinforcement Learning
 - [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning

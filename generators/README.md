@@ -22,3 +22,4 @@
 - [CVPR 2020] 3FabRec: Fast Few-shot Face alignment by Reconstruction
 - [CVPR 2020] Semi-supervised Learning for Few-shot Image-to-Image Translation
 - [NIPS 2020] ([paper](https://yijunmaverick.github.io/publications/ewc/) Few-shot Image Generation with Elastic Weight Consolidation 
+- [ICLR 2021] ([paper](https://openreview.net/pdf?id=1Fqg133qRaI)) TOWARDS FASTER AND STABILIZED GAN TRAINING FOR HIGH-FIDELITY FEW-SHOT IMAGE SYNTHESIS
