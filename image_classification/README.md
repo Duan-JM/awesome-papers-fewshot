@@ -424,6 +424,9 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICLR 2021] ([paper](https://openreview.net/pdf?id=xzqLpqRzxLq)) IEPT: INSTANCE-LEVEL AND EPISODE-LEVEL PRE- TEXT TASKS FOR FEW-SHOT LEARNING
     * Add three addition loss (instance-level SSL, cross episode SSL)
     * 67.05% / 82.90% mini-ImageNet, 72.24% / 86.73% tiered-ImageNet
+- [AISTATS 2021] ([paper](https://arxiv.org/abs/2102.00127)) On Data Efficiency of Meta-learning
+    * AISTATS 2021 is Rank A conference
+    * Compare methods on ImageNet Omniglot EMNIST
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks

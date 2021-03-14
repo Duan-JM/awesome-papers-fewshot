@@ -44,6 +44,9 @@ judge it is not good or not accepted to the top conference over one year.
 - [x] [ICML 2020 Workshop]Covariate Distribution Aware Meta-learning
 - [x] [ESANN 2020] Zero-shot and few-shot time series forecasting with ordinal regression recurrent neural networks
 - [ ] [TIP 2020] BSNet: Bi-Similarity Network for Few-shot Fine-grained Image Classification
+- [x] [ICASSP 2021] Domain Adaptation for Learning Generator from Paired Few-Shot Data
+- [x] [ICEMS 2021] Few-Shot Bearing Anomaly Detection Based on Model-Agnostic Meta-Learning
+- [x] [ICASSP2021] Few-shot Image Classification with Multi-Facet Prototypes
 
 # Arxiv
 ## Summary

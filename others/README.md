@@ -121,3 +121,5 @@
     * A approach is robust to adversarial attack
 - [ICLR 2021] ([paper](https://openreview.net/pdf?id=bJxgv5C3sYc)) FEW-SHOT BAYESIAN OPTIMIZATION WITH DEEP KERNEL SURROGATES
     * Hyper Parameter Optimization
+- [TPMAI 2021] ([paper](https://arxiv.org/pdf/1907.09382.pdf)) Domain-Specific Priors and Meta Learning for Few-Shot First-Person Action Recognition
+- [WWW 2021] ([paper](https://arxiv.org/pdf/2102.07916.pdf)) Few-Shot Graph Learning for Molecular Property Prediction
