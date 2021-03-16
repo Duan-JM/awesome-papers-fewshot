@@ -16,6 +16,7 @@
 - [EMNLP 2020] Word Frequency Does Not Predict Grammatical Knowledge in Language Models
 - [EMNLP 2020] Unsupervised Distillation of Syntactic Information from Contextualized Word Representations
 - [NIPS 2020] ([paper](https://arxiv.org/pdf/2006.15315.pdf)) Uncertainty-aware Self-training for Few-shot Text Classification
+- [NAACL 2021] ([paper](https://arxiv.org/abs/2103.07552)) Few-Shot Text Classification with Triplet Networks, Data Augmentation, and Curriculum Learning
 
 ### NLU
 - [ACL 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification
@@ -64,3 +65,4 @@
 - [EMNLP 2019] FewRel 2.0: Towards More Challenging Few-Shot Relation Classification
 - [INTERSPEECH 2020] An Investigation of Few-Shot Learning in Spoken Term Classification
 - [EMNLP 2020] ([paper](https://arxiv.org/abs/2010.05106))Localizing Open-Ontology QA Semantic Parsers in a Day Using Machine Translation
+- [ICASSP 2021] ([paper](https://arxiv.org/abs/2103.04088)) Investigating on Incorporating Pretrained and Learnable Speaker Representations for Multi-Speaker Multi-Style Text-to-Speech
