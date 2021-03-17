@@ -29,6 +29,8 @@
 
 ### DCM
 - [ACL 2020] Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network
+- [EACL 2021] ([paper](https://arxiv.org/abs/2101.06779)) Few Shot Dialogue State Tracking using Meta-learning
+- [EACL 2021] ([paper](https://arxiv.org/abs/2103.02333)) Few-shot Learning for Slot Tagging with Attentive Relational Network
 
 ### NLG
 - [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
@@ -66,3 +68,8 @@
 - [INTERSPEECH 2020] An Investigation of Few-Shot Learning in Spoken Term Classification
 - [EMNLP 2020] ([paper](https://arxiv.org/abs/2010.05106))Localizing Open-Ontology QA Semantic Parsers in a Day Using Machine Translation
 - [ICASSP 2021] ([paper](https://arxiv.org/abs/2103.04088)) Investigating on Incorporating Pretrained and Learnable Speaker Representations for Multi-Speaker Multi-Style Text-to-Speech
+- [EACL 2021] ([paper](https://arxiv.org/abs/2101.04758)) Self-Training Pre-Trained Language Models for Zero- and Few-Shot Multi-Dialectal Arabic Sequence Labeling
+- [EACL 2021] ([paper](https://arxiv.org/abs/2101.12073)) A Neural Few-Shot Text Classification Reality Check
+- [EACL 2021] ([paper](https://arxiv.org/abs/2101.10524)) El Volumen Louder Por Favor: Code-switching in Task-oriented SemanticParsing
+- [EACL 2021] ([paper](https://arxiv.org/abs/2101.10708)) Few-Shot Semantic Parsing for New Predicates
+- [EACL 2021] ([paper](https://arxiv.org/abs/2102.07983)) FEWS: Large-Scale, Low-Shot Word Sense Disambiguation with the Dictionary
