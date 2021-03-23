@@ -11,7 +11,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [AAAI 2021] Task Cooperation for Semi-Supervised Few-Shot Learning
 
 # Remain checkout
-- [ ] [AAAI 2021] Attributes-Guided and Pure-Visual Attention Alignment for Few-Shot Recognition
 - [ ] [AAAI 2021] Learning from My Friends: Few-Shot Personalized Conversation Systems via Social Networks
 - [ ] [AAAI 2021] Learning a Few-Shot Embedding Model with Contrastive Learning
 - [ ] [AAAI 2021] FL-MSRE: A Few-Shot Learning Based Approach to Multimodal Social Relation Extraction

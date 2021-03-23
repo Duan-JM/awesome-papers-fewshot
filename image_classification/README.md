@@ -427,6 +427,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [AISTATS 2021] ([paper](https://arxiv.org/abs/2102.00127)) On Data Efficiency of Meta-learning
     * AISTATS 2021 is Rank A conference
     * Compare methods on ImageNet Omniglot EMNIST
+- [AAAI 2021] ([paper](https://arxiv.org/pdf/2009.04724.pdf)) Attributes-Guided and Pure-Visual Attention Alignment for Few-Shot Recognition
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks
