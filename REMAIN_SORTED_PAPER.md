@@ -4,18 +4,14 @@ judge it is not good or not accepted to the top conference over one year.
 
 # No papers
 - [CIKM 2020] Graph Few-shot Learning with Attribute Matching
+- [AAAI 2021] Tailoring Embedding Function to Heterogeneous Few-Shot Tasks by Global and Local Feature Adaptors
+- [AAAI 2021] Learning Intact Features by Erasing-Inpainting for Few-Shot Classification
+- [AAAI 2021] Looking Wider for Better Adaptive Representation in Few-Shot Learning
+- [AAAI 2021] Few-Shot Class-Incremental Learning via Relation Knowledge Distillation
+- [AAAI 2021] Task Cooperation for Semi-Supervised Few-Shot Learning
 
 # Remain checkout
-- [ ] [AAAI 2021] Learning Intact Features by Erasing-Inpainting for Few-Shot Classification
-- [ ] [AAAI 2021] Tailoring Embedding Function to Heterogeneous Few-Shot Tasks by Global and Local Feature Adaptors
-- [ ] [AAAI 2021] Few-Shot Learning for Multi-Label Intent Detection
-- [ ] [AAAI 2021] Progressive Network Grafting for Few-Shot Knowledge Distillation
-- [ ] [AAAI 2021] StarNet: Towards Weakly Supervised Few-Shot Object Detection
-- [ ] [AAAI 2021] SALNet: Semi-Supervised Few-Shot Text Classification with Attention-Based Lexicon
-- [ ] [AAAI 2021] Task Cooperation for Semi-Supervised Few-Shot Learning
 - [ ] [AAAI 2021] Attributes-Guided and Pure-Visual Attention Alignment for Few-Shot Recognition
-- [ ] [AAAI 2021] Few-Shot Class-Incremental Learning via Relation Knowledge Distillation
-- [ ] [AAAI 2021] Looking Wider for Better Adaptive Representation in Few-Shot Learning
 - [ ] [AAAI 2021] Learning from My Friends: Few-Shot Personalized Conversation Systems via Social Networks
 - [ ] [AAAI 2021] Learning a Few-Shot Embedding Model with Contrastive Learning
 - [ ] [AAAI 2021] FL-MSRE: A Few-Shot Learning Based Approach to Multimodal Social Relation Extraction
@@ -107,9 +103,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/2002.07522.pdf)) Few-Shot Few-Shot Learning and the role of Spatial Attention
     * reported 80% acc
     * Interesting
-- [x] [arXiv 2020] StarNet: towards weakly supervised few-shot detection and explainable few-shot classification
-    * explanable few-shot classification
-    * 79% on mini-imagenet
 - [x] [arXiv 2020] Few-Shot Learning with Geometric Constraints
     * main contribution is on remain accuracy for both novel and base
     * outperform in both situations on miniImagenet

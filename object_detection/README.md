@@ -35,3 +35,4 @@
 - [NIPS 2020] Restoring Negative Information in Few-Shot Object Detection
 - [CVPR 2020] Few-Shot Object Detection with Attention-RPN and Multi-Relation Detector
 - [CVPR 2020] Incremental Few-Shot Object Detection
+- [AAAI 2021] ([paper](https://arxiv.org/pdf/2003.06798)) StarNet: Towards Weakly Supervised Few-Shot Object Detection

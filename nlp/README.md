@@ -17,6 +17,7 @@
 - [EMNLP 2020] Unsupervised Distillation of Syntactic Information from Contextualized Word Representations
 - [NIPS 2020] ([paper](https://arxiv.org/pdf/2006.15315.pdf)) Uncertainty-aware Self-training for Few-shot Text Classification
 - [NAACL 2021] ([paper](https://arxiv.org/abs/2103.07552)) Few-Shot Text Classification with Triplet Networks, Data Augmentation, and Curriculum Learning
+- [AAAI 2021] SALNet: Semi-Supervised Few-Shot Text Classification with Attention-Based Lexicon
 
 ### NLU
 - [ACL 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification
@@ -26,6 +27,7 @@
 - [EMNLP 2020] Composed Variational Natural Language Generation for Few-shot Intents
 - [NIPS 2018] Attentive task-agnostic meta-learning for few-shot text classification
 - [WSDM 2020] Meta-learning with dynamic-memory-based prototypical network for few-shot event detection
+- [AAAI 2021] ([paper](https://arxiv.org/pdf/2010.05256.pdf)) Few-Shot Learning for Multi-Label Intent Detection
 
 ### DCM
 - [ACL 2020] Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network
