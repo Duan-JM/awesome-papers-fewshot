@@ -428,6 +428,10 @@ issue 里面提出来，我会在第一时间进行回复的。
     * AISTATS 2021 is Rank A conference
     * Compare methods on ImageNet Omniglot EMNIST
 - [AAAI 2021] ([paper](https://arxiv.org/pdf/2009.04724.pdf)) Attributes-Guided and Pure-Visual Attention Alignment for Few-Shot Recognition
+- [AAAI 2021] ([paper](https://arxiv.org/pdf/2007.04146.pdf)) Few-Shot One-Class Classification via Meta-Learning
+- [AAAI 2021] ([paper](https://arxiv.org/pdf/2102.03983.pdf)) Partial Is Better Than All: Revisiting Fine-Tuning Strategy for Few-Shot Learning
+    * Partial finetuneing configuration
+    * With ResNet12, 64.21%/80.38% for miniImageNet 
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks
@@ -484,6 +488,7 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICLR 2021] ([paper](https://openreview.net/pdf?id=oZIvHV04XgC)) WANDERING WITHIN A WORLD: ONLINE CONTEXTUALIZED FEW-SHOT LEARNING
     * Continue Learning
     * New Datasets
+- [AAAI 2021] ([paper](https://arxiv.org/pdf/2103.00991.pdf)) Few-Shot Lifelong Learning
 
 #### Add Additional Informations (Cross-modal)
 - [NIPS 2019] ([paper](https://arxiv.org/pdf/1910.07677.pdf)) Cross Attention Network for Few-shot Classification

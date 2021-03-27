@@ -18,6 +18,7 @@
 - [NIPS 2020] ([paper](https://arxiv.org/pdf/2006.15315.pdf)) Uncertainty-aware Self-training for Few-shot Text Classification
 - [NAACL 2021] ([paper](https://arxiv.org/abs/2103.07552)) Few-Shot Text Classification with Triplet Networks, Data Augmentation, and Curriculum Learning
 - [AAAI 2021] SALNet: Semi-Supervised Few-Shot Text Classification with Attention-Based Lexicon
+- [AAAI 2021] ([paper](https://arxiv.org/pdf/2101.09704.pdf)) Does Head Label Help for Long-Tailed Multi-Label Text Classification
 
 ### NLU
 - [ACL 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification

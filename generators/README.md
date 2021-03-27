@@ -23,3 +23,4 @@
 - [CVPR 2020] Semi-supervised Learning for Few-shot Image-to-Image Translation
 - [NIPS 2020] ([paper](https://yijunmaverick.github.io/publications/ewc/) Few-shot Image Generation with Elastic Weight Consolidation 
 - [ICLR 2021] ([paper](https://openreview.net/pdf?id=1Fqg133qRaI)) TOWARDS FASTER AND STABILIZED GAN TRAINING FOR HIGH-FIDELITY FEW-SHOT IMAGE SYNTHESIS
+- [AAAI 2021] ([paper](https://arxiv.org/pdf/2009.11042.pdf)) Few-Shot Font Generation with Localized Style Representations and Factorization

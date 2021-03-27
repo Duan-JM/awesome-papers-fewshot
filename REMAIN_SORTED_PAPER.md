@@ -9,17 +9,12 @@ judge it is not good or not accepted to the top conference over one year.
 - [AAAI 2021] Looking Wider for Better Adaptive Representation in Few-Shot Learning
 - [AAAI 2021] Few-Shot Class-Incremental Learning via Relation Knowledge Distillation
 - [AAAI 2021] Task Cooperation for Semi-Supervised Few-Shot Learning
+- [AAAI 2021] Learning from My Friends: Few-Shot Personalized Conversation Systems via Social Networks
+- [AAAI 2021] Learning a Few-Shot Embedding Model with Contrastive Learning
+- [AAAI 2021] FL-MSRE: A Few-Shot Learning Based Approach to Multimodal Social Relation Extraction
+- [AAAI 2021] Relative and Absolute Location Embedding for Few-Shot Node Classification on Graph
 
 # Remain checkout
-- [ ] [AAAI 2021] Learning from My Friends: Few-Shot Personalized Conversation Systems via Social Networks
-- [ ] [AAAI 2021] Learning a Few-Shot Embedding Model with Contrastive Learning
-- [ ] [AAAI 2021] FL-MSRE: A Few-Shot Learning Based Approach to Multimodal Social Relation Extraction
-- [ ] [AAAI 2021] Relative and Absolute Location Embedding for Few-Shot Node Classification on Graph
-- [ ] [AAAI 2021] Few-Shot One-Class Classification via Meta-Learning
-- [ ] [AAAI 2021] Few-Shot Font Generation with Localized Style Representations and Factorization
-- [ ] [AAAI 2021] Partial Is Better Than All: Revisiting Fine-Tuning Strategy for Few-Shot Learning
-- [ ] [AAAI 2021] Few-Shot Lifelong Learning
-- [ ] [AAAI 2021] PTN: A Poisson Transfer Network for Semi-Supervised Few-Shot Learning
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
