@@ -23,6 +23,7 @@
 - [ICLR 2021] ([paper](https://openreview.net/pdf?id=04cII6MumYV)) A UNIVERSAL REPRESENTATION TRANSFORMER LAYER FOR FEW-SHOT IMAGE CLASSIFICATION
     * multi-domain few-shot image classification
 - [ICLR 2021] ([paper](https://openreview.net/pdf?id=qkLMTphG5-h)) REPURPOSING PRETRAINED MODELS FOR ROBUST OUT-OF-DOMAIN FEW-SHOT LEARNING
+- [ICLR 2021] ([paper](https://arxiv.org/abs/2103.12051)) SSD: A Unified Framework for Self-Supervised Outlier Detection
 
 ### Reinforcement Learning
 - [ICML 2019] Few-Shot Intent Inference via Meta-Inverse Reinforcement Learning
