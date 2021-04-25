@@ -15,6 +15,24 @@ judge it is not good or not accepted to the top conference over one year.
 - [AAAI 2021] Relative and Absolute Location Embedding for Few-Shot Node Classification on Graph
 
 # Remain checkout
+- [ ] [CVPR 2021] Semantic Relation Reasoning for Shot-Stable Few-Shot Object Detection
+- [ ] [CVPR 2021] Exploring Complementary Strengths of Invariant and Equivariant Representations for Few-Shot Learning
+- [ ] [CVPR 2021] FSCE: Few-Shot Object Detection via Contrastive Proposal Encoding
+- [ ] [CVPR 2021] Rethinking Class Relations: Absolute-relative Supervised and Unsupervised Few-shot Learning
+- [ ] [CVPR 2021] Semantic-aware Knowledge Distillation for Few-Shot Class-Incremental Learning
+- [ ] [CVPR 2021] FAPIS: A Few-shot Anchor-free Part-based Instance Segmenter
+- [ ] [CVPR 2021] Dense Relation Distillation with Context-aware Aggregation for Few-Shot Object Detection
+- [ ] [CVPR 2021] Self-Guided and Cross-Guided Learning for Few-Shot Segmentation
+- [ ] [CVPR 2021] Few-Shot Human Motion Transfer by Personalized Geometry and Texture Modeling
+- [ ] [CVPR 2021] Few-Shot Incremental Learning with Continually Evolved Classifiers
+- [ ] [CVPR 2021] Adaptive Prototype Learning and Allocation for Few-Shot Segmentation
+- [ ] [CVPR 2021] Learning Dynamic Alignment via Meta-filter for Few-shot Learning
+- [ ] [CVPR 2021] Fine-Grained Few-Shot Classification with Feature Map Reconstruction Networks
+- [ ] [CVPR 2021] Few-shot Open-set Recognition by Transformation Consistency
+- [ ] [CVPR 2021] Few-shot Image Generation via Cross-domain Correspondence
+- [ ] [CVPR 2021] Prototypical Cross-domain Self-supervised Learning for Few-shot Unsupervised Domain Adaptation
+- [ ] [CVPR 2021] Self-Guided and Cross-Guided Learning for Few-Shot Segmentation
+- [ ] [CVPR 2021] Generalized Few-Shot Object Detection without Forgetting
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
