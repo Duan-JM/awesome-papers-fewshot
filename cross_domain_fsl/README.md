@@ -16,7 +16,7 @@ We are committed to recommending good jobs to all scholars/students who are inte
 - [Preprint 2021] SB-MTL: Score-based Meta Transfer-Learning for Cross-Domain Few-Shot Learning [Paper](https://arxiv.org/abs/2012.01784)
     - Use Graph to advance the classifer in CDFSL
 
-## Other related works of CDFSL
+## Other Related Works of CDFSL
 
 - [ICLR 2020] CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION [Paper](https://arxiv.org/abs/2001.08735)
     - Proposed feature-wise transformation layers for augmenting the image features under different domains in the training stage.
