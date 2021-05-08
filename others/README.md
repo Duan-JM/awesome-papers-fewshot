@@ -53,6 +53,7 @@
     * Graph node classification
 - [CIKM 2020] Graph Few-shot Learning with Attribute Matching
 - [NIPS 2020] ([paper](https://arxiv.org/pdf/2007.02914.pdf)) Node Classification on Graphs with Few-Shot Novel Labels via Meta Transformed Network Embedding
+- [AAAI 2021] ([paper](https://www.aaai.org/AAAI21Papers/AAAI-2206.LiuZ.pdf)) Relative and Absolute Location Embedding for Few-Shot Node Classification on Graph
 
 ### Others
 - [IJCAI 2019] Incremental Few-Shot Learning for Pedestrian Attribute Recognition
@@ -125,3 +126,5 @@
 - [TPMAI 2021] ([paper](https://arxiv.org/pdf/1907.09382.pdf)) Domain-Specific Priors and Meta Learning for Few-Shot First-Person Action Recognition
 - [WWW 2021] ([paper](https://arxiv.org/pdf/2102.07916.pdf)) Few-Shot Graph Learning for Molecular Property Prediction
 - [AAAI 2021] ([paper](https://arxiv.org/pdf/2012.04915)) Progressive Network Grafting for Few-Shot Knowledge Distillation
+- [CIKM 2020] ([paper](https://dl.acm.org/doi/10.1145/3340531.3411923)) Graph Few-shot Learning with Attribute Matching
+    * Few-shot learning in structed datas

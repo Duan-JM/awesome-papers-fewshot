@@ -58,6 +58,7 @@
 - [NIPS 2020] ([paper](https://arxiv.org/pdf/2006.06648.pdf)) Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
 - [WWW 2021] ([paper](https://arxiv.org/pdf/2011.07126.pdf)) Zero-shot Learning for Relation Extraction
 - [ICLR 2021] ([paper](https://arxiv.org/abs/2103.11647)) Prototypical Representation Learning for Relation Extraction
+- [AAAI 2021] ([paper](https://www.aaai.org/AAAI21Papers/AAAI-2215.WanH.pdf)) FL-MSRE: A Few-Shot Learning Based Approach to Multimodal Social Relation Extraction
 
 ### Applications
 - [ACMMM 2018] Few-Shot Adaptation for Multimedia Semantic Indexing

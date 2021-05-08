@@ -432,6 +432,21 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [AAAI 2021] ([paper](https://arxiv.org/pdf/2102.03983.pdf)) Partial Is Better Than All: Revisiting Fine-Tuning Strategy for Few-Shot Learning
     * Partial finetuneing configuration
     * With ResNet12, 64.21%/80.38% for miniImageNet 
+- [AAAI 2021] ([paper](https://www.aaai.org/AAAI21Papers/AAAI-2249.LiuC.pdf)) Learning a Few-Shot Embedding Model with Contrastive Learning
+    * Using infoPatch to learning effective embeddings
+    * 67.67 / 82.44 for mini-ImageNet
+    * 71.51 / 85.44 for tired-Imagenet
+- [AAAI 2021] ([paper](https://www.aaai.org/AAAI21Papers/AAAI-3486.ZhaoJ.pdf)) Looking Wider for Better Adaptive Representation in Few-Shot Learning
+    * 67.96 / 83.36 for mini-ImageNet
+    * 73.42 / 87.72 for tiered-ImageNet
+- [AAAI 2021] ([paper](https://www.aaai.org/AAAI21Papers/AAAI-5922.YeHJ.pdf)) Task Cooperation for Semi-Supervised Few-Shot Learning
+    * Using information between tasks and unlabeled instances
+- [AAAI 2021] ([paper](https://www.aaai.org/AAAI21Papers/AAAI-540.LiJ.pdf)) Learning Intact Features by Erasing-Inpainting for Few-Shot Classification
+    * 68.94 / 85.07 for mini-ImageNet
+    * 73.76 / 87.83 for tiered-ImageNet
+- [AAAI 2021] ([paper](http://www.lamda.nju.edu.cn/lus/files/AAAI21_GLoFA.pdf)) Tailoring Embedding Function to Heterogeneous Few-Shot Tasks by Global and Local Feature Adaptors
+    * 66.12 / 81.37 for mini-ImageNet
+    * 69.75 / 83.58 for tiered-ImageNet
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks

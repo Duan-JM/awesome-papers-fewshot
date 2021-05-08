@@ -3,16 +3,8 @@ This part save the papers collected from arXiv, paper will be deleted if I
 judge it is not good or not accepted to the top conference over one year.
 
 # No papers
-- [CIKM 2020] Graph Few-shot Learning with Attribute Matching
-- [AAAI 2021] Tailoring Embedding Function to Heterogeneous Few-Shot Tasks by Global and Local Feature Adaptors
-- [AAAI 2021] Learning Intact Features by Erasing-Inpainting for Few-Shot Classification
-- [AAAI 2021] Looking Wider for Better Adaptive Representation in Few-Shot Learning
 - [AAAI 2021] Few-Shot Class-Incremental Learning via Relation Knowledge Distillation
-- [AAAI 2021] Task Cooperation for Semi-Supervised Few-Shot Learning
 - [AAAI 2021] Learning from My Friends: Few-Shot Personalized Conversation Systems via Social Networks
-- [AAAI 2021] Learning a Few-Shot Embedding Model with Contrastive Learning
-- [AAAI 2021] FL-MSRE: A Few-Shot Learning Based Approach to Multimodal Social Relation Extraction
-- [AAAI 2021] Relative and Absolute Location Embedding for Few-Shot Node Classification on Graph
 
 # Remain checkout
 - [ ] [CVPR 2021] Semantic Relation Reasoning for Shot-Stable Few-Shot Object Detection
@@ -65,47 +57,11 @@ judge it is not good or not accepted to the top conference over one year.
         * Learning an Optimizer (doubt for this, maybe sort to the second)
         * Memory-based Methods
 
-- [x] [arXiv 2019] A New Benchmark for Evaluation of Cross-Domain Few-Shot Learning
 
 ## Image Classification
-- [x] [arXiv 2019] Dont Even Look Once: Synthesizing Features for Zero-Shot Detection
-- [x] [arXiv 2019] Learning Generalizable Representations via Diverse Supervision
-
-- [x] [arXiv 2019] Auxiliary Learning for Deep Multi-task Learning 
-    * 解决multitask 参数共享问题的
-
-- [x] [arXiv 2019] All you need is a good representation: A multi-level and classifier-centric representation for few-shot learning (一般)
-- [x] [arXiv 2019] A Multi-Task Gradient Descent Method for Multi-Label Learning
-- [x] [arXiv 2019] Lifelong Spectral Clustering 
-    * 连续学习、聚类后期对信息的存储
-
-- [x] [arXiv 2019] CNN-based Dual-Chain Models for Knowledge Graph Learning
-- [x] [arXiv 2019] MetAdapt: Meta-Learned Task-Adaptive Architecture for Few-Shot Classification
-    * 使用模型搜索搜出来的结构，号称 SOTA 在 mini-imagenet （存疑）
-
-    * 这个是在feature上动文章的，关键词是self-supervised 和 regularization technique。This work investigates the role of learning relevant feature manifold for few-shot tasks using self-supervision and regularization techniques.
-
-- [x] [arXiv 2019] Semantic Regularization: Improve Few-shot Image Classification by Reducing Meta Shift
-- [x] [1909.11446] Decoder Choice Network for Meta-Learning
-    * leo分支的、目标是减参数，效果一般，可以看看怎么减少参数的
-- [x] [arXiv 2018] Few-Shot Self Reminder to Overcome Catastrophic Forgetting
-    * Ultilize the loss between tasks
-    * Ultilize the generate feature betwwen tasks
-- [x] [arXiv 2019] Diversity Transfer Network for Few-Shot Learning
-    * ResNet12 77.91%
-- [x] [arXiv 2019] FLAT: Few-Shot Learning via Autoencoding Transformation Regularizers
-    * ResNet18 77%
-- [x] [arXiv 2019] ([paper](https://arxiv.org/abs/1911.06045) [code](https://github.com/phecy/SSL-FEW-SHOT)) SELF-SUPERVISED LEARNING FOR FEW-SHOT IMAGE CLASSIFICATION
-    * 90% accuracy
-
 - [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/2001.09849.pdf) [code](https://github.com/yhu01/transfer-sgc)) Exploiting Unsupervised Inputs for Accurate Few-Shot Classification
     * 85% Graph
     * wait author to refine the paper
-
-- [x] [arXiv 2019] ([paper](https://arxiv.org/abs/1906.02944) ) Learning Adaptive Classifiers Synthesis for Generalized Few-Shot Learning
-- [x] [arXiv 2019] ([paper](https://arxiv.org/pdf/2001.08366.pdf)) Continual Local Replacement for Few-shot Image Recognition
-    * using generative model to generate image to replace support set locally(pretty fun)
-    * 66 1shot 81 5-shot
 
 - [x] [arXiv 2020] ([paper](https://arxiv.org/pdf/1812.04955.pdf)) Prior-Knowledge and Attention based Meta-Learning for Few-Shot Learning
     * add Very Very simple attention(almost like SENet's attention model)
@@ -199,8 +155,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [x] [arXiv 2020] MatchingGAN: Matching-based Few-shot Image Generation
 
 **Object Detection & Tracking**
-- [x] [arXiv 2019] One-Shot Object Detection with Co-Attention and Co-Excitation
-    * senet的迁移
 - [x] [arXiv 2020] Meta R-CNN : Towards General Solver for Instance-level Few-shot Learning
 - [x] [arXiv 2020] Weakly-supervised Any-shot Object Detection
 - [x] [arXiv 2020] MOTS: Multiple Object Tracking for General Categories Based On Few-Shot Method
@@ -256,11 +210,6 @@ judge it is not good or not accepted to the top conference over one year.
         is accurate.
 
 ## Application
-- [x] [arXiv 2019] Learning Predicates as Functions to Enable Few-shot Scene Graph Prediction
-- [x] [arXiv 2019] Real-Time Object Tracking via Meta-Learning: Efficient Model Adaptation and One-Shot Channel Pruning （目标跟踪）
-- [x] [arXiv 2019] Defensive Few-shot Adversarial Learning
-- [x] [arXiv 2019] Few-shot Learning with Contextual Cueing for Object Recognition in Complex Scenes
-- [x] [arXiv 2019] Meta-Learning with Dynamic-Memory-Based Prototypical Network
 - [x] [arXiv 2020] DAWSON: A Domain Adaptive Few Shot Generation Framework
 -   * generate music, a project under cs236 in Stanford university
 
