@@ -128,3 +128,6 @@
 - [AAAI 2021] ([paper](https://arxiv.org/pdf/2012.04915)) Progressive Network Grafting for Few-Shot Knowledge Distillation
 - [CIKM 2020] ([paper](https://dl.acm.org/doi/10.1145/3340531.3411923)) Graph Few-shot Learning with Attribute Matching
     * Few-shot learning in structed datas
+
+- [AAAI 2021] ([paper](https://arxiv.org/abs/2105.10323)) Learning from My Friends: Few-Shot Personalized Conversation Systems via Social Networks
+- [SIGIR 2021] Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models

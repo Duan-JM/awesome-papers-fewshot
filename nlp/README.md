@@ -29,6 +29,7 @@
 - [NIPS 2018] Attentive task-agnostic meta-learning for few-shot text classification
 - [WSDM 2020] Meta-learning with dynamic-memory-based prototypical network for few-shot event detection
 - [AAAI 2021] ([paper](https://arxiv.org/pdf/2010.05256.pdf)) Few-Shot Learning for Multi-Label Intent Detection
+- [SIGIR 2021] Graph Learning Regularization and Transfer Learning for Few-Shot Event Detection
 
 ### DCM
 - [ACL 2020] Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network
@@ -78,3 +79,9 @@
 - [EACL 2021] ([paper](https://arxiv.org/abs/2101.10524)) El Volumen Louder Por Favor: Code-switching in Task-oriented SemanticParsing
 - [EACL 2021] ([paper](https://arxiv.org/abs/2101.10708)) Few-Shot Semantic Parsing for New Predicates
 - [EACL 2021] ([paper](https://arxiv.org/abs/2102.07983)) FEWS: Large-Scale, Low-Shot Word Sense Disambiguation with the Dictionary
+- [SIGIR 2021] Few-shot Variational Reasoning for Medical Dialogue Generation
+- [SIGIR 2021] Pseudo Siamese Network for Few-shot Intent Generation
+- [SIGIR 2021] Relational Learning with Gated and Attentive Neighbor Aggregator for Few-Shot Knowledge Graph Completion
+- [EACL 2021] Few-shot learning through contextual data augmentation
+- [EACL 2021] Exploiting Cloze-Questions for Few-Shot Text Classification and Natural Language Inference
+- [EACL 2021] Exploring the Limits of Few-Shot Link Prediction in Knowledge Graphs

@@ -504,6 +504,7 @@ issue 里面提出来，我会在第一时间进行回复的。
     * Continue Learning
     * New Datasets
 - [AAAI 2021] ([paper](https://arxiv.org/pdf/2103.00991.pdf)) Few-Shot Lifelong Learning
+- [AAAI 2021] ([paper](https://ojs.aaai.org/index.php/AAAI/article/view/16213)) Few-Shot Class-Incremental Learning via Relation Knowledge Distillation
 
 #### Add Additional Informations (Cross-modal)
 - [NIPS 2019] ([paper](https://arxiv.org/pdf/1910.07677.pdf)) Cross Attention Network for Few-shot Classification
