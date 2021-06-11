@@ -36,6 +36,35 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [NAACL 2021] Towards Few-shot Fact-Checking via Perplexity
 - [ ] [NAACL 2021] DReCa: A General Task Augmentation Strategy for Few-Shot Natural Language Inference
 - [ ] [NAACL 2021] ConVEx: Data-Efficient and Few-Shot Slot Labeling
+- [ ] [ICML 2021] Self-Damaging Contrastive Learning
+- [ ] [ICML 2021] Few-Shot Neural Architecture Search
+- [ ] [ICML 2021] Demonstration-Conditioned Reinforcement Learning for Few-Shot Imitation
+- [ ] [ICML 2021] Parameterless Transductive Feature Re-representation for Few-Shot Learning
+- [ ] [ICML 2021] Unsupervised Embedding Adaptation via Early-Stage Feature Reconstruction for Few-Shot Classification
+- [ ] [ICML 2021] GP-Tree: A Gaussian Process Classifier for Few-Shot Incremental Learning
+- [ ] [ICML 2021] Few-Shot Conformal Prediction with Auxiliary Tasks
+- [ ] [ICML 2021] Learning a Universal Template for Few-shot Dataset Generalization
+- [ ] [ICML 2021] Few-Shot Conformal Prediction with Auxiliary Tasks
+- [ ] [ICML 2021] Learning a Universal Template for Few-shot Dataset Generalization
+- [ ] [ICML 2021] Calibrate Before Use: Improving Few-shot Performance of Language Models
+- [ ] [ICML 2021] Few-shot Language Coordination by Modeling Theory of Mind
+- [ ] [ICML 2021] A large-scale benchmark for few-shot program induction and synthesis
+- [ ] [IJCAI 2021] Few-Shot Partial-Label Learning
+- [ ] [IJCAI 2021] Few-Shot Learning with Part Discovery and Augmentation from Unlabeled Images
+- [ ] [IJCAI 2021] Learning Implicit Temporal Alignment for Few-shot Video Classification
+- [ ] [IJCAI 2021] Cross-Domain Few-Shot Classification via Adversarial Task Augmentation
+- [ ] [ACL 2021] Few-shot Knowledge Graph-to-Text Generation with Pretrained Language Models
+- [ ] [ACL 2021] Reordering Examples Helps during Priming-based Few-Shot Learning
+- [ ] [ACL 2021] Making Pre-trained Language Models Better Few-shot Learners
+- [ ] [ACL 2021] Minimax and Neyman-Pearson Meta-Learning for Outlier Languages
+- [ ] [ACL 2021] Few-Shot Question Answering by Pretraining Span Selection
+- [ ] [ACL 2021] Towards More Equitable Question Answering Systems: How Much More Data Do You Need?
+- [ ] [ACL 2021] Multi-Label Few-Shot Learning for Aspect Category Detection
+- [ ] [ACL 2021] ProtAugment: Unsupervised diverse short-texts paraphrasing for intent detection meta-learning
+- [ ] [ACL 2021] Few-Shot Upsampling for Protest Size Detection
+- [ ] [ACL 2021] Few-Shot Event Detection with Prototypical Amortized Conditional Random Field
+- [ ] [ACL 2021] Entity Concept-enhanced Few-shot Relation Extraction
+- [ ] [ACL 2021] Lexicon Learning for Few-Shot Neural Sequence Modeling
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
