@@ -40,7 +40,7 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [ICML 2021] Few-Shot Neural Architecture Search
 - [ ] [ICML 2021] Demonstration-Conditioned Reinforcement Learning for Few-Shot Imitation
 - [ ] [ICML 2021] Parameterless Transductive Feature Re-representation for Few-Shot Learning
-- [ ] [ICML 2021] Unsupervised Embedding Adaptation via Early-Stage Feature Reconstruction for Few-Shot Classification
+- [ ] [ICML 2021] ([paper](https://arxiv.org/abs/2106.11486)) Unsupervised Embedding Adaptation via Early-Stage Feature Reconstruction for Few-Shot Classification
 - [ ] [ICML 2021] GP-Tree: A Gaussian Process Classifier for Few-Shot Incremental Learning
 - [ ] [ICML 2021] Few-Shot Conformal Prediction with Auxiliary Tasks
 - [ ] [ICML 2021] Learning a Universal Template for Few-shot Dataset Generalization
@@ -49,7 +49,7 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [ICML 2021] Calibrate Before Use: Improving Few-shot Performance of Language Models
 - [ ] [ICML 2021] Few-shot Language Coordination by Modeling Theory of Mind
 - [ ] [ICML 2021] A large-scale benchmark for few-shot program induction and synthesis
-- [ ] [IJCAI 2021] Few-Shot Partial-Label Learning
+- [ ] [ICML 2021] Bridging Multi-Task Learning and Meta-Learning: Towards Efficient Training and Effective Adaptation
 - [ ] [IJCAI 2021] Few-Shot Learning with Part Discovery and Augmentation from Unlabeled Images
 - [ ] [IJCAI 2021] Learning Implicit Temporal Alignment for Few-shot Video Classification
 - [ ] [IJCAI 2021] Cross-Domain Few-Shot Classification via Adversarial Task Augmentation
@@ -65,6 +65,7 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [ACL 2021] Few-Shot Event Detection with Prototypical Amortized Conditional Random Field
 - [ ] [ACL 2021] Entity Concept-enhanced Few-shot Relation Extraction
 - [ ] [ACL 2021] Lexicon Learning for Few-Shot Neural Sequence Modeling
+- [ ] [ACL 2021] ([paper](https://arxiv.org/abs/2106.05589)) AUGNLG: Few-shot Natural Language Generation using Self-trained Data Augmentation
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining

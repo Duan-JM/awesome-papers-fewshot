@@ -1,53 +1,21 @@
 ## Temporarily sort to NLP (will change to exact topic later)
 
-- [ACL 2020] Learning Low-Resource End-To-End Goal-Oriented Dialog for Fast and Reliable System Deployment
-
-### Representation
-- [ACL 2020] Shaping Visual Representations with Language for Few-shot Classification
-    * jointly predicting natural language task descriptions at training time
-    * How can we let language guide representation learning in machine learning models? 
+### unsorted
 - [NIPS 2020] Language Models are Few-Shot Learners
     * GPT-3
-- [EMNLP 2019] ([paper](https://arxiv.org/pdf/1902.10482.pdf)) Few-Shot Text Classification with Induction Network
-    * Introduce dynamic routing to generate better class representations. One real industrial project.
-- [EMNLP/IJCNLP 2019] Hierarchical Attention Prototypical Networks for Few-Shot Text Classification
 - [ACL 2020] Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations
-- [SIGIR 2020 best short paper] ([code exist]()) Few-Shot Generative Conversational Query Rewriting
 - [EMNLP 2020] Word Frequency Does Not Predict Grammatical Knowledge in Language Models
 - [EMNLP 2020] Unsupervised Distillation of Syntactic Information from Contextualized Word Representations
-- [NIPS 2020] ([paper](https://arxiv.org/pdf/2006.15315.pdf)) Uncertainty-aware Self-training for Few-shot Text Classification
-- [NAACL 2021] ([paper](https://arxiv.org/abs/2103.07552)) Few-Shot Text Classification with Triplet Networks, Data Augmentation, and Curriculum Learning
-- [AAAI 2021] SALNet: Semi-Supervised Few-Shot Text Classification with Attention-Based Lexicon
-- [AAAI 2021] ([paper](https://arxiv.org/pdf/2101.09704.pdf)) Does Head Label Help for Long-Tailed Multi-Label Text Classification
-
-### NLU
-- [ACL 2020] Dynamic Memory Induction Networks for Few-Shot Text Classification
-    * result seems great
-    * work follow the induction network, explicitly add dynamic memory model (constructed by base classes) to enhance "prototypes".
-- [ICLR 2020] Few-shot Text Classification with Distributional Signatures
-- [EMNLP 2020] Composed Variational Natural Language Generation for Few-shot Intents
-- [NIPS 2018] Attentive task-agnostic meta-learning for few-shot text classification
-- [WSDM 2020] Meta-learning with dynamic-memory-based prototypical network for few-shot event detection
-- [AAAI 2021] ([paper](https://arxiv.org/pdf/2010.05256.pdf)) Few-Shot Learning for Multi-Label Intent Detection
-- [SIGIR 2021] Graph Learning Regularization and Transfer Learning for Few-Shot Event Detection
-
-### DCM
-- [ACL 2020] Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network
-- [EACL 2021] ([paper](https://arxiv.org/abs/2101.06779)) Few Shot Dialogue State Tracking using Meta-learning
-- [EACL 2021] ([paper](https://arxiv.org/abs/2103.02333)) Few-shot Learning for Slot Tagging with Attentive Relational Network
-
-### NLG
 - [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
-- [ACL 2020] Few-Shot NLG with Pre-Trained Language Model
-- [ACL 2020] Learning to Customize Model Structures for Few-shot Dialogue Generation Tasks
 - [EMNLP2020] Augmented Natural Language for Generative Sequence Labeling
-- [SIGIR 2020] ([github](https://github.com/thunlp/ConversationQueryRewriter）Few-Shot Generative Conversational Query Rewriting
+- [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papersZakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf)) Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
 - [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf)) Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
-- [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
-- [NIPS 2018] Neural Voice Cloning with a Few Samples
-- [EMNLP 2020] Structural Supervision Improves Few-Shot Learning and Syntactic Generalization in Neural Language Models
 
-### Relation Relevant
+**query rewriting**
+- [SIGIR 2020] ([github](https://github.com/thunlp/ConversationQueryRewriter）Few-Shot Generative Conversational Query Rewriting
+- [SIGIR 2020 best short paper] ([code exist]()) Few-Shot Generative Conversational Query Rewriting
+
+**relation relevant**
 - [ICML 2020] ([paper](https://arxiv.org/abs/2007.02387)) Few-shot Relation Extraction via Bayesian Meta-learning on Task Graph
 - [AAAI 2019] Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification
     * Relation Classification with FewRel
@@ -61,7 +29,9 @@
 - [ICLR 2021] ([paper](https://arxiv.org/abs/2103.11647)) Prototypical Representation Learning for Relation Extraction
 - [AAAI 2021] ([paper](https://www.aaai.org/AAAI21Papers/AAAI-2215.WanH.pdf)) FL-MSRE: A Few-Shot Learning Based Approach to Multimodal Social Relation Extraction
 
-### Applications
+**other applications**
+- [EMNLP 2020] Structural Supervision Improves Few-Shot Learning and Syntactic Generalization in Neural Language Models
+- [NIPS 2018] Neural Voice Cloning with a Few Samples
 - [ACMMM 2018] Few-Shot Adaptation for Multimedia Semantic Indexing
 - [ACMMM 2018] Fast Parameter Adaptation for Few-shot Image Captioning and Visual Question Answering
 - [AAAI 2019] Few-Shot Image and Sentence Matching via Gated Visual-Semantic Embedding
@@ -75,13 +45,13 @@
 - [EMNLP 2020] ([paper](https://arxiv.org/abs/2010.05106))Localizing Open-Ontology QA Semantic Parsers in a Day Using Machine Translation
 - [ICASSP 2021] ([paper](https://arxiv.org/abs/2103.04088)) Investigating on Incorporating Pretrained and Learnable Speaker Representations for Multi-Speaker Multi-Style Text-to-Speech
 - [EACL 2021] ([paper](https://arxiv.org/abs/2101.04758)) Self-Training Pre-Trained Language Models for Zero- and Few-Shot Multi-Dialectal Arabic Sequence Labeling
-- [EACL 2021] ([paper](https://arxiv.org/abs/2101.12073)) A Neural Few-Shot Text Classification Reality Check
 - [EACL 2021] ([paper](https://arxiv.org/abs/2101.10524)) El Volumen Louder Por Favor: Code-switching in Task-oriented SemanticParsing
 - [EACL 2021] ([paper](https://arxiv.org/abs/2101.10708)) Few-Shot Semantic Parsing for New Predicates
 - [EACL 2021] ([paper](https://arxiv.org/abs/2102.07983)) FEWS: Large-Scale, Low-Shot Word Sense Disambiguation with the Dictionary
 - [SIGIR 2021] Few-shot Variational Reasoning for Medical Dialogue Generation
-- [SIGIR 2021] Pseudo Siamese Network for Few-shot Intent Generation
 - [SIGIR 2021] Relational Learning with Gated and Attentive Neighbor Aggregator for Few-Shot Knowledge Graph Completion
 - [EACL 2021] Few-shot learning through contextual data augmentation
-- [EACL 2021] Exploiting Cloze-Questions for Few-Shot Text Classification and Natural Language Inference
 - [EACL 2021] Exploring the Limits of Few-Shot Link Prediction in Knowledge Graphs
+- [ACL 2020] Shaping Visual Representations with Language for Few-shot Classification
+    * jointly predicting natural language task descriptions at training time
+    * How can we let language guide representation learning in machine learning models? 
