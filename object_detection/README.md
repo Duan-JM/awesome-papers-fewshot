@@ -36,3 +36,7 @@
 - [CVPR 2020] Few-Shot Object Detection with Attention-RPN and Multi-Relation Detector
 - [CVPR 2020] Incremental Few-Shot Object Detection
 - [AAAI 2021] ([paper](https://arxiv.org/pdf/2003.06798)) StarNet: Towards Weakly Supervised Few-Shot Object Detection
+- [CVPR 2021] Semantic Relation Reasoning for Shot-Stable Few-Shot Object Detection
+- [CVPR 2021] FSCE: Few-Shot Object Detection via Contrastive Proposal Encoding
+- [CVPR 2021] Dense Relation Distillation with Context-aware Aggregation for Few-Shot Object Detection
+- [CVPR 2021] Generalized Few-Shot Object Detection without Forgetting

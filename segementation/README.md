@@ -22,3 +22,5 @@
 - [CVPR 2020] CRNet: Cross-Reference Networks for Few-Shot Segmentation
 - [CVPR 2020] Few-shot Learning of Part-specific Probability Space for 3D Shape Segmentation
 - [CVPR 2020] FGN: Fully Guided Network for Few-Shot Instance Segmentation
+- [CVPR 2021] Self-Guided and Cross-Guided Learning for Few-Shot Segmentation
+- [CVPR 2021] Adaptive Prototype Learning and Allocation for Few-Shot Segmentation

@@ -1,6 +1,6 @@
-## Temporarily sort to NLP (will change to exact topic later)
+## NLP Basis and Tasks&Applications
 
-### unsorted
+### Language Models (Backbones)
 - [NIPS 2020] Language Models are Few-Shot Learners
     * GPT-3
 - [ACL 2020] Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations
@@ -9,8 +9,15 @@
 - [IJCAI 2019] Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems
 - [EMNLP2020] Augmented Natural Language for Generative Sequence Labeling
 - [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papersZakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf)) Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
-- [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf)) Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
+- [ACL 2021] Making Pre-trained Language Models Better Few-shot Learners
 
+
+### Training Procedure
+- [ACL 2021] Bi-Granularity Contrastive Learning for Post-Training in Few-Shot Scene
+- [ACL 2021] Reordering Examples Helps during Priming-based Few-Shot Learning
+
+
+### Tasks
 **query rewriting**
 - [SIGIR 2020] ([github](https://github.com/thunlp/ConversationQueryRewriter）Few-Shot Generative Conversational Query Rewriting
 - [SIGIR 2020 best short paper] ([code exist]()) Few-Shot Generative Conversational Query Rewriting
@@ -29,14 +36,40 @@
 - [ICLR 2021] ([paper](https://arxiv.org/abs/2103.11647)) Prototypical Representation Learning for Relation Extraction
 - [AAAI 2021] ([paper](https://www.aaai.org/AAAI21Papers/AAAI-2215.WanH.pdf)) FL-MSRE: A Few-Shot Learning Based Approach to Multimodal Social Relation Extraction
 
+
+**NER**
+- [ACL 2021] Entity Concept-enhanced Few-shot Relation Extraction
+- [ACL 2021] Few-NERD: A Few-shot Named Entity Recognition Dataset
+- [ACL 2021] Learning from Miscellaneous Other-Class Words for Few-shot Named Entity Recognition
+
+
+**event detection**
+- [ACL 2021] Few-Shot Event Detection with Prototypical Amortized Conditional Random Field
+- [ACL 2021] Adaptive Knowledge-Enhanced Bayesian Meta-Learning for Few-shot Event Detection
+- [WSDM 2020] Meta-learning with dynamic-memory-based prototypical network for few-shot event detection
+- [SIGIR 2021] Graph Learning Regularization and Transfer Learning for Few-Shot Event Detection
+*maybe similar*
+  - [ACL 2020] Hypernymy Detection for Low-Resource Languages via Meta Learning
+  - [ACL 2021] Multi-Label Few-Shot Learning for Aspect Category Detection
+  - [ACL 2021] Few-Shot Upsampling for Protest Size Detection
+  - [ACL 2021] Enhancing Zero-shot and Few-shot Stance Detection with Commonsense Knowledge Graph
+
+
+**question answering**
+- [ACMMM 2018] Fast Parameter Adaptation for Few-shot Image Captioning and Visual Question Answering
+- [ACL 2021] Few-Shot Question Answering by Pretraining Span Selection
+
+
+**sentiment analysis**
+- [ACL 2021] UserAdapter: Few-Shot User Learning in Sentiment Analysis
+
+
 **other applications**
 - [EMNLP 2020] Structural Supervision Improves Few-Shot Learning and Syntactic Generalization in Neural Language Models
 - [NIPS 2018] Neural Voice Cloning with a Few Samples
 - [ACMMM 2018] Few-Shot Adaptation for Multimedia Semantic Indexing
-- [ACMMM 2018] Fast Parameter Adaptation for Few-shot Image Captioning and Visual Question Answering
 - [AAAI 2019] Few-Shot Image and Sentence Matching via Gated Visual-Semantic Embedding
     * Image and Sentence Matching
-- [ACL 2020] Hypernymy Detection for Low-Resource Languages via Meta Learning
 - [ICLR 2020] FEW-SHOT LEARNING ON GRAPHS VIA SUPERCLASSES BASED ON GRAPH SPECTRAL MEASURES
 - [EMNLP 2019] Meta Relational Learning for Few-Shot Link Prediction in Knowledge Graphs
 - [EMNLP 2019] Adapting Meta Knowledge Graph Information for Multi-Hop Reasoning over Few-Shot Relations
@@ -55,3 +88,5 @@
 - [ACL 2020] Shaping Visual Representations with Language for Few-shot Classification
     * jointly predicting natural language task descriptions at training time
     * How can we let language guide representation learning in machine learning models? 
+- [ACL 2021] TextSETTR: Few-Shot Text Style Extraction and Tunable Targeted Restyling
+- [ACL 2021] A Closer Look at Few-Shot Crosslingual Transfer: The Choice of Shots Matters

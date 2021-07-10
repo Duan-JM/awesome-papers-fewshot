@@ -66,6 +66,7 @@ We collect some awesome code and blogs here.
 - [tiered-ImageNet contained label embeddings](https://drive.google.com/file/d/1Letu5U_kAjQfqJjNPWS_rdjJ7Fd46LbX/view) (Used in AM3)
 - [FewRel](https://github.com/thunlp/FewRel) (EMNLP 2018)
 - [FewJoint](https://atmahou.github.io/attachments/FewJoint.zip) (NLP few-shot)
+- [Few-NERD](add link later) (ACL 2021)
 
 #### Relevant Awesome Few-shot PlayGround Repo
 - [pytorch_metric_learning](https://github.com/KevinMusgrave/pytorch_metric_learning)

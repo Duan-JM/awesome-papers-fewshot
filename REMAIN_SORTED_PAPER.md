@@ -5,34 +5,24 @@ judge it is not good or not accepted to the top conference over one year.
 # No papers
 
 # Remain checkout
-- [ ] [CVPR 2021] Semantic Relation Reasoning for Shot-Stable Few-Shot Object Detection
 - [ ] [CVPR 2021] Exploring Complementary Strengths of Invariant and Equivariant Representations for Few-Shot Learning
-- [ ] [CVPR 2021] FSCE: Few-Shot Object Detection via Contrastive Proposal Encoding
 - [ ] [CVPR 2021] Rethinking Class Relations: Absolute-relative Supervised and Unsupervised Few-shot Learning
 - [ ] [CVPR 2021] Semantic-aware Knowledge Distillation for Few-Shot Class-Incremental Learning
 - [ ] [CVPR 2021] FAPIS: A Few-shot Anchor-free Part-based Instance Segmenter
-- [ ] [CVPR 2021] Dense Relation Distillation with Context-aware Aggregation for Few-Shot Object Detection
-- [ ] [CVPR 2021] Self-Guided and Cross-Guided Learning for Few-Shot Segmentation
 - [ ] [CVPR 2021] Few-Shot Human Motion Transfer by Personalized Geometry and Texture Modeling
 - [ ] [CVPR 2021] Few-Shot Incremental Learning with Continually Evolved Classifiers
-- [ ] [CVPR 2021] Adaptive Prototype Learning and Allocation for Few-Shot Segmentation
 - [ ] [CVPR 2021] Learning Dynamic Alignment via Meta-filter for Few-shot Learning
 - [ ] [CVPR 2021] Fine-Grained Few-Shot Classification with Feature Map Reconstruction Networks
 - [ ] [CVPR 2021] Few-shot Open-set Recognition by Transformation Consistency
 - [ ] [CVPR 2021] Few-shot Image Generation via Cross-domain Correspondence
 - [ ] [CVPR 2021] Prototypical Cross-domain Self-supervised Learning for Few-shot Unsupervised Domain Adaptation
-- [ ] [CVPR 2021] Generalized Few-Shot Object Detection without Forgetting
 - [ ] [CVPR 2021] Dynamic Class Queue for Large Scale Face Recognition In the Wild
 - [ ] [CVPR 2021] Incremental Few-Shot Instance Segmentation
 - [ ] [NAACL 2021] Non-Parametric Few-Shot Learning for Word Sense Disambiguation
-- [ ] [NAACL 2021] Incremental Few-shot Text Classification with Multi-round New Classes: Formulation, Dataset and System
 - [ ] [NAACL 2021] Learning How to Ask: Querying LMs with Mixtures of Soft Prompts
-- [ ] [NAACL 2021] Few-shot Intent Classification and Slot Filling with Retrieved Examples
 - [ ] [NAACL 2021] On Unifying Misinformation Detection
 - [ ] [NAACL 2021] It's Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners
 - [ ] [NAACL 2021] Improving Zero and Few-Shot Abstractive Summarization with Intermediate Fine-tuning and Data Augmentation
-- [ ] [NAACL 2021] Knowledge Guided Metric Learning for Few-Shot Text Classification
-- [ ] [NAACL 2021] Few-Shot Text Classification with Triplet Networks, Data Augmentation, and Curriculum Learning
 - [ ] [NAACL 2021] Towards Few-shot Fact-Checking via Perplexity
 - [ ] [NAACL 2021] DReCa: A General Task Augmentation Strategy for Few-Shot Natural Language Inference
 - [ ] [NAACL 2021] ConVEx: Data-Efficient and Few-Shot Slot Labeling
@@ -45,7 +35,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [ICML 2021] Few-Shot Conformal Prediction with Auxiliary Tasks
 - [ ] [ICML 2021] Learning a Universal Template for Few-shot Dataset Generalization
 - [ ] [ICML 2021] Few-Shot Conformal Prediction with Auxiliary Tasks
-- [ ] [ICML 2021] Learning a Universal Template for Few-shot Dataset Generalization
 - [ ] [ICML 2021] Calibrate Before Use: Improving Few-shot Performance of Language Models
 - [ ] [ICML 2021] Few-shot Language Coordination by Modeling Theory of Mind
 - [ ] [ICML 2021] A large-scale benchmark for few-shot program induction and synthesis
@@ -53,19 +42,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [IJCAI 2021] Few-Shot Learning with Part Discovery and Augmentation from Unlabeled Images
 - [ ] [IJCAI 2021] Learning Implicit Temporal Alignment for Few-shot Video Classification
 - [ ] [IJCAI 2021] Cross-Domain Few-Shot Classification via Adversarial Task Augmentation
-- [ ] [ACL 2021] Few-shot Knowledge Graph-to-Text Generation with Pretrained Language Models
-- [ ] [ACL 2021] Reordering Examples Helps during Priming-based Few-Shot Learning
-- [ ] [ACL 2021] Making Pre-trained Language Models Better Few-shot Learners
-- [ ] [ACL 2021] Minimax and Neyman-Pearson Meta-Learning for Outlier Languages
-- [ ] [ACL 2021] Few-Shot Question Answering by Pretraining Span Selection
-- [ ] [ACL 2021] Towards More Equitable Question Answering Systems: How Much More Data Do You Need?
-- [ ] [ACL 2021] Multi-Label Few-Shot Learning for Aspect Category Detection
-- [ ] [ACL 2021] ProtAugment: Unsupervised diverse short-texts paraphrasing for intent detection meta-learning
-- [ ] [ACL 2021] Few-Shot Upsampling for Protest Size Detection
-- [ ] [ACL 2021] Few-Shot Event Detection with Prototypical Amortized Conditional Random Field
-- [ ] [ACL 2021] Entity Concept-enhanced Few-shot Relation Extraction
-- [ ] [ACL 2021] Lexicon Learning for Few-Shot Neural Sequence Modeling
-- [ ] [ACL 2021] ([paper](https://arxiv.org/abs/2106.05589)) AUGNLG: Few-shot Natural Language Generation using Self-trained Data Augmentation
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
@@ -116,8 +92,6 @@ judge it is not good or not accepted to the top conference over one year.
     * main contribution is on remain accuracy for both novel and base
     * outperform in both situations on miniImagenet
 - [x] [arXiv 2020] A New Meta-Baseline for Few-Shot Learning
-- [ ] [arXiv 2020] [exist code] Negative Margin Matters: Understanding Margin in Few-shot Classification
-    * 62% for 1shot
 - [x] [arXiv 2020] AdarGCN: Adaptive Aggregation GCN for Few-Shot Learning
     * a new circumstance with noise input
 - [x] [arXiv 2020] Prototype Rectification for Few-Shot Learning
@@ -230,8 +204,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [arXiv 2020] Cross-lingual Zero- and Few-shot Hate Speech Detection Utilising Frozen Transformer Language Models and AXEL
 - [ ] [arXiv 2020] Few-Shot Natural Language Generation by Rewriting Templates
 - [ ] [arXiv 2020] Pay Attention to What You Read: Non-recurrent Handwritten Text-Line Recognition
-- [ ] [arXiv 2020] Few-shot Text Classification with Distributional Signatures
-- [ ] [arXiv 2020] Knowledge Guided Metric Learning for Few-Shot Text Classification
 - [ ] [arXiv 2020] CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection
 
 ## Cross-Domain
