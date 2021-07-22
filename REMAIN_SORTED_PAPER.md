@@ -34,11 +34,11 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [ICML 2021] GP-Tree: A Gaussian Process Classifier for Few-Shot Incremental Learning
 - [ ] [ICML 2021] Few-Shot Conformal Prediction with Auxiliary Tasks
 - [ ] [ICML 2021] Learning a Universal Template for Few-shot Dataset Generalization
-- [ ] [ICML 2021] Few-Shot Conformal Prediction with Auxiliary Tasks
 - [ ] [ICML 2021] Calibrate Before Use: Improving Few-shot Performance of Language Models
 - [ ] [ICML 2021] Few-shot Language Coordination by Modeling Theory of Mind
 - [ ] [ICML 2021] A large-scale benchmark for few-shot program induction and synthesis
 - [ ] [ICML 2021] Bridging Multi-Task Learning and Meta-Learning: Towards Efficient Training and Effective Adaptation
+- [ ] [ICML 2021] Addressing Catastrophic Forgetting in Few-Shot Problems
 - [ ] [IJCAI 2021] Few-Shot Learning with Part Discovery and Augmentation from Unlabeled Images
 - [ ] [IJCAI 2021] Learning Implicit Temporal Alignment for Few-shot Video Classification
 - [ ] [IJCAI 2021] Cross-Domain Few-Shot Classification via Adversarial Task Augmentation
