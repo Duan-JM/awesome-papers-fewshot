@@ -5,6 +5,17 @@ judge it is not good or not accepted to the top conference over one year.
 # No papers
 
 # Remain checkout
+- [ ] [IJCAI 2021] MEDA: Meta-Learning with Data Augmentation for Few-Shot Text Classification
+- [ ] [IJCAI 2021] Few-shot Neural Human Performance Rendering from Sparse RGBD Videos
+- [ ] [IJCAI 2021] Cross-Domain Few-Shot Classification via Adversarial Task Augmentation
+- [ ] [IJCAI 2021] Uncertainty-Aware Few-Shot Image Classification
+- [ ] [IJCAI 2021] Self-supervised Network Evolution for Few-shot Classification
+- [ ] [IJCAI 2021] Learn from Concepts: Towards the Purified Memory for Few-shot Learning
+- [ ] [IJCAI 2021] Learning Implicit Temporal Alignment for Few-shot Video Classification
+- [ ] [IJCAI 2021] MFNP: A Meta-optimized Model for Few-shot Next POI Recommendation
+- [ ] [IJCAI 2021] Few-Shot Learning with Part Discovery and Augmentation from Unlabeled Images
+- [ ] [IJCAI 2021] Few-Shot Partial-Label Learning
+- [ ] [IJCAI 2021] Conditional Self-Supervised Learning for Few-Shot Classification
 - [ ] [CVPR 2021] Exploring Complementary Strengths of Invariant and Equivariant Representations for Few-Shot Learning
 - [ ] [CVPR 2021] Rethinking Class Relations: Absolute-relative Supervised and Unsupervised Few-shot Learning
 - [ ] [CVPR 2021] Semantic-aware Knowledge Distillation for Few-Shot Class-Incremental Learning
@@ -39,9 +50,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [ICML 2021] A large-scale benchmark for few-shot program induction and synthesis
 - [ ] [ICML 2021] Bridging Multi-Task Learning and Meta-Learning: Towards Efficient Training and Effective Adaptation
 - [ ] [ICML 2021] Addressing Catastrophic Forgetting in Few-Shot Problems
-- [ ] [IJCAI 2021] Few-Shot Learning with Part Discovery and Augmentation from Unlabeled Images
-- [ ] [IJCAI 2021] Learning Implicit Temporal Alignment for Few-shot Video Classification
-- [ ] [IJCAI 2021] Cross-Domain Few-Shot Classification via Adversarial Task Augmentation
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
