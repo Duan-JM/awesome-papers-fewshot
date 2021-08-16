@@ -29,6 +29,10 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [CVPR 2021] Prototypical Cross-domain Self-supervised Learning for Few-shot Unsupervised Domain Adaptation
 - [ ] [CVPR 2021] Dynamic Class Queue for Large Scale Face Recognition In the Wild
 - [ ] [CVPR 2021] Incremental Few-Shot Instance Segmentation
+- [ ] [CVPR 2021] Prototype Completion for Few-Shot Learning
+- [ ] [ACMMM 2021] ZiGAN: Fine-grained Chinese Calligraphy Font Generation via a Few-shot Style Transfer Approach
+- [ ] [ICCV oral] Mining Latent Classes for Few-shot Segmentation
+- [ ] [ICCV 2021] Simpler is Better: Few-shot Semantic Segmentation with Classifier Weight Transformer
 - [ ] [NAACL 2021] Non-Parametric Few-Shot Learning for Word Sense Disambiguation
 - [ ] [NAACL 2021] Learning How to Ask: Querying LMs with Mixtures of Soft Prompts
 - [ ] [NAACL 2021] On Unifying Misinformation Detection
@@ -50,6 +54,11 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [ICML 2021] A large-scale benchmark for few-shot program induction and synthesis
 - [ ] [ICML 2021] Bridging Multi-Task Learning and Meta-Learning: Towards Efficient Training and Effective Adaptation
 - [ ] [ICML 2021] Addressing Catastrophic Forgetting in Few-Shot Problems
+- [ ] [ICCV 2021] Recurrent Mask Refinement for Few-Shot Medical Image Segmentation
+- [ ] [ICCV 2021] Boosting the Generalization Capability in Cross-Domain Few-shot Learning via Noise-enhanced Supervised Autoencoder
+- [ ] [ICCV 2021] Deep Metric Learning for Open World Semantic Segmentation
+- [ ] [ICCV 2021] Learning Meta-class Memory for Few-Shot Semantic Segmentation
+- [ ] [ICCV 2021] Transductive Few-Shot Classification on the Oblique Manifold
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
@@ -72,7 +81,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [x] [ICASSP 2021] Domain Adaptation for Learning Generator from Paired Few-Shot Data
 - [x] [ICEMS 2021] Few-Shot Bearing Anomaly Detection Based on Model-Agnostic Meta-Learning
 - [x] [ICASSP2021] Few-shot Image Classification with Multi-Facet Prototypes
-
 # Arxiv
 ## Summary
 - [arXiv 2020] A Concise Review of Recent Few-shot Meta-learning Methods
