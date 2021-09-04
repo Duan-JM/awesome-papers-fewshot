@@ -277,6 +277,9 @@ issue 里面提出来，我会在第一时间进行回复的。
     * performs cell feature clustering and encoding with a dense part representation
     * captures the relationships among the cell features are further modeled by an attention mechanism
 
+- [ICCV 2021] ([paper](https://arxiv.org/abs/2108.09666) [code](https://github.com/dahyun-kang/renet)) Relational Embedding for Few-Shot Classification
+    * They propose to learn relational patterns from self-correlation within an image representation and cross-correlation between two image representations to form relational embedding.
+
 #### Proto-Enhanced Methods
 ** Descriptions 01**: They improve classic methods by enrich prototypes
 ** ATTENTION 01**: Proto-enhanced Cross-modal methods are not include here, found them below
