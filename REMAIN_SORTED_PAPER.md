@@ -16,6 +16,7 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [IJCAI 2021] Few-Shot Learning with Part Discovery and Augmentation from Unlabeled Images
 - [ ] [IJCAI 2021] Few-Shot Partial-Label Learning
 - [ ] [IJCAI 2021] Conditional Self-Supervised Learning for Few-Shot Classification
+
 - [ ] [CVPR 2021] Exploring Complementary Strengths of Invariant and Equivariant Representations for Few-Shot Learning
 - [ ] [CVPR 2021] Rethinking Class Relations: Absolute-relative Supervised and Unsupervised Few-shot Learning
 - [ ] [CVPR 2021] Semantic-aware Knowledge Distillation for Few-Shot Class-Incremental Learning
@@ -30,9 +31,7 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [CVPR 2021] Dynamic Class Queue for Large Scale Face Recognition In the Wild
 - [ ] [CVPR 2021] Incremental Few-Shot Instance Segmentation
 - [ ] [CVPR 2021] Prototype Completion for Few-Shot Learning
-- [ ] [ACMMM 2021] ZiGAN: Fine-grained Chinese Calligraphy Font Generation via a Few-shot Style Transfer Approach
-- [ ] [ICCV oral] Mining Latent Classes for Few-shot Segmentation
-- [ ] [ICCV 2021] Simpler is Better: Few-shot Semantic Segmentation with Classifier Weight Transformer
+
 - [ ] [NAACL 2021] Non-Parametric Few-Shot Learning for Word Sense Disambiguation
 - [ ] [NAACL 2021] Learning How to Ask: Querying LMs with Mixtures of Soft Prompts
 - [ ] [NAACL 2021] On Unifying Misinformation Detection
@@ -41,6 +40,7 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [NAACL 2021] Towards Few-shot Fact-Checking via Perplexity
 - [ ] [NAACL 2021] DReCa: A General Task Augmentation Strategy for Few-Shot Natural Language Inference
 - [ ] [NAACL 2021] ConVEx: Data-Efficient and Few-Shot Slot Labeling
+
 - [ ] [ICML 2021] Self-Damaging Contrastive Learning
 - [ ] [ICML 2021] Few-Shot Neural Architecture Search
 - [ ] [ICML 2021] Demonstration-Conditioned Reinforcement Learning for Few-Shot Imitation
@@ -54,10 +54,19 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [ICML 2021] A large-scale benchmark for few-shot program induction and synthesis
 - [ ] [ICML 2021] Bridging Multi-Task Learning and Meta-Learning: Towards Efficient Training and Effective Adaptation
 - [ ] [ICML 2021] Addressing Catastrophic Forgetting in Few-Shot Problems
+
+- [ ] [ICCV oral] Mining Latent Classes for Few-shot Segmentation
+- [ ] [ICCV 2021] Simpler is Better: Few-shot Semantic Segmentation with Classifier Weight Transformer
 - [ ] [ICCV 2021] Recurrent Mask Refinement for Few-Shot Medical Image Segmentation
 - [ ] [ICCV 2021] Boosting the Generalization Capability in Cross-Domain Few-shot Learning via Noise-enhanced Supervised Autoencoder
 - [ ] [ICCV 2021] Deep Metric Learning for Open World Semantic Segmentation
 - [ ] [ICCV 2021] Learning Meta-class Memory for Few-Shot Semantic Segmentation
+- [ ] [ICCV 2021] Variational Feature Disentangling for Fine-Grained Few-Shot Classification
+- [ ] [ICCV 2021] Few-shot Visual Relationship Co-localization
+- [ ] [ICCV 2021] Shallow Bayesian Meta Learning for Real-World Few-Shot Recognition
+- [ ] [ICCV 2021] Binocular Mutual Learning for Improving Few-shot Classification
+- [ ] [ICCV 2021] The Functional Correspondence Problem
+- [ ] [ICCV 2021] Video Pose Distillation for Few-Shot, Fine-Grained Sports Action Recognition
 - [ ] [ICCV 2021] Transductive Few-Shot Classification on the Oblique Manifold
 
 # Remain Read Papers

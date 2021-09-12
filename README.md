@@ -21,11 +21,14 @@ The papers collected in this repo are manually selected by myself, I am hoping t
 <!-- vim-markdown-toc GitLab -->
 
   * [Paper Collection Categories](#paper-collection-categories)
+    * [CV](#cv)
+    * [NLP](#nlp)
   * [Awesome Resources](#awesome-resources)
     * [Relevant Awesome Datasets Repo](#relevant-awesome-datasets-repo)
     * [Relevant Awesome Few-shot PlayGround Repo](#relevant-awesome-few-shot-playground-repo)
     * [Relevant Awesome Blogs](#relevant-awesome-blogs)
   * [How to recommend a paper](#how-to-recommend-a-paper)
+  * [Maybe Maybe Buy me a coffee](#maybe-maybe-buy-me-a-coffee)
   * [ChangeLog](#changelog)
 * [Main Contributors](#main-contributors)
 
@@ -42,11 +45,17 @@ the other categories. Basically, we sort thoses papers, which quantitiy is few t
 **需要注意的是**如果你没有发现研究的小样本方向的话，尝试在 Other
 类别中找找，我们把出现的论文数少于 5 篇的方向暂时都划分为 Other 类。
 
-- Image Classification [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/image_classification/README.md)
-- Object Detection [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/object_detection/README.md)
-- Segementation [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/segementation/README.md)
-- Generators [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/generators/README.md)
-- Others [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/others/README.md)
+#### CV
+- Image Classification [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/cv/image_classification/README.md)
+- Object Detection [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/cv/object_detection/README.md)
+- Segementation [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/cv/segementation/README.md)
+- Generators [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/cv/generators/README.md)
+- Cross Domain [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/cv/cross_domain_fsl/README.md)
+- Others [*Jump here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/cv/others/README.md)
+
+#### NLP
+- Dialogue System [*Jump Here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/nlp/dialogue_system/README.md)
+- Others [*Jump Here*](https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/nlp/other_tasks/README.md)
 
 ### Awesome Resources
 We collect some awesome code and blogs here.
@@ -71,7 +80,6 @@ We collect some awesome code and blogs here.
 #### Relevant Awesome Few-shot PlayGround Repo
 - [pytorch_metric_learning](https://github.com/KevinMusgrave/pytorch_metric_learning)
 
-
 #### Relevant Awesome Blogs
 - [Papers of Meta-Learning](https://github.com/sudharsan13296/Awesome-Meta-Learning)
 - [Meta-Learning: Learning to Learn Fast](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html)
@@ -94,6 +102,9 @@ The only thing you need to do is make a new issue with its name, conference name
 > Title: [ICML 2019] TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning
 >
 > Recommend: First paper point out how to measure the backbone is bad or good for the current task(episode).
+
+### Maybe Maybe Buy me a coffee
+<div align=center><img width="500" height="500" src="https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/assets/wechat.JPG", alt="谢谢老板">
 
 ### ChangeLog
 - 2020-06-26 `REAMIN_SORTED_PAPAERS.md` no longer collected all papers from arxiv, only interesting and effectiveness ones will be collected here

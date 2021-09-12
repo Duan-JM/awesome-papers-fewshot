@@ -1,5 +1,4 @@
 ### Generative Model
-#### CV
 - [CVPR 2019] f-VAEGAN-D2: A Feature Generating Framework for Any-Shot Learning
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1905.01723)) Few-Shot Unsupervised Image-to-Image Translation
 - [ICCV 2019 best] ([paper](https://arxiv.org/abs/1905.01164) [code](https://github.com/tamarott/SinGAN)) SinGAN: Learning a Generative Model from a Single Natural Image
@@ -24,3 +23,4 @@
 - [NIPS 2020] ([paper](https://yijunmaverick.github.io/publications/ewc/) Few-shot Image Generation with Elastic Weight Consolidation 
 - [ICLR 2021] ([paper](https://openreview.net/pdf?id=1Fqg133qRaI)) TOWARDS FASTER AND STABILIZED GAN TRAINING FOR HIGH-FIDELITY FEW-SHOT IMAGE SYNTHESIS
 - [AAAI 2021] ([paper](https://arxiv.org/pdf/2009.11042.pdf)) Few-Shot Font Generation with Localized Style Representations and Factorization
+- [ACMMM 2021] ZiGAN: Fine-grained Chinese Calligraphy Font Generation via a Few-shot Style Transfer Approach

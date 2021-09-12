@@ -1,6 +1,6 @@
-## NLP Basis and Tasks&Applications
+## Others
 
-### Language Models (Backbones)
+### PLMs
 - [NIPS 2020] Language Models are Few-Shot Learners
     * GPT-3
 - [ACL 2020] Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations
@@ -10,12 +10,20 @@
 - [EMNLP2020] Augmented Natural Language for Generative Sequence Labeling
 - [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/papersZakharov_Few-Shot_Adversarial_Learning_of_Realistic_Neural_Talking_Head_Models_ICCV_2019_paper.pdf)) Few-Shot Adversarial Learning of Realistic Neural Talking Head Models
 - [ACL 2021] Making Pre-trained Language Models Better Few-shot Learners
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2108.13487))  Want To Reduce Labeling Cost? GPT-3 Can Help
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.00271)) Discovering Representation Sprachbund For Multilingual Pre-Training
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.03695))  Continuous Entailment Patterns for Lexical Inference in Context
 
+### Prompt Based Method
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.04144)) Avoiding Inference Heuristics in Few-shot Prompt-based Finetuning
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.03630)) Discrete and Soft Prompting for Multilingual Models
 
 ### Training Procedure
 - [ACL 2021] Bi-Granularity Contrastive Learning for Post-Training in Few-Shot Scene
 - [ACL 2021] Reordering Examples Helps during Priming-based Few-Shot Learning
 
+### Incremental Learning
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2104.08808))  Learn Continually, Generalize Rapidly: Lifelong Knowledge Accumulation for Few-shot Learning
 
 ### Tasks
 **query rewriting**
@@ -35,13 +43,13 @@
 - [WWW 2021] ([paper](https://arxiv.org/pdf/2011.07126.pdf)) Zero-shot Learning for Relation Extraction
 - [ICLR 2021] ([paper](https://arxiv.org/abs/2103.11647)) Prototypical Representation Learning for Relation Extraction
 - [AAAI 2021] ([paper](https://www.aaai.org/AAAI21Papers/AAAI-2215.WanH.pdf)) FL-MSRE: A Few-Shot Learning Based Approach to Multimodal Social Relation Extraction
-
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.04108)) MapRE: An Effective Semantic Mapping Approach for Low-resource Relation Extraction
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.03659)) Label Verbalization and Entailment for Effective Zero- and Few-Shot Relation Extraction
 
 **NER**
 - [ACL 2021] Entity Concept-enhanced Few-shot Relation Extraction
 - [ACL 2021] Few-NERD: A Few-shot Named Entity Recognition Dataset
 - [ACL 2021] Learning from Miscellaneous Other-Class Words for Few-shot Named Entity Recognition
-
 
 **event detection**
 - [ACL 2021] Few-Shot Event Detection with Prototypical Amortized Conditional Random Field
@@ -54,15 +62,14 @@
   - [ACL 2021] Few-Shot Upsampling for Protest Size Detection
   - [ACL 2021] Enhancing Zero-shot and Few-shot Stance Detection with Commonsense Knowledge Graph
 
-
 **question answering**
 - [ACMMM 2018] Fast Parameter Adaptation for Few-shot Image Captioning and Visual Question Answering
 - [ACL 2021] Few-Shot Question Answering by Pretraining Span Selection
-
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.01951)) FewshotQA: A simple framework for few-shot learning of question answering tasks using pre-trained text-to-text models
+- [EMNLP 2021] ([paper](http://arxiv.org/abs/2108.13854)) Contrastive Domain Adaptation for Question Answering using Limited Text Corpora
 
 **sentiment analysis**
 - [ACL 2021] UserAdapter: Few-Shot User Learning in Sentiment Analysis
-
 
 **other applications**
 - [EMNLP 2020] Structural Supervision Improves Few-Shot Learning and Syntactic Generalization in Neural Language Models
@@ -90,3 +97,6 @@
     * How can we let language guide representation learning in machine learning models? 
 - [ACL 2021] TextSETTR: Few-Shot Text Style Extraction and Tunable Targeted Restyling
 - [ACL 2021] A Closer Look at Few-Shot Crosslingual Transfer: The Choice of Shots Matters
+- [EMNLP 2021] AStitchInLanguageModels: Dataset and Methods for the Exploration of Idiomaticity in Pre-Trained Language Models
+- [EMNLP 2021] Semi-Supervised Exaggeration Detection of Health Science Press Releases
+- [EMNLP 2021] Learning Opinion Summarizers by Selecting Informative Reviews
