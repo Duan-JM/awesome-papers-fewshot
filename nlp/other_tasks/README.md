@@ -13,10 +13,16 @@
 - [EMNLP 2021] ([paper](https://arxiv.org/abs/2108.13487))  Want To Reduce Labeling Cost? GPT-3 Can Help
 - [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.00271)) Discovering Representation Sprachbund For Multilingual Pre-Training
 - [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.03695))  Continuous Entailment Patterns for Lexical Inference in Context
+- [EMNLP 2021] Low-Resource Dialogue Summarization with Domain-Agnostic Multi-Source Pretraining
+- [EMNLP 2021] STraTA: Self-Training with Task Augmentation for Better Few-shot Learning
+- [EMNLP 2021] Language Models are Few-Shot Butlers
+	- 强化学习 
+- [EMNLP 2021] ConvFiT: Conversational Fine-Tuning of Pretrained Language Models
 
 ### Prompt Based Method
 - [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.04144)) Avoiding Inference Heuristics in Few-shot Prompt-based Finetuning
 - [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.03630)) Discrete and Soft Prompting for Multilingual Models
+- [NAACL 2021] Learning How to Ask: Querying LMs with Mixtures of Soft Prompts
 
 ### Training Procedure
 - [ACL 2021] Bi-Granularity Contrastive Learning for Post-Training in Few-Shot Scene
@@ -100,3 +106,13 @@
 - [EMNLP 2021] AStitchInLanguageModels: Dataset and Methods for the Exploration of Idiomaticity in Pre-Trained Language Models
 - [EMNLP 2021] Semi-Supervised Exaggeration Detection of Health Science Press Releases
 - [EMNLP 2021] Learning Opinion Summarizers by Selecting Informative Reviews
+- [NAACL 2021] Non-Parametric Few-Shot Learning for Word Sense Disambiguation
+- [NAACL 2021] On Unifying Misinformation Detection
+- [NAACL 2021] It's Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners
+- [NAACL 2021] Improving Zero and Few-Shot Abstractive Summarization with Intermediate Fine-tuning and Data Augmentation
+- [NAACL 2021] Towards Few-shot Fact-Checking via Perplexity
+- [NAACL 2021] DReCa: A General Task Augmentation Strategy for Few-Shot Natural Language Inference
+- [EMNLP 2021] Few-Shot Emotion Recognition in Conversation with Sequential Prototypical Networks
+- [EMNLP 2021] "It doesn't look good for a date": Transforming Critiques into Preferences for Conversational Recommendation Systems
+- [EMNLP 2021] What Changes Can Large-scale Language Models Bring? Intensive Study on HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers
+- [EMNLP 2021] Examining Cross-lingual Contextual Embeddings with Orthogonal Structural Probes

@@ -39,10 +39,15 @@ All bot can be divided into four parts, NLU, DM(DST & DP) and NLG.
 - [ACL 2021] Don’t Miss the Labels: Label-semantic Augmented Meta-Learner for Few-Shot Text Classification
 - [ACL 2021] Few-Shot Text Ranking with Meta Adapted Synthetic Weak Supervision
 - [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.02221)) Nearest Neighbour Few-Shot Learning for Cross-lingual Classification
+- [IJCAI 2021] MEDA: Meta-Learning with Data Augmentation for Few-Shot Text Classification
+- [NAACL 2021] ConVEx: Data-Efficient and Few-Shot Slot Labeling
+- [EMNLP 2021] Self-training with Few-shot Rationalization: Teacher Explanations Aid Student in Few-shot NLU
+- [EMNLP 2021] Few-Shot Intent Detection via Contrastive Pre-Training and Fine-Tuning
 
 ### Dialog Management
 #### Dialog State Tracking
 - [EMNLP 2021] ([paper](http://arxiv.org/abs/2108.13990)) Effective Sequence-to-Sequence Dialogue State Tracking
+- [EMNLP 2021] Zero-Shot Dialogue State Tracking via Cross-Task Transfer 
 #### Policy
 
 ### Natural Language Generation (NLG)

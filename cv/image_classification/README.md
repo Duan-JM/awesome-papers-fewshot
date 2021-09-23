@@ -450,6 +450,11 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [AAAI 2021] ([paper](http://www.lamda.nju.edu.cn/lus/files/AAAI21_GLoFA.pdf)) Tailoring Embedding Function to Heterogeneous Few-Shot Tasks by Global and Local Feature Adaptors
     * 66.12 / 81.37 for mini-ImageNet
     * 69.75 / 83.58 for tiered-ImageNet
+- [IJCAI 2021] Uncertainty-Aware Few-Shot Image Classification
+- [IJCAI 2021] Self-supervised Network Evolution for Few-shot Classification
+- [ICCV 2021] Partner-Assisted Learning for Few-Shot Image Classification
+- [ICCV 2021] On the Importance of Distractors for Few-Shot Classification
+- [ACMMM 2021] MHFC: Multi-Head Feature Collaboration for Few-Shot Learning
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks

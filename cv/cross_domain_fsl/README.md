@@ -21,3 +21,7 @@ We are committed to recommending good jobs to all scholars/students who are inte
 - [ICLR 2020] CROSS-DOMAIN FEW-SHOT CLASSIFICATION VIA LEARNED FEATURE-WISE TRANSFORMATION [Paper](https://arxiv.org/abs/2001.08735)
     - Proposed feature-wise transformation layers for augmenting the image features under different domains in the training stage.
 
+- [IJCAI 2021] Cross-Domain Few-Shot Classification via Adversarial Task Augmentation
+- [CVPR 2021] Few-shot Image Generation via Cross-domain Correspondence
+- [CVPR 2021] Prototypical Cross-domain Self-supervised Learning for Few-shot Unsupervised Domain Adaptation
+- [ICCV 2021] Boosting the Generalization Capability in Cross-Domain Few-shot Learning via Noise-enhanced Supervised Autoencoder

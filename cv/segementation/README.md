@@ -24,3 +24,10 @@
 - [CVPR 2020] FGN: Fully Guided Network for Few-Shot Instance Segmentation
 - [CVPR 2021] Self-Guided and Cross-Guided Learning for Few-Shot Segmentation
 - [CVPR 2021] Adaptive Prototype Learning and Allocation for Few-Shot Segmentation
+- [ICCV 2021 oral] Mining Latent Classes for Few-shot Segmentation
+- [ICCV 2021] Simpler is Better: Few-shot Semantic Segmentation with Classifier Weight Transformer
+- [ICCV 2021] Recurrent Mask Refinement for Few-Shot Medical Image Segmentation
+- [ICCV 2021] Deep Metric Learning for Open World Semantic Segmentation
+- [ICCV 2021] Learning Meta-class Memory for Few-Shot Semantic Segmentation
+- [CVPR 2021] Incremental Few-Shot Instance Segmentation
+- [CVPR 2021] FAPIS: A Few-shot Anchor-free Part-based Instance Segmenter

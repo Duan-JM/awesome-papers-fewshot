@@ -131,3 +131,8 @@
 
 - [AAAI 2021] ([paper](https://arxiv.org/abs/2105.10323)) Learning from My Friends: Few-Shot Personalized Conversation Systems via Social Networks
 - [SIGIR 2021] Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models
+- [IJCAI 2021] Few-shot Neural Human Performance Rendering from Sparse RGBD Videos
+- [IJCAI 2021] Learning Implicit Temporal Alignment for Few-shot Video Classification
+- [CVPR 2021] Few-Shot Human Motion Transfer by Personalized Geometry and Texture Modeling
+- [ICML 2021] Few-Shot Neural Architecture Search
+- [ICCV 2021] Video Pose Distillation for Few-Shot, Fine-Grained Sports Action Recognition
