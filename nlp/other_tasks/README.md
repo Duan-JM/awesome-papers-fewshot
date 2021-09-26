@@ -27,6 +27,7 @@
 ### Training Procedure
 - [ACL 2021] Bi-Granularity Contrastive Learning for Post-Training in Few-Shot Scene
 - [ACL 2021] Reordering Examples Helps during Priming-based Few-Shot Learning
+- [EMNLP 2021] Learning from Uneven Training Data: Unlabeled, Single Label, and Multiple Labels
 
 ### Incremental Learning
 - [EMNLP 2021] ([paper](https://arxiv.org/abs/2104.08808))  Learn Continually, Generalize Rapidly: Lifelong Knowledge Accumulation for Few-shot Learning
@@ -116,3 +117,5 @@
 - [EMNLP 2021] "It doesn't look good for a date": Transforming Critiques into Preferences for Conversational Recommendation Systems
 - [EMNLP 2021] What Changes Can Large-scale Language Models Bring? Intensive Study on HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers
 - [EMNLP 2021] Examining Cross-lingual Contextual Embeddings with Orthogonal Structural Probes
+- [EMNLP 2021] COVR: A test-bed for Visually Grounded Compositional Generalization with real images
+    * VQA
