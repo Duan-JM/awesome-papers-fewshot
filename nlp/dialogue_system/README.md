@@ -59,3 +59,4 @@ All bot can be divided into four parts, NLU, DM(DST & DP) and NLG.
 - [ACL 2021] Few-shot Knowledge Graph-to-Text Generation with Pretrained Language Models
 - [EMNLP 2021] ([paper](http://arxiv.org/abs/2108.12516)) Few-Shot Table-to-Text Generation with Prototype Memory
 - [EMNLP 2021] A Three-Stage Learning Framework for Low-Resource Knowledge-Grounded Dialogue Generation
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2012.11926)) Few-Shot Text Generation with Pattern-Exploiting Training

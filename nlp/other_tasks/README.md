@@ -28,6 +28,7 @@
 - [ACL 2021] Bi-Granularity Contrastive Learning for Post-Training in Few-Shot Scene
 - [ACL 2021] Reordering Examples Helps during Priming-based Few-Shot Learning
 - [EMNLP 2021] Learning from Uneven Training Data: Unlabeled, Single Label, and Multiple Labels
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2110.01256)) Revisiting Self-Training for Few-Shot Learning of Language Model
 
 ### Incremental Learning
 - [EMNLP 2021] ([paper](https://arxiv.org/abs/2104.08808))  Learn Continually, Generalize Rapidly: Lifelong Knowledge Accumulation for Few-shot Learning
