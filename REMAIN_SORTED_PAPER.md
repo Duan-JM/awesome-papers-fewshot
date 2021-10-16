@@ -36,12 +36,54 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [ICML 2021] Bridging Multi-Task Learning and Meta-Learning: Towards Efficient Training and Effective Adaptation
 - [ ] [ICML 2021] Addressing Catastrophic Forgetting in Few-Shot Problems
 
-- [ ] [ICCV 2021] Variational Feature Disentangling for Fine-Grained Few-Shot Classification
-- [ ] [ICCV 2021] Few-shot Visual Relationship Co-localization
+- [ ] [ICCV 2021] Z-Score Normalization, Hubness, and Few-Shot Learning
+- [ ] [ICCV 2021] Learning Meta-Class Memory for Few-Shot Semantic Segmentation
 - [ ] [ICCV 2021] Shallow Bayesian Meta Learning for Real-World Few-Shot Recognition
-- [ ] [ICCV 2021] Binocular Mutual Learning for Improving Few-shot Classification
-- [ ] [ICCV 2021] The Functional Correspondence Problem
+- [ ] [ICCV 2021] Hierarchical Graph Attention Network for Few-Shot Visual-Semantic Learning
+- [ ] [ICCV 2021] Query Adaptive Few-Shot Object Detection With Heterogeneous Graph Convolutional Networks
+- [ ] [ICCV 2021] Recurrent Mask Refinement for Few-Shot Medical Image Segmentation
+- [ ] [ICCV 2021] H3D-Net: Few-Shot High-Fidelity 3D Head Reconstruction
+- [ ] [ICCV 2021] Putting NeRF on a Diet: Semantically Consistent Few-Shot View Synthesis
+- [ ] [ICCV 2021] Just a Few Points Are All You Need for Multi-View Stereo: A Novel Semi-Supervised Learning Method for Multi-View Stereo
+- [ ] [ICCV 2021] Hypercorrelation Squeeze for Few-Shot Segmenation
+- [ ] [ICCV 2021] Few-Shot Semantic Segmentation With Cyclic Memory Network
+- [ ] [ICCV 2021] Binocular Mutual Learning for Improving Few-Shot Classification
 - [ ] [ICCV 2021] Transductive Few-Shot Classification on the Oblique Manifold
+- [ ] [ICCV 2021] Task-Aware Part Mining Network for Few-Shot Learning
+- [ ] [ICCV 2021] A Multi-Mode Modulator for Multi-Domain Few-Shot Classification
+- [ ] [ICCV 2021] LoFGAN: Fusing Local Representations for Few-Shot Image Generation
+- [ ] [ICCV 2021] Unsupervised Few-Shot Action Recognition via Action-Appearance Aligned Meta-Adaptation
+- [ ] [ICCV 2021] A Hierarchical Transformation-Discriminating Generative Model for Few Shot Anomaly Detection
+- [ ] [ICCV 2021] Synthesized Feature Based Few-Shot Class-Incremental Learning on a Mixture of Subspaces
+- [ ] [ICCV 2021] Pseudo-Loss Confidence Metric for Semi-Supervised Few-Shot Learning
+- [ ] [ICCV 2021] DeFRCN: Decoupled Faster R-CNN for Few-Shot Object Detection
+- [ ] [ICCV 2021] Curvature Generation in Curved Spaces for Few-Shot Learning
+- [ ] [ICCV 2021] Mining Latent Classes for Few-Shot Segmentation
+- [ ] [ICCV 2021] Simpler Is Better: Few-Shot Semantic Segmentation With Classifier Weight Transformer
+- [ ] [ICCV 2021] Iterative Label Cleaning for Transductive and Semi-Supervised Few-Shot Learning
+- [ ] [ICCV 2021] Variational Feature Disentangling for Fine-Grained Few-Shot Classification
+- [ ] [ICCV 2021] Relational Embedding for Few-Shot Classification
+- [ ] [ICCV 2021] Generalized and Incremental Few-Shot Learning by Explicit Learning and Calibration Without Forgetting
+- [ ] [ICCV 2021] On the Importance of Distractors for Few-Shot Classification
+- [ ] [ICCV 2021] Mixture-Based Feature Space Learning for Few-Shot Image Classification
+- [ ] [ICCV 2021] Coarsely-Labeled Data for Better Few-Shot Transfer
+- [ ] [ICCV 2021] Meta-Baseline: Exploring Simple Meta-Learning for Few-Shot Learning
+- [ ] [ICCV 2021] Video Pose Distillation for Few-Shot, Fine-Grained Sports Action Recognition
+- [ ] [ICCV 2021] Boosting the Generalization Capability in Cross-Domain Few-Shot Learning via Noise-Enhanced Supervised Autoencoder
+- [ ] [ICCV 2021] Meta Navigator: Search for a Good Adaptation Policy for Few-Shot Learning
+- [ ] [ICCV 2021] Few-Shot Image Classification: Just Use a Library of Pre-Trained Feature Extractors and a Simple Classifier
+- [ ] [ICCV 2021] Few-Shot and Continual Learning With Attentive Independent Mechanisms
+- [ ] [ICCV 2021] Meta-Learning With Task-Adaptive Loss Function for Few-Shot Learning
+- [ ] [ICCV 2021] Universal Representation Learning From Multiple Domains for Few-Shot Classification
+- [ ] [ICCV 2021] Universal-Prototype Enhancing for Few-Shot Object Detection
+- [ ] [ICCV 2021] UVStyle-Net: Unsupervised Few-Shot Learning of 3D Style Similarity Measure for B-Reps
+- [ ] [ICCV 2021] Improve Unsupervised Pretraining for Few-Label Transfer
+- [ ] [ICCV 2021] Partner-Assisted Learning for Few-Shot Image Classification
+- [ ] [ICCV 2021] ORBIT: A Real-World Few-Shot Dataset for Teachable Object Recognition
+- [ ] [ICCV 2021] Learned Spatial Representations for Few-Shot Talking-Head Synthesis
+- [ ] [ICCV 2021] Multiple Heads Are Better Than One: Few-Shot Font Generation With Multiple Localized Experts
+- [ ] [ICCV 2021] FLAR: A Unified Prototype Framework for Few-Sample Lifelong Active Recognition
+- [ ] [ICCV 2021] Few-Shot Visual Relationship Co-Localization
 
 # Remain Read Papers
 - [arXiv 2020] Improving out-of-distribution generalization via multi-task self-supervised pretraining
