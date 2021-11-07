@@ -136,3 +136,5 @@
 - [CVPR 2021] Few-Shot Human Motion Transfer by Personalized Geometry and Texture Modeling
 - [ICML 2021] Few-Shot Neural Architecture Search
 - [ICCV 2021] Video Pose Distillation for Few-Shot, Fine-Grained Sports Action Recognition
+- [ACMMM 2021] ([paper](https://arxiv.org/abs/2108.06647)) Few-Shot Fine-Grained Action Recognition via Bidirectional Attention and Contrastive Meta-Learning
+- [CVPR 2021] ([paper](https://arxiv.org/pdf/2105.11113.pdf)) Dynamic Class Queue for Large Scale Face Recognition In the Wild

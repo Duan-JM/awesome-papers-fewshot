@@ -455,6 +455,8 @@ issue 里面提出来，我会在第一时间进行回复的。
 - [ICCV 2021] Partner-Assisted Learning for Few-Shot Image Classification
 - [ICCV 2021] On the Importance of Distractors for Few-Shot Classification
 - [ACMMM 2021] MHFC: Multi-Head Feature Collaboration for Few-Shot Learning
+- [CVPR 2021] Exploring Complementary Strengths of Invariant and Equivariant Representations for Few-Shot Learning
+- [CVPR 2021] ([paper](https://arxiv.org/pdf/2012.01506.pdf)) Fine-Grained Few-Shot Classification with Feature Map Reconstruction Networks
 
 #### External Memory
 - [ICML 2016] Meta-Learning with Memory-Augmented Neural Networks
@@ -513,6 +515,8 @@ issue 里面提出来，我会在第一时间进行回复的。
     * New Datasets
 - [AAAI 2021] ([paper](https://arxiv.org/pdf/2103.00991.pdf)) Few-Shot Lifelong Learning
 - [AAAI 2021] ([paper](https://ojs.aaai.org/index.php/AAAI/article/view/16213)) Few-Shot Class-Incremental Learning via Relation Knowledge Distillation
+- [CVPR 2021] Semantic-aware Knowledge Distillation for Few-Shot Class-Incremental Learning
+- [CVPR 2021] Few-Shot Incremental Learning with Continually Evolved Classifiers
 
 #### Add Additional Informations (Cross-modal)
 - [NIPS 2019] ([paper](https://arxiv.org/pdf/1910.07677.pdf)) Cross Attention Network for Few-shot Classification
@@ -559,6 +563,11 @@ issue 里面提出来，我会在第一时间进行回复的。
 
 - [ECCV 2020] ([paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550715.pdf)) Large-Scale Few-Shot Learning via Multi-Modal Knowledge Discovery
     * Similar to CVPR 2019 Large-Scale Few-shot Learning Knowledge Transfer with Class Hierarchy
+- [CVPR 2021] Rethinking Class Relations: Absolute-relative Supervised and Unsupervised Few-shot Learning
+    * Force model to learn objects' attributes and these similarities
+- [CVPR 2021] Learning Dynamic Alignment via Meta-filter for Few-shot Learning
+    * Follow CAN method
+- [CVPR 2021] Prototype Completion for Few-Shot Learning
 
 #### Self-training
 

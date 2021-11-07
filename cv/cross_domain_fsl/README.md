@@ -25,3 +25,4 @@ We are committed to recommending good jobs to all scholars/students who are inte
 - [CVPR 2021] Few-shot Image Generation via Cross-domain Correspondence
 - [CVPR 2021] Prototypical Cross-domain Self-supervised Learning for Few-shot Unsupervised Domain Adaptation
 - [ICCV 2021] Boosting the Generalization Capability in Cross-Domain Few-shot Learning via Noise-enhanced Supervised Autoencoder
+- [CVPR 2021] Few-shot Open-set Recognition by Transformation Consistency

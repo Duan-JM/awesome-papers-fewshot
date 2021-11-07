@@ -1,4 +1,6 @@
 ## Others
+- [EMNLP 2021] ([paper](https://arxiv.org/pdf/2111.01322.pdf)) Diverse Distributions of Self-Supervised Tasks for Meta-Learning in NLP
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2104.08835)) CrossFit: A Few-shot Learning Challenge for Cross-task Generalization in NLP
 
 ### PLMs
 - [NIPS 2020] Language Models are Few-Shot Learners
@@ -18,6 +20,8 @@
 - [EMNLP 2021] Language Models are Few-Shot Butlers
 	- 强化学习 
 - [EMNLP 2021] ConvFiT: Conversational Fine-Tuning of Pretrained Language Models
+- [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.13880)) Single-dataset Experts for Multi-dataset Question Answering
+  - Build a strong PTMs by using the specific dataset
 
 ### Prompt Based Method
 - [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.04144)) Avoiding Inference Heuristics in Few-shot Prompt-based Finetuning
@@ -53,6 +57,7 @@
 - [AAAI 2021] ([paper](https://www.aaai.org/AAAI21Papers/AAAI-2215.WanH.pdf)) FL-MSRE: A Few-Shot Learning Based Approach to Multimodal Social Relation Extraction
 - [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.04108)) MapRE: An Effective Semantic Mapping Approach for Low-resource Relation Extraction
 - [EMNLP 2021] ([paper](https://arxiv.org/abs/2109.03659)) Label Verbalization and Entailment for Effective Zero- and Few-Shot Relation Extraction
+- [KDD 2021] ([paper](https://arxiv.org/pdf/2104.08835.pdf)) Knowledge-Enhanced Domain Adaptation in Few-Shot Relation Classification
 
 **NER**
 - [ACL 2021] Entity Concept-enhanced Few-shot Relation Extraction

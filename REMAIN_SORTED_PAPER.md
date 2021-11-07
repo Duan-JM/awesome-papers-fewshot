@@ -13,16 +13,6 @@ judge it is not good or not accepted to the top conference over one year.
 - [ ] [IJCAI 2021] Few-Shot Partial-Label Learning
 - [ ] [IJCAI 2021] Conditional Self-Supervised Learning for Few-Shot Classification
 
-- [ ] [CVPR 2021] Exploring Complementary Strengths of Invariant and Equivariant Representations for Few-Shot Learning
-- [ ] [CVPR 2021] Rethinking Class Relations: Absolute-relative Supervised and Unsupervised Few-shot Learning
-- [ ] [CVPR 2021] Semantic-aware Knowledge Distillation for Few-Shot Class-Incremental Learning
-- [ ] [CVPR 2021] Few-Shot Incremental Learning with Continually Evolved Classifiers
-- [ ] [CVPR 2021] Learning Dynamic Alignment via Meta-filter for Few-shot Learning
-- [ ] [CVPR 2021] Fine-Grained Few-Shot Classification with Feature Map Reconstruction Networks
-- [ ] [CVPR 2021] Few-shot Open-set Recognition by Transformation Consistency
-- [ ] [CVPR 2021] Dynamic Class Queue for Large Scale Face Recognition In the Wild
-- [ ] [CVPR 2021] Prototype Completion for Few-Shot Learning
-
 - [ ] [ICML 2021] Self-Damaging Contrastive Learning
 - [ ] [ICML 2021] Demonstration-Conditioned Reinforcement Learning for Few-Shot Imitation
 - [ ] [ICML 2021] Parameterless Transductive Feature Re-representation for Few-Shot Learning
