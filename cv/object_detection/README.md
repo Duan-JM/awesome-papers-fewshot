@@ -11,8 +11,6 @@
 - [CVPR 2019] ([paper](https://arxiv.org/pdf/1903.09372.pdf) [code](https://github.com/twangnh/FAFRCNN)) Few-shot Adaptive Faster R-CNN
   - Domain adaptation & Few-shot classification head
 
-- [CVPR 2019] ([paper](https://arxiv.org/abs/1903.00621) [code](https://github.com/hdjang/Feature-Selective-Anchor-Free-Module-for-Single-Shot-Object-Detection)) Feature Selective Anchor-Free Module for Single-Shot Object Detection
-
 - [ICCV 2019] ([paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Rahman_Transductive_Learning_for_Zero-Shot_Object_Detection_ICCV_2019_paper.html)) Transductive Learning for Zero-Shot Object Detection Fixed Pseudo-label and Dynamic Pseudo-label
 
 - [ICCV 2019] ([paper](https://arxiv.org/pdf/1812.01866) [code](https://github.com/bingykang/Fewshot_Detection)) Few-shot Object Detection via Feature Reweighting
