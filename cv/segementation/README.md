@@ -31,3 +31,4 @@
 - [ICCV 2021] Learning Meta-class Memory for Few-Shot Semantic Segmentation
 - [CVPR 2021] Incremental Few-Shot Instance Segmentation
 - [CVPR 2021] FAPIS: A Few-shot Anchor-free Part-based Instance Segmenter
+- [CVPR 2022] ([paper](https://arxiv.org/abs/2203.15712) [code](https://github.com/dahyun-kang/ifsl)) Integrative Few-Shot Learning for Classification and Segmentation
