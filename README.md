@@ -103,9 +103,6 @@ The only thing you need to do is make a new issue with its name, conference name
 >
 > Recommend: First paper point out how to measure the backbone is bad or good for the current task(episode).
 
-### Maybe Maybe Buy me a coffee
-<div align=center><img width="500" height="500" src="https://github.com/Duan-JM/awesome-papers-fewshot/blob/master/assets/wechat.JPG", alt="谢谢老板">
-
 ### ChangeLog
 - 2020-06-26 `REAMIN_SORTED_PAPAERS.md` no longer collected all papers from arxiv, only interesting and effectiveness ones will be collected here
 
